@@ -33,6 +33,60 @@
   \@tufte@info@noline{Loading tufte-handout-local.tex}%
 }{}
 
+% Paquetes de notación matemática y física
+\RequirePackage{amsmath,amsthm,amsfonts,amssymb,amscd,latexsym}
+\RequirePackage{physics}
+\RequirePackage{siunitx} 		% Permite utilizar el sistema internacional de unidades
+\RequirePackage{mathptmx}
+\RequirePackage{mathtools}
+\RequirePackage{cancel}
+\RequirePackage{centernot} 		% Notacion matematica
+\RequirePackage{empheq}			% Recuadros para ecuaciones
+\RequirePackage[most]{tcolorbox}
+
+% Recursos Visuales
+\RequirePackage{graphics} 		% for pdf, bitmapped graphics files
+\RequirePackage{graphicx} 		% Insertar imágenes
+\RequirePackage{caption} 		% Figure
+\RequirePackage{subcaption} 	% Subfigure
+\RequirePackage{float}          % Alineación de la figura
+\RequirePackage{rotating} 		% Rotar imagenes
+\RequirePackage{tikz}   		% To create graphics in LaTeX
+\RequirePackage{multicol} 		% Formato doble columna
+\RequirePackage{multirow} 		% Multi row is for tables with multiple rows within one cell.
+\RequirePackage{booktabs} 		% For even nicer tables.
+\RequirePackage{svg}
+
+\newtcbtheorem[]{definition}{Definition}%
+    {enhanced,
+    colback = black!5, %white,
+    colbacktitle = black!5,
+    coltitle = black,
+    boxrule = 0pt,
+    frame hidden,
+    borderline west = {0.5mm}{0.0mm}{black},
+    fonttitle = \bfseries\sffamily,
+    breakable,
+    before skip = 3ex,
+    after skip = 3ex
+}{problem}
+
+\newtcbtheorem[]{example}{Example}%
+    {enhanced,
+    colback = black!5, %white,
+    colbacktitle = black!5,
+    coltitle = black,
+    boxrule = 0pt,
+    frame hidden,
+    borderline west = {0.5mm}{0.0mm}{black},
+    fonttitle = \bfseries\sffamily,
+    breakable,
+    before skip = 3ex,
+    after skip = 3ex
+}{problem}
+
+
+
 
 %%
 % End of file

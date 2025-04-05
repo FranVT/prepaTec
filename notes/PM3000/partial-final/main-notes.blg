@@ -1,48 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main-notes.aux
-I found no \citation commands---while reading file main-notes.aux
-I found no \bibdata command---while reading file main-notes.aux
-I found no \bibstyle command---while reading file main-notes.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 494 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+The style file: plainnat.bst
+Database file #1: sample.bib
+Warning--empty year in Weisstein-Pythagorean
+Warning--empty year in Weisstein-circle
+You've used 3 entries,
+            2773 wiz_defined-function locations,
+            611 strings with 5286 characters,
+and the built_in function-call counts, 1119 in all, are:
+= -- 91
+> -- 59
+< -- 2
++ -- 22
+- -- 18
+* -- 82
+:= -- 180
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 15
+chr.to.int$ -- 2
+cite$ -- 8
+duplicate$ -- 51
+empty$ -- 98
+format.name$ -- 21
+if$ -- 227
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 24
+num.names$ -- 12
+pop$ -- 38
+preamble$ -- 1
+purify$ -- 12
 quote$ -- 0
-skip$ -- 0
+skip$ -- 41
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 6
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 28
+warning$ -- 2
+while$ -- 9
 width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+write$ -- 47
+(There were 2 warnings)
