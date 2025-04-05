@@ -36,6 +36,7 @@
 \addbibresource{bibliografia.bib}
 \AtBeginBibliography{\normalsize}
 \RequirePackage[many]{tcolorbox}
+\RequirePackage{cleveref}
 
 % https://www.overleaf.com/learn/latex/Biblatex_bibliography_styles
 
@@ -92,6 +93,7 @@
 } % Note the extra }
 \makeatother
 
+\crefformat{tcb@cnt@note}{note~#2#1#3}
 \newtcbtheorem[]{definition}{Definition}%
     {enhanced,
     colback = black!5, %white,
@@ -104,7 +106,7 @@
     breakable,
     before skip = 3ex,
     after skip = 3ex
-}{problem}
+}{def}
 
 \newtcbtheorem[]{example}{Example}%
     {enhanced,
@@ -118,8 +120,21 @@
     breakable,
     before skip = 3ex,
     after skip = 3ex
-}{problem}
+}{exa}
 
+\newtcbtheorem[]{note}{Note}%
+    {enhanced,
+    colback = black!5, %white,
+    colbacktitle = black!5,
+    coltitle = black,
+    boxrule = 0pt,
+    frame hidden,
+    borderline west = {0.5mm}{0.0mm}{black},
+    fonttitle = \bfseries\sffamily,
+    breakable,
+    before skip = 3ex,
+    after skip = 3ex
+}{note}
 
 
 \tcbuselibrary{skins, breakable}

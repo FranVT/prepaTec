@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 APR 2025 08:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 APR 2025 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -899,7 +899,21 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
 \tcb@lowerfitdim=\dimen280
 \tcb@upperfitdim=\dimen281
 \tcb@cur@hbadness=\count477
-)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+)) (/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `listings' support loaded on input line 3131.
+) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks49
 \thm@bodyfont=\toks50
@@ -1196,6 +1210,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 \c@tcb@cnt@definition=\count521
 \c@tcb@cnt@example=\count522
+\c@tcb@cnt@note=\count523
 ) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
  (/usr/share/texmf-dist/tex/latex/import/import.sty
@@ -1208,7 +1223,14 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main-exe.aux)
+) (./main-exe.aux
+
+LaTeX Warning: Label `exa:~' multiply defined.
+
+
+LaTeX Warning: Label `exa:~@cref' multiply defined.
+
+)
 \openout1 = `main-exe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -1269,7 +1291,7 @@ Package hyperref Info: Link coloring OFF on input line 11.
 \@outlinefile=\write7
 \openout7 = `main-exe.out'.
 
-\c@lstlisting=\count523
+\c@lstlisting=\count524
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1288,16 +1310,16 @@ Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count524
+\scratchcounter=\count525
 \scratchdimen=\dimen345
 \scratchbox=\box146
-\nofMPsegments=\count525
-\nofMParguments=\count526
+\nofMPsegments=\count526
+\nofMParguments=\count527
 \everyMPshowfont=\toks60
-\MPscratchCnt=\count527
+\MPscratchCnt=\count528
 \MPscratchDim=\dimen346
-\MPnumerator=\count528
-\makeMPintoPDFobject=\count529
+\MPnumerator=\count529
+\makeMPintoPDFobject=\count530
 \everyMPtoPDFconversion=\toks61
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1359,7 +1381,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
- (./circunference/exercise.tex)
+ (./circunference/exercise.tex
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7.
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1370,11 +1396,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-] (./main-exe.aux)
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2] (./main-exe.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main-exe.out' has not changed.
 (rerunfilecheck)             Checksum: 8630145591B16BF645BA31E9F7ACA99C;175.
 Package logreq Info: Writing requests to 'main-exe.run.xml'.
@@ -1382,18 +1425,18 @@ Package logreq Info: Writing requests to 'main-exe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43961 strings out of 473190
- 899473 string characters out of 5722593
- 1715594 words of memory out of 5000000
- 66594 multiletter control sequences out of 15000+600000
- 579462 words of font info for 72 fonts, out of 8000000 for 9000
+ 45771 strings out of 473190
+ 941239 string characters out of 5722593
+ 1762999 words of memory out of 5000000
+ 68375 multiletter control sequences out of 15000+600000
+ 590728 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,11n,135p,697b,1779s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main-exe.pdf (1 page, 24540 bytes).
+ 131i,11n,135p,697b,1785s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-exe.pdf (2 pages, 86482 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

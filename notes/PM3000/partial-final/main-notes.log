@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 APR 2025 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 APR 2025 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,9 +1031,25 @@ Package: transparent 2022-10-27 v1.5 Transparency with color stacks
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
  (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)))
+))) (/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+Package cleveref Info: `listings' support loaded on input line 3131.
+)
 \c@tcb@cnt@definition=\count388
 \c@tcb@cnt@example=\count389
+\c@tcb@cnt@note=\count390
 ) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
  (/usr/share/texmf-dist/tex/latex/import/import.sty
@@ -1045,7 +1061,10 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 55.
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (./main-notes.aux
 
-LaTeX Warning: Label `fig:circle-translate' multiply defined.
+LaTeX Warning: Label `exa:~' multiply defined.
+
+
+LaTeX Warning: Label `exa:~@cref' multiply defined.
 
 )
 \openout1 = `main-notes.aux'.
@@ -1111,16 +1130,16 @@ Package hyperref Info: Link coloring OFF on input line 55.
 \langwohyphens=\language90
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count390
+\scratchcounter=\count391
 \scratchdimen=\dimen349
 \scratchbox=\box148
-\nofMPsegments=\count391
-\nofMParguments=\count392
+\nofMPsegments=\count392
+\nofMParguments=\count393
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count393
+\MPscratchCnt=\count394
 \MPscratchDim=\dimen350
-\MPnumerator=\count394
-\makeMPintoPDFobject=\count395
+\MPnumerator=\count395
+\makeMPintoPDFobject=\count396
 \everyMPtoPDFconversion=\toks55
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1143,7 +1162,7 @@ Package siunitx Warning: Detected the "physics" package:
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 55.
-\c@lstlisting=\count396
+\c@lstlisting=\count397
  (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks56
@@ -1188,7 +1207,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-<./circunference/../Figures/circunference/circle.jpeg, id=60, 618.31pt x 465.74pt>
+<./circunference/../Figures/circunference/circle.jpeg, id=68, 618.31pt x 465.74pt>
 File: ./circunference/../Figures/circunference/circle.jpeg Graphic file (type jpg)
 <use ./circunference/../Figures/circunference/circle.jpeg>
 Package pdftex.def Info: ./circunference/../Figures/circunference/circle.jpeg  used on input line 13.
@@ -1199,7 +1218,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 14.
 See the caption package documentation for explanation.
 
-<./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf, id=63, 163.78189pt x 124.77867pt>
+<./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf, id=71, 163.78189pt x 124.77867pt>
 File: ./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf Graphic file (type pdf)
 <use ./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf>
 Package pdftex.def Info: ./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf  used on input line 28.
@@ -1226,7 +1245,7 @@ l.35 ...ures/circunference/pythagoream-circle.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<./circunference/../Figures/circunference/pythagoream-circle.png, id=65, 232.87pt x 218.8175pt>
+<./circunference/../Figures/circunference/pythagoream-circle.png, id=73, 232.87pt x 218.8175pt>
 File: ./circunference/../Figures/circunference/pythagoream-circle.png Graphic file (type png)
 <use ./circunference/../Figures/circunference/pythagoream-circle.png>
 Package pdftex.def Info: ./circunference/../Figures/circunference/pythagoream-circle.png  used on input line 35.
@@ -1272,7 +1291,7 @@ l.59 ...igures/circunference/circle-translate.jpg}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<./circunference/../Figures/circunference/circle-translate.jpg, id=67, 335.2525pt x 309.155pt>
+<./circunference/../Figures/circunference/circle-translate.jpg, id=75, 335.2525pt x 309.155pt>
 File: ./circunference/../Figures/circunference/circle-translate.jpg Graphic file (type jpg)
 <use ./circunference/../Figures/circunference/circle-translate.jpg>
 Package pdftex.def Info: ./circunference/../Figures/circunference/circle-translate.jpg  used on input line 59.
@@ -1290,11 +1309,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-) (./main-notes.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]\T1/ptm/m/n/10 We are go-ing to ex-pand the equa-tion[] to get fa-mil-iar-ize our-selves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+[]\T1/ptm/m/n/10 As we can see, this can be ap-proach as a func-tion of two in-de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+\T1/ptm/m/n/10 pen-dent vari-ables $\OML/ztmcm/m/it/10 x$ \T1/ptm/m/n/10 and $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 ($\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 ) equated to a con-stant value $\OML/ztmcm/m/it/10 r[]$\T1/ptm/m/n/10 ,
+ []
+
+
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./circunference/../Figures/circunference/circle.jpeg> <./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf> <./circunference/../Figures/circunference/pythagoream-circle.png> <./circunference/../Figures/circunference/circle-translate.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./circunference/../Figures/circunference/circle.jpeg> <./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf> <./circunference/../Figures/circunference/pythagoream-circle.png> <./circunference/../Figures/circunference/circle-translate.jpg>] (./circunference/exercise.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 30.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))) (./main-notes.bbl
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1313,21 +1351,21 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: FE7C417712F73ABBACEA60A5A593600C;326.
+(rerunfilecheck)             Checksum: 5F675E01D6A1E2C990FAF09B423AF238;499.
  ) 
 Here is how much of TeX's memory you used:
- 39087 strings out of 473190
- 809572 string characters out of 5722593
- 1247865 words of memory out of 5000000
- 61587 multiletter control sequences out of 15000+600000
- 618676 words of font info for 104 fonts, out of 8000000 for 9000
+ 40789 strings out of 473190
+ 849062 string characters out of 5722593
+ 1309944 words of memory out of 5000000
+ 63269 multiletter control sequences out of 15000+600000
+ 619544 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,11n,135p,547b,1149s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (2 pages, 162963 bytes).
+ 131i,11n,135p,426b,1616s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-notes.pdf (2 pages, 178057 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 1233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 1249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

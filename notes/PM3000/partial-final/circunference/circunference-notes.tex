@@ -50,9 +50,9 @@ In the special case when the radius is equal to one, we have a \textit{unit circ
 
 Now, let's give the mathematical representation of the point $O$ as $(h,k)$.
 Using the knowledge of function translations, we can move the origin of the circle (fig.\ref{fig:circle-translate}) as follows,
-\begin{gather*}
-    \qty(x-h)^2 + \qty(y-k)^2 = r^2.
-\end{gather*}
+\begin{gather}
+    \qty(x-h)^2 + \qty(y-k)^2 = r^2.\label{eqn:circle-displaced}
+\end{gather}
 
 \begin{marginfigure}
     \centering
@@ -60,8 +60,28 @@ Using the knowledge of function translations, we can move the origin of the circ
     \caption{Diplaced circle to the point $(h,k)$.}\label{fig:circle-translate}
 \end{marginfigure}
 
+Now, lets get some mathematical exercises.
 
-Derivation of the equation/function.
+\begin{note}{Some algebra stuff.}{note-jiji}
+    We are going to expand the equation\eqref{eqn:circle-displaced} to get familiarize ourselves with different expressions of the same mathematical object.
+    \begin{align*}
+        \qty(x-h)^2 + \qty(y-k)^2 &= r^2 \\
+        \qty(x^2 -2hx + h^2) + \qty(y^2 -2ky + k^2) &= r^2 \\
+        x^2 + y^2 -2hx -2ky + h^2 + k^2 &= r^2
+    \end{align*}
+
+    As we can see, this can be approach as a function of two independent variables $x$ and $y$ ($f(x,y)$) equated to a constant value $r^2$, $f(x,y)=r^2$.
+    This function is not bijective, indicating that there is no inverse function and the domain and range are bounded.
+
+\end{note}
+
+\subfile{exercise.tex}
+
+
+Derivation of the equation/function\cref{note:note-jiji}.
+
+
+
 
 Example/Exercises.
 
