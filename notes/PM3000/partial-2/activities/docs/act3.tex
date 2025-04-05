@@ -1,0 +1,80 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Exponential and logarithmic equations}
+
+For this practice session we are going to solve several logarithmic and exponential equations.
+Use the theory from the last two practice session and the following properties if you need help.
+
+%\subsection{Algebra and general properties review}
+
+\begin{minipage}[c]{\textwidth}
+    \centering
+    {\bfseries\large Algebra properties}
+    \begin{gather*}
+        a+b = b+a, \quad
+        \qty(a+b)+c = a+\qty(b+c), \quad
+        a\qty(b+c) = ab+ac, \\
+        \frac{a}{b} + \frac{c}{d} = \frac{ad+bc}{bd}, \quad
+        \frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}, \quad
+        \frac{-a}{b} = -\frac{a}{b} = \frac{a}{-b}, \quad
+        \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{ad}{bc}
+        \\
+        \sqrt{ab} = \sqrt{a}\sqrt{b},\quad
+        \sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}},\quad
+        \sqrt[n]{a} = a^{1/n}
+        \\
+        x=\frac{-b\pm\sqrt{b^2-4ac}}{2a},\qquad
+        a^2-b^2 = \qty(a-b)\qty(a+b)
+    \end{gather*}
+\end{minipage}
+
+\begin{minipage}[c]{0.45\textwidth}
+    \centering
+    {\bfseries\large Laws of exponents}
+    \begin{align*}
+        a^r\cdot a^s = a^{r+s}, \quad & \qty(a^r)^s = a^{rs} \\
+        \frac{a^r}{a^s} = a^{r-s}, \quad & \qty(ab)^r = a^r b^r \\
+        \qty(\frac{a}{b})^r = \frac{a^r}{b^r},\quad & b\neq 0
+    \end{align*}
+\end{minipage}
+\begin{minipage}[c]{0.45\textwidth}
+    \centering
+    {\bfseries\large Laws of Logarithms}
+    \begin{align*}
+        \log_a\qty(AB) &= \log_a\qty(A) + \log_a\qty(B) \\
+        \log_a\qty(\frac{A}{B}) &= \log_a\qty(A) - \log_a\qty(B) \\
+        \log_a\qty(A^C) &= C\log_a\qty(A)
+    \end{align*}
+\end{minipage}
+
+\begin{minipage}[c]{\textwidth}
+    \centering
+    {\bfseries\large Inverse functions property}
+    \begin{gather*}
+        \qty(f\circ f^{-1})(x) = x = \qty(f^{-1}\circ f)(x)
+        \quad\rightarrow\quad
+        \log_a(a^x) = x = a^{\log_a(x)}
+    \end{gather*}
+\end{minipage}
+
+\section{Excersices}
+
+From the following equations, solve for $x$,
+\begin{enumerate}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $ e^{3x-2} = e^{x^2} $
+        \item $ 3\log(x) = 6 -2x $
+        \item $ \log_3(x-8) + \log_3(x) = 2 $
+        \item $ \log_2(x+a) + \log_2\qty(x-b) = c $
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $ 5^{x/10}+1 = 7 $
+        \item $ 4-x^2 = e^{-2x} $
+        \item $ \ln(x-2) + \ln(3) = \ln(5x-7) $
+        \item $\qty(1-e^{t/\alpha})^{x} = \frac{a}{b} $
+    \end{minipage}
+\end{enumerate}
+
+\end{document}
