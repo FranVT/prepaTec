@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-notes"] 1743875390.45939 "main-notes.aux" "main-notes.bbl" "main-notes" 1743889355.94767 0
+["bibtex main-notes"] 1743875390.45939 "main-notes.aux" "main-notes.bbl" "main-notes" 1743895181.24868 0
   "./sample.bib" 1743875389.74878 1952 bd2bcffe3b5afe4c0de76e2b352e6689 ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1742685315 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1743889355.6388 3199 77796cff566c048460e456cb2bbb3384 "pdflatex"
+  "main-notes.aux" 1743895180.77682 3170 09bc3e93d5a7330d3220475ac74efe73 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1743889353.95312 "main-notes.tex" "main-notes.pdf" "main-notes" 1743889355.94786 2
+["pdflatex"] 1743895177.93437 "main-notes.tex" "main-notes.pdf" "main-notes" 1743895181.24912 2
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1742685315 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1742685315 4484 b828043cbd581d289d955903c1339981 ""
@@ -19,7 +19,6 @@
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1742685315 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1742685315 4524 6bce29db5bc272ba5f332261583fee9c ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1742685315 6880 f19b8995b61c334d78fc734065f6b4d4 ""
-  "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm" 1742685315 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1742685315 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm" 1742685315 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm" 1742685315 16648 7e91c60ebf91b9c60e16ef52b3070f9c ""
@@ -53,7 +52,6 @@
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1742685315 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf" 1742685315 2340 0efed6a948c3c37d870e4e7ddb85c7c3 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf" 1742685315 2340 df9c920cc5688ebbf16a93f45ce7bdd3 ""
-  "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1742685315 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf" 1742685315 2348 91706c542228501c410c266421fbe30c ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf" 1742685315 3608 78e4c999d9e69f03f448158d01821741 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf" 1742685315 2328 6cd7df782b09b29cfc4d93e55b6b9a59 ""
@@ -246,7 +244,6 @@
   "/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd" 1742685315 1483 47067fbe7c3ffed1ede7aaa7b8549d7a ""
   "/usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd" 1742685315 678 8409322997570775faae75e749c76dbf ""
   "/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd" 1742685315 774 61d7da1e9f9e74989b196d147e623736 ""
-  "/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd" 1742685315 619 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "/usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1742685315 10085 3dececaeed388e31285c366e124c0c4e ""
   "/usr/share/texmf-dist/tex/latex/refcount/refcount.sty" 1742685315 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1742685315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
@@ -301,11 +298,11 @@
   "circunference/../Figures/circunference/circle.jpeg" 1743872197.28444 61658 876560a4ea34805b7c49663ce5292faa ""
   "circunference/../Figures/circunference/pythagoream-circle.png" 1743873940.07387 3588 77b2a56a4aadc8d6e6cbcabb248e6501 ""
   "circunference/circunference-notes.tex" 1743877307.64245 3478 c7ba81d6c1b1c6314190128be3630d7d ""
-  "circunference/exercise.tex" 1743889294.52963 587 7e9a1330aab7f3f67270d6663783c5b2 ""
-  "main-notes.aux" 1743889355.6388 3199 77796cff566c048460e456cb2bbb3384 "pdflatex"
+  "circunference/exercise.tex" 1743894287.18485 2997 075b191d0124b876952eb3da7d0e45f2 ""
+  "main-notes.aux" 1743895180.77682 3170 09bc3e93d5a7330d3220475ac74efe73 "pdflatex"
   "main-notes.bbl" 1743875390.54978 967 c622c1cb5b530dcc545d34a413bee676 "bibtex main-notes"
-  "main-notes.out" 1743889355.64034 499 5f675e01d6a1e2c990faf09b423af238 "pdflatex"
-  "main-notes.tex" 1743875329.32408 2592 3c1a32812291b1761c5f9a318e84c883 ""
+  "main-notes.out" 1743895180.77895 247 47ca54201f75128db0850123e55a1355 "pdflatex"
+  "main-notes.tex" 1743895172.52991 2595 766fc1fd8b7c597e8694e0726ec2e28c ""
   "tufte-common.def" 1529914306 70892 d170883770a3fb3b643fabc94d55da1e ""
   "tufte-handout.cls" 1743889352.9098 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)

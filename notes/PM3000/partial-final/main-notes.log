@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 APR 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 APR 2025 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1329,10 +1329,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--75
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./circunference/../Figures/circunference/circle.jpeg> <./circunference/../Figures/circunference/PythagoreanTheoremFigure_1000.pdf> <./circunference/../Figures/circunference/pythagoream-circle.png> <./circunference/../Figures/circunference/circle-translate.jpg>] (./circunference/exercise.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 30.
- (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))) (./main-notes.bbl
+Underfull \hbox (badness 4634) in paragraph at lines 11--13
+\T1/ptm/m/n/10 Recalling the def-i-ni-tion of the cir-cle, $[][] \OT1/zplm/m/n/10 + [][] = \OML/ztmcm/m/it/10 r[]$\T1/ptm/m/n/10 , and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[]\T1/ptm/m/n/10 Recalling the note, we can make the fol-low-ing com-par-sion as be-
+ []
+
+
+Overfull \hbox (26.85902pt too wide) detected at line 35
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+\T1/ptm/m/n/10 Hence, the ori-gin of the cir-cle is at $\OT1/zplm/m/n/10 (\OT1/ztmcm/m/n/10 4, \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 2\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 . To find the ra-dius, we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+\T1/ptm/m/n/10 start by sub-sti-tut-ing the val-ues of $\OML/ztmcm/m/it/10 h$ \T1/ptm/m/n/10 and $\OML/ztmcm/m/it/10 k$ \T1/ptm/m/n/10 into the equa-tion and
+ []
+
+
+Overfull \hbox (77.59906pt too wide) detected at line 47
+[]
+ []
+
+
+
+[2])) (./main-notes.bbl
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1341,7 +1369,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 17.
 )
 
-[2] (./main-notes.aux)
+[3] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1350,22 +1378,37 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: 5F675E01D6A1E2C990FAF09B423AF238;499.
+
+Package rerunfilecheck Warning: File `main-notes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main-notes.out':
+(rerunfilecheck)             Before: 5F675E01D6A1E2C990FAF09B423AF238;499
+(rerunfilecheck)             After:  47CA54201F75128DB0850123E55A1355;247.
  ) 
 Here is how much of TeX's memory you used:
- 40789 strings out of 473190
- 849062 string characters out of 5722593
+ 40778 strings out of 473190
+ 848803 string characters out of 5722593
  1309944 words of memory out of 5000000
- 63269 multiletter control sequences out of 15000+600000
- 619544 words of font info for 107 fonts, out of 8000000 for 9000
+ 63249 multiletter control sequences out of 15000+600000
+ 620446 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,11n,135p,426b,1616s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,135p,426b,1703s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section*.8} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.6} has been referenced but does not exist, replaced by a fixed one
+
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (2 pages, 178057 bytes).
+Output written on main-notes.pdf (3 pages, 182916 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  1249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
