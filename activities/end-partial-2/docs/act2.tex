@@ -1,0 +1,93 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Logarithmic equations}
+
+\subsection{Examples}
+
+\paragraph{1} To solve the following equation \[\log\qty(x^2+1)=\log\qty(x-2) + \log\qty(x+3)\] 
+we are going to reduce the right hand side of the equation using properties of logarithms,
+\begin{align*}
+    \log\qty(x^2+1) &= \log\qty(x-2) + \log\qty(x+3) \\
+    \log\qty(x^2+1) &= \log\qty[(x-2)(x+3)].
+\end{align*}
+Now, we are going to use the fact that the logarithm is a bijective function.
+Therefore, to solve that equation, the arguments needs to be equal (as the example 1 of exponential functions).
+Hence, we get the following polinomial equation,
+\begin{align*}
+    x^2+1 &= (x-2)(x+3) \\
+    x^2+1 &= x^2\cancelto{x}{-2x+3x}-6 \\
+    \cancelto{0}{x^2-x^2}-x &= \cancelto{-7}{-6-1} \\
+-x &= -7 \\
+    x &= 7.
+\end{align*}
+
+If we evaluate the equation at $x=7$ we can reassure that is the solution of the equation.
+
+\paragraph{2} Now, we are going to solve the following equation $\log_2(25-x)=3$.
+For this equation we can not use the same argument of example 1, because there is no logarithm function in both sides.
+Hence we are going to apply the property of inverse functions, $a^{\log_a(x)}=x$ and $\log_a(a^x)=x$.
+
+First we are going to apply the following change of variable $\alpha=25-x$, allowing us to re-write the equation as follows,
+\begin{gather*}
+    \log_2(25-x)=3\rightarrow\log_2(\alpha)=3.
+\end{gather*}
+Analyzing the equation we know that is a logartihm base $2$, so in order to use the inverse function property we need to apply an exponential function base $2$ in both sides,
+\begin{align*}
+    \cancelto{\alpha}{2^{\log_2(\alpha)}} &= 2^3 \\
+    \alpha &= 2^3,
+\end{align*}
+now, we undo the change of variable and apply algebra tools to solve for $x$,
+\begin{align*}
+    25-x &= 2^3 \\
+    -x &= 2^3 - 25 \\
+    x &= \cancelto{17}{25 - 2^3} \\
+      &= 17.
+\end{align*}
+
+Looking at that procedure we can get a general procedure:
+\paragraph{Guidelines for solving logarithmic equations}
+\begin{itemize}
+    \item Isolate the logarithmic term on one side of the equation. (Reduce the logarithms)
+    \item Write the equation in exponental form.
+    \item Use algebra to solve for the variable.
+\end{itemize}
+
+\subsubsection{Some notes}
+
+\paragraph{Example 1} We are going to use the same procedure from example 2 into example 1.
+First we reduce the expression using laws of logarithms,
+\begin{align*}
+    \log\qty(x^2+1) &= \log\qty(x-2) + \log\qty(x+3) \\
+    \log\qty(x^2+1) &= \log\qty(\qty(x-2)\qty(x+3))
+\end{align*} 
+Since both sides cannot be reduce an further, we apply an exponential function base $10$ in both sides,
+\begin{align*}
+    10^{\log\qty(x^2+1)} &= 10^{\log\qty(\qty(x-2)\qty(x+3))},
+\end{align*}
+then, using the properties of the inverse functions $a^{\log_a(x)}=x$,
+\begin{align*}
+    x^2+1 &= (x-2)(x+3) \\
+    x^2+1 &= x^2\cancelto{x}{-2x+3x}-6 \\
+    \cancelto{0}{x^2-x^2}-x &= \cancelto{-7}{-6-1} \\
+-x &= -7 \\
+    x &= 7.
+\end{align*}
+Which is the same result the we previously computed.
+
+\subsection{Exercises}
+
+Solve the following equations,
+\begin{enumerate}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $4+3\log(2x)=16$
+        \item $\log(x+2) + \log(x-1) = 1$
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $\ln(x) = 10$
+        \item $\log_2(x) + \log_2(x-3) = 1$
+    \end{minipage}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,116 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Exponential equations}
+
+\begin{comment}
+\begin{enumerate}
+    \item $8e^{2x} = 20$
+    \item $e^{3-2x} = 4$
+    \item $e^{2x}-e^{x}-6=0$
+    \item $3xe^x + x^2e^x = 0 $
+\end{enumerate}
+\end{comment}
+
+\begin{enumerate}
+    \item $x = 1/2 \ln(5/2) = \ln(\sqrt{5/2})$
+    \item $x = 1/2 (3-\ln(4))$
+    \item $e^{2x}-e^{x}-6=0$ % Procedure
+    \item $3xe^x + x^2e^x = 0 $ % Procedure
+\end{enumerate}
+
+
+\begin{align*}
+    e^{2x}-e^x-6 &= 0 \\
+    \qty(e^{x})^{2}-e^x-6 &= 0 \\
+    \mathrm{We~make~the~following~change~of~variable} & \alpha = e^x \\
+    \qty(\alpha)^2-\alpha-6 &= 0 \\
+    \alpha &= \frac{-(-1)\pm\sqrt{(-1)^2-4(1)(-6)}}{2(1)} \\
+    \alpha &= \frac{1\pm\sqrt{1+24}}{2} \\
+\end{align*}
+
+
+\section{Logarithmic equations}
+
+\begin{enumerate}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $4+3\log(2x)=16$
+        \item $\log(x+2) + \log(x-1) = 1$
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $\ln(x) = 10$
+        \item $\log_2(x) + \log_2(x-3) = 1$
+    \end{minipage}
+\end{enumerate}
+
+
+
+\section{Exponential and logarithmic equations}
+From the following equations, solve for $x$,
+\begin{enumerate}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $ e^{3x-2} = e^{x^2} $
+        \item $ 3\log(x) = 6 -2x $
+        \item $ \log_3(x-8) + \log_3(x) = 2 $
+        \item $ \log_2(x+a) + \log_2\qty(x-b) = c $
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $ 5^{x/10}+1 = 7 $
+        \item $ 4-x^2 = e^{-2x} $
+        \item $ \ln(x-2) + \ln(3) = \ln(5x-7) $
+        \item $\qty(1-e^{t/\alpha})^{x} = \frac{a}{b} $
+    \end{minipage}
+\end{enumerate}
+
+
+
+
+\section{Modeling with exponential functions}
+
+The element Polonium-210 ($^{210}\mathrm{Po}$) has a half-life of \num{140} days, that is, $m(140) = m_o/2$.
+Suppose a sample of this element has a mass of \SI{300}{\milli\gram}.
+\begin{enumerate}[label=(\alph*)]
+    \item Find a function that models the mass remaining after $t$ hours.
+    \item Find te mass remaining after \num{300} days. 
+    \item How long will it take the sample to decay to a mass of \SI{75}{\milli\gram}?
+\end{enumerate}
+
+
+
+\section{Modeling with logarithmic functions}
+
+\paragraph{a)} The hydrogen ion concentration of a sample of each substance is given.
+Calculate the pH of the substance,
+\begin{enumerate}
+    \item Lemon juice: $\mathrm{H}^+=\num{5.0d-3}$
+    \item Tomato juice: $\mathrm{H}^+=\num{3.2d-4}$
+    \item Seawater: $\mathrm{H}^+=\num{5.0d-9}$
+\end{enumerate}
+
+\paragraph{b)} the pH reading of a sample of each substance is given.
+Calculate the hydrogen concentration of the substance,
+\begin{enumerate}
+    \item Vinegar: pH = \num{3.0}
+    \item Milk: pH = \num{6.5}
+\end{enumerate}
+
+\section{Critical points}
+
+Find the critical points of the following functions,
+\begin{enumerate}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $f(x)=\num{5d3}e^{0.5 x}$
+        \item $g(x)=-\log\qty[8x]$
+        \item $h(x)=500e^{-0.2 x + 3}+150$
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $m(x)=\log\qty[\num{1d3}e^{10 x}+100]$
+        \item $n(x)=3(x-3)e^{-5(x-3)}$
+        \item $p(x)=3(x-5)\log\qty[-1/2(x-5)]$
+    \end{minipage}
+\end{enumerate}
+
+
+
+\end{document}
