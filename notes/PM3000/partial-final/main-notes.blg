@@ -3,47 +3,48 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main-notes.aux
 The style file: plainnat.bst
 Database file #1: sample.bib
+Warning--empty year in Weisstein
 Warning--empty year in Weisstein-Pythagorean
 Warning--empty year in Weisstein-circle
-You've used 3 entries,
+You've used 4 entries,
             2773 wiz_defined-function locations,
-            611 strings with 5286 characters,
-and the built_in function-call counts, 1119 in all, are:
-= -- 91
-> -- 59
-< -- 2
-+ -- 22
-- -- 18
-* -- 82
-:= -- 180
-add.period$ -- 10
-call.type$ -- 3
-change.case$ -- 15
+            615 strings with 5353 characters,
+and the built_in function-call counts, 1421 in all, are:
+= -- 117
+> -- 69
+< -- 3
++ -- 27
+- -- 21
+* -- 100
+:= -- 224
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 19
 chr.to.int$ -- 2
-cite$ -- 8
-duplicate$ -- 51
-empty$ -- 98
-format.name$ -- 21
-if$ -- 227
-int.to.chr$ -- 2
+cite$ -- 11
+duplicate$ -- 66
+empty$ -- 130
+format.name$ -- 25
+if$ -- 291
+int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 2
-newline$ -- 24
-num.names$ -- 12
-pop$ -- 38
+newline$ -- 29
+num.names$ -- 16
+pop$ -- 50
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 15
 quote$ -- 0
-skip$ -- 41
+skip$ -- 54
 stack$ -- 0
-substring$ -- 6
-swap$ -- 5
+substring$ -- 8
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
-warning$ -- 2
-while$ -- 9
+type$ -- 39
+warning$ -- 3
+while$ -- 12
 width$ -- 0
-write$ -- 47
-(There were 2 warnings)
+write$ -- 59
+(There were 3 warnings)

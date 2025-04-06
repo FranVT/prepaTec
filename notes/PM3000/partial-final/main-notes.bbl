@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,14 +11,19 @@ James Stewart, L.~Redlin, Saleem Watson, and Phyllis Panman.
 \newblock Cengage Learning, Boston, MA, seventh edition edition, 2016.
 \newblock ISBN 9781305071759.
 
-\bibitem[Weisstein({\natexlab{a}})]{Weisstein-Pythagorean}
+\bibitem[Weisstein({\natexlab{a}})]{Weisstein}
 Eric~W. Weisstein.
-\newblock Pythagorean theorem, {\natexlab{a}}.
+\newblock Ellipse, {\natexlab{a}}.
+\newblock URL \url{https://mathworld.wolfram.com/Ellipse.html}.
+
+\bibitem[Weisstein({\natexlab{b}})]{Weisstein-Pythagorean}
+Eric~W. Weisstein.
+\newblock Pythagorean theorem, {\natexlab{b}}.
 \newblock URL \url{https://mathworld.wolfram.com/PythagoreanTheorem.html}.
 
-\bibitem[Weisstein({\natexlab{b}})]{Weisstein-circle}
+\bibitem[Weisstein({\natexlab{c}})]{Weisstein-circle}
 Eric~W. Weisstein.
-\newblock Circle, {\natexlab{b}}.
+\newblock Circle, {\natexlab{c}}.
 \newblock URL \url{https://mathworld.wolfram.com/Circle.html}.
 
 \end{thebibliography}

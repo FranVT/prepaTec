@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-notes"] 1743959290.85477 "main-notes.aux" "main-notes.bbl" "main-notes" 1743960169.87131 0
-  "./sample.bib" 1743875389.74878 1952 bd2bcffe3b5afe4c0de76e2b352e6689 ""
+["bibtex main-notes"] 1743972090.8145 "main-notes.aux" "main-notes.bbl" "main-notes" 1743972597.73038 0
+  "./sample.bib" 1743971710.58647 2741 71f31ae741dfe4ad63be1ce7f95f5680 ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1742685315 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1743960169.51273 1878 bb8355f18d690cc04cebaf85680e048a "pdflatex"
+  "main-notes.aux" 1743972597.41359 2162 0cdf116d3fc91d4b8d37d5687cad97e0 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1743960167.65283 "main-notes.tex" "main-notes.pdf" "main-notes" 1743960169.87194 0
+["pdflatex"] 1743972595.62891 "main-notes.tex" "main-notes.pdf" "main-notes" 1743972597.73058 2
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1742685315 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1742685315 4484 b828043cbd581d289d955903c1339981 ""
@@ -53,6 +53,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb" 1742685315 29228 440002646d60f9d1a0cdf5878b9a308f ""
   "/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb" 1742685315 35941 f27169cc74234d5bd5e4cca5abafaabb ""
   "/usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb" 1742685315 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
+  "/usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb" 1742685315 33709 b09d2e140b7e807d3a97058263ab6693 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1742685315 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1742685315 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1742685315 45458 a3faba884469519614ca56ba5f6b1de1 ""
@@ -302,12 +303,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742772768 5467117 e063ce8e53b0cc3d0312473583ebc51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742772732 3459356 537953938f3ee99e8c19ab76df0e72ce ""
   "ellipse/../Figures/ellipse/EllipseBipolar_700.pdf" 1743948605.1941 21381 6f9b7d33f0e154dd4df23198e70e7035 ""
-  "ellipse/ellipse-notes.tex" 1743960095.53869 5152 296de645528d4be822ee3fbecdead6fc ""
-  "ellipse/exercise.tex" 1743960166.79073 590 e26e0a0e6f0ee33c6d6cb33d96de3cbd ""
-  "main-notes.aux" 1743960169.51273 1878 bb8355f18d690cc04cebaf85680e048a "pdflatex"
-  "main-notes.bbl" 1743959290.95638 967 c622c1cb5b530dcc545d34a413bee676 "bibtex main-notes"
-  "main-notes.out" 1743960169.51476 252 602a104d4109cc02a226416748ef067a "pdflatex"
-  "main-notes.tex" 1743959273.96425 2634 56a3903f72d2e4ff8929539ffba2caf4 ""
+  "ellipse/ellipse-notes.tex" 1743965793.75001 5665 7f10d2ffed9e5f99bedd4bde7b50e01b ""
+  "ellipse/exercise.tex" 1743972594.66746 3501 9dfa017ced8acf9f39c7555f4ef4ad3d ""
+  "main-notes.aux" 1743972597.41359 2162 0cdf116d3fc91d4b8d37d5687cad97e0 "pdflatex"
+  "main-notes.bbl" 1743972090.90909 1133 4d0bfc494ba54c66f0f8c094c053ffa0 "bibtex main-notes"
+  "main-notes.out" 1743972597.41452 252 602a104d4109cc02a226416748ef067a "pdflatex"
+  "main-notes.tex" 1743971714.7144 2634 56a3903f72d2e4ff8929539ffba2caf4 ""
   "tufte-common.def" 1529914306 70892 d170883770a3fb3b643fabc94d55da1e ""
   "tufte-handout.cls" 1743889352.9098 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)

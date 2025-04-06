@@ -8,15 +8,17 @@ An ellipse is defined as the curve formed by all the points that satisfies that 
 \begin{marginfigure}
     \centering
     \includegraphics[width=\textwidth]{../Figures/ellipse/EllipseBipolar_700.pdf}
-    \caption{Ellipse}\label{fig:ellipse}
+    \caption{Ellipse. It is helpfull to acknowledge that we can create a right triangle with sides of length $c$ and $b$ and hypotenuse $a$.}\label{fig:ellipse}
 \end{marginfigure}
 Where the value $a$ is commnly refered as \textit{semimajor axis}, the points $F_1$ and $F_2$ as \textit{foci} and the half point between the foci is refered as the \textit{origin} of the coordinate system.
 
 \subsection{Derivation of the equation}
 
-To derive the a;gebraic form of the ellipse from its definition, we start by translating the definition of the ellipse into an algebra representation.
+To derive the algebraic form of the ellipse from its definition, we start by translating the definition of the ellipse into an algebra representation.
 First, we represent the foci as $F_1=(c,0)$ and $F_2=(-c,0)$.
-Now, we recall the equation to compute the distance between two points, $d=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$.
+Now, we recall the equation to compute the distance\footnote{As a reminder, the distance equation resembles the pythagorean relation, \[d^2 = (x_1-x_2)^2 + (y_1-y_2)^2 \longleftrightarrow c^2 = a^2+b^2.\]
+This relation gives insight of the mathematical similarities between the circle and the ellipse equations.
+} between two points, $d=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$.
 Since we want to find the points in the plane that satisfies the definiiton of the ellipse, we are going to find the distance between the foci and all the plane,
 \begin{gather*}
     \sqrt{(x-c)^2+y^2} + \sqrt{(x+c)^2+y^2}.
@@ -26,9 +28,7 @@ Now we are going to apply the restricction that the sum of those distances are e
     \sqrt{(x-c)^2+y^2} + \sqrt{(x+c)^2+y^2} = 2a.
 \end{gather*}
 
-With this equation we are going to apply several algebraic tricks\footnote{
-    Basically we are going to get rid of the radicals ($\sqrt{x}$) and fractions.
-} to simplify the equation.
+With this equation we are going to apply several algebraic tricks\sidenote{Basically we are going to get rid of the radicals ($\sqrt{x}$). It is prefered to use exponents rather than radicals, because exponents provide a unifed notation system that also reduces steps and potential errors.} to simplify the equation.
 Let's start by isolating one distance and then squaring the equation,\marginnote{
     \begin{gather*}
         \qty[2a - \sqrt{(x+c)^2+y^2}]\qty[2a - \sqrt{(x+c)^2+y^2}] \\

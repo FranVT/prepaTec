@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  6 APR 2025 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  6 APR 2025 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1218,14 +1218,40 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 11.
 See the caption package documentation for explanation.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]\T1/ptm/m/n/10 Figure 1: |[]Ellipse. It is help-full to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/ptm/m/n/10 ac-knowl-edge that we can cre-ate a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\T1/ptm/m/n/10 right tri-an-gle with sides of length $\OML/ztmcm/m/it/10 c$
+ []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+
+Overfull \hbox (7.29846pt too wide) detected at line 21
+\OML/ztmcm/m/it/8 d[] \OT1/zplm/m/n/8 = (\OML/ztmcm/m/it/8 x[] \OMS/ztmcm/m/n/8 ^^@ \OML/ztmcm/m/it/8 x[]\OT1/zplm/m/n/8 )[] + (\OML/ztmcm/m/it/8 y[] \OMS/ztmcm/m/n/8 ^^@ \OML/ztmcm/m/it/8 y[]\OT1/zplm/m/n/8 )[] \OMS/ztmcm/m/n/8  []! \OML/ztmcm/m/it/8 c[] \OT1/zplm/m/n/8 = \OML/ztmcm/m/it/8 a[] \OT1/zplm/m/n/8 + \OML/ztmcm/m/it/8 b[]\OT1/ztmcm/m/n/8 .
+ []
+
+
+LaTeX Warning: Marginpar on page 1 moved.
+
 
 Overfull \hbox (9.87926pt too wide) detected at line 37
 []
  []
+
+
+LaTeX Warning: Marginpar on page 1 moved.
 
 
 LaTeX Warning: Marginpar on page 1 moved.
@@ -1271,10 +1297,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
 
 [2] (./ellipse/exercise.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 26.
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\T1/ptm/m/n/10 Comparing the given equa-tion with the gen-eral equa-tion for the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+[]\T1/ptm/m/n/10 Therefore, we know that the orign of the el-lipse is at $\OT1/zplm/m/n/10 (\OT1/ztmcm/m/n/10 2, 5\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 , also that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+\T1/ptm/m/n/10 the semimi-nor axis is equal to $\OT1/ztmcm/m/n/10 8$ \T1/ptm/m/n/10 and the semi-ma-jor axis is equal to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+\OT1/ztmcm/m/n/10 10$\T1/ptm/m/n/10 . Lastly, to com-pute the foci of the el-lipse we need to add and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]\T1/ptm/m/n/10 As be-fore, we com-pare this ex-pres-sion with the ex-panded form of
+ []
+
+
+Overfull \hbox (45.15347pt too wide) detected at line 41
+[]
+ []
+
+./ellipse/exercise.tex:45: Misplaced alignment tab character &.
+l.45 ...ed to complete the square ($(x+\alpha)^2 &
+                                                  = x^2 +2\alpha x + \alpha^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+[]\T1/ptm/m/n/10 As we can see, we are miss-ing terms. If we just say that $\OML/ztmcm/m/it/10 a \OT1/zplm/m/n/10 = \OT1/ztmcm/m/n/10 1$ \T1/ptm/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+\OML/ztmcm/m/it/10 b \OT1/zplm/m/n/10 = \OT1/ztmcm/m/n/10 1\OT1/zplm/m/n/10 /\OT1/ztmcm/m/n/10 2$\T1/ptm/m/n/10 , there is no so-lu-tion for the equa-tion. Hence, we need to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+\T1/ptm/m/n/10 To keep the same ex-pres-sion we need to re-write those terms as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]\T1/ptm/m/n/10 Hence, the el-lipse is cen-ter at $\OML/ztmcm/m/it/10 O \OT1/zplm/m/n/10 = (\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 3, \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 2\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 with fo-cal points at
+ []
+
+
+
+[3]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 77.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))) (./main-notes.bbl
+
+[4]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1283,7 +1373,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 17.
 )
 
-[3] (./main-notes.aux)
+[5] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1296,18 +1386,18 @@ Package rerunfilecheck Info: File `main-notes.out' has not changed.
 (rerunfilecheck)             Checksum: 602A104D4109CC02A226416748EF067A;252.
  ) 
 Here is how much of TeX's memory you used:
- 40771 strings out of 473190
- 846802 string characters out of 5722593
- 1313944 words of memory out of 5000000
- 63243 multiletter control sequences out of 15000+600000
- 640091 words of font info for 147 fonts, out of 8000000 for 9000
+ 40787 strings out of 473190
+ 847066 string characters out of 5722593
+ 1318039 words of memory out of 5000000
+ 63251 multiletter control sequences out of 15000+600000
+ 641729 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,18n,135p,435b,1491s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (3 pages, 120315 bytes).
+ 131i,18n,135p,435b,1723s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-notes.pdf (5 pages, 129960 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
  1210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
