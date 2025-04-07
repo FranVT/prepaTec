@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  6 APR 2025 14:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  7 APR 2025 16:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1059,14 +1059,7 @@ Package translations Info: No language package found. I am going to use `english
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 55.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main-notes.aux
-
-LaTeX Warning: Label `exa:~' multiply defined.
-
-
-LaTeX Warning: Label `exa:~@cref' multiply defined.
-
-)
+) (./main-notes.aux)
 \openout1 = `main-notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -1172,7 +1165,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (./ellipse/ellipse-notes.tex
+ (./parabola/parabola-notes.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 7.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1207,47 +1200,54 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-<./ellipse/../Figures/ellipse/EllipseBipolar_700.pdf, id=56, 151.10454pt x 118.63571pt>
-File: ./ellipse/../Figures/ellipse/EllipseBipolar_700.pdf Graphic file (type pdf)
-<use ./ellipse/../Figures/ellipse/EllipseBipolar_700.pdf>
-Package pdftex.def Info: ./ellipse/../Figures/ellipse/EllipseBipolar_700.pdf  used on input line 10.
-(pdftex.def)             Requested size: 140.56494pt x 110.36082pt.
+<./parabola/../Figures/parabola/ParabolaDirectrix_1001.png, id=64, 443.6575pt x 329.23pt>
+File: ./parabola/../Figures/parabola/ParabolaDirectrix_1001.png Graphic file (type png)
+<use ./parabola/../Figures/parabola/ParabolaDirectrix_1001.png>
+Package pdftex.def Info: ./parabola/../Figures/parabola/ParabolaDirectrix_1001.png  used on input line 11.
+(pdftex.def)             Requested size: 140.55167pt x 104.30078pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 11.
+(caption)                particular \caption on input line 12.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]\T1/ptm/m/n/10 Figure 1: |[]Ellipse. It is help-full to
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\T1/ptm/m/n/10 Figure 1: |[]The fig-ure from the left
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/ptm/m/n/10 ac-knowl-edge that we can cre-ate a
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/ptm/m/n/10 are the ge-met-ri-cal rep-re-sen-ta-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/ptm/m/n/10 right tri-an-gle with sides of length $\OML/ztmcm/m/it/10 c$
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/ptm/m/n/10 of the di-rec-trix, fo-cus and ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/ptm/m/n/10 tex. On the right it is shown the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/ptm/m/n/10 dis-tances from the fo-cus to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/ptm/m/n/10 parabola are equal from the point
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 
-Overfull \hbox (7.29846pt too wide) detected at line 21
-\OML/ztmcm/m/it/8 d[] \OT1/zplm/m/n/8 = (\OML/ztmcm/m/it/8 x[] \OMS/ztmcm/m/n/8 ^^@ \OML/ztmcm/m/it/8 x[]\OT1/zplm/m/n/8 )[] + (\OML/ztmcm/m/it/8 y[] \OMS/ztmcm/m/n/8 ^^@ \OML/ztmcm/m/it/8 y[]\OT1/zplm/m/n/8 )[] \OMS/ztmcm/m/n/8  []! \OML/ztmcm/m/it/8 c[] \OT1/zplm/m/n/8 = \OML/ztmcm/m/it/8 a[] \OT1/zplm/m/n/8 + \OML/ztmcm/m/it/8 b[]\OT1/ztmcm/m/n/8 .
- []
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-Overfull \hbox (9.87926pt too wide) detected at line 37
-[]
+Overfull \hbox (0.83192pt too wide) in paragraph at lines 17--21
+\T1/ptm/m/n/10 we are go-ing to use the same tools from the last ses-sions. Since the parabola 
  []
 
 
@@ -1263,108 +1263,100 @@ LaTeX Warning: Marginpar on page 1 moved.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./ellipse/../Figures/ellipse/EllipseBipolar_700.pdf>]
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 98.
-(/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./parabola/../Figures/parabola/ParabolaDirectrix_1001.png>]
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 61.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 98.
+(Font)              scaled to size 8.99994pt on input line 61.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-[]\T1/ptm/m/n/10 As same with the cir-cle equa-tion, we can ap-proch this as a two vari-
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+[]\T1/ptm/m/n/10 In this case this func-tion (a parabola with hor-i-zon-tal di-rec-trix) is
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 108--110
-\T1/ptm/m/n/10 able func-tion $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 equated to $\OT1/ztmcm/m/n/10 1$\T1/ptm/m/n/10 , $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) = \OT1/ztmcm/m/n/10 1$\T1/ptm/m/n/10 . How-ever, we need to
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+\T1/ptm/m/n/10 bi-jec-tive and has the fol-low-ing do-main and range $\OML/ztmcm/m/it/10 x \OMS/ztmcm/m/n/10 2 \OT1/zplm/m/n/10 (\OMS/ztmcm/m/n/10 ^^@1\OT1/ztmcm/m/n/10 , \OMS/ztmcm/m/n/10 1\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-\T1/ptm/m/n/10 take into ac-count that this is not a bi-jec-tive func-tion, which leads to
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) \OMS/ztmcm/m/n/10 2 []$\T1/ptm/m/n/10 . How-ever, we need to be care-ful, be-cause the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+\T1/ptm/m/n/10 parabola with a ver-ti-cal di-rec-trix is not a bi-jec-tive func-tion, be-cause
+ []
+
+(./parabola/exercise.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 We are go-ing to write the fac-tored form of the parabola with the fol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+[]\T1/ptm/m/n/10 Since the di-rec-trix is an hor-i-zon-tal line we are go-ing to use the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+\T1/ptm/m/n/10 folow-ing ex-pres-sion for the parabola, $\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 h\OT1/zplm/m/n/10 )[] = \OT1/ztmcm/m/n/10 4\OML/ztmcm/m/it/10 a\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 y \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 k\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 . We
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+\T1/ptm/m/n/10 know that $\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 h\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 k\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 is the co-or-di-nate for the ver-tex of the parabola
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+\T1/ptm/m/n/10 and the dis-tance from the ver-tex to the fo-cus is the same dis-tance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+\T1/ptm/m/n/10 from the ver-tex to the di-rec-trix and that dis-tance is the pa-ram-e-ter $\OML/ztmcm/m/it/10 a$\T1/ptm/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+\T1/ptm/m/n/10 There-fore we need to com-pute the dis-tance in the $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 di-rec-tion from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+\T1/ptm/m/n/10 Now, we add $\OT1/ztmcm/m/n/10 5$ \T1/ptm/m/n/10 to the $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 com-po-nent of the fo-cus, giv-ing us that the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+\T1/ptm/m/n/10 ver-tex is at $\OML/ztmcm/m/it/10 V \OT1/zplm/m/n/10 = (\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 3, \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 2\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 . Fi-nally we sub-sti-tute those val-ues into
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\T1/ptm/m/n/10 We are go-ing to find the ver-tex, fo-cus and di-rec-trix of the fol-low-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\T1/ptm/m/n/10 As we did we the el-lipse, we are go-ing to use the same method-ol-ogy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+\T1/ptm/m/n/10 to find the ver-tex, fo-cus and di-rec-trix of the parabola in its ex-panded
  []
 
 
 
-[2] (./ellipse/exercise.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]\T1/ptm/m/n/10 Comparing the given equa-tion with the gen-eral equa-tion for the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-[]\T1/ptm/m/n/10 Therefore, we know that the orign of the el-lipse is at $\OT1/zplm/m/n/10 (\OT1/ztmcm/m/n/10 2, 5\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 , also that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-\T1/ptm/m/n/10 the semimi-nor axis is equal to $\OT1/ztmcm/m/n/10 8$ \T1/ptm/m/n/10 and the semi-ma-jor axis is equal to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-\OT1/ztmcm/m/n/10 10$\T1/ptm/m/n/10 . Lastly, to com-pute the foci of the el-lipse we need to add and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-[]\T1/ptm/m/n/10 As be-fore, we com-pare this ex-pres-sion with the ex-panded form of
- []
-
-
-Overfull \hbox (45.15347pt too wide) detected at line 41
-[]
- []
-
-./ellipse/exercise.tex:45: Misplaced alignment tab character &.
-l.45 ...ed to complete the square ($(x+\alpha)^2 &
-                                                  = x^2 +2\alpha x + \alpha^...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--46
-[]\T1/ptm/m/n/10 As we can see, we are miss-ing terms. If we just say that $\OML/ztmcm/m/it/10 a \OT1/zplm/m/n/10 = \OT1/ztmcm/m/n/10 1$ \T1/ptm/m/n/10 and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--46
-\OML/ztmcm/m/it/10 b \OT1/zplm/m/n/10 = \OT1/ztmcm/m/n/10 1\OT1/zplm/m/n/10 /\OT1/ztmcm/m/n/10 2$\T1/ptm/m/n/10 , there is no so-lu-tion for the equa-tion. Hence, we need to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-\T1/ptm/m/n/10 To keep the same ex-pres-sion we need to re-write those terms as
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]\T1/ptm/m/n/10 Hence, the el-lipse is cen-ter at $\OML/ztmcm/m/it/10 O \OT1/zplm/m/n/10 = (\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 3, \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 2\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 with fo-cal points at
- []
-
-
-
-[3]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 77.
+[2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 38.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))) (./main-notes.bbl
-
-[4]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1373,31 +1365,27 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 17.
 )
 
-[5] (./main-notes.aux)
+[3] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: 602A104D4109CC02A226416748EF067A;252.
+(rerunfilecheck)             Checksum: A753902215063BEBBE83039AE2FDB36A;567.
  ) 
 Here is how much of TeX's memory you used:
  40787 strings out of 473190
- 847066 string characters out of 5722593
- 1318039 words of memory out of 5000000
- 63251 multiletter control sequences out of 15000+600000
- 641729 words of font info for 152 fonts, out of 8000000 for 9000
+ 847008 string characters out of 5722593
+ 1312039 words of memory out of 5000000
+ 63247 multiletter control sequences out of 15000+600000
+ 644684 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,18n,135p,435b,1723s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,21n,135p,426b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (5 pages, 129960 bytes).
+Output written on main-notes.pdf (3 pages, 113725 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 1210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 1226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
