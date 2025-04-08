@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  7 APR 2025 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  7 APR 2025 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1341,22 +1341,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 []\T1/ptm/m/n/10 As we did we the el-lipse, we are go-ing to use the same method-ol-ogy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 \T1/ptm/m/n/10 to find the ver-tex, fo-cus and di-rec-trix of the parabola in its ex-panded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+\T1/ptm/m/n/10 ex-pres-sion. Look-ing at the equa-tion we can iden-tify that the squared
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+\T1/ptm/m/n/10 term is in the $\OML/ztmcm/m/it/10 x$\T1/ptm/m/n/10 , telling us that the parabola has an hor-i-zon-tal di-rec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+\T1/ptm/m/n/10 First we are go-ing to solve the equa-tion with $\OML/ztmcm/m/it/10 x[]$ \T1/ptm/m/n/10 to find $\OML/ztmcm/m/it/10 a$\T1/ptm/m/n/10 , then we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+\T1/ptm/m/n/10 are go-ing to solve the equa-tion with $\OML/ztmcm/m/it/10 x$ \T1/ptm/m/n/10 to solve $\OML/ztmcm/m/it/10 h$ \T1/ptm/m/n/10 and fi-nally, we are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+\T1/ptm/m/n/10 Therefore, the ver-tex of the parabola is $\OML/ztmcm/m/it/10 v \OT1/zplm/m/n/10 = (\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 4, 1\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 , the fo-cus is at
  []
 
 
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 38.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 52.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))) (./main-notes.bbl
+
+[3]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1365,7 +1392,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 17.
 )
 
-[3] (./main-notes.aux)
+[4] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1374,18 +1401,18 @@ Package rerunfilecheck Info: File `main-notes.out' has not changed.
 (rerunfilecheck)             Checksum: A753902215063BEBBE83039AE2FDB36A;567.
  ) 
 Here is how much of TeX's memory you used:
- 40787 strings out of 473190
- 847008 string characters out of 5722593
+ 40784 strings out of 473190
+ 846910 string characters out of 5722593
  1312039 words of memory out of 5000000
- 63247 multiletter control sequences out of 15000+600000
+ 63243 multiletter control sequences out of 15000+600000
  644684 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,21n,135p,426b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (3 pages, 113725 bytes).
+Output written on main-notes.pdf (4 pages, 115115 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
  1226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

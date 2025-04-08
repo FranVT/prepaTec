@@ -11,14 +11,14 @@ Since the directrix is an horizontal line we are going to use the folowing expre
 We know that $(h,k)$ is the coordinate for the vertex of the parabola and the distance from the vertex to the focus is the same distance from the vertex to the directrix and that distance is the parameter $a$.
 Therefore we need to compute the distance in the $y$ direction from the focus to the directrixand divided by two,
 \begin{align*}
-    a &= \frac{\abs{F_y - L}}{2} \\
-      &= \frac{\abs{-7-3}}{2} \\
-      &= 5.
+    a &= \frac{F_y - L}{2} \\
+      &= \frac{-7-3}{2} \\
+      &= -5.
 \end{align*}
 Now, we add $5$ to the $y$ component of the focus, giving us that the vertex is at $V=(-3,-2)$.
 Finally we substitute those values into the factored equation,
 \begin{gather*}
-    (x+3)^2=20(y+2).
+    (x+3)^2=-20(y+2).
 \end{gather*}
 
 \end{example}
@@ -27,6 +27,20 @@ Finally we substitute those values into the factored equation,
 We are going to find the vertex, focus and directrix of the following parabola $3x^2+24x+y+47=0$.
 
 As we did we the ellipse, we are going to use the same methodology to find the vertex, focus and directrix of the parabola in its expanded expression.
+Looking at the equation we can identify that the squared term is in the $x$, telling us that the parabola has an horizontal directrix, which lead us to use the following equation as a reference,
+\begin{gather*}
+    y =\frac{x^2}{4a} -\frac{hx}{2a} +\frac{h^2}{4a} + k
+    \longleftrightarrow
+    y=-3x^2-24x-47 \\
+    \frac{x^2}{4a} = -3x^2,\quad  -\frac{hx}{2a}=-24x,\quad \frac{h^2}{4a} + k = -47.
+\end{gather*}
+First we are going to solve the equation with $x^2$ to find $a$, then we are going to solve the equation with $x$ to solve $h$ and finally, we are going to use the values of $h$ and $a$ to find $k$ in the last equation.
+\begin{align*}
+    \frac{x^2}{4a} = -3x^2 &\rightarrow a = -\frac{1}{12} \\
+    -\frac{hx}{2a}\Big|_{a=-1/12}=-24x &\rightarrow h = -4 \\
+    \frac{h^2}{4a}\Big|_{a=-1/12,h=4} + k = -47 &\rightarrow k = 1,
+\end{align*}
+Therefore, the vertex of the parabola is $v=(-4,1)$, the focus is at $F=(-4,1-1/12)$ and the directrix is at $y=1+1/12$.
 
 \end{example}
 
@@ -45,7 +59,7 @@ As we did we the ellipse, we are going to use the same methodology to find the v
 \begin{itemize}
     \item Consider the following function $f(x)=3/2 x^2$ and $g(x)=4/3x$. Compute $f(x)/g(x)$ and determine the domain and range of the new function.
     \item Define the coordinate of the empty hole $f(x)=(x^3(x-3))/(4(x-3))$.
-    \item Use the change base formula to compute $log_{1-5/3}(2000)$.
+    \item Use the change base formula to compute $\log_{(1-5/3)}(2000)$.
     \item An unkwon element has a half-life of 800 days. Suppose that you have a sample of $400$ mg. Which is the decay rate of this element?
 \end{itemize}
 
