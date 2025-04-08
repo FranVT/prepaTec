@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  7 APR 2025 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  8 APR 2025 09:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,7 +1165,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (./parabola/parabola-notes.tex
+ (./hyperbola/hyperbola-notes.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 7.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1200,190 +1200,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-<./parabola/../Figures/parabola/ParabolaDirectrix_1001.png, id=64, 443.6575pt x 329.23pt>
-File: ./parabola/../Figures/parabola/ParabolaDirectrix_1001.png Graphic file (type png)
-<use ./parabola/../Figures/parabola/ParabolaDirectrix_1001.png>
-Package pdftex.def Info: ./parabola/../Figures/parabola/ParabolaDirectrix_1001.png  used on input line 11.
-(pdftex.def)             Requested size: 140.55167pt x 104.30078pt.
+<./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf, id=48, 151.95522pt x 151.95522pt>
+File: ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf Graphic file (type pdf)
+<use ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf>
+Package pdftex.def Info: ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf  used on input line 12.
+(pdftex.def)             Requested size: 140.55635pt x 140.55635pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 12.
+(caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]\T1/ptm/m/n/10 Figure 1: |[]The fig-ure from the left
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\T1/ptm/m/n/10 are the ge-met-ri-cal rep-re-sen-ta-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\T1/ptm/m/n/10 of the di-rec-trix, fo-cus and ver-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\T1/ptm/m/n/10 tex. On the right it is shown the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\T1/ptm/m/n/10 dis-tances from the fo-cus to the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\T1/ptm/m/n/10 parabola are equal from the point
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-
-Overfull \hbox (0.83192pt too wide) in paragraph at lines 17--21
-\T1/ptm/m/n/10 we are go-ing to use the same tools from the last ses-sions. Since the parabola 
- []
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
+) (./main-notes.bbl
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./parabola/../Figures/parabola/ParabolaDirectrix_1001.png>]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 61.
- (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 61.
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-[]\T1/ptm/m/n/10 In this case this func-tion (a parabola with hor-i-zon-tal di-rec-trix) is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-\T1/ptm/m/n/10 bi-jec-tive and has the fol-low-ing do-main and range $\OML/ztmcm/m/it/10 x \OMS/ztmcm/m/n/10 2 \OT1/zplm/m/n/10 (\OMS/ztmcm/m/n/10 ^^@1\OT1/ztmcm/m/n/10 , \OMS/ztmcm/m/n/10 1\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) \OMS/ztmcm/m/n/10 2 []$\T1/ptm/m/n/10 . How-ever, we need to be care-ful, be-cause the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-\T1/ptm/m/n/10 parabola with a ver-ti-cal di-rec-trix is not a bi-jec-tive func-tion, be-cause
- []
-
-(./parabola/exercise.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[]\T1/ptm/m/n/10 We are go-ing to write the fac-tored form of the parabola with the fol-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-[]\T1/ptm/m/n/10 Since the di-rec-trix is an hor-i-zon-tal line we are go-ing to use the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-\T1/ptm/m/n/10 folow-ing ex-pres-sion for the parabola, $\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 h\OT1/zplm/m/n/10 )[] = \OT1/ztmcm/m/n/10 4\OML/ztmcm/m/it/10 a\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 y \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 k\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 . We
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-\T1/ptm/m/n/10 know that $\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 h\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 k\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 is the co-or-di-nate for the ver-tex of the parabola
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-\T1/ptm/m/n/10 and the dis-tance from the ver-tex to the fo-cus is the same dis-tance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-\T1/ptm/m/n/10 from the ver-tex to the di-rec-trix and that dis-tance is the pa-ram-e-ter $\OML/ztmcm/m/it/10 a$\T1/ptm/m/n/10 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-\T1/ptm/m/n/10 There-fore we need to com-pute the dis-tance in the $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 di-rec-tion from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--20
-\T1/ptm/m/n/10 Now, we add $\OT1/ztmcm/m/n/10 5$ \T1/ptm/m/n/10 to the $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 com-po-nent of the fo-cus, giv-ing us that the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--20
-\T1/ptm/m/n/10 ver-tex is at $\OML/ztmcm/m/it/10 V \OT1/zplm/m/n/10 = (\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 3, \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 2\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 . Fi-nally we sub-sti-tute those val-ues into
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-[]\T1/ptm/m/n/10 We are go-ing to find the ver-tex, fo-cus and di-rec-trix of the fol-low-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-[]\T1/ptm/m/n/10 As we did we the el-lipse, we are go-ing to use the same method-ol-ogy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-\T1/ptm/m/n/10 to find the ver-tex, fo-cus and di-rec-trix of the parabola in its ex-panded
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-\T1/ptm/m/n/10 ex-pres-sion. Look-ing at the equa-tion we can iden-tify that the squared
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-\T1/ptm/m/n/10 term is in the $\OML/ztmcm/m/it/10 x$\T1/ptm/m/n/10 , telling us that the parabola has an hor-i-zon-tal di-rec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
-\T1/ptm/m/n/10 First we are go-ing to solve the equa-tion with $\OML/ztmcm/m/it/10 x[]$ \T1/ptm/m/n/10 to find $\OML/ztmcm/m/it/10 a$\T1/ptm/m/n/10 , then we
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
-\T1/ptm/m/n/10 are go-ing to solve the equa-tion with $\OML/ztmcm/m/it/10 x$ \T1/ptm/m/n/10 to solve $\OML/ztmcm/m/it/10 h$ \T1/ptm/m/n/10 and fi-nally, we are
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
-\T1/ptm/m/n/10 Therefore, the ver-tex of the parabola is $\OML/ztmcm/m/it/10 v \OT1/zplm/m/n/10 = (\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 4, 1\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 , the fo-cus is at
- []
-
-
-
-[2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 52.
- (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))) (./main-notes.bbl
-
-[3]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1392,27 +1224,27 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 17.
 )
 
-[4] (./main-notes.aux)
+[2] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: A753902215063BEBBE83039AE2FDB36A;567.
+(rerunfilecheck)             Checksum: 4C934448C083DBC3752D37F2A2BDAF81;89.
  ) 
 Here is how much of TeX's memory you used:
- 40784 strings out of 473190
- 846910 string characters out of 5722593
- 1312039 words of memory out of 5000000
- 63243 multiletter control sequences out of 15000+600000
- 644684 words of font info for 156 fonts, out of 8000000 for 9000
+ 40529 strings out of 473190
+ 842658 string characters out of 5722593
+ 1318039 words of memory out of 5000000
+ 63040 multiletter control sequences out of 15000+600000
+ 613697 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,21n,135p,426b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (4 pages, 115115 bytes).
+ 131i,18n,135p,451b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-notes.pdf (2 pages, 93419 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 1226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 1194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
