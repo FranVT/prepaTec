@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main-exe"] 0 "main-exe.bcf" "main-exe.bbl" "main-exe" 1744079248.90269 0
+["biber main-exe"] 0 "main-exe.bcf" "main-exe.bbl" "main-exe" 1744157486.19465 0
   "bibliografia.bib" 0 -1 0 ""
   "main-exe.bcf" 0 -1 0 "pdflatex"
   (generated)
   "main-exe.bbl"
   "main-exe.blg"
   (rewritten before read)
-["pdflatex"] 1744079246.45398 "main-exe.tex" "main-exe.pdf" "main-exe" 1744079248.9031 0
+["pdflatex"] 1744157484.10215 "main-exe.tex" "main-exe.pdf" "main-exe" 1744157486.19503 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1742685315 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1742685315 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -27,7 +27,6 @@
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1742685315 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1742685315 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1742685315 908 2921f8a10601f252058503cc6570e581 ""
-  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1742685315 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1742685315 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1742685315 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1742685315 1288 655e228510b4c2a1abe905c368440826 ""
@@ -37,7 +36,6 @@
   "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm" 1742685315 520 1cc7cc05f4d7bae5c23bf7516f88fa52 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm" 1742685315 11168 06d87f5698fd1b642d96449b7c8d90b0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1742685315 688 37338d6ab346c2f1466b29e195316aa4 ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1742685315 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1742685315 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1742685315 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1742685315 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -50,7 +48,6 @@
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf" 1742685315 2348 91706c542228501c410c266421fbe30c ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf" 1742685315 1132 27520247d3fe18d4266a226b461885c2 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf" 1742685315 1108 d271d6f9de4122c3f8d3b65666167fac ""
-  "/usr/share/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf" 1742685315 1012 046369ac6a83af997c3aa05a43256ad5 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf" 1742685315 964 5673178ff30617b900214de28ab32b38 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1742685315 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1742685315 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -260,12 +257,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742772768 5467117 e063ce8e53b0cc3d0312473583ebc51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742772732 3459356 537953938f3ee99e8c19ab76df0e72ce ""
-  "main-exe.aux" 1744079248.64423 821 7bfd894d264df33d0d1459409f5740bb "pdflatex"
+  "hyperbola/exercise.tex" 1744157328.69005 3259 25e7d21868b1240c9703c6d94de215b7 ""
+  "main-exe.aux" 1744157485.94089 1126 5b42f4f00de0e77ecdfefdde479b557e "pdflatex"
   "main-exe.bbl" 0 -1 0 "biber main-exe"
-  "main-exe.out" 1744079248.64623 367 b753cf6f941acff11674fdb2cb102424 "pdflatex"
-  "main-exe.run.xml" 1744079248.64975 2438 06f6a2fe2ae1826d4f20e108f0caa169 "pdflatex"
-  "main-exe.tex" 1744074879.47498 573 12eb328eaebf833860b9beb8822ef89c ""
-  "parabola/exercise.tex" 1744079179.75111 3204 db1c2d7f0776da6981f0265b04d5a80c ""
+  "main-exe.out" 1744157485.94289 372 e25d1439775342d9d44ebb12514a197b "pdflatex"
+  "main-exe.run.xml" 1744157485.94699 2438 06f6a2fe2ae1826d4f20e108f0caa169 "pdflatex"
+  "main-exe.tex" 1744157401.45533 608 82b7dcc89cd63e497042aa3c746cc8f1 ""
   "professorClass.cls" 1743889458.82309 4845 6f8b6d7c089580e9efbc1e54585046dd ""
   (generated)
   "main-exe.aux"

@@ -31,8 +31,39 @@ As before, we are going to modify that equation to express it in a more friendly
     x^2 + c^2 +y^2 &= a^2 + \frac{c^2x^2}{a^2} \\
     x^2\cancelto{-b^2/a^2}{\qty(1-\frac{c^2}{a^2})} +y^2 &= \cancelto{-b^2}{a^2 - c^2} \\
     \frac{1}{-b^2}\left[\frac{-b^2}{a^2}x^2 +y^2\right] &= \cancelto{1}{\frac{-b^2}{-b^2}} \\
-    \frac{x^2}{a^2} - \frac{y^2}{b^2} &= 1 \\
+    \frac{x^2}{a^2} - \frac{y^2}{b^2} &= 1
 \end{align*}
+
+\subsection{General equation}
+Finally we are going to take into account that the center is at any point of the plane,
+\begin{gather*}
+    \frac{\qty(x-h)^2}{a^2} - \frac{\qty(y-k)^2}{b^2} = 1
+\end{gather*}
+
+\begin{note}{Expanded equation}{~}
+    For completeness, we are going to expand the quadratic terms,
+    \begin{align*}
+        \frac{\qty(x-h)^2}{a^2} - \frac{\qty(y-k)^2}{b^2} &= 1 \\
+        \frac{1}{a^2}\left[x^2-2hx+h^2\right] -\frac{1}{b^2}\left[y^2-2ky+k^2\right] &= 1 \\
+        \frac{x^2}{a^2}-\frac{2hx}{a^2}+\frac{h^2}{a^2}  -\frac{y^2}{b^2}+\frac{2ky}{b^2}-\frac{k^2}{b^2} &= 1
+    \end{align*}
+
+    This equation ($f(x,y)=1$) is not a bijective function.
+    On the other hand, the range can go from plus infinity to minus infinity $f(x,y)\in\qty(-\infty,\infty)$, however, the domain is not defined between the distance of the two vertex $x\in(-\infty,h-a]\cup[h+a,\infty)$.
+\end{note}
+
+\begin{note}{Asymptotes of the hyperbola}{~}
+    As mentioned in the note before, the domain is not defined in the inverval $x\in(h-a,h+a)$, indicating the existance of asymptotes.
+    Here we are going to see the derivation of the asymptotes.
+    To do that, we are going to equate the function to zero $f(x,y)=0$,
+    \begin{align*}
+        \frac{\qty(x-h)^2}{a^2} - \frac{\qty(y-k)^2}{b^2} = 1 &\to\frac{\qty(x-h)^2}{a^2} = \frac{\qty(y-k)^2}{b^2} \\
+        \left[\qty(x-h)^2\right]^{1/2} &= \left[\frac{a^2}{b^2}\qty(y-k)^2\right]^{1/2} \\
+        x-h &= \pm\frac{a}{b}\qty(y-k) 
+    \end{align*}
+\end{note}
+
+\subfile{exercise.tex}
 
 
 \end{document}

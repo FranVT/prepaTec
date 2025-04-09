@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  7 APR 2025 20:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  8 APR 2025 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1223,7 +1223,14 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main-exe.aux)
+) (./main-exe.aux
+
+LaTeX Warning: Label `exa:~' multiply defined.
+
+
+LaTeX Warning: Label `exa:~@cref' multiply defined.
+
+)
 \openout1 = `main-exe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -1374,7 +1381,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
- (./parabola/exercise.tex
+ (./hyperbola/exercise.tex
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1390,7 +1397,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
@@ -1407,25 +1414,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main-exe.out' has not changed.
-(rerunfilecheck)             Checksum: B753CF6F941ACFF11674FDB2CB102424;367.
+(rerunfilecheck)             Checksum: E25D1439775342D9D44EBB12514A197B;372.
 Package logreq Info: Writing requests to 'main-exe.run.xml'.
 \openout1 = `main-exe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45779 strings out of 473190
- 941293 string characters out of 5722593
- 1761867 words of memory out of 5000000
- 68375 multiletter control sequences out of 15000+600000
- 594731 words of font info for 95 fonts, out of 8000000 for 9000
+ 45784 strings out of 473190
+ 941481 string characters out of 5722593
+ 1767021 words of memory out of 5000000
+ 68385 multiletter control sequences out of 15000+600000
+ 593531 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,13n,135p,697b,1779s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-exe.pdf (2 pages, 98042 bytes).
+ 131i,11n,135p,697b,1785s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-exe.pdf (2 pages, 91102 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  8 APR 2025 09:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  8 APR 2025 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1059,7 +1059,20 @@ Package translations Info: No language package found. I am going to use `english
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 55.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main-notes.aux)
+) (./main-notes.aux
+
+LaTeX Warning: Label `note:~' multiply defined.
+
+
+LaTeX Warning: Label `note:~@cref' multiply defined.
+
+
+LaTeX Warning: Label `exa:~' multiply defined.
+
+
+LaTeX Warning: Label `exa:~@cref' multiply defined.
+
+)
 \openout1 = `main-notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -1200,7 +1213,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-<./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf, id=48, 151.95522pt x 151.95522pt>
+<./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf, id=56, 151.95522pt x 151.95522pt>
 File: ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf Graphic file (type pdf)
 <use ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf>
 Package pdftex.def Info: ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf  used on input line 12.
@@ -1211,11 +1224,110 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-) (./main-notes.bbl
+
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 43.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 43.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+[]\T1/ptm/m/n/10 This equa-tion ($\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) = \OT1/ztmcm/m/n/10 1$\T1/ptm/m/n/10 ) is not a bi-jec-tive func-tion. On the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+\T1/ptm/m/n/10 other hand, the range can go from plus in-fin-ity to mi-nus in-fin-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) \OMS/ztmcm/m/n/10 2 []$\T1/ptm/m/n/10 , how-ever, the do-main is not de-fined be-tween the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+[]\T1/ptm/m/n/10 As men-tioned in the note be-fore, the do-main is not de-fined in the
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 56--59
+\T1/ptm/m/n/10 in-ver-val $\OML/ztmcm/m/it/10 x \OMS/ztmcm/m/n/10 2 \OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 h \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 a\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 h \OT1/zplm/m/n/10 + \OML/ztmcm/m/it/10 a\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 , in-di-cat-ing the ex-is-tance of asymp-totes.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+\T1/ptm/m/n/10 Here we are go-ing to see the deriva-tion of the asymp-totes. To do
+ []
+
+(./hyperbola/exercise.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]\T1/ptm/m/n/10 We are go-ing to find the cen-ter, ver-tices, foci and asymp-totes of the
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 10--13
+\T1/ptm/m/n/10 the re-la-tion $\OML/ztmcm/m/it/10 b[] \OMS/ztmcm/m/n/10 ^^Q \OML/ztmcm/m/it/10 c[] \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 a[]\OT1/ztmcm/m/n/10 , \OMS/ztmcm/m/n/10 ! \OML/ztmcm/m/it/10 c \OT1/zplm/m/n/10 = [] = []$\T1/ptm/m/n/10 . An im-por-tant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+\T1/ptm/m/n/10 ob-ser-va-tion is that the term with $\OML/ztmcm/m/it/10 x$ \T1/ptm/m/n/10 is neg-a-tive, which tells us that is a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\T1/ptm/m/n/10 With that in-for-ma-tion we can com-pute the ver-tex of the hy-per-bola as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]\T1/ptm/m/n/10 Finally, to com-pute the asymp-totes of the hy-per-bola, we mod-ify
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\T1/ptm/m/n/10 the gen-eral equa-tion for hy-per-bola asymp-totes since is a ver-ti-cal
+ []
+
+
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]\T1/ptm/m/n/10 We are go-ing to find the cen-ter, ver-tices, foci and asymp-totes of the
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 36--39
+\T1/ptm/m/n/10 the re-la-tion $\OML/ztmcm/m/it/10 b[] \OMS/ztmcm/m/n/10 ^^Q \OML/ztmcm/m/it/10 c[] \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 a[]\OT1/ztmcm/m/n/10 , \OMS/ztmcm/m/n/10 ! \OML/ztmcm/m/it/10 c \OT1/zplm/m/n/10 = [] = []$\T1/ptm/m/n/10 . An im-por-tant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\T1/ptm/m/n/10 ob-ser-va-tion is that the term with $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 is neg-a-tive, which tells us that is a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+[]\T1/ptm/m/n/10 With that in-for-ma-tion we can com-pute the ver-tex of the hy-per-bola as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]\T1/ptm/m/n/10 Finally, to com-pute the asymp-totes of the hy-per-bola, we use the
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64.
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+[3])) (./main-notes.bbl
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1224,27 +1336,31 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 17.
 )
 
-[2] (./main-notes.aux)
+[4] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: 4C934448C083DBC3752D37F2A2BDAF81;89.
+(rerunfilecheck)             Checksum: 516128C7D50A0C8E18696BF7880675F4;262.
  ) 
 Here is how much of TeX's memory you used:
- 40529 strings out of 473190
- 842658 string characters out of 5722593
+ 40744 strings out of 473190
+ 846720 string characters out of 5722593
  1318039 words of memory out of 5000000
- 63040 multiletter control sequences out of 15000+600000
- 613697 words of font info for 102 fonts, out of 8000000 for 9000
+ 63226 multiletter control sequences out of 15000+600000
+ 621517 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,18n,135p,451b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (2 pages, 93419 bytes).
+ 131i,18n,135p,451b,1707s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-notes.pdf (4 pages, 116185 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 1194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 1210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
