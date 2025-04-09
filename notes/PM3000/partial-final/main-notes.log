@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  8 APR 2025 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  9 APR 2025 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,10 +1067,16 @@ LaTeX Warning: Label `note:~' multiply defined.
 LaTeX Warning: Label `note:~@cref' multiply defined.
 
 
-LaTeX Warning: Label `exa:~' multiply defined.
+LaTeX Warning: Label `note:~' multiply defined.
 
 
-LaTeX Warning: Label `exa:~@cref' multiply defined.
+LaTeX Warning: Label `note:~@cref' multiply defined.
+
+
+LaTeX Warning: Label `note:~' multiply defined.
+
+
+LaTeX Warning: Label `note:~@cref' multiply defined.
 
 )
 \openout1 = `main-notes.aux'.
@@ -1178,156 +1184,185 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (./hyperbola/hyperbola-notes.tex
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 7.
- (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ (./recap/notes.tex
+<./recap/../Figures/parabola/ParabolaDirectrix_1002.png, id=51, 140.77594pt x 204.17104pt>
+File: ./recap/../Figures/parabola/ParabolaDirectrix_1002.png Graphic file (type png)
+<use ./recap/../Figures/parabola/ParabolaDirectrix_1002.png>
+Package pdftex.def Info: ./recap/../Figures/parabola/ParabolaDirectrix_1002.png  used on input line 11.
+(pdftex.def)             Requested size: 140.56505pt x 203.86522pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 12.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 13.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 7.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 13.
  (/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 7.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 13.
  (/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 7.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 13.
  (/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 7.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 13.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 7.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 13.
  (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 13.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-<./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf, id=56, 151.95522pt x 151.95522pt>
-File: ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf Graphic file (type pdf)
-<use ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf>
-Package pdftex.def Info: ./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf  used on input line 12.
-(pdftex.def)             Requested size: 140.55635pt x 140.55635pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 21.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 21.
 
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+[]\T1/ptm/m/n/10 In this case this func-tion (a parabola with hor-i-zon-tal di-rec-trix) is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+\T1/ptm/m/n/10 bi-jec-tive and has the fol-low-ing do-main and range $\OML/ztmcm/m/it/10 x \OMS/ztmcm/m/n/10 2 \OT1/zplm/m/n/10 (\OMS/ztmcm/m/n/10 ^^@1\OT1/ztmcm/m/n/10 , \OMS/ztmcm/m/n/10 1\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) \OMS/ztmcm/m/n/10 2 []$\T1/ptm/m/n/10 . How-ever, we need to be care-ful, be-cause the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+\T1/ptm/m/n/10 parabola with a ver-ti-cal di-rec-trix is not a bi-jec-tive func-tion, be-cause
+ []
+
+<./recap/../Figures/circunference/circle-translate.jpg, id=52, 335.2525pt x 309.155pt>
+File: ./recap/../Figures/circunference/circle-translate.jpg Graphic file (type jpg)
+<use ./recap/../Figures/circunference/circle-translate.jpg>
+Package pdftex.def Info: ./recap/../Figures/circunference/circle-translate.jpg  used on input line 40.
+(pdftex.def)             Requested size: 140.55443pt x 129.61305pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 13.
+(caption)                particular \caption on input line 41.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `eqn:circle-displaced' on page 1 undefined on input line 49.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\T1/ptm/m/n/10 We are go-ing to ex-pand the equa-tion[] to get fa-mil-iar-ize our-selves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[]\T1/ptm/m/n/10 As we can see, this can be ap-proach as a func-tion of two in-de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+\T1/ptm/m/n/10 pen-dent vari-ables $\OML/ztmcm/m/it/10 x$ \T1/ptm/m/n/10 and $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 ($\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 ) equated to a con-stant value $\OML/ztmcm/m/it/10 r[]$\T1/ptm/m/n/10 ,
+ []
+
+<./recap/../Figures/ellipse/EllipseBipolar_700.pdf, id=53, 151.10454pt x 118.63571pt>
+File: ./recap/../Figures/ellipse/EllipseBipolar_700.pdf Graphic file (type pdf)
+<use ./recap/../Figures/ellipse/EllipseBipolar_700.pdf>
+Package pdftex.def Info: ./recap/../Figures/ellipse/EllipseBipolar_700.pdf  used on input line 66.
+(pdftex.def)             Requested size: 140.56494pt x 110.36082pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 67.
 See the caption package documentation for explanation.
 
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./hyperbola/../Figures/hyperbola/HyperbolaFoci_750.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 43.
- (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 43.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./recap/../Figures/parabola/ParabolaDirectrix_1002.png> <./recap/../Figures/circunference/circle-translate.jpg>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+LaTeX Warning: Marginpar on page 2 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+[]\T1/ptm/m/n/10 As same with the cir-cle equa-tion, we can ap-proch this as a two vari-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 84--86
+\T1/ptm/m/n/10 able func-tion $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 )$ \T1/ptm/m/n/10 equated to $\OT1/ztmcm/m/n/10 1$\T1/ptm/m/n/10 , $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) = \OT1/ztmcm/m/n/10 1$\T1/ptm/m/n/10 . How-ever, we need to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+\T1/ptm/m/n/10 take into ac-count that this is not a bi-jec-tive func-tion, which leads to
+ []
+
+<./recap/../Figures/hyperbola/HyperbolaFoci_750.pdf, id=80, 151.95522pt x 151.95522pt>
+File: ./recap/../Figures/hyperbola/HyperbolaFoci_750.pdf Graphic file (type pdf)
+<use ./recap/../Figures/hyperbola/HyperbolaFoci_750.pdf>
+Package pdftex.def Info: ./recap/../Figures/hyperbola/HyperbolaFoci_750.pdf  used on input line 92.
+(pdftex.def)             Requested size: 140.55635pt x 140.55635pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 93.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 []\T1/ptm/m/n/10 This equa-tion ($\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) = \OT1/ztmcm/m/n/10 1$\T1/ptm/m/n/10 ) is not a bi-jec-tive func-tion. On the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 \T1/ptm/m/n/10 other hand, the range can go from plus in-fin-ity to mi-nus in-fin-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 \OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 y\OT1/zplm/m/n/10 ) \OMS/ztmcm/m/n/10 2 []$\T1/ptm/m/n/10 , how-ever, the do-main is not de-fined be-tween the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 []\T1/ptm/m/n/10 As men-tioned in the note be-fore, the do-main is not de-fined in the
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 56--59
+Underfull \hbox (badness 2913) in paragraph at lines 113--116
 \T1/ptm/m/n/10 in-ver-val $\OML/ztmcm/m/it/10 x \OMS/ztmcm/m/n/10 2 \OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 h \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 a\OT1/ztmcm/m/n/10 , \OML/ztmcm/m/it/10 h \OT1/zplm/m/n/10 + \OML/ztmcm/m/it/10 a\OT1/zplm/m/n/10 )$\T1/ptm/m/n/10 , in-di-cat-ing the ex-is-tance of asymp-totes.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 \T1/ptm/m/n/10 Here we are go-ing to see the deriva-tion of the asymp-totes. To do
  []
 
-(./hyperbola/exercise.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]\T1/ptm/m/n/10 We are go-ing to find the cen-ter, ver-tices, foci and asymp-totes of the
- []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 10--13
-\T1/ptm/m/n/10 the re-la-tion $\OML/ztmcm/m/it/10 b[] \OMS/ztmcm/m/n/10 ^^Q \OML/ztmcm/m/it/10 c[] \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 a[]\OT1/ztmcm/m/n/10 , \OMS/ztmcm/m/n/10 ! \OML/ztmcm/m/it/10 c \OT1/zplm/m/n/10 = [] = []$\T1/ptm/m/n/10 . An im-por-tant
- []
+[2 <./recap/../Figures/ellipse/EllipseBipolar_700.pdf> <./recap/../Figures/hyperbola/HyperbolaFoci_750.pdf
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-\T1/ptm/m/n/10 ob-ser-va-tion is that the term with $\OML/ztmcm/m/it/10 x$ \T1/ptm/m/n/10 is neg-a-tive, which tells us that is a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]\T1/ptm/m/n/10 With that in-for-ma-tion we can com-pute the ver-tex of the hy-per-bola as
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-[]\T1/ptm/m/n/10 Finally, to com-pute the asymp-totes of the hy-per-bola, we mod-ify
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-\T1/ptm/m/n/10 the gen-eral equa-tion for hy-per-bola asymp-totes since is a ver-ti-cal
- []
-
-
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]\T1/ptm/m/n/10 We are go-ing to find the cen-ter, ver-tices, foci and asymp-totes of the
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 36--39
-\T1/ptm/m/n/10 the re-la-tion $\OML/ztmcm/m/it/10 b[] \OMS/ztmcm/m/n/10 ^^Q \OML/ztmcm/m/it/10 c[] \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 a[]\OT1/ztmcm/m/n/10 , \OMS/ztmcm/m/n/10 ! \OML/ztmcm/m/it/10 c \OT1/zplm/m/n/10 = [] = []$\T1/ptm/m/n/10 . An im-por-tant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
-\T1/ptm/m/n/10 ob-ser-va-tion is that the term with $\OML/ztmcm/m/it/10 y$ \T1/ptm/m/n/10 is neg-a-tive, which tells us that is a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-[]\T1/ptm/m/n/10 With that in-for-ma-tion we can com-pute the ver-tex of the hy-per-bola as
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-[]\T1/ptm/m/n/10 Finally, to com-pute the asymp-totes of the hy-per-bola, we use the
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64.
-(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-[3])) (./main-notes.bbl
+pdfTeX warning: pdflatex (file ./recap/../Figures/hyperbola/HyperbolaFoci_750.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./recap/exercises.tex)) (./main-notes.bbl
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1336,31 +1371,34 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 17.
 )
 
-[4] (./main-notes.aux)
+[3] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: 516128C7D50A0C8E18696BF7880675F4;262.
+(rerunfilecheck)             Checksum: 6D662EA921DA246ED915BA2F7C218BB2;158.
  ) 
 Here is how much of TeX's memory you used:
- 40744 strings out of 473190
- 846720 string characters out of 5722593
- 1318039 words of memory out of 5000000
- 63226 multiletter control sequences out of 15000+600000
- 621517 words of font info for 112 fonts, out of 8000000 for 9000
+ 40783 strings out of 473190
+ 848480 string characters out of 5722593
+ 1312039 words of memory out of 5000000
+ 63243 multiletter control sequences out of 15000+600000
+ 620446 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,18n,135p,451b,1707s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (4 pages, 116185 bytes).
+ 131i,11n,135p,426b,1591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-notes.pdf (3 pages, 164128 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 1210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 1217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
