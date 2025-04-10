@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  8 APR 2025 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  9 APR 2025 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1223,14 +1223,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main-exe.aux
-
-LaTeX Warning: Label `exa:~' multiply defined.
-
-
-LaTeX Warning: Label `exa:~@cref' multiply defined.
-
-)
+) (./main-exe.aux)
 \openout1 = `main-exe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -1381,10 +1374,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
- (./hyperbola/exercise.tex
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+ (./recap/exercises.tex
+Overfull \hbox (11.48479pt too wide) in paragraph at lines 9--10
+[]\T1/ptm/m/n/12 With help of the pythagorean the-o-rem find the func-tion of a cir-cle with ori-gin at $\OML/ztmcm/m/it/12 O \OT1/ztmcm/m/n/12 = (\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 3\OML/ztmcm/m/it/12 =\OT1/ztmcm/m/n/12 2\OML/ztmcm/m/it/12 ; \OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1)$
+ []
+
 )
 
 
@@ -1396,47 +1390,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64.
- (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2] (./main-exe.aux)
+] (./main-exe.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main-exe.out' has not changed.
-(rerunfilecheck)             Checksum: E25D1439775342D9D44EBB12514A197B;372.
+(rerunfilecheck)             Checksum: CE7025360BEB52DDAB53B269CA7536C9;224.
 Package logreq Info: Writing requests to 'main-exe.run.xml'.
 \openout1 = `main-exe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45784 strings out of 473190
- 941481 string characters out of 5722593
- 1767021 words of memory out of 5000000
- 68385 multiletter control sequences out of 15000+600000
- 593531 words of font info for 90 fonts, out of 8000000 for 9000
+ 45610 strings out of 473190
+ 937717 string characters out of 5722593
+ 1750864 words of memory out of 5000000
+ 68218 multiletter control sequences out of 15000+600000
+ 586889 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,11n,135p,697b,1785s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-exe.pdf (2 pages, 91102 bytes).
+ 131i,11n,135p,697b,1779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-exe.pdf (1 page, 58975 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
