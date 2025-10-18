@@ -1,0 +1,93 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Context of the activity}
+
+An earthquake is the sudden release of energy accumulated within the Earth's tectonic plates. 
+This generates vibrations that propagate in the form of seismic waves. 
+Seismologists use scales such as the Richter scale to measure the strength of these phenomena.
+Table~\ref{tab:sismos-mexico} shows the dates, origin and magnitude of some earthquakes that have happened in Mexico.
+
+\begin{table}[ht!]
+\centering
+\begin{tabular}{c c c}
+\toprule
+\textbf{Date} & \textbf{Place} & \textbf{Magnitude} \\
+\midrule
+28 mar 1787 & Oaxaca coastline & 8.6 \\
+19 sep 1985 & Michoacán / CDMX & 8.1 \\
+7 sep 2017 & Gulf of Tehuantepec & 8.2 \\
+19 sep 2017 & Morelos-Puebla & 7.1 \\
+6 jul 1964 & Tierra Caliente & 7.2-7.3 \\
+23 ago 1965 & Oaxaca & 7.3-7.5 \\
+20 mar 2012 & South of Ometepec, Guerrero & 7.5-7.7 \\
+\bottomrule
+\end{tabular}
+    \caption{Major earthquakes in Mexico and the energy they release}\label{tab:sismos-mexico}
+\end{table}
+
+The Richter scale is based on a logarithmic function that relates the amplitude of the waves to a numerical magnitude. 
+For instance, an earthquake measuring 4.0 on the Richter scale may be perceived as a slight vibration indoors, whereas a magnitude of 6.0 could result in moderate damage to vulnerable structures. 
+In contrast, an earthquake measuring 8.0 or higher, such as the one that struck Michoacán in 1985, can be devastating.
+
+Using mathematical models such as the Gutenberg-Richter equation enables us to calculate the energy released during an earthquake and make quantitative comparisons between events. 
+According to Gutenberg-Richter's law, which describes the seismic distribution of magnitude and frequency in Mexico, the typical constants adjusted for the central region of the country\footnote{Equation retrieve from the journal of the Mexican geophysical union.~\href{https://revistagi.geofisica.unam.mx/index.php/RGI/article/download/1638/1789/1961}{Link to download the document}} are as follows:
+\begin{gather}
+    \log\qty[N(M)] = 4.54 - 0.55 M.\label{eqn:numer-magnitude}
+\end{gather}
+Where $N(M)$ represents the number of earthquakes at the same magnitude, $M$, as defined on the Richter scale.
+
+These models are essential for understanding the relationship between earthquake magnitude and the amount of energy released. 
+For example, an increase of one unit on the Richter scale implies that approximately 32 times more energy is released. 
+Therefore, a \num{7.0} magnitude earthquake releases energy equivalent to the explosion of \num{500 000} tons of TNT, whereas a \num{5.0} magnitude earthquake releases energy comparable to \num{500} tons of TNT.
+The algebraic expression that relates the energy released by an earthquake with the following equation,
+\begin{gather}
+    \log\qty[E] = 4.8 + 1.5 M.\label{eqn:energy-magnitude}
+\end{gather}
+Where $M$ is the magnitude of the earthquake in the Richter scale and $E$ is the energy in joules (force times distance).
+In this way, mathematics helps us not only to quantify natural phenomena, but also to prepare for their possible effects.
+
+\section{Activity}
+
+In this activity, we will use the given information to develop an understanding of how functions can be used to quantify natural phenomena.
+To do this, we will carry out the following:
+\begin{itemize}
+    \item Find the algebraic expression for the difference of energy between different magnitudes.
+    \item Calculate the energy of an earthquake in terms of the frequency of earthquakes of the same magnitude in Mexico.
+    \item Graph the functions and analize the order of magnitude of the energy.
+\end{itemize}
+
+\subsection{Algebraic tools}
+
+\begin{minipage}[c]{0.45\textwidth}
+    \centering
+    {\bfseries\large Laws of exponents}
+    \begin{align*}
+        a^r\cdot a^s = a^{r+s}, \quad & \qty(a^r)^s = a^{rs} \\
+        \frac{a^r}{a^s} = a^{r-s}, \quad & \qty(ab)^r = a^r b^r \\
+        \qty(\frac{a}{b})^r = \frac{a^r}{b^r},\quad & b\neq 0
+    \end{align*}
+\end{minipage}
+\begin{minipage}[c]{0.45\textwidth}
+    \centering
+    {\bfseries\large Laws of Logarithms}
+    \begin{align*}
+        \log_a\qty(AB) &= \log_a\qty(A) + \log_a\qty(B) \\
+        \log_a\qty(\frac{A}{B}) &= \log_a\qty(A) - \log_a\qty(B) \\
+        \log_a\qty(A^C) &= C\log_a\qty(A)
+    \end{align*}
+\end{minipage}
+
+\begin{minipage}[c]{\textwidth}
+    \centering
+    {\bfseries\large Inverse functions property}
+    \begin{gather*}
+        \qty(f\circ f^{-1})(x) = x = \qty(f^{-1}\circ f)(x)
+        \quad\rightarrow\quad
+        \log_a(a^x) = x = a^{\log_a(x)}
+    \end{gather*}
+\end{minipage}
+
+
+\end{document}

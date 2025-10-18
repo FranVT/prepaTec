@@ -1,0 +1,9 @@
+PWD /home/franpad/Documents/profeTec/activities/exp-log/docs
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT hwk4.tex
+OUTPUT hwk4.log
+INPUT /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/share/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/share/texmf-dist/tex/latex/import/import.sty

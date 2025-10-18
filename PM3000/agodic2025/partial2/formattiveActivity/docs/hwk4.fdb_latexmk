@@ -1,0 +1,14 @@
+# Fdb version 4
+["pdflatex"] 1741019678.98131 "hwk4.tex" "hwk4.pdf" "hwk4" 1741019679.22741 2
+  "/usr/share/texmf-dist/tex/latex/import/import.sty" 1736268207 6201 0ad8b5da8e12f60a88d546b2198a56f2 ""
+  "/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls" 1736268207 1507 57de335d88fde4e5c924dfed577fdb74 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1736268207 41588 b43d3e860a4f94167ee1e725ff526a72 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1740057649 8555711 8c7656ce1cc5d29393d2ac76d575348f ""
+  "hwk4.aux" 1741018141.02148 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "hwk4.tex" 1741019677.88957 1635 fc16bdb550b7b6eaac92c50b6ddfc173 ""
+  "main.tex" 0 -1 0 ""
+  (generated)
+  "hwk4.aux"
+  "hwk4.log"
+  "hwk4.pdf"
+  (rewritten before read)
