@@ -15,13 +15,13 @@ Table~\ref{tab:sismos-mexico} shows the dates, origin and magnitude of some eart
 \toprule
 \textbf{Date} & \textbf{Place} & \textbf{Magnitude} \\
 \midrule
-28 mar 1787 & Oaxaca coastline & 8.6 \\
-19 sep 1985 & Michoacán / CDMX & 8.1 \\
-7 sep 2017 & Gulf of Tehuantepec & 8.2 \\
+28 mar 1787 & Oaxaca coastline & $8.6$ \\
+19 sep 1985 & Michoacán / CDMX & $8.1$ \\
+7 sep 2017 & Gulf of Tehuantepec & $8.2$ \\
 19 sep 2017 & Morelos-Puebla & 7.1 \\
-6 jul 1964 & Tierra Caliente & 7.2-7.3 \\
-23 ago 1965 & Oaxaca & 7.3-7.5 \\
-20 mar 2012 & South of Ometepec, Guerrero & 7.5-7.7 \\
+6 jul 1964 & Tierra Caliente & $7.2-7.3$ \\
+23 ago 1965 & Oaxaca & $7.3-7.5$ \\
+20 mar 2012 & South of Ometepec, Guerrero & $7.5-7.7$ \\
 \bottomrule
 \end{tabular}
     \caption{Major earthquakes in Mexico and the energy they release}\label{tab:sismos-mexico}
@@ -51,14 +51,53 @@ In this way, mathematics helps us not only to quantify natural phenomena, but al
 \section{Activity}
 
 In this activity, we will use the given information to develop an understanding of how functions can be used to quantify natural phenomena.
-To do this, we will carry out the following:
+To do this we are going to make algebraic manipulations to the equations~\eqref{eqn:numer-magnitude} and~\eqref{eqn:energy-magnitude} to find the following:
 \begin{itemize}
     \item Find the algebraic expression for the difference of energy between different magnitudes.
-    \item Calculate the energy of an earthquake in terms of the frequency of earthquakes of the same magnitude in Mexico.
+\item Calculate the energy of an earthquake in terms of the frequency of earthquakes of the same magnitude in Mexico.
+    \item Find a relation between the energy and the number of earthquakes with the same magnitude.
     \item Graph the functions and analize the order of magnitude of the energy.
 \end{itemize}
+In order to accomplish does objectives, fulfill the tasks below.
+
+\subsection{Exploring with algebra}
+
+First, we will find the algebraic expression for the difference in energy between earthquakes of different magnitudes.
+Then we are going to express this difference in terms of energy and number of earthquakes with the same magnitude.
+\begin{enumerate}
+    \item Solve for $N(M)$ in equation~\eqref{eqn:numer-magnitude}
+    \item Solve for $E$ in equation~\eqref{eqn:energy-magnitude}
+    \item Compute the difference $E_2 - E_1$ using the previous result. You should arrive to \[E_2-E_1 = 10^{4.8}\qty[10^{1.5 M_2} - 10^{1.5 M_2}].\]
+    \item Compute the difference between $\log\qty[E_2] - \log\qty[E_1]$. You should get \[\frac{E_2}{E_2} = 10^{1.5(M_2-M_1)}.\]
+    \item Compute the difference $M_2-M_1$ using equation~\eqref{eqn:energy-magnitude}. You should get \[M_2-M_1 = \log\qty[\qty(\frac{E_2}{E_1})^{3/2}]\]
+    \item Compute the difference $M_2-M_1$ using equation~\eqref{eqn:numer-magnitude}. You should get \[M_2-M_1 = \log\qty[\qty(\frac{N(M_2)}{N(M_1)})^{-1/0.55}].\]
+    \item Using the two previous results, arrive at the following equation \[E_2 = \qty(\frac{N(M_2)}{N(M_1)})^{-2/(3\cdot 0.55)}E_1\]
+    \item Considering that 1 Ton of TNT releases \num{4.184d9} joules, use equation~\eqref{eqn:energy-magnitude}, to find the magnitude of an earthquake that releases the same amount of energy.
+\end{enumerate}
+
+\subsection{Exploring with graphs}
+
+Now we are going to explore the numeric values of the previous expressions.
+\begin{enumerate}
+    \item Using equation~\eqref{eqn:energy-magnitude}, compute the energy of the earthquakes shown in table~\ref{tab:sismos-mexico}.
+    \item Divide the previous result by \num{4.184d9}, to express the energy in tons of TNT.
+    \item Graph the numbers using Excel or by hand. Use logarithmic scale in the y axis.
+    \item Compute the energy difference between the earthequake of march 28 and august 23. Express the energy in tons of TNT.
+    \item Graph the equation~\eqref{eqn:energy-magnitude} for the earthquakes with magnitude $\{0,1,2,3,4,5,6,7,8,9,10\}$. Express the graph in terms of tons of TNT and use logarithmic scale in the $y$ axis.
+    \item Identify the range and domain of equation~\eqref{eqn:energy-magnitude} using the previous graph.
+\end{enumerate}
+
+\subsection{Delivery instructions}
+
+Upload a PDF document to Canvas containing the algebraic procedures.
+Please enclose your final answer in a box.
+Add the graphs and tables from the second part to the same document.
+Although this activity is to be completed individually, you can work in groups.
+Remember to include a cover page, and ensure your procedures are clear and orderly.
 
 \subsection{Algebraic tools}
+
+Finally, here are some algebraic properties that might be helpfull for the activity.
 
 \begin{minipage}[c]{0.45\textwidth}
     \centering

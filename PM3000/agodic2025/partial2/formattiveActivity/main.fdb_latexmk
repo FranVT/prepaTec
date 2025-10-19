@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1760816805.33728 0
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1760897149.16622 0
   "bibliografia.bib" 0 -1 0 ""
   "main.bcf" 0 -1 0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1760816802.71581 "main.tex" "main.pdf" "main" 1760816805.33773 0
+["pdflatex"] 1760897146.56182 "main.tex" "main.pdf" "main" 1760897149.16672 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1755987285 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1755987285 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1755987285 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -241,12 +241,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1756244919 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1756244907 2081310 e68edf219c85a2a72792d97bf1370bbc ""
-  "docs/hwk1.tex" 1760816801.56747 4654 5bffa76d9eb5903d59af98821454e4b9 ""
-  "main.aux" 1760816805.0504 1237 7e9b265890e6cc63705a8b4b3ce497c2 "pdflatex"
+  "docs/hwk1.tex" 1760897145.71924 7677 4d160fc0d0b85084b57a4cc9684a29ac ""
+  "main.aux" 1760897148.88925 1628 3a9c2145623981bc976069a63ebf45de "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.out" 1760816805.0524 393 0edae2f975eedbb5524f18d1a71db03d "pdflatex"
-  "main.run.xml" 1760816805.05701 2410 5d007915e52e7ddc92c5fc72353f53a1 "pdflatex"
-  "main.tex" 1760811992.98069 710 b98406b4a627f4132151904926fd3ffe ""
+  "main.out" 1760897148.89125 911 e7aca4b6154fe52d11e059ca9be5b72e "pdflatex"
+  "main.run.xml" 1760897148.89678 2410 5d007915e52e7ddc92c5fc72353f53a1 "pdflatex"
+  "main.tex" 1760887050.44134 710 b98406b4a627f4132151904926fd3ffe ""
   "tareaClass.cls" 1754763622.53384 4420 d4577e4e4e94da85af9dca14361f858c ""
   (generated)
   "main.aux"
