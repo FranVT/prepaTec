@@ -1,0 +1,114 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Property of logarithms}
+
+\paragraph{1} Reduce the following 
+
+\section{Solving equations}
+
+In this section are some solutions of different types of equations.
+
+\begin{prob}{Example of exponential equation}{se-expfunc}
+
+We are going to solve the following equation
+\begin{gather*}
+    8^{x-2} &= 3^{x+3}.
+\end{gather*}
+
+Since is an exponential function we apply a logarithmic function in order to apply logarithmic properties to manipulate the expression.
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Answer:}~(e^{2},1)
+\end{empheq}
+\end{prob}
+
+
+
+\section{Modelling with exponential and logarithmic functions}
+
+\subsection{Critical points}
+To find the critical point we need to remember that for exponential functions we equate the argument to $0$ and then for $x$.
+On the toher hand, for logarithmic functions we need to equate the argument of the function to \num{1} and solve for $x$.
+Finally, we substitue the value of $x$ into the function and find the value of $f(x)$.
+
+\begin{prob}{Example of exponential functions}{cp-expfunc}
+Lets find the critical point of 
+\begin{gather*}
+    f(x) = \exp\qty[e\ln(x)-2e]
+\end{gather*}
+
+Since the argument is $e\ln(x)-2e$, lets equate to $0$ and solve for $x$.
+\begin{align*}
+    e\ln(x)-2e &= 0\\
+    e\ln(x)-2e+2e &= 0+2e\\
+    e\ln(x) &= 2e \\
+    \frac{1}{e}e\ln(x) &= \frac{1}{e}2e \\
+    \ln(x) &= 2 \\
+    e^{\ln(x)} &= e^{2} \\
+    x &=e^{2}
+\end{align*}
+
+Now that we know the value of $x$, we can substitute this value into the original equation to find the value of $f(e^2)$.
+\begin{align*}
+    f(x) &= \exp\qty[e\ln(x)-2e] \\
+    f(e^{2}) &= \exp\qty[e\ln(e^{2})-2e] \\
+        &=\exp\qty[2e\ln(e)-2e] \\
+        &=\exp\qty[2e-2e] \\
+        &=\exp\qty[0] = e^{0} \\
+        &= 1.
+\end{align*}
+Hence the critical point is at $(e^{2},1)$.
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Critical~point~at:}~(e^{2},1)
+\end{empheq}
+\end{prob}
+
+
+\begin{prob}{Example of logarithmic functions functions}{cp-logfunc}
+Lets find the critical point of 
+\begin{gather*}
+        g(x) = \ln\qty[\exp[x^2]-8].
+\end{gather*}
+
+Since the argument is $\exp[x^2]-8=e^{x^2}$, lets equate to $1$ and solve for $x$.
+\begin{align*}
+    e^{x^2}-8 &= 1 \\
+    e^{x^2}-8+8 &= 1+8 \\
+    e^{x^2} &= 9 \\
+    \ln\qty[e^{x^2}] &= \ln\qty[9] \\
+    x^2\ln\qty[e] &= \ln\qty[9] \\
+    x^2 &= \ln\qty[9] \\
+    \qty(x^2)^{1/2} &= \qty(\ln\qty[9])^{1/2} \\
+    x^{\frac{2}{2}} &= \qty(\ln\qty[9])^{1/2} \\
+    x &= \sqrt{\ln\qty[9]}.
+\end{align*}
+
+Now that we know the value of $x$, we can substitute this value into the original equation to find the value of $f(\sqrt{\ln\qty[9]})$.
+\begin{align*}
+    g(x) &= \ln\qty[\exp[x^2]-8] \\
+    f(\sqrt{\ln\qty[9]}) &= \ln\qty[\exp[\qty(\sqrt{\ln\qty[9]})^2]-8] \\
+                         &= \ln\qty[\exp[\qty(\left(\ln\qty[9]\right)^{1/2})^2]-8] \\
+                        &= \ln\qty[\exp[\qty(\left(\ln\qty[9]\right)^{2/2})]-8] \\
+                        &= \ln\qty[\exp[\ln\qty[9]]-8] \\
+                        &= \ln\qty[9-8] \\
+                        &= \ln\qty[1] \\
+                        &= 0
+\end{align*}
+Hence the critical point is at $(\sqrt{\ln\qty[9]},0)$.
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Critical~point~at:}~(\sqrt{\ln\qty[9]},0)
+\end{empheq}
+\end{prob}
+
+
+
+
+
+\end{document}

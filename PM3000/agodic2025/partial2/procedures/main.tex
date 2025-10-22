@@ -1,0 +1,65 @@
+% Plantilla creada por Francisco Javier Vázquez Tavares
+% Esta platilla se creo para facilitar la creación de documentos para tareas.
+
+\documentclass{tareaClass}
+%\selectlanguage{spanish} 
+%\usepackage[spanish,onelanguage]{algorithm2e} %for psuedo code
+\usepackage{listings}
+%\usepackage{enumitem}
+
+% For newtcbtheorem
+\usepackage[most]{tcolorbox}
+\usepackage{cleveref}
+\usepackage{fancybox}		% Recuadros emph eqn
+
+\usepackage{empheq}			% Recuadros para ecuaciones
+
+
+\newtcbtheorem[]{prob}{Problem}%
+    {enhanced,
+    colback = black!5, %white,
+    colbacktitle = black!5,
+    coltitle = black,
+    boxrule = 0pt,
+    frame hidden,
+    borderline west = {0.5mm}{0.0mm}{black},
+    fonttitle = \bfseries\sffamily,
+    breakable,
+    before skip = 3ex,
+    after skip = 3ex
+}{def}
+
+
+
+\materia{Algebraic and Transcendental Functions}
+\profe{~}
+\title{ Procedures }
+
+\integrantes{~}
+\matriculas{~}
+
+\begin{document}
+
+\lhead{Algebraic and Transcendental Functions}
+\rhead{\today}
+
+\maketitle
+
+\section{Introduction}
+
+In this document you will find the procedure for some of the excercises seen during the course.
+The intention of this is to help you into develop math skills and also learn by coping the procedures.
+I hope this help you.
+
+\subfile{docs/hwk1.tex}
+%\subfile{docs/hwk2.tex}
+%\subfile{docs/hwk3.tex}
+%\subfile{docs/hwk4.tex}
+%\subfile{docs/hwk5.tex}
+%\subfile{docs/hwk6.tex}
+
+
+%\subfile{docs/quiz.tex}
+
+
+\end{document}
