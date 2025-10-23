@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761178412.74948 "main.tex" "main.pdf" "main" 1761178413.79652 0
+["pdflatex"] 1761184574.52034 "main.tex" "main.pdf" "main" 1761184575.55368 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1755987285 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1755987285 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1755987285 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -252,10 +252,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1760398330 325717 59a65e600f662ceace641c3ea8b5d4af ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1760398310 2008254 d218600e357139978942462103089165 ""
-  "docs/hwk1.tex" 1761178412.24681 12724 64485c8236e75a9ed40afe5b904828ed ""
-  "main.aux" 1761178413.72988 2294 6eda8582efbb7c43456e3b4cadfad3c1 "pdflatex"
-  "main.out" 1761178413.73147 858 de82d62fd004c9a4f5b98a70a3aa5c30 "pdflatex"
-  "main.tex" 1761177303.54585 1477 5627e98990b8a28dda7032a0fb135afb ""
+  "docs/hwk1.tex" 1761184573.84356 12617 dfe78a768958cdfc55760567b2f084c4 ""
+  "main.aux" 1761184575.48863 2458 9075afd39528d5b7da9788d592110228 "pdflatex"
+  "main.out" 1761184575.48969 858 de82d62fd004c9a4f5b98a70a3aa5c30 "pdflatex"
+  "main.tex" 1761183705.10313 1477 5627e98990b8a28dda7032a0fb135afb ""
   "tareaClass.cls" 1761177348.92699 4423 325f525c6505ee874486f1f03bdfe01e ""
   (generated)
   "main.aux"
