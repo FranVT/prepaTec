@@ -4,7 +4,56 @@
 
 \section{Property of logarithms}
 
-\paragraph{1} Reduce the following 
+{\bfseries\large Laws of Logarithms}
+    \begin{align*}
+        \log_a\qty(AB) &= \log_a\qty(A) + \log_a\qty(B) \\
+        \log_a\qty(\frac{A}{B}) &= \log_a\qty(A) - \log_a\qty(B) \\
+        \log_a\qty(A^C) &= C\log_a\qty(A)
+    \end{align*}
+
+\begin{prob}{Reducing logarithmic expressions}{pl-example1}
+\begin{align*}
+    &~\frac{1}{6}\left[\log_{8}\left[x\right]+\log_{8}\left[y+4\right]\right]-2\log_{8}\left[z-1\right]  \\
+    &~\frac{1}{6}\left[\log_{8}\left[x\right]+\log_{8}\left[y+4\right]\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\frac{1}{6}\log_{8}\left[x\right]+\frac{1}{6}\log_{8}\left[y+4\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[x^{1/6}\right]+\log_{8}\left[\left(y+4\right)^{1/6}\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[\left(x^{1/6}\right)\left(\left(y+4\right)^{1/6}\right)\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[\left(x\left(y+4\right)\right)^{1/6}\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[\frac{\left(x\left(y+4\right)\right)^{1/6}}{\qty(z-1)^2}\right]
+\end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \frac{1}{6}\left[\log_{8}\left[x\right]+\log_{8}\left[y+4\right]\right]-2\log_{8}\left[z-1\right] = \log_{8}\left[\frac{\left(x\left(y+4\right)\right)^{1/6}}{\qty(z-1)^2}\right]
+\end{empheq}
+\end{prob}
+
+
+
+\begin{comment}
+\begin{prob}{Reducing logarithmic expressions}{pl-example1}
+\begin{align*}
+    \log_{2}\left[2x+1\right] + \log_{2}\left[2x-1\right] &= 3 \\
+    \log_{2}\left[\qty(2x+1)\qty(2x-1)\right] &= 3 \\
+    2^{\log_{2}\left[\qty(2x+1)\qty(2x-1)\right]} &= 2^{3} \\
+    \qty(2x+1)\qty(2x-1) &= 2^{3} \\
+    4x^2-2x+2x-1 &= 8 \\
+    4x^2-1 &= 8 \\
+    4x^2-1+1 &= 8+1 \\
+    4x^2 &= 9 \\
+    \frac{1}{4}4x^2 &= \frac{1}{4}9 \\
+    x^2 &= \frac{9}{4} \\
+    \sqrt{x^2} &= \pm\sqrt{\frac{9}{4}} \\
+    x &= \pm\frac{\sqrt{9}}{\sqrt{4}} \\
+    x &= \pm\frac{3}{2}
+\end{align*}
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Answer:}~x = \frac{\ln\left[1728\right]}{\ln\left[\frac{8}{3}\right]}\approx\num{7.600425789}
+\end{empheq}
+\end{prob}
+\end{comment}
+
 
 \section{Solving equations}
 
