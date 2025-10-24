@@ -1,0 +1,258 @@
+\documentclass{tufte-handout}
+
+%\geometry{showframe}% for debugging purposes -- displays the margins
+
+\usepackage{amsmath}
+
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+\title{Some excercises}
+\author[The Tufte-LaTeX Developers]{The Tufte-\LaTeX\ Developers}
+\date{\today}  % if the \date{} command is left out, the current date will be used
+
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd,latexsym}
+\usepackage{physics}
+\usepackage{siunitx} 		% Permite utilizar el sistema internacional de unidades
+\usepackage{mathptmx}
+\usepackage{mathtools}
+\usepackage{cancel}
+\usepackage{centernot} 		% Notacion matematica
+\usepackage{empheq}			% Recuadros para ecuaciones
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+% Small sections of multiple columns
+\usepackage{multicol}
+
+% Provides paragraphs of dummy text
+\usepackage{lipsum}
+
+% These commands are used to pretty-print LaTeX commands
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+
+% For newtcbtheorem
+\usepackage[most]{tcolorbox}
+\usepackage{cleveref}
+\usepackage{fancybox}		% Recuadros emph eqn
+
+\usepackage{empheq}			% Recuadros para ecuaciones
+
+
+\newtcbtheorem[]{prob}{Problem}%
+    {enhanced,
+    colback = black!5, %white,
+    colbacktitle = black!5,
+    coltitle = black,
+    boxrule = 0pt,
+    frame hidden,
+    borderline west = {0.5mm}{0.0mm}{black},
+    fonttitle = \bfseries\sffamily,
+    breakable,
+    before skip = 3ex,
+    after skip = 3ex
+}{def}
+
+
+
+\begin{document}
+
+\section{Exponential and logarithmic equations}
+
+\begin{prob}{Change bsae formula}{pl-example1}
+    Use the change base equation to give an exact numeric value using natural logarithm of $\log_{4}\qty[3e^7+2]$.
+    
+    Recalling the base change formula,
+    \begin{gather}
+        \log_a[x] = \frac{\log_b[x]}{\log_b[a]}.
+    \end{gather}
+    Now we identify that $a=4$, $b=e$ and $x=3e^7+2$.
+    Replacing does values into the base change formula we get,
+    \begin{align*}
+        \log_{4}\qty[3e^7+2] &= \frac{\ln\left[3e^7+2\right]}{\ln\left[4\right]}
+    \end{align*}
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+\log_{4}\qty[3e^7+2] = \frac{\ln\left[3e^7+2\right]}{\ln\left[4\right]}
+\end{empheq}
+\end{prob}
+
+\begin{prob}{Solving exponential equations}{pl-example1}
+    Solve the following equation \[3^{2x}-6\cdot3^x=0.\]
+
+    We start by re-writting the expression with the help of the following property $a^{mn} = \left(a^{m}\right)^{n}$,
+    \begin{gather*}
+        \left(3^{x}\right)^2-6\cdot3^x=0.
+    \end{gather*}
+    Now, let's apply the following change of variable $a = 3^x$.
+    Hence, we can write the equation as,
+    \begin{gather*}
+        a^2-6\cdot a=0.
+    \end{gather*}
+    Now we have a quadratic equation.
+    We can apply the quadratic formula $a=-b\pm\sqrt{b^2-4ac}/(2a)$ to solve the quadratic equation.
+    However, since $c=0$, we can solve it very simple as follows,
+    \begin{align*}
+        a^2-6\cdot a&=0 \\
+        a^2&=6\cdot a \\
+        \frac{1}{a}\cdot a^2&=\frac{1}{a}\cdot6\cdot a \\
+        a&=6.
+    \end{align*}
+    Now that we have a numeric value for $a$, we can undo the change of variable and solve for $x$,
+    \begin{align*}
+        a &= 6 \\
+        3^x &= 6 \\
+        \log\left[3^x\right] &= \log\left[6\right] \\
+        x\log\left[3\right] &= \log\left[6\right] \\
+        x &= \frac{\log\left[6\right]}{\log\left[3\right]}
+    \end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    x = \frac{\log\left[6\right]}{\log\left[3\right]}
+\end{empheq}
+\end{prob}
+
+\marginpar{Note:
+    See how the answer is actually the change base formula applied to $\log_3\left[6\right]=\frac{\log\left[6\right]}{\log\left[3\right]}$.
+    This makes sense, since $\log_{3}[3^x]=x$.
+    Therefore, if you choose to applied $\log_3$ instead of $\log$ you will get the same answer.
+    However, to give a numeric value, you need to be able to use the base $3$ in your calculator.
+    If you dont have that option, then use the change base formula answer.
+}
+
+\begin{prob}{Solving logarithmic equation}{label}
+    Solve the following equation by finding the values of $x$ which the equation os true.
+    \[\log_6\qty[2x+2] + \log_2\qty[2x-2] = 4.\]
+
+    Let's start by reducing the logarithmic terms with the properties of logarithms and then solv for $x$.
+    \begin{align*}
+        \log_6\qty[2x+2] + \log_2\qty[2x-2] &= 4 \\
+        \log_6\qty[\qty(2x+2)\qty(2x-2)] &= 4 \\
+        6^{\log_6\qty[\qty(2x+2)\qty(2x-2)]} &= 6^{4} \\
+        \qty(2x+2)\qty(2x-2) &= 6^{4} \\
+        4x^2 -4x + 4x -4 &= 6^{4} \\
+        4x^2 -4 &= 6^{4} \\
+        4x^2 &= 6^{4}+4  \\
+        x^2 &= \frac{6^{4}+4}{4}  \\
+        x &= \pm 5\sqrt{13}.
+    \end{align*}
+
+    Now let's replace the numeric value into the original equation to see if both solutions are valid.
+    We start with the positive one,
+    \begin{align*}
+        \log_6\qty[2\cdot5\sqrt{13}+2] + \log_2\qty[2\cdot5\sqrt{13}-2] &\approx \num{2.030990} + \num{1.969009} \\
+                                                                        &\approx \num{3.999999}
+    \end{align*}
+    So this solution is valid.
+    Now let's try the negative solution,
+    \begin{align*}
+        \log_6\qty[2\cdot-5\sqrt{13}+2] + \log_2\qty[2\cdot-5\sqrt{13}-2] &= \log_{6}\qty[\num{-34.05}] + \log_{6}\qty[\num{-38.05}] \\
+                                                                          &= \mathrm{Math~error} + \mathrm{Math~error}.
+    \end{align*}
+    Since the logarithmic function is not defined for negativa numbers $x<0$, the second value is not a solution of the equation.
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    x = 5\sqrt{13}
+\end{empheq}
+
+
+\end{prob}
+
+\begin{prob}{Earthquakes}{labeln}
+An earthquake of magnitude 8.5 was detected in the coastline of Michoacan. Recalling that the energy releases by an earthquake is $\log[E]=4.8+1.5 M$. Express the answers in tones of TNT (1tone of TNT = \num{4.184d9}).
+\begin{itemize}
+    \item What is the release energy in tones of TNT?
+    \item What is the difference energy with an earthquake of magnitude 8.2?
+\end{itemize}
+
+    First we solve for the energy,
+    \begin{align*}
+        \log[E]=4.8+1.5 M\to E= 10^{4.8+1.5 M} = 10^{4.8}\cdot10^{1.5M}. 
+    \end{align*}
+
+    Now we can find the release energy in tones of TNT for an earthquake of magnitude \num{8.2}.
+    \begin{align*}
+        E_{8.5} &= 10^{4.8}\cdot10^{1.5\cdot8.5} \\
+                &= 10^{4.8}\cdot10^{12.75} \\
+                &\approx\num{3.548133d17}.
+    \end{align*}
+    Now let's express this number in tones of TNT by dividing the result over \num{4.184d9}.
+    \begin{align*}
+        E_{8.5} &\approx\frac{\approx\num{3.548133d17}}{\num{4.184d9}} \\
+                &\approx\num{84802413.96}.
+    \end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    E_{8.5}\approx\num{84802413.96}
+\end{empheq}
+
+    Now let's compute the difference energy between the earthquake of \num{8.5} with \num{8.2},
+    \begin{align*}
+        E_{8.5} - E_{8.2} &= 10^{4.8}\cdot10^{1.5\cdot8.5} - 10^{4.8}\cdot10^{1.5\cdot8.2} \\
+                          &\approx \num{3.548133d17} - \num{1.258925d17} \\
+                          &\approx\num{2.289208d17}.
+    \end{align*}
+
+    Now let's express the difference in terms of tones of TNT,
+    \begin{align*}
+        E_{8.5} - E_{8.2} &\approx\frac{\num{2.289208d17}}{\num{4.184d9}} \\
+                          &\approx\num{54713384.32}
+    \end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    E_{8.5} - E_{8.2} \approx\num{54713384.32}
+\end{empheq}
+
+    
+\end{prob}
+
+\paragraph{Exercise 1}
+Suppose that you invest \$500 at a annual interest rate of 1.5\%, compounded monthly. 
+\begin{itemize}
+    \item How long will it take for your money to be \$10 000?
+    \item How long will it take for your money to be \$10 000 if the rate is 3\%?
+\end{itemize}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+
+\paragraph{Exercise 2}
+The sound level $\beta$ in decibels (db), with and intensity I is given by $\beta(I)=10\log\qty[I/I_o]$ Where $I_o=\num{1d-12}$.
+\begin{itemize}
+    \item Calculate the sound level for a pneumatic drill that operates to and intensity of $I_o=\num{1d-12}$
+    \item Calculate the intensity of the pain threshold of 120 db
+\end{itemize}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+
+\paragraph{Exercise 3}
+Use the change base equation to give and exact numeric fraction using natural logarithm of $\log_2[2e^2]$
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+
+\paragraph{Exercise 4}
+Solve the following equation $6^{x-3}=2^{x+2}$.
+
+
+
+
+
+\end{document}
