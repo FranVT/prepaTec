@@ -1,0 +1,96 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Critical points}
+
+Now, we are going to practice the procedure to get the critical point of the exponential and the logarithmic functions.
+As an intuitively way to known what represent the critical point, we can make an analogy of the functions with ``hills''.
+The exponential functions grows \textit{very quickly} as $x$ increases, it is like climbing a hill that keeps getting steeper-there's no peak or flat spot.
+They're always rising (if the base is greater than 1) or always falling (if the base than 1) but never level off completely.
+On the other hand, the logarithmic functions grows \textit{slowly}, like walking up a hill that gradually flattens out, always increasing (for bases grater than 1) but never level off completely.
+The critical point, for exponential functions, is when the hill starts to grow \textit{too quickly} or, for the logarithmic function, it is when starts to grow \textit{slowly}.
+Now we are going to see the mathematical procedure to find the critical point for each function.
+
+\begin{example}{Critical point of exponential functions}{log-fun-def}
+
+To find the critical point of the exponential function, we need to equalize the argument of the function to $0$.
+That is, for a function $f(x) = a^x$, we set, $x=0$, hence, $f(0)=a^{0}=1$ and the critical point is $(0,1)$.
+Now, lets suppose, that the argument of the exponential function is another function, like this \[f(x)=a^{g(x)}.\]
+As before, we equate the argument of the exponential function to $0$, $g(x)=0$ and then we solve for $x$.
+
+\paragraph{(a)} Finding the critical point of $f(x)=e^{-(3x-4)}$.
+From that function, we identify the argument, $-(3x-4)$.
+Then, we equalized the argument to zero and solve for $x$,
+\begin{align*}
+    -(3x-4) &= 0 \\
+    -3x+4 &= 0 \\
+    x = \frac{4}{3}.
+\end{align*}
+Therefore, the critical point for $f(x)=e^{-(3x-4)}$ is $(4/3,1)$.
+
+\paragraph{(b)} Now lets compute the critical point of $f(x) = \exp\qty[\log\qty(x^2)+2]+8$,
+we known that the argument is $\log\qty(x^2)+2$, hence we do as follows,
+\begin{align*}
+    \log\qty(x^2)+2 &= 0 \\
+    \log\qty(x^2) &= -2 \\
+    10^{\log\qty(x^2)} &= 10^{-2} \\
+    x^2 &= 10^{-2} \\
+    \qty(x^2)^{1/2} &= \qty(10^{-2})^{1/2} \\
+    x &= 10^{-1} = 0.1.\\
+\end{align*}
+Hence, the critical point of the function $f(x) = \exp\qty[\log\qty(x^2)+2]+8$ is $(0.1,9)$.
+
+\end{example}
+
+\begin{example}{Critical point of logarithmic functions}{log-fun-def}
+
+To find the critical point of the logarithmic function, we need to equalize the argument of the function to $1$.
+This is, for a function $f(x)=\log_a(x)$, we set $x=1$, hence, $f(1)=0$, leading to the critical point $(1,0)$.
+Now, as before, let suppose that the argument of the logarithmic function is another function, \[f(x)=\log_a(g(x)).\]
+Following the steps, we equalize the argument to zero, $g(x)=0$ and then, solve for $x$.
+
+\paragraph{(a)} Now we are going to find the critical point of $f(x)=\log_3(x^2+2x+1)+4$.
+The argument of the logarithmic function is a quadratic function\footnote{You can use any techinque which you feel more comfortable, quadratic formula, factorization or any other.}, hence,
+\begin{align*}
+    x^2+2x+1 &= 1 \\
+    x^2+2x &= 0 \\
+    x(x+2) &= 0.
+\end{align*}
+The two values that fullfill the equation is $x=0$ and $x=-2$.
+Hence, we have two critical points, $(0,4)$ and $(-2,4)$.
+It is important to notice that we have two critical point, because the argument of the logarithmic function is a quadratic function, which has two solutions.
+
+\paragraph{(b)} For the last example lets try the following function $f(x)=\log_8(e^{1/x-2}-1)$.
+Now, the argument of the logarithmic function is $e^{1/x-2}-1$,
+\begin{align*}
+    e^{1/x-2}-1 &= 1 \\
+    e^{1/x-2} &= 2 \\
+    \ln\qty[e^{1/x-2}] &= \ln\qty[2] \\
+    \qty(\frac{1}{x}-2)\cancelto{1}{\ln\qty[e^1]} &= \ln\qty[2] \\
+    \frac{1}{x}-2 &= \ln\qty[2] \\
+    \frac{1}{x} &= \ln\qty[2] + 2\\
+    x &= \frac{1}{\ln\qty[2] + 2}.
+\end{align*}
+Finally, the critical point of the function $f(x)=\log_8(e^{1/x-2}-1)$ is $(\frac{1}{\ln\qty[2] + 2},0)$
+
+\end{example}
+
+\section{Exercises}
+
+Find the critical points of the following functions,
+\begin{enumerate}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $f(x)=\num{5d3}e^{0.5 x}$
+        \item $g(x)=-\log\qty[8x]$
+        \item $h(x)=500e^{-0.2 x + 3}+150$
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \item $m(x)=\log\qty[\num{1d3}e^{10 x}+100]$
+        \item $n(x)=3(x-3)e^{-5(x-3)}$
+        \item $p(x)=3(x-5)\log\qty[-1/2(x-5)]$
+    \end{minipage}
+\end{enumerate}
+
+
+\end{document}

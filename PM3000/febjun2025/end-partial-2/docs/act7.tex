@@ -1,0 +1,89 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Modeling with exponential functions: Compound Interest.}
+
+In this session we are going to see another application of the exponential functions, the compound interest.
+Lets assume that an ammount of money $P$ is invested at an interest rate $r$ per time period.
+If we want to know the amount of money that the interest ``creates'' after that time period, we can computed by adding the initial amount with the initial amount times the interest,
+\begin{align*}
+    \$ &= P + Pr \\
+       &= P\qty(1+r).
+\end{align*}
+Now, let say, that we re-invest the final ammount of money, $P\qty(1+r)$, for anothe period of time, that is,
+\begin{align*}
+    \$ &= P\qty(1+r) + P\qty(1+r)r \\
+       &= P\qty(1+r)\qty(1+r) \\
+       &= P\qty(1+r)^2.
+\end{align*}
+If we repeat the procedure a third time,
+\begin{align*}
+    \$ &= P\qty(1+r)^2 + P\qty(1+r)^2r \\
+       &= P\qty(1+r)^2\qty(1+r) \\
+       &= P\qty(1+r)^3.
+\end{align*}
+So we can get a general function that estimates the amount of money if we re-invest $k$ times the money,
+\begin{align*}
+    A = P\qty(1+i)^k.
+\end{align*}
+
+Now, we can think of the interest as an constant rate that is compounded $n$ times per year.
+That is, that a rate $r$ is going to be applied during a period of time in small $i$ portions $n$ times.
+For example, lets say that an annual interest rate $r$ is going to be applied during 6 months.
+The monthly interest $i$ is going to be applied $k=6$ times in amounts of $r/6$.
+Taking that into account we can generalize the function $A = P\qty(1+i)^k$ as follows,
+\begin{definition}{Compound Interest}{lbl}
+    \begin{gather*}
+        A(t) = P\qty(1+\frac{r}{n})^{nt}.
+    \end{gather*}
+    Where $A(t)$ is the amount of money after $t$ years,
+    $P$ is the initial amount of money,
+    $r$ is the interest rate per year (each year we are going to reach that interest),
+    $n$ is the number of times in which the rate is compounded per year,
+    and $t$ is the number of years.
+\end{definition}
+
+Now, lets see and example,
+\begin{example}{Time for an Investment to double}{label}
+A sum of \$5000 is investead at an interest rate of 5\% per year.
+Find the time required for the money to double if the interest is compounded semiannually (two times per year).
+
+Now, we need to identify the parameters of the function, that is, $P$, $r$ and $n$.
+Since the initial amount is \$5000, then $P=5000$. 
+Also, we are expecting a \%5 increase each year, we know that $r=0.05$.
+Finally, the interest rate ``executed'' twice a year, hence $n=2$.
+With all that information we have the following function,
+\begin{gather*}
+    A(t) = 5000\qty(1+\frac{0.05}{2})^{2t}.
+\end{gather*}
+
+To find the time in which the initial amount is double, we propose the following equation,
+\begin{gather*}
+    2(5000) = 5000\qty(1+\frac{0.05}{2})^{2t}.
+\end{gather*}
+Now, we solve for $t$,
+\begin{align*}
+    2(5000)& = 5000\qty(1+\frac{0.05}{2})^{2t} \\
+    \log\qty(2) &= \log\qty[\qty(1+\frac{0.05}{2})^{2t}] \\
+    \log\qty(2) &= 2t\log\qty[\qty(1+\frac{0.05}{2})] \\
+             2t &= \frac{\log\qty(2)}{\log\qty[\qty(1+\frac{0.05}{2})]} \\
+             t &= \frac{\log\qty(2)}{2\log\qty[\qty(1+\frac{0.05}{2})]} \\
+             t &\approx 14.035517
+\end{align*}
+
+
+\end{example}
+
+
+\section{Exercises}
+
+\paragraph{a)} Lets assume that a sum of \$1000 is invested at an interest rate of 12\% per year.
+Find the amounts in the account after 3 years if the interes is compounde annually, semiannually, quarterly, monthly and daily.
+
+\paragraph{b)} If \$\num{10000} is invested at an interest rate of 3\% per year, compounded semiannually, find the value of the investment after 5 years, 10 years and 15 years.
+
+\paragraph{c)} Find the time in which the initial amount of money is tripled compounded monthly with an interest rate of 3.8 \%.
+
+
+\end{document}

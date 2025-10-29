@@ -1,0 +1,102 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Exponential equations}
+
+\subsection{Examples}
+
+\paragraph{1} To solve the equation $5^{2x}=5^{x+1}$ we can use tha fact that is a bijective function, that is, is one to one.
+Since is a bijective function and have the same base, we can equal the exponents,
+\begin{gather*}
+    2x=x+1.
+\end{gather*}
+Now, we can apply algebra tools to solve for $x$,
+\begin{align*}
+    \qty(2x)-x &= \qty(x+1)-x \\
+    \cancelto{x}{2x-x} &= \cancelto{0}{x-x}+1 \\
+    x &= 1.
+\end{align*}
+Hence, the answer is $x=1$.
+To fact check tha answer, we can subsitute the value in the original equation,
+\begin{align*}
+    \left. 5^{2x}\right\bigg|_{x=1}=\left. 5^{x+1}\right\bigg|_{x=1} \\
+    5^{2\qty(1)}=5^{1+1} \\
+    5^{2}=5^{2}.
+\end{align*}
+Since both side of the equal sign are the same value we check that $x=1$ is a solution of the equation.
+
+This example is a special case, so now we are going to explore an other example to see if we can get a general and robust methodology to solve this type of equations.
+
+\paragraph{2} Consider the following equation $3^{x+2}=7$.
+For this case we are going to use the Product law of logarithms $\log\qty(x^a)=a\log(x)$.
+First, we apply the $\log$ function in both sides of the equation,
+\begin{align*}
+    3^{x+2} &= 7 \\
+    \log\qty(3^{x+2}) &= \log\qty(7) \\
+    \qty(x+2)\log\qty(3) &= \log\qty(7) \\
+    \qty(x+2) &= \frac{\log\qty(7)}{\log\qty(3)} \\
+    x + 2 &= \frac{\log\qty(7)}{\log\qty(3)} \\
+    x &= \frac{\log\qty(7)}{\log\qty(3)} -2.
+\end{align*}
+
+Check the answer by computing the numeric value using your calculator.
+
+\paragraph{Guidelines for solving Exponential equations} From the last example we can abstract the procedure to the following steps to solve any exponential equation,
+\begin{itemize}
+    \item Isolate the expnential expression on one side of the equation.
+    \item Take de logarithm of each side, then use the Laws of logarithms to reduce the expression.
+    \item Use algebra tools to solve for the variable.
+\end{itemize}
+
+\subsubsection{Some notes}
+
+\paragraph{Example 1} We can repeat the procedure of the second example for the first example as follows,
+\begin{align*}
+    5^{2x} &= 5^{x+1} \\
+    \log\qty(5^{2x}) &= \log\qty(5^{x+1}) \\
+    \qty(2x)\log\qty(5) &= \qty(x+1)\log\qty(5) \\
+    \frac{\qty(2x)}{\qty(x+1)} &= \cancelto{1}{\frac{\log\qty(5)}{\log\qty(5)}} \\
+    \frac{\qty(2x)}{\qty(x+1)} &= 1 \\
+    2x &= 1\qty(x+1) \\
+    2x-x &= 1 \\
+    x\cancelto{1}{\qty(2-1)} &= 1 \\
+    x &= 1.
+\end{align*}
+As we can see, we got the same result as before.
+Even though the procedure seems to be mor laborious, is much more robust than the one used in the first example.
+
+\paragraph{Example 2} In this example we saw how we can use the logarithms properties to solve an exponential equation.
+However we use the logarithmic function with base $10$ ($\log$).
+Now we are going to explore to use the fact of inverse function between the logarithmic and exponential functions.
+Recalling that $\log_a(a^x) = x$ and that $a^{\log_a(x)} = x$, we can solve the second example as follows,
+\begin{align*}
+    3^{x+2} &= 7 \\
+    \log_3\qty(3^{x+2}) &= \log_3\qty(7) \\
+    \qty(x+2)\log_3\qty(3) &= \log_3\qty(7), 
+\end{align*}
+analysing the factor $\log_3\qty(3)$, we can use the property of the inverse function, $\log_3\qty(3)=1$,
+\begin{align*}
+    \qty(x+2)\cancelto{1}{\log_3\qty(3)} &= \log_3\qty(7) \\
+    x+2 &= \log_3\qty(7) \\
+    x &= \log_3\qty(7) - 2.
+\end{align*}
+If we cant to compute the numeric value of that expression we can use the change of base formula,
+\begin{align*}
+    x &= \log_3\qty(7) - 2 \\
+      &= \frac{\log(7)}{\log(3)} -2.
+\end{align*}
+Which is exactly the same value as before.
+
+\subsection{Exerceises}
+Solve the following equations,
+\begin{enumerate}
+    \item $8e^{2x} = 20$
+    \item $e^{3-2x} = 4$
+    \item $e^{2x}-e^{x}-6=0$
+    \item $3xe^x + x^2e^x = 0 $
+\end{enumerate}
+
+Be careful with excercises 2 and 4.
+
+\end{document}
