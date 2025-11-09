@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tufte Essay
+% LaTeX Template
+% Version 2.0 (19/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% The Tufte-LaTeX Developers (https://www.ctan.org/pkg/tufte-latex)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% Apache License, version 2.0
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{tufte-handout} % Use A4 paper by default, remove 'a4paper' for US letter
+
+\usepackage{graphicx} % Required for including images
+\setkeys{Gin}{width=\linewidth, totalheight=\textheight, keepaspectratio} % Default images settings
+\graphicspath{{Figures/}{./}} % Specifies where to look for included images (trailing slash required)
+
+\usepackage{booktabs} % Required for better horizontal rules in tables
+
+\usepackage{subfiles}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{Algebraic and Transcendental functions}
+
+\author{Francisco Vazquez-Tavares}
+
+\date{Last compilation: \today} % Date, use \date{} for no date
+
+
+%----------------------------------------------------------------------------------------
+%	COMMANDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT/SUMMARY
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+	\textbf{Objective:} Practice for PrepaTec avanza and Final exam
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\section{Algebra skills}
+
+Simplify the following expresisons,
+\begin{align*}
+    1) &\quad x-\left[ 3a + 2(-x+1)\right], \\
+    2) &\quad -\left[3x-2y+(x+2y)-2(x+y)-3(x+1)\right], \\
+    3) &\quad a-(x+y) -3(x-y) +2\left[-(x-2y)-2(-x-y)\right].
+\end{align*}
+
+Find all real zeros of the following polynomials,
+\begin{align*}
+    1) &\quad P(x) = 3x^3 + 5x^2 -2x - 4 \\
+    2) &\quad P(x) = 3x^4 -5x^3 -16x^2 +7x + 15 \\
+    3) &\quad P(x) = x^4 -6x^3 + 4x^2 +15 x + 4 \\
+    4) &\quad P(x) = 3x^3 + 4x^2 -x -2 
+\end{align*}
+
+\section{Function analysis}
+
+Mention the domain and range of the following functions,
+\begin{align*}
+    1) \quad f(x) = \sqrt{x^2 -1}, \qquad 
+    2) \quad g(x) = \frac{2}{x(3x+5)}, \qquad
+    3) \quad h(x) = -\frac{3}{2}x^2.
+\end{align*}
+
+\section{Modelling with math}
+
+\paragraph{a)} A school fund-raising group sells chocolate bars to help ﬁnance a swimming pool for their physical education program. 
+The group ﬁnds that when they set their price at $x$ dollars per bar (where $0<x\leq5$), their total sales revenue (in dollars) is given by the function $R(x) = -500x^2 + 3000x$.
+\begin{itemize}
+    \item Evaluate $R(2)$ and $R(4)$. What do these values represent?
+    \item How many bars they need to sell to get even?
+\end{itemize}
+
+\paragraph{b)}  A right triangle has one leg twice as long as the other. Find a function that
+­models its perimeter P in terms of the length x of the shorter leg.
+
+\paragraph{c)} A Norman window has the shape of a rectangle surmounted by a semicircle. 
+A Norman window with perimeter 30 ft is to be constructed.
+\begin{itemize}
+    \item Find a function that models the area of the window.
+    \item Find the dimensions of the window that admits the greatest amount of light.
+\end{itemize}
+
+
+
+\end{document}

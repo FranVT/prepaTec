@@ -1,0 +1,307 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Property of logarithms}
+
+{\bfseries\large Laws of Logarithms}
+    \begin{align*}
+        \log_a\qty(AB) &= \log_a\qty(A) + \log_a\qty(B) \\
+        \log_a\qty(\frac{A}{B}) &= \log_a\qty(A) - \log_a\qty(B) \\
+        \log_a\qty(A^C) &= C\log_a\qty(A)
+    \end{align*}
+
+\begin{prob}{Reducing logarithmic expressions}{pl-example1}
+\begin{align*}
+    &~\frac{1}{6}\left[\log_{8}\left[x\right]+\log_{8}\left[y+4\right]\right]-2\log_{8}\left[z-1\right]  \\
+    &~\frac{1}{6}\left[\log_{8}\left[x\right]+\log_{8}\left[y+4\right]\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\frac{1}{6}\log_{8}\left[x\right]+\frac{1}{6}\log_{8}\left[y+4\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[x^{1/6}\right]+\log_{8}\left[\left(y+4\right)^{1/6}\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[\left(x^{1/6}\right)\left(\left(y+4\right)^{1/6}\right)\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[\left(x\left(y+4\right)\right)^{1/6}\right]-\log_{8}\left[\qty(z-1)^2\right] \\
+    &~\log_{8}\left[\frac{\left(x\left(y+4\right)\right)^{1/6}}{\qty(z-1)^2}\right]
+\end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \frac{1}{6}\left[\log_{8}\left[x\right]+\log_{8}\left[y+4\right]\right]-2\log_{8}\left[z-1\right] = \log_{8}\left[\frac{\left(x\left(y+4\right)\right)^{1/6}}{\qty(z-1)^2}\right]
+\end{empheq}
+\end{prob}
+
+
+
+
+\section{Solving equations}
+
+In this section are some solutions of different types of equations.
+
+\begin{prob}{Example of exponential equation}{se-expfunc}
+We are going to solve the following equation
+\begin{gather*}
+    8^{x-2} = 3^{x+3}.
+\end{gather*}
+Since is an exponential function we apply a logarithmic function in order to apply logarithmic properties to manipulate the expression.
+\begin{align*}
+    \ln\left[8^{x-2}\right] &= \ln\left[3^{x+3}\right] \\
+    (x-2)\ln\left[8\right] &= (x+3)\ln\left[3\right] \\
+    x\ln\left[8\right]-2\ln\left[8\right] &= x\ln\left[3\right]+3\ln\left[3\right] \\
+    x\ln\left[8\right]-\ln\left[8^2\right] &= x\ln\left[3\right]+\ln\left[3^3\right] \\
+    x\ln\left[8\right]-\ln\left[8^2\right]+\ln\left[8^2\right] &= x\ln\left[3\right]+\ln\left[3^3\right]+\ln\left[8^2\right] \\
+    x\ln\left[8\right] &= x\ln\left[3\right]+\ln\left[3^3\right]+\ln\left[8^2\right] \\
+    x\ln\left[8\right]-x\ln\left[3\right] &= x\ln\left[3\right]-x\ln\left[3\right]+\ln\left[3^3\right]+\ln\left[8^2\right] \\
+    x\ln\left[8\right]-x\ln\left[3\right] &= \ln\left[3^3\right]+\ln\left[8^2\right] \\
+    x\left(\ln\left[8\right]-\ln\left[3\right]\right) &= \ln\left[3^3\right]+\ln\left[8^2\right] \\
+    x\ln\left[\frac{8}{3}\right] &= \ln\left[3^3\cdot8^2\right] \\
+    x\ln\left[\frac{8}{3}\right]\frac{1}{\ln\left[\frac{8}{3}\right]} &= \ln\left[3^3\cdot8^2\right]\frac{1}{\ln\left[\frac{8}{3}\right]} \\
+    x &= \frac{\ln\left[3^3\cdot8^2\right]}{\ln\left[\frac{8}{3}\right]}\approx\num{7.600425789}
+\end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Answer:}~x = \frac{\ln\left[1728\right]}{\ln\left[\frac{8}{3}\right]}\approx\num{7.600425789}
+\end{empheq}
+\end{prob}
+
+\begin{prob}{Example of logrithmic equation}{se-logfunc1}
+We are going to solve the following equation
+\begin{gather*}
+    \log_2\qty[x+1] + \log_2\qty[x-1] = 3.
+\end{gather*}
+Let's start by reducing the logarithms and then solve for $x$,
+\begin{align*}
+    \log_2\qty[x+1] + \log_2\qty[x-1] &= 3 \\
+    \log_2\qty[\qty(x+1)\qty(x-1)] &= 3 \\
+    2^{\log_2\qty[\qty(x+1)\qty(x-1)]} &= 2^{3} \\
+    \qty(x+1)\qty(x-1) &= 2^3 \\
+    x^2-x+x-1 &= 2^3 \\
+    x^2-1 &= 2^3 \\
+    x^2-1+1 &= 2^3+1 \\
+    x^2 &= 9 \\
+    \sqrt{x^2} &= \pm\sqrt{9} \\
+    x &= \pm 3
+\end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Answer:}~x = \pm3
+\end{empheq}
+\end{prob}
+
+
+\begin{prob}{Example of logarithmic equation 2}{se-logfunc2}
+\begin{align*}
+    \log_{2}\left[2x+1\right] + \log_{2}\left[2x-1\right] &= 3 \\
+    \log_{2}\left[\qty(2x+1)\qty(2x-1)\right] &= 3 \\
+    2^{\log_{2}\left[\qty(2x+1)\qty(2x-1)\right]} &= 2^{3} \\
+    \qty(2x+1)\qty(2x-1) &= 2^{3} \\
+    4x^2-2x+2x-1 &= 8 \\
+    4x^2-1 &= 8 \\
+    4x^2-1+1 &= 8+1 \\
+    4x^2 &= 9 \\
+    \frac{1}{4}4x^2 &= \frac{1}{4}9 \\
+    x^2 &= \frac{9}{4} \\
+    \sqrt{x^2} &= \pm\sqrt{\frac{9}{4}} \\
+    x &= \pm\frac{\sqrt{9}}{\sqrt{4}} \\
+    x &= \pm\frac{3}{2}
+\end{align*}
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    x = \pm\frac{3}{2}
+\end{empheq}
+\end{prob}
+
+
+
+
+\subsection{Critical points}
+To find the critical point we need to remember that for exponential functions we equate the argument to $0$ and then for $x$.
+On the toher hand, for logarithmic functions we need to equate the argument of the function to \num{1} and solve for $x$.
+Finally, we substitue the value of $x$ into the function and find the value of $f(x)$.
+
+\begin{prob}{Example of exponential functions}{cp-expfunc}
+Lets find the critical point of 
+\begin{gather*}
+    f(x) = \exp\qty[e\ln(x)-2e]
+\end{gather*}
+
+Since the argument is $e\ln(x)-2e$, lets equate to $0$ and solve for $x$.
+\begin{align*}
+    e\ln(x)-2e &= 0\\
+    e\ln(x)-2e+2e &= 0+2e\\
+    e\ln(x) &= 2e \\
+    \frac{1}{e}e\ln(x) &= \frac{1}{e}2e \\
+    \ln(x) &= 2 \\
+    e^{\ln(x)} &= e^{2} \\
+    x &=e^{2}
+\end{align*}
+
+Now that we know the value of $x$, we can substitute this value into the original equation to find the value of $f(e^2)$.
+\begin{align*}
+    f(x) &= \exp\qty[e\ln(x)-2e] \\
+    f(e^{2}) &= \exp\qty[e\ln(e^{2})-2e] \\
+        &=\exp\qty[2e\ln(e)-2e] \\
+        &=\exp\qty[2e-2e] \\
+        &=\exp\qty[0] = e^{0} \\
+        &= 1.
+\end{align*}
+Hence the critical point is at $(e^{2},1)$.
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Critical~point~at:}~(e^{2},1)
+\end{empheq}
+\end{prob}
+
+
+\begin{prob}{Example of logarithmic functions functions}{cp-logfunc}
+Lets find the critical point of 
+\begin{gather*}
+        g(x) = \ln\qty[\exp[x^2]-8].
+\end{gather*}
+
+Since the argument is $\exp[x^2]-8=e^{x^2}$, lets equate to $1$ and solve for $x$.
+\begin{align*}
+    e^{x^2}-8 &= 1 \\
+    e^{x^2}-8+8 &= 1+8 \\
+    e^{x^2} &= 9 \\
+    \ln\qty[e^{x^2}] &= \ln\qty[9] \\
+    x^2\ln\qty[e] &= \ln\qty[9] \\
+    x^2 &= \ln\qty[9] \\
+    \qty(x^2)^{1/2} &= \qty(\ln\qty[9])^{1/2} \\
+    x^{\frac{2}{2}} &= \qty(\ln\qty[9])^{1/2} \\
+    x &= \sqrt{\ln\qty[9]}.
+\end{align*}
+
+Now that we know the value of $x$, we can substitute this value into the original equation to find the value of $f(\sqrt{\ln\qty[9]})$.
+\begin{align*}
+    g(x) &= \ln\qty[\exp[x^2]-8] \\
+    f(\sqrt{\ln\qty[9]}) &= \ln\qty[\exp[\qty(\sqrt{\ln\qty[9]})^2]-8] \\
+                         &= \ln\qty[\exp[\qty(\left(\ln\qty[9]\right)^{1/2})^2]-8] \\
+                        &= \ln\qty[\exp[\qty(\left(\ln\qty[9]\right)^{2/2})]-8] \\
+                        &= \ln\qty[\exp[\ln\qty[9]]-8] \\
+                        &= \ln\qty[9-8] \\
+                        &= \ln\qty[1] \\
+                        &= 0
+\end{align*}
+Hence the critical point is at $(\sqrt{\ln\qty[9]},0)$.
+
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    \mathrm{Critical~point~at:}~(\sqrt{\ln\qty[9]},0)
+\end{empheq}
+\end{prob}
+
+
+
+\section{Modelling with exponential and logarithmic functions}
+
+In this section are applications of the exponential and logarithmic functions.
+
+\begin{prob}{Example of logarithmic functions functions}{cp-logfunc}
+The half-life of Radium-266 is 1600 years. Suppose that there is a sample of 22mg. Recalling that the mass decays exponentially, fulfill the following points 
+\begin{itemize}
+    \item Write the function that models the remaining mass after $t$ years 
+    \item How much mass will remain after 4000 years? 
+    \item How much time will it take for the sample to be only 10 mg.
+\end{itemize}
+
+\paragraph{Writting the function that models the remaining mass after $t$ years} Let's recall the algebraic expression for exponential decay,
+\begin{gather*}
+    m(t) = m_o e^{-rt}.
+\end{gather*}
+Where $m(t)$ is the mass at a time $t$, $m_o$ is the mass at the time $t=0$, $r$ is the rate of decay and $t$ is time.
+We need tofind the numeric values of $m_o$ and $r$ in order to write the function that models the remaining mass after $t$ years.
+To find $r$ we can use the sentence \textit{The half-life of Radium-266 is 1600 years}, to write the following equation,
+\begin{gather*}
+    m(1600) = \frac{m_o}{2} = m_o e^{-r\cdot1600}.
+\end{gather*}
+Altough the initial mass was given, we don't need it, because $m_o$ cancels out during the process of solving for $r$,
+\begin{align*}
+    \frac{m_o}{2} &= m_o e^{-rt} \\
+    \frac{1}{m_o}\frac{m_o}{2} &= \frac{1}{m_o}m_o e^{-rt} \\
+    \frac{1}{2} &= e^{-r\cdot1600} \\
+    \ln\left[\frac{1}{2}\right] &= \ln\left[e^{-r\cdot1600}\right] \\
+    \ln\left[1\right]-\ln\left[2\right] &= \qty(-r\cdot1600)\ln\left[e\right] \\
+    \cancelto{0}{\ln\left[1\right]}-\ln\left[2\right] &= \qty(-r\cdot1600)\cancelto{1}{\ln\left[e\right]} \\
+    -\ln\left[2\right] &= \qty(-r\cdot1600) \\
+    -\frac{1}{1600}\ln\left[2\right] &= -r\cdot1600\cdot\frac{1}{1600} \\
+    -\frac{1}{1600}\ln\left[2\right] &= -r \\
+    -\frac{1}{1600}\ln\left[2\right]\cdot-1 &= -r\cdot-1 \\
+    \frac{1}{1600}\ln\left[2\right] &= r
+\end{align*}
+By finding the numeric value using a calculator we get $r\approx\num{4.332169d-4}$.
+
+Now that we known the rate, we only need to identify the initial mass from the given information.
+From the sentence \textit{Suppose that there is a sample of 22mg}, we can say that $m_o=22$.
+Therefore the function that models the remaining mass after $t$ years is,
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    m(t) = 22e^{-\num{4.332169d-4}t}.
+\end{empheq}
+
+A more elegant expression will be,
+\begin{align*}
+    m(t) &= 22e^{-\frac{1}{1600}\ln\left[2\right]t} \\
+         &= 22\left(e^{\ln\left[2\right]}\right)^{-\frac{1}{1600}t} \\
+         &= 22\left(2\right)^{-t/1600}
+\end{align*}
+
+\paragraph{How much mass will remain after 4000 years?} We are going to use both equaitons to find the remaining mass at time $t=\num{4d3}$ years.
+Let's start with the conventional one,
+\begin{align*}
+    m(\num{4d3}) &= 22e^{-\num{4.332169d-4}\cdot\num{4d3}} \\
+                 &= 22e^{-(4.332169\cdot4)\times10^{-4+3}} \\
+                 &= 22e^{-(17.328676)\times10^{-1}} \\
+                 &= 22e^{-1.7328676} \\
+                 &= 22e^{-1.7328676} \\
+                 &\approx 3.889088 
+\end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    m(\num{4d3}) \approx 3.889088.
+\end{empheq}
+
+Now let's use the elegant result,
+\begin{align*}
+    m(\num{4d3}) &= 22\left(2\right)^{-\num{4d3}/1600} \\
+         &= 22\left(2\right)^{-2.5} \\
+         &\approx 3.889087
+\end{align*}
+We can see that are almost the same, where the difference is $0.000001$.
+
+\paragraph{How much time will it take for the sample to be only 10 mg} finally, we are going to solve for $t$ in order to find the time at which $m(t)=10$.
+We start we the conventional answer,
+\begin{align*}
+    10 &= 22e^{-\num{4.332169d-4}t} \\
+    10\frac{1}{22} &= 22\frac{1}{22}e^{-\num{4.332169d-4}t} \\
+    \frac{10}{22} &= e^{-\num{4.332169d-4}t} \\
+    \ln\left[\frac{5}{11}\right] &= \ln\left[e^{-\num{4.332169d-4}t}\right] \\
+    \ln\left[\frac{5}{11}\right] &= \left(-\num{4.332169d-4}t\right)\ln\left[e\right] \\
+    \ln\left[\frac{5}{11}\right] &= -\num{4.332169d-4}t \\
+    \frac{1}{-\num{4.332169d-4}}\ln\left[\frac{5}{11}\right] &= \frac{1}{-\num{4.332169d-4}}\cdot-\num{4.332169d-4}t \\
+    \frac{1}{-\num{4.332169d-4}}\ln\left[\frac{5}{11}\right] &= t \\
+    1820.207264 &\approx t
+\end{align*}
+
+\begin{empheq}[box=\shadowbox]{equation*}
+    m(1820.207264) \approx 10.
+\end{empheq}
+
+Finally, let's use the elegant expression,
+\begin{align*}
+    10 &= 22\left(2\right)^{-t/1600} \\
+    \frac{1}{22}10 &= \frac{1}{22}22\left(2\right)^{-t/1600} \\
+    \frac{10}{22} &= 2^{-t/1600} \\
+    \log\left[\frac{5}{11}\right] &= \log\left[2^{-t/1600}\right] \\
+    \log\left[\frac{5}{11}\right] &= \left(-\frac{t}{1600}\right)\log\left[2\right] \\
+    \log\left[\frac{5}{11}\right]\frac{1}{\log\left[2\right]} &= \left(-\frac{t}{1600}\right)\log\left[2\right]\frac{1}{\log\left[2\right]} \\
+    \frac{\log\left[\frac{5}{11}\right]}{\log\left[2\right]} &= \left(-\frac{t}{1600}\right) \\
+    -1600\cdot\frac{\log\left[\frac{5}{11}\right]}{\log\left[2\right]} &= (-1600)\left(-\frac{t}{1600}\right) \\
+    -1600\cdot\frac{\log\left[\frac{5}{11}\right]}{\log\left[2\right]} &= t \\
+    1820.005638\approx t
+\end{align*}
+We see now that the difference is $0.201626$ years, that would be 78.9349 days or 78 days, 22 hours, 26 minutes and 15 seconds.
+
+\end{prob}
+
+
+
+\end{document}
