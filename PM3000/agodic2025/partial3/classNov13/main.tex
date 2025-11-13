@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tufte Essay
+% LaTeX Template
+% Version 2.0 (19/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% The Tufte-LaTeX Developers (https://www.ctan.org/pkg/tufte-latex)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% Apache License, version 2.0
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{tufte-handout} % Use A4 paper by default, remove 'a4paper' for US letter
+
+\usepackage{graphicx} % Required for including images
+\setkeys{Gin}{width=\linewidth, totalheight=\textheight, keepaspectratio} % Default images settings
+\graphicspath{{Figures/}{./}} % Specifies where to look for included images (trailing slash required)
+
+\usepackage{booktabs} % Required for better horizontal rules in tables
+
+\usepackage{subfiles}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{Algebraic and Transcendental functions}
+
+\author{Professor: Francisco Vazquez-Tavares}
+
+\date{Last compilation: \today} % Date, use \date{} for no date
+
+
+%----------------------------------------------------------------------------------------
+%	COMMANDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT/SUMMARY
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+    \textbf{\large Name: }\hfill November 13, 2025
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+
+\marginpar{
+    {\bfseries\Large Algebra Toolkit}
+
+    {\bfseries\large Algebra properties}
+    \begin{gather*}
+        a+b = b+a, \\
+        \qty(a+b)+c = a+\qty(b+c), \\
+        a\qty(b+c) = ab+ac, \\
+        \frac{a}{b} + \frac{c}{d} = \frac{ad+bc}{bd}, \quad
+        \frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}, \\
+        \frac{-a}{b} = -\frac{a}{b} = \frac{a}{-b}, \\
+        \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{ad}{bc}
+        \\
+        \sqrt{ab} = \sqrt{a}\sqrt{b},\quad
+        \sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}},\quad
+        \sqrt[n]{a} = a^{1/n}
+        \\
+        x=\frac{-b\pm\sqrt{b^2-4ac}}{2a},\\
+        a^2-b^2 = \qty(a-b)\qty(a+b)
+    \end{gather*}
+    
+    {\bfseries\large Laws of exponents}
+    \begin{align*}
+        a^r\cdot a^s = a^{r+s}, \quad & \qty(a^r)^s = a^{rs} \\
+        \frac{a^r}{a^s} = a^{r-s}, \quad & \qty(ab)^r = a^r b^r \\
+        \qty(\frac{a}{b})^r = \frac{a^r}{b^r},\quad & b\neq 0
+    \end{align*}
+
+    {\bfseries\large Laws of Logarithms}
+    \begin{align*}
+        \log_a\qty(AB) &= \log_a\qty(A) + \log_a\qty(B) \\
+        \log_a\qty(\frac{A}{B}) &= \log_a\qty(A) - \log_a\qty(B) \\
+        \log_a\qty(A^C) &= C\log_a\qty(A)
+    \end{align*}
+
+    {\bfseries\large Inverse functions property}
+    \begin{gather*}
+        \qty(f\circ f^{-1})(x) = x = \qty(f^{-1}\circ f)(x) \\
+        \log_a(a^x) = x = a^{\log_a(x)}
+    \end{gather*}
+}
+
+\section{Algebra skills}
+
+Use the properties of logarithms to condense the following logarithmic expression.
+To show the use of each property, write each step of the process.
+\begin{gather*}
+    \frac{1}{5}\left[ \log_8\qty(y) + 2\log_8\qty(y+4) - \log_8\qty(y-1) + \log_8\qty(\sqrt[3]{y}) \right]
+\end{gather*}
+
+
+Combine the functions $f(x) = x^2+1$ and $g(x)=x-4$, according to the indicated operation,
+\begin{itemize}
+    \item $(f-g)(x)$
+    \item $\left(f\cdot g\right)\left(-4\right)$
+\end{itemize}
+
+Solve the following equations,
+\begin{align*}
+    (\mathrm{a})\quad & 4^{x+1}\ln\qty(30) = 10 \\
+    (\mathrm{b})\quad & e^{x^2+6} - e^x= 0 
+\end{align*}
+
+\section{Function analysis}
+
+Determine algebraically whether the two given functions are the inverse of each other or not.
+Justify your answer with $f(g(x))$ and $g(f(x))$,
+\begin{gather*}
+    f(x) = 1 +x^3,\quad g(x)=\sqrt[3]{1+x}.
+\end{gather*}
+
+Find all the asymptotes, $x$ and $y$ interceptions of the following function, domain and range,
+\begin{gather*}
+    f(x) = \frac{x+6}{5+3x}
+\end{gather*}
+
+
+\section{Modelling with math}
+
+\paragraph{Gym subscription.} A monthly subscription for a gym cost is \$380 if the package is for 6 months or less.
+If you buy a subscription for more than 7 months up to 12 months, the monthly cost reduces to \$300, and if you buy a subscription for any period longer than a year, the monthly cost further reduces to \$250.
+Determine the piecewise function that corresponds to the situation and sketch its graph.
+
+\paragraph{Radioactive decay.} A sample of a radioactive substance has an initial mass of \SI{763.3}{\milli\gram}.
+This substance follows a continouos exponential decay model and has a half-life of 5 days.
+\begin{itemize}
+    \item Which is the decay rate (as percentage of the tenth)?
+    \item How much will be present in 22 days?
+    \item How much time will it take to reach \SI{60}{\milli\gram}
+\end{itemize}
+
+%\newpage
+
+\marginpar{
+    {\bfseries\Large Conic Sections}
+
+    {\large Standard form of a circle}
+    \begin{gather*}
+        (x-h)^2 + (y-k)^2 = r^2
+    \end{gather*}
+
+    {\large Standard form of a parabola}
+    \begin{gather*}
+        (x-h) = 4a(y-k)^2,~\mathrm{or}~(y-k) = 4a(x-h)^2
+    \end{gather*}
+
+    {\large Standard form of an ellipse}
+    \begin{gather*}
+        \frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} =1
+    \end{gather*}
+
+    {\large Standard form of a hyperbola}
+    \begin{gather*}
+        \frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} =1
+    \end{gather*}
+
+}
+
+\section{Conic sections}
+
+Identifty the type of conic section and find the following,
+
+\vspace{2em}
+
+\begin{minipage}[c]{0.45\textwidth}
+\begin{itemize}
+    \item If is a circle,
+        \begin{enumerate}
+            \item Center
+            \item Radius
+        \end{enumerate}
+    \item If is parabola
+        \begin{enumerate}
+            \item Vertex
+            \item Focus
+            \item Directrix
+        \end{enumerate}
+\end{itemize}
+\end{minipage}
+\begin{minipage}[c]{0.45\textwidth}
+\begin{itemize}
+    \item If is an ellipse
+        \begin{enumerate}
+            \item Center 
+            \item Focus (2)
+            \item Semi-axis (2)
+        \end{enumerate}
+    \item If is a hyperbola
+        \begin{enumerate}
+            \item Center
+            \item Focus (2)
+            \item Asymptotes (2)
+        \end{enumerate}
+\end{itemize}
+
+
+\end{minipage}
+
+
+\begin{align*}
+    1.\quad & -16x^2 + 9y^2 -128x + 18y -391 = 0 \\
+    2.\quad & \frac{x^2}{16} - \frac{y^2}{9} = 1
+\end{align*}
+
+\end{document}
