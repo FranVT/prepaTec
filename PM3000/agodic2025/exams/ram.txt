@@ -1,0 +1,32 @@
+
+|---Template---|
+
+Name of the section
+(# of questions, pnts per question)
+
+|-----End------|
+
+|---Start---|
+
+Algebra Skills -> (12,25)
+    Solve equations - (3,)
+    Composition of functions - (3,)
+    Operation with functions - (4,)
+    Logarithmic properties - (2,)
+    Change base formula
+
+Functions analysis -> (4,25)
+    Inverse function - (1,)
+    Find asymptotes, domain and range - (1,)
+    Find roots of a rational - (1,)
+    Graph the following function - (1,)
+
+Modelling with math -> (3,25)
+    Cost - (1,)
+    Eponential decay - (1,)
+    Earthquakes - (1,)
+
+Conic Sections -> (2,25)
+    Identify the conic section from general equation - (1,)
+    Graph the conic section - (1,)
+
