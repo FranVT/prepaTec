@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-notes"] 1767969160.03624 "main-notes.aux" "main-notes.bbl" "main-notes" 1767969383.01436 0
+["bibtex main-notes"] 1768092087.45704 "main-notes.aux" "main-notes.bbl" "main-notes" 1768092881.16441 0
   "./sample.bib" 1767968511.16077 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1767555874 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1767969382.33411 705 18eef69dcc87e4e571ec84d250198fe3 "pdflatex"
+  "main-notes.aux" 1768092880.92619 1059 bbc7963f294dae8b80fc82ba05eb221a "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1767969378.33731 "main-notes.tex" "main-notes.pdf" "main-notes" 1767969383.01484 0
+["pdflatex"] 1768092879.43839 "main-notes.tex" "main-notes.pdf" "main-notes" 1768092881.16458 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1767555874 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1767555874 6952 fcebd9505ff25166f6bdc98f5d26741b ""
@@ -16,6 +16,7 @@
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm" 1767555874 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1767555874 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm" 1767555874 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
+  "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm" 1767555874 16648 7e91c60ebf91b9c60e16ef52b3070f9c ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1767555874 4640 532ca3305aad10cc01d769f3f91f1029 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm" 1767555874 6944 94c55ad86e6ea2826f78ba2240d50df9 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1767555874 44729 811d6c62865936705a31c797a1d5dada ""
@@ -24,6 +25,7 @@
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf" 1767555874 2340 df9c920cc5688ebbf16a93f45ce7bdd3 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1767555874 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf" 1767555874 2348 91706c542228501c410c266421fbe30c ""
+  "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf" 1767555874 3608 78e4c999d9e69f03f448158d01821741 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf" 1767555874 2328 6cd7df782b09b29cfc4d93e55b6b9a59 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1767555874 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1767555874 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -249,11 +251,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767966301 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767966272 2081302 4dee6a0d5dded8ef746552ad25e913e2 ""
-  "main-notes.aux" 1767969382.33411 705 18eef69dcc87e4e571ec84d250198fe3 "pdflatex"
-  "main-notes.bbl" 1767969160.57086 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
-  "main-notes.out" 1767969382.33511 163 873a4e58624b3a08e8049850f0802d22 "pdflatex"
-  "main-notes.tex" 1767969378.11515 2883 951dc733853b3e5707df29f76dc90371 ""
-  "mod1/part1-note1.tex" 1767969374.05318 633 906d978eb447b21faae71f2e7c1f0371 ""
+  "main-notes.aux" 1768092880.92619 1059 bbc7963f294dae8b80fc82ba05eb221a "pdflatex"
+  "main-notes.bbl" 1768092087.52318 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
+  "main-notes.out" 1768092880.92781 257 335ff84993edfba42b137f630a629bc0 "pdflatex"
+  "main-notes.tex" 1768092877.81719 3151 841c28f89b24034ecdf7105e4920744b ""
+  "mod1/part1-note1.tex" 1768091779.96028 2611 d40205dbad754e76f6bfc561e238bb35 ""
   "tufte-common.def" 1754763622.59318 70892 d170883770a3fb3b643fabc94d55da1e ""
   "tufte-handout.cls" 1754763622.59341 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)

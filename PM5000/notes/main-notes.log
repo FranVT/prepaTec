@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  9 JAN 2026 08:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 18:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,35 +1165,36 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (./mod1/part1-note1.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 58.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) (./main-notes.bbl)
+) (./mod1/part1-note1.tex
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./main-notes.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./main-notes.bbl)
+
+[2] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: 873A4E58624B3A08E8049850F0802D22;163.
+(rerunfilecheck)             Checksum: 335FF84993EDFBA42B137F630A629BC0;257.
  ) 
 Here is how much of TeX's memory you used:
- 40320 strings out of 475068
- 838511 string characters out of 5764375
- 1284839 words of memory out of 5000000
- 62647 multiletter control sequences out of 15000+600000
- 585436 words of font info for 55 fonts, out of 8000000 for 9000
+ 40337 strings out of 475068
+ 838734 string characters out of 5764375
+ 1288839 words of memory out of 5000000
+ 62656 multiletter control sequences out of 15000+600000
+ 596748 words of font info for 60 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 131i,11n,135p,426b,1091s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,135p,426b,1142s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (1 page, 42808 bytes).
+Output written on main-notes.pdf (2 pages, 48397 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 1197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
