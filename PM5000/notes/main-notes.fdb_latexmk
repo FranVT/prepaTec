@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-notes"] 1768160188.70133 "main-notes.aux" "main-notes.bbl" "main-notes" 1768160296.87182 0
+["bibtex main-notes"] 1768180761.19588 "main-notes.aux" "main-notes.bbl" "main-notes" 1768180763.76986 0
   "./sample.bib" 1767968511.16077 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1767555874 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1768160296.53328 1367 150cf721b5abd825627a9927276de57d "pdflatex"
+  "main-notes.aux" 1768180763.43145 1684 cd52e833fda86b6d3be78837b19b9220 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1768160294.46518 "main-notes.tex" "main-notes.pdf" "main-notes" 1768160296.87208 0
+["pdflatex"] 1768180761.33145 "main-notes.tex" "main-notes.pdf" "main-notes" 1768180763.77016 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1767555874 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1767555874 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
@@ -282,11 +282,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767966301 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767966272 2081302 4dee6a0d5dded8ef746552ad25e913e2 ""
-  "main-notes.aux" 1768160296.53328 1367 150cf721b5abd825627a9927276de57d "pdflatex"
-  "main-notes.bbl" 1768160188.84061 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
-  "main-notes.out" 1768160296.53472 422 c0866be9fd04751b0e4ddf5329a98f86 "pdflatex"
+  "main-notes.aux" 1768180763.43145 1684 cd52e833fda86b6d3be78837b19b9220 "pdflatex"
+  "main-notes.bbl" 1768180761.32245 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
+  "main-notes.out" 1768180763.43264 417 2f3868c79f432af7ea3b9d134d2a7f84 "pdflatex"
   "main-notes.tex" 1768160294.04964 3194 eb1ebec618bf2825b394e426feabc946 ""
-  "mod1/part1-note1.tex" 1768160262.35247 5233 3bcc68524e9441f0c5dd06fcef314af1 ""
+  "mod1/part1-note1.tex" 1768180747.52642 7464 3cf002744c640d87bb328fb5756d03fd ""
   "tufte-common.def" 1754763622.59318 70892 d170883770a3fb3b643fabc94d55da1e ""
   "tufte-handout.cls" 1754763622.59341 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)
