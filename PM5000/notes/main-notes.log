@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  12 JAN 2026 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  13 JAN 2026 09:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,7 +1120,7 @@ Package hyperref Info: Link coloring OFF on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\langwohyphens=\language3
+\langwohyphens=\language8
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count391
@@ -1175,62 +1175,64 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 
 [2]
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 98.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 100.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 98.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 100.
  (/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 98.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 100.
  (/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 98.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 100.
  (/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 98.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 100.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 98.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 100.
  (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 98.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 100.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 116--157
-[]$[]$ 
- []
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 
 
 [3]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 160--169
+Overfull \hbox (12.0pt too wide) in paragraph at lines 122--163
 []$[]$ 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 204--211
+Overfull \hbox (12.0pt too wide) in paragraph at lines 166--175
 []$[]$ 
  []
 
 
 
-[4]) (./main-notes.bbl)
+[4]
 
-[5] (./main-notes.aux)
+[5]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 248--255
+[]$[]$ 
+ []
+
+) (./main-notes.bbl)
+
+[6] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1239,18 +1241,18 @@ Package rerunfilecheck Info: File `main-notes.out' has not changed.
 (rerunfilecheck)             Checksum: 58CBAAEC2414011D629DB2D35EB39AB7;417.
  ) 
 Here is how much of TeX's memory you used:
- 40529 strings out of 475171
- 841738 string characters out of 5767095
- 1295549 words of memory out of 5000000
- 62758 multiletter control sequences out of 15000+600000
+ 40532 strings out of 475068
+ 841772 string characters out of 5764375
+ 1295839 words of memory out of 5000000
+ 62773 multiletter control sequences out of 15000+600000
  623033 words of font info for 116 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 62 hyphenation exceptions out of 8191
  131i,14n,135p,426b,1240s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (5 pages, 101234 bytes).
+Output written on main-notes.pdf (6 pages, 103584 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 28 named destinations out of 1000 (max. 500000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  1205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
