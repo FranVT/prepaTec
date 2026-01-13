@@ -1,15 +1,14 @@
 # Fdb version 4
-["bibtex main-notes"] 1768317840.32542 "main-notes.aux" "main-notes.bbl" "main-notes" 1768317842.85262 0
-  "./sample.bib" 1767968511.16077 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
+["bibtex main-notes"] 1768329765.15079 "main-notes.aux" "main-notes.bbl" "main-notes" 1768329766.19185 0
+  "./sample.bib" 1768239418.17376 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1767555874 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1768317842.51122 2110 1492025342569db99d6dd89f3da5f720 "pdflatex"
+  "main-notes.aux" 1768329766.05611 2332 4ab7c68b843d104bed4a8fc1a4dfbad6 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1768317840.43044 "main-notes.tex" "main-notes.pdf" "main-notes" 1768317842.85286 0
+["pdflatex"] 1768329765.19033 "main-notes.tex" "main-notes.pdf" "main-notes" 1768329766.19199 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
-  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1767555874 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1767555874 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1767555874 6952 fcebd9505ff25166f6bdc98f5d26741b ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1767555874 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -287,15 +286,15 @@
   "/usr/share/texmf-dist/tex/latex/xifthen/xifthen.sty" 1767555874 5689 1bfa68243e89a54479e7d0580773c57e ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1767555874 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767966301 5311557 9da84c45f5b388655502706482323571 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767966272 2081302 4dee6a0d5dded8ef746552ad25e913e2 ""
-  "main-notes.aux" 1768317842.51122 2110 1492025342569db99d6dd89f3da5f720 "pdflatex"
-  "main-notes.bbl" 1768317840.42123 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
-  "main-notes.out" 1768317842.51286 417 58cbaaec2414011d629db2d35eb39ab7 "pdflatex"
-  "main-notes.tex" 1768316431.48414 3198 f12a269a6c0b40b6783ca1b634f9f3c1 ""
-  "mod1/part1-note1.tex" 1768317825.77932 12092 8aa248805b971bc0de952a920f1e4143 ""
-  "tufte-common.def" 1754763622.59318 70892 d170883770a3fb3b643fabc94d55da1e ""
-  "tufte-handout.cls" 1754763622.59341 3003 8d63f27a56dd562592724bafd9903367 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768251110 5306876 69c328245ae101f6bc10b01e1f2bf9d5 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768253150 2008248 b250068cce02fd18fe464810a24808ac ""
+  "main-notes.aux" 1768329766.05611 2332 4ab7c68b843d104bed4a8fc1a4dfbad6 "pdflatex"
+  "main-notes.bbl" 1768329765.18507 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
+  "main-notes.out" 1768329766.05746 417 58cbaaec2414011d629db2d35eb39ab7 "pdflatex"
+  "main-notes.tex" 1768261536.14219 3198 f12a269a6c0b40b6783ca1b634f9f3c1 ""
+  "mod1/part1-note1.tex" 1768329765.06007 13604 cb05830970b9c95debc6d1ad4179affb ""
+  "tufte-common.def" 1768239418.17389 70892 d170883770a3fb3b643fabc94d55da1e ""
+  "tufte-handout.cls" 1768239418.17405 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)
   "main-notes.aux"
   "main-notes.log"
