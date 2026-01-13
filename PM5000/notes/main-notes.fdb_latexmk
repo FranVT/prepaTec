@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-notes"] 1768329765.15079 "main-notes.aux" "main-notes.bbl" "main-notes" 1768329766.19185 0
+["bibtex main-notes"] 1768329765.15079 "main-notes.aux" "main-notes.bbl" "main-notes" 1768338030.4722 0
   "./sample.bib" 1768239418.17376 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1767555874 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1768329766.05611 2332 4ab7c68b843d104bed4a8fc1a4dfbad6 "pdflatex"
+  "main-notes.aux" 1768338030.34385 2332 4ab7c68b843d104bed4a8fc1a4dfbad6 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1768329765.19033 "main-notes.tex" "main-notes.pdf" "main-notes" 1768329766.19199 0
+["pdflatex"] 1768338029.25835 "main-notes.tex" "main-notes.pdf" "main-notes" 1768338030.47234 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1767555874 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1767555874 6952 fcebd9505ff25166f6bdc98f5d26741b ""
@@ -288,11 +288,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768251110 5306876 69c328245ae101f6bc10b01e1f2bf9d5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768253150 2008248 b250068cce02fd18fe464810a24808ac ""
-  "main-notes.aux" 1768329766.05611 2332 4ab7c68b843d104bed4a8fc1a4dfbad6 "pdflatex"
+  "main-notes.aux" 1768338030.34385 2332 4ab7c68b843d104bed4a8fc1a4dfbad6 "pdflatex"
   "main-notes.bbl" 1768329765.18507 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
-  "main-notes.out" 1768329766.05746 417 58cbaaec2414011d629db2d35eb39ab7 "pdflatex"
-  "main-notes.tex" 1768261536.14219 3198 f12a269a6c0b40b6783ca1b634f9f3c1 ""
-  "mod1/part1-note1.tex" 1768329765.06007 13604 cb05830970b9c95debc6d1ad4179affb ""
+  "main-notes.out" 1768338030.34527 417 58cbaaec2414011d629db2d35eb39ab7 "pdflatex"
+  "main-notes.tex" 1768329773.02842 3198 f12a269a6c0b40b6783ca1b634f9f3c1 ""
+  "mod1/part1-note1.tex" 1768338029.01578 13691 1b6865dcdc34efa059397e6c3441598e ""
   "tufte-common.def" 1768239418.17389 70892 d170883770a3fb3b643fabc94d55da1e ""
   "tufte-handout.cls" 1768239418.17405 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)
