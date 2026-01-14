@@ -1,0 +1,22 @@
+# Fdb version 4
+["pdflatex"] 1768404853.6868 "list.tex" "list.pdf" "list" 1768404853.99432 0
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1767555874 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texmf-dist/tex/generic/iftex/iftex.sty" 1767555874 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
+  "/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty" 1767555874 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1767555874 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
+  "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1767555874 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
+  "/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty" 1767555874 47295 de48b7f8ebf4b54709a2f6b2c7106dd5 ""
+  "/usr/share/texmf-dist/tex/latex/geometry/geometry.sty" 1767555874 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/share/texmf-dist/tex/latex/graphics/keyval.sty" 1767555874 2671 70891d50dac933918b827d326687c6e8 ""
+  "/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1767555874 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
+  "/usr/share/texmf-dist/tex/latex/tools/xspace.sty" 1767555874 4545 e3f4de576c914e2000f07f69a891c071 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767966301 5311557 9da84c45f5b388655502706482323571 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767966272 2081302 4dee6a0d5dded8ef746552ad25e913e2 ""
+  "list.aux" 1768404853.96774 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "list.tex" 1768404852.76873 2930 dd3130bf877111714f1f8a7a6ad6f17a ""
+  (generated)
+  "list.aux"
+  "list.log"
+  "list.pdf"
+  (rewritten before read)

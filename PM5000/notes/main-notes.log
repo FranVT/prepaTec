@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  13 JAN 2026 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  14 JAN 2026 09:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,7 +1120,7 @@ Package hyperref Info: Link coloring OFF on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\langwohyphens=\language3
+\langwohyphens=\language8
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count391
@@ -1226,13 +1226,21 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 166--175
 [4]
 
 [5]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 277--284
-[]$[]$ 
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+
+Overfull \hbox (23.24586pt too wide) in paragraph at lines 276--278
+[]\T1/ptm/m/n/10 Now that we found the three roots of the cu-bic poly-no-mial, $\OML/ztmcm/m/it/10 y \OMS/ztmcm/m/n/10 2 f\OT1/ztmcm/m/n/10 0, [], []\OMS/ztmcm/m/n/10 g$\T1/ptm/m/n/10 ,
  []
 
-) (./main-notes.bbl)
 
-[6] (./main-notes.aux)
+
+[6]
+
+[7]) (./main-notes.bbl)
+
+[8] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1241,18 +1249,18 @@ Package rerunfilecheck Info: File `main-notes.out' has not changed.
 (rerunfilecheck)             Checksum: 58CBAAEC2414011D629DB2D35EB39AB7;417.
  ) 
 Here is how much of TeX's memory you used:
- 40534 strings out of 475171
- 841800 string characters out of 5767095
- 1295549 words of memory out of 5000000
- 62758 multiletter control sequences out of 15000+600000
- 623033 words of font info for 116 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 40538 strings out of 475068
+ 841837 string characters out of 5764375
+ 1295839 words of memory out of 5000000
+ 62774 multiletter control sequences out of 15000+600000
+ 624677 words of font info for 117 fonts, out of 8000000 for 9000
+ 62 hyphenation exceptions out of 8191
  131i,14n,135p,426b,1240s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (6 pages, 105084 bytes).
+Output written on main-notes.pdf (8 pages, 108700 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  1205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

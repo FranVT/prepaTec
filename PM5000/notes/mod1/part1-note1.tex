@@ -241,16 +241,89 @@ Solve the following equations
 \end{align*}
 
 
+% January 15
+\newpage 
 
+\subsection{Change of variable technique}\marginnote{Class of January 15}
+
+In this session we will see the change of variable technique to solve an equation.
+Let's recall the equation,
+\begin{gather*}
+    3^{3x} + 3^{x} = 3^{2x+1}.
+\end{gather*}
+We can push the idea of \emph{factoring} an expression, in the sense that we can algebraically modify the expression to look for similar terms.
+With this in mind, let's apply the exponential properties to rewrite the equation,
+\begin{gather*}
+    \qty(3^{x})^3 + 3^{x} = \qty(3^{x})^2\cdot 3^1.
+\end{gather*}
+We can see that in all of the terms appears the factor $3^x$; hence, we can introduce a \emph{change of variable} as follows: $y=3^x$,
+\begin{align*}
+    y^3 + y &= y^2\cdot 3 \\
+    y^3 + y - 3y^2 &= 0
+\end{align*}
+Now, instead of solving an exponential equation, we change the problem into finding the roots of a cubic equation.
+\begin{align*}
+     y\qty(y^2 - 3y^1 + 1) &= 0.
+\end{align*}
+Hence, one solution is $y=0$.
+The other two solutions can be computed using the general formula, considering that $a=1,~b=-3,~c=1$,
+\begin{align*}
+    y &= \frac{-b\pm\sqrt{b^2-4ac}}{2a} \\
+      &= \frac{-(-3)\pm\sqrt{(-3)^2 -4(1)(1)}}{2(1)(1)} \\
+      &= \frac{3\pm\sqrt{5}}{2}.
+\end{align*}
+
+Now that we found the three roots of the cubic polynomial, $y\in\{0,\frac{3+\sqrt{5}}{2},\frac{3-\sqrt{5}}{2}\}$, let's finish the equation by reverting the change of variable.
+For the first solution we have,
+\begin{align*}
+    3^{x} &= y = 0 \\
+    \log_{3}\qty(3^x) &= \log{3}\qty(0) \\
+    x &= \log{3}\qty(0).
+\end{align*}
+which does not exits.
+Therefore, we get only two solutions left,
+\begin{align*}
+    3^x &=y = \frac{3\pm\sqrt{5}}{2} \\
+    \log_{3}\qty(3^x) &= \log_{3}\qty(\frac{3\pm\sqrt{5}}{2}) \\
+    x &= \log_{3}\qty(\frac{3\pm\sqrt{5}}{2}).
+\end{align*}
+And those are the intersection points of the original equation.
+
+\paragraph{Class Activities}
+
+Solve the following equations 
+\begin{gather*}
+    3^{2x} + 3^{x} = 3^{2x+2} \\
+    e^{2x} -3e^{x} +2 = 0 
+\end{gather*}
+
+
+% January 16
+\newpage 
+
+\subsection{Types of functions}
+
+In this session we will revisit the types of functions and their main characteristics, such as domain, range, asymptotes, and holes.
+Furthermore, we will also review the translation of functions.
+
+\begin{itemize}
+    \item Linear
+    \item Quadratics 
+    \item Cubic
+    \item Exponential and Logarithmic functions
+    \item Radical functions
+    \item Root functions
+    \item Two dimensional functions: Conic Sections
+\end{itemize}
 
 
 
 % Things Brainstorm
-
-
 \newpage 
 
-\subsection{Types of functions}
+
+
+
 
 
 \subsection{Typical exercises}
@@ -269,21 +342,7 @@ Solve the following equations
 
 \subsection{Intercepts of a function}
 
-There are two intercepts of a function.
-The $x$ intercept and the $y$ intercept.
-The $x$ incercept is when $f(x)$ is equal to zero, that is, $f(x)=0$.
-The $y$ intercept is when $x$ equal to zero, that is, $f(0)$.
 
-\begin{minipage}[c]{\textwidth}
-    \centering
-    {\bfseries\large Roots of the quadratic function}
-    \begin{gather*}
-        x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-    \end{gather*}
-\end{minipage}
-
-
-\subsection{Change of variable technique}
 
 \begin{comment}
 
@@ -294,17 +353,6 @@ With this in mind, let's recap the main ideas or things from previous math cours
 
 Inverse and composition of functions
 
-\subsection{Type of functions}
-
-\begin{itemize}
-    \item Linear
-    \item Quadratics 
-    \item Cubic
-    \item Exponential and Logarithmic functions
-    \item Radical functions
-    \item Root functions
-    \item Two dimensional functions: Conic Sections
-\end{itemize}
 
 
 Types and domain and range.
