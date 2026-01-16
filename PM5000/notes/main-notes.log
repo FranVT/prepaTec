@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  15 JAN 2026 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  16 JAN 2026 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1259,9 +1259,6 @@ LaTeX Warning: Marginpar on page 7 moved.
 LaTeX Warning: Marginpar on page 7 moved.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 [7]
 
@@ -1271,44 +1268,41 @@ LaTeX Warning: Marginpar on page 8 moved.
 LaTeX Warning: Marginpar on page 8 moved.
 
 
-LaTeX Warning: Marginpar on page 8 moved.
-
-
 
 [8]
-Overfull \hbox (118.60144pt too wide) in paragraph at lines 493--514
+Overfull \hbox (118.60144pt too wide) in paragraph at lines 494--515
  [][] 
  []
+
+
+LaTeX Warning: Marginpar on page 9 moved.
 
 
 
 [9]
-Underfull \hbox (badness 1142) in paragraph at lines 579--580
+Underfull \hbox (badness 1142) in paragraph at lines 583--584
 []\T1/ptm/m/n/10 Derivative: $[][]\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) \OML/ztmcm/m/it/10 > \OT1/ztmcm/m/n/10 0$ \T1/ptm/m/n/10 (al-ways in-
  []
 
 
-Overfull \hbox (97.98865pt too wide) in paragraph at lines 548--586
+Overfull \hbox (97.98865pt too wide) in paragraph at lines 552--590
  [][] 
  []
-
-
-Overfull \hbox (11.9763pt too wide) in paragraph at lines 590--591
-\T1/ptm/m/n/10 For func-tions of the form: $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/ztmcm/m/it/10 A [][][] \OT1/zplm/m/n/10 + \OML/ztmcm/m/it/10 D$ \T1/ptm/m/n/10 or $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/ztmcm/m/it/10 A [][][] \OT1/zplm/m/n/10 +
- []
-
-
-Overfull \hbox (3.37468pt too wide) in paragraph at lines 595--606
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
 [10]
-Overfull \hbox (69.72331pt too wide) in paragraph at lines 625--642
+Overfull \hbox (11.9763pt too wide) in paragraph at lines 596--597
+\T1/ptm/m/n/10 For func-tions of the form: $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/ztmcm/m/it/10 A [][][] \OT1/zplm/m/n/10 + \OML/ztmcm/m/it/10 D$ \T1/ptm/m/n/10 or $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/ztmcm/m/it/10 A [][][] \OT1/zplm/m/n/10 +
+ []
+
+
+Overfull \hbox (3.37468pt too wide) in paragraph at lines 601--612
+ [][] 
+ []
+
+
+Overfull \hbox (69.72331pt too wide) in paragraph at lines 631--648
  [][] 
  []
 
@@ -1333,9 +1327,9 @@ Here is how much of TeX's memory you used:
  62826 multiletter control sequences out of 15000+600000
  651645 words of font info for 171 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,19n,135p,426b,1387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (13 pages, 140432 bytes).
+Output written on main-notes.pdf (13 pages, 140449 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams
