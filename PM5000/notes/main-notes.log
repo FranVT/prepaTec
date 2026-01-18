@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  16 JAN 2026 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  18 JAN 2026 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,7 +1120,7 @@ Package hyperref Info: Link coloring OFF on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\langwohyphens=\language3
+\langwohyphens=\language8
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count391
@@ -1268,9 +1268,15 @@ LaTeX Warning: Marginpar on page 8 moved.
 LaTeX Warning: Marginpar on page 8 moved.
 
 
+LaTeX Warning: Marginpar on page 8 moved.
+
+
+LaTeX Warning: Marginpar on page 8 moved.
+
+
 
 [8]
-Overfull \hbox (118.60144pt too wide) in paragraph at lines 494--515
+Overfull \hbox (118.60144pt too wide) in paragraph at lines 505--526
  [][] 
  []
 
@@ -1280,59 +1286,46 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 
 [9]
-Underfull \hbox (badness 1142) in paragraph at lines 583--584
-[]\T1/ptm/m/n/10 Derivative: $[][]\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) \OML/ztmcm/m/it/10 > \OT1/ztmcm/m/n/10 0$ \T1/ptm/m/n/10 (al-ways in-
- []
+
+LaTeX Warning: Marginpar on page 10 moved.
 
 
-Overfull \hbox (97.98865pt too wide) in paragraph at lines 552--590
- [][] 
- []
+LaTeX Warning: Marginpar on page 10 moved.
+
+
+LaTeX Warning: Marginpar on page 10 moved.
 
 
 
 [10]
-Overfull \hbox (11.9763pt too wide) in paragraph at lines 596--597
-\T1/ptm/m/n/10 For func-tions of the form: $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/ztmcm/m/it/10 A [][][] \OT1/zplm/m/n/10 + \OML/ztmcm/m/it/10 D$ \T1/ptm/m/n/10 or $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/ztmcm/m/it/10 A [][][] \OT1/zplm/m/n/10 +
- []
 
-
-Overfull \hbox (3.37468pt too wide) in paragraph at lines 601--612
- [][] 
- []
-
-
-Overfull \hbox (69.72331pt too wide) in paragraph at lines 631--648
- [][] 
- []
+LaTeX Warning: Marginpar on page 11 moved.
 
 
 
-[11]
+[11]) (./main-notes.bbl)
 
-[12]) (./main-notes.bbl)
-
-[13] (./main-notes.aux)
+[12] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: 58CBAAEC2414011D629DB2D35EB39AB7;417.
+(rerunfilecheck)             Checksum: C2A047503B5A7640641CB235F820F7B7;497.
  ) 
 Here is how much of TeX's memory you used:
- 40667 strings out of 475171
- 843533 string characters out of 5767095
- 1304549 words of memory out of 5000000
- 62826 multiletter control sequences out of 15000+600000
- 651645 words of font info for 171 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1387s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (13 pages, 140449 bytes).
+ 40670 strings out of 475068
+ 843543 string characters out of 5764375
+ 1308839 words of memory out of 5000000
+ 62839 multiletter control sequences out of 15000+600000
+ 652723 words of font info for 175 fonts, out of 8000000 for 9000
+ 62 hyphenation exceptions out of 8191
+ 131i,19n,135p,426b,1255s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main-notes.pdf (12 pages, 133751 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 69 named destinations out of 1000 (max. 500000)
- 1205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 1213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

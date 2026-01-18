@@ -60,7 +60,7 @@ Each period will be graded as afollows,
 \end{itemize}
 
 
-\section{Introductio to Calculus}
+\section{Introduction to Calculus}
 
 %\paragraph{A nonsense that I'm building}
 %Sometimes I say that mathematics is a language.
@@ -449,6 +449,17 @@ f(x) = \frac{P(x)}{Q(x)}
 where \( P(x) \) and \( Q(x) \) are polynomials, \( Q(x) \neq 0 \).
 A basic example: \( f(x) = \frac{1}{x} \)
 
+\marginnote{
+\textbf{Class Activity}
+
+Find the domain, range, asymptotes and interceptions of the functions
+\begin{align*}
+    f(x) &= \frac{3x^2-1}{x^2-1} \\
+    g(x) &= \log\left[2e^{x-4}-2\right] \\
+    h(x) &= e^{(x^2-2)/x}
+\end{align*}
+}
+
 \begin{table}[h]
 \centering
 \renewcommand{\arraystretch}{1.5}
@@ -542,185 +553,81 @@ Here are some common patterns and examples
     \item \textbf{Holes} occur when factors cancel: The \( y \)-value at the hole is found by evaluating the simplified function at that \( x \)-value
 \end{itemize}
 
-\newpage
 
-\subsection*{Basic Trigonometric Functions}
+% January 20
+\newpage 
 
-\begin{table}[h]
-\centering
-\renewcommand{\arraystretch}{1.8}
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{3cm}llp{6cm}@{}}
-\toprule
-\textbf{Function} & \textbf{Domain} & \textbf{Range} & \textbf{Key Features for Calculus} \\ 
-\midrule
-\textbf{Sine} & & & \\
-\( f(x) = \sin(x) \) & \( (-\infty, \infty) \) & \( [-1, 1] \) & 
-\begin{minipage}{6cm}
-\begin{itemize}
-    \item Continuous everywhere
-    \item Derivative: \( \cos(x) \)
-    \item Zeros at \( x = n\pi \), \( n \in \mathbb{Z} \)
-    \item Period: \( 2\pi \)
-\end{itemize}
-\end{minipage} \\
-\addlinespace
-\textbf{Cosine} & & & \\
-\( f(x) = \cos(x) \) & \( (-\infty, \infty) \) & \( [-1, 1] \) &
-\begin{minipage}{6cm}
-\begin{itemize}
-    \item Continuous everywhere
-    \item Derivative: \( -\sin(x) \)
-    \item Zeros at \( x = \frac{\pi}{2} + n\pi \), \( n \in \mathbb{Z} \)
-    \item Period: \( 2\pi \)
-\end{itemize}
-\end{minipage} \\
-\addlinespace
-\textbf{Tangent} & & & \\
-\( f(x) = \tan(x) \) & \( x \neq \frac{\pi}{2} + n\pi \), \( n \in \mathbb{Z} \) & \( (-\infty, \infty) \) &
-\begin{minipage}{6cm}
-\begin{itemize}
-    \item Discontinuous at \( x = \frac{\pi}{2} + n\pi \)
-    \item Derivative: \( \sec^2(x) > 0 \) (always increasing on intervals)
-    \item Vertical asymptotes at domain exclusions
-    \item Period: \( \pi \)
-\end{itemize}
-\end{minipage} \\
-\bottomrule
-\end{tabular}
-\end{table}
+\subsection{Algebra with functions}
 
-\newpage
+In this final review session, we cover the algebra of functions: how to compute the composition, subtraction, addition, and the inverse of functions\footnote{January 20}.
 
-\subsection*{General Forms and Transformations}
+\marginnote{
+\textbf{Class Activity}
 
-For functions of the form: \( f(x) = A \sin(Bx + C) + D \) or \( f(x) = A \cos(Bx + C) + D \)
+Compute the following operations with functions considering that $f(x) = e^{-x^2}, g(x) = -(x-1)^2+1$
+\begin{align*}
+    h(x) &= \qty(f\circ g)(x) \\
+    j(x) &= \qty(g\circ f)(x) \\
+    \text{Compute: } & h^{-1}(x) \\
+    \text{Compute: } & \frac{\qty(g\circ j)(x)}{2}
+\end{align*}
+}
 
-\begin{table}[h]
-\centering
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}{@{}lll@{}}
-\toprule
-\textbf{Transformation} & \textbf{Domain} & \textbf{Range} \\ 
-\midrule
-Amplitude change: \( A\sin(x) \) or \( A\cos(x) \) & \( (-\infty, \infty) \) & \( [-|A|, |A|] \) \\
-Vertical shift: \( \sin(x) + D \) or \( \cos(x) + D \) & \( (-\infty, \infty) \) & \( [-1 + D, 1 + D] \) \\
-Combined: \( A\sin(x) + D \) or \( A\cos(x) + D \) & \( (-\infty, \infty) \) & \( [-|A| + D, |A| + D] \) \\
-Period change: \( \sin(Bx) \) or \( \cos(Bx) \) (\( B > 0 \)) & \( (-\infty, \infty) \) & \( [-1, 1] \) \\
-Phase shift: \( \sin(x + C) \) or \( \cos(x + C) \) & \( (-\infty, \infty) \) & \( [-1, 1] \) \\
-\bottomrule
-\end{tabular}
-\end{table}
+\subsection*{1. Addition and Subtraction of Functions}
+For two functions \( f \) and \( g \), with domains \( D_f \) and \( D_g \):
 
-\subsection*{General Tangent Function}
+\[
+(f + g)(x) = f(x) + g(x), \quad (f - g)(x) = f(x) - g(x)
+\]
 
-For \( f(x) = A \tan(Bx + C) + D \):
-\begin{itemize}
-    \item \textbf{Domain}: Solve \( Bx + C \neq \frac{\pi}{2} + n\pi \), \( n \in \mathbb{Z} \)
-    \[
-    x \neq \frac{1}{B}\left(\frac{\pi}{2} + n\pi - C\right)
-    \]
-    \item \textbf{Range}: \( (-\infty, \infty) \) (unchanged by vertical shifts and stretches)
-    \item \textbf{Period}: \( \frac{\pi}{|B|} \)
-\end{itemize}
+\textbf{Domain:} The domain of \( f + g \) or \( f - g \) is \( D_f \cap D_g \).
 
-\subsection*{Calculus Applications and Important Limits}
+\subsection*{2. Composition of Functions}
+The composition \( f \circ g \) is defined by:
 
-\begin{table}[h]
-\centering
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}{@{}lp{10cm}@{}}
-\toprule
-\textbf{Limit} & \textbf{Significance in Calculus I} \\ 
-\midrule
-\( \displaystyle \lim_{x \to 0} \frac{\sin(x)}{x} = 1 \) & 
-Fundamental limit for derivatives of trig functions, used in squeeze theorem examples \\
-\addlinespace
-\( \displaystyle \lim_{x \to 0} \frac{1 - \cos(x)}{x} = 0 \) &
-Used in derivative of cosine function derivation \\
-\addlinespace
-\( \displaystyle \lim_{x \to \frac{\pi}{2}^-} \tan(x) = \infty \) &
-Example of infinite limit and vertical asymptote behavior \\
-\addlinespace
-\( \displaystyle \lim_{x \to \frac{\pi}{2}^+} \tan(x) = -\infty \) &
-Important for understanding one-sided limits at discontinuities \\
-\bottomrule
-\end{tabular}
-\end{table}
+\[
+(f \circ g)(x) = f(g(x))
+\]
 
-\subsection*{Derivatives and Continuity}
-
-\begin{itemize}
-    \item \textbf{Sine and Cosine}:
-    \begin{itemize}
-        \item Continuous everywhere, differentiable everywhere
-        \item \( \frac{d}{dx}[\sin(x)] = \cos(x) \)
-        \item \( \frac{d}{dx}[\cos(x)] = -\sin(x) \)
-    \end{itemize}
-    
-    \item \textbf{Tangent}:
-    \begin{itemize}
-        \item Continuous and differentiable on its domain
-        \item \( \frac{d}{dx}[\tan(x)] = \sec^2(x) \)
-        \item Discontinuous at \( x = \frac{\pi}{2} + n\pi \), vertical asymptotes at these points
-    \end{itemize}
-    
-    \item \textbf{Chain Rule Applications}:
-    \[
-    \frac{d}{dx}[\sin(u(x))] = \cos(u(x)) \cdot u'(x)
-    \]
-    \[
-    \frac{d}{dx}[\tan(u(x))] = \sec^2(u(x)) \cdot u'(x)
-    \]
-\end{itemize}
-
-\subsection*{Important Properties for Problem Solving}
-
+\textbf{Procedure:}
 \begin{enumerate}
-    \item \textbf{Sine and Cosine}:
-    \begin{itemize}
-        \item Bounded between -1 and 1, useful for squeeze theorem
-        \item Periodic nature affects behavior of derivatives and integrals
-        \item \(\sin^2(x) + \cos^2(x) = 1\) (Pythagorean identity, useful in simplifications)
-    \end{itemize}
-    
-    \item \textbf{Tangent}:
-    \begin{itemize}
-        \item Always increasing on each interval of its domain
-        \item Related to sine and cosine: \( \tan(x) = \frac{\sin(x)}{\cos(x)} \)
-        \item Derivative is always positive: \( \sec^2(x) > 0 \)
-    \end{itemize}
-    
-    \item \textbf{Domain Considerations in Calculus}:
-    \begin{itemize}
-        \item When differentiating composite functions with trig functions inside, ensure inner function is in domain
-        \item For \(\tan(f(x))\), require \( f(x) \neq \frac{\pi}{2} + n\pi \)
-        \item When finding critical points, consider full period (not just \([0, 2\pi]\))
-    \end{itemize}
+    \item Compute \( g(x) \).
+    \item Apply \( f \) to the result.
 \end{enumerate}
 
-\subsection*{Graphical Behavior}
+\textbf{Domain:} The domain of \( f \circ g \) consists of all \( x \) in \( D_g \) such that \( g(x) \) is in \( D_f \).
 
-\begin{itemize}
-    \item \textbf{Sine and Cosine}: Smooth, wavelike graphs (sinusoids)
-    \begin{itemize}
-        \item Sine: Starts at 0, maximum at \(\pi/2\), zero at \(\pi\), minimum at \(3\pi/2\)
-        \item Cosine: Starts at 1, zero at \(\pi/2\), minimum at \(\pi\), zero at \(3\pi/2\)
-    \end{itemize}
-    
-    \item \textbf{Tangent}: Discontinuous graph with vertical asymptotes
-    \begin{itemize}
-        \item Period of \(\pi\) (vs \(2\pi\) for sine/cosine)
-        \item Passes through origin, repeats every \(\pi\) units
-        \item Approaches \(\pm\infty\) near vertical asymptotes
-    \end{itemize}
-\end{itemize}
+\subsection*{3. Inverse Functions}
+A function \( f \) has an inverse \( f^{-1} \) if it is \textbf{one-to-one} (passes the horizontal line test).
+
+\textbf{Finding \( f^{-1} \):}
+\begin{enumerate}
+    \item Write \( y = f(x) \).
+    \item Interchange \( x \) and \( y \).
+    \item Solve for \( y \).
+    \item Write \( f^{-1}(x) = y \).
+\end{enumerate}
+
+\textbf{Properties:}
+\[
+f(f^{-1}(x)) = x \quad \text{and} \quad f^{-1}(f(x)) = x
+\]
+
+\textbf{Domain and Range:}
+The domain of \( f^{-1} \) is the range of \( f \), and the range of \( f^{-1} \) is the domain of \( f \).
+
+
+
+
+% January 21
+\newpage
+\section{Limits}
+
+\marginnote{January 21}
 
 
 % Things Brainstorm
-\newpage 
-
-
-
+\newpage
 
 
 
