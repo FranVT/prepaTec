@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  19 JAN 2026 11:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  19 JAN 2026 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1314,28 +1314,6 @@ LaTeX Warning: Marginpar on page 11 moved.
 
 LaTeX Warning: Marginpar on page 11 moved.
 
-./mod1/part1-note1.tex:746: Undefined control sequence.
-<argument> \meters 
-                   \per \second 
-l.746 ...at $t=3$ is \SI{29.4}{\meters\per\second}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mod1/part1-note1.tex:746: Undefined control sequence.
-<argument> \meters 
-                   \per \second 
-l.746 ...at $t=3$ is \SI{29.4}{\meters\per\second}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 
 [11]
@@ -1343,15 +1321,21 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Marginpar on page 12 moved.
 
 
-Overfull \hbox (44.5134pt too wide) in paragraph at lines 770--782
+Overfull \hbox (44.5134pt too wide) in paragraph at lines 771--783
  [][] 
  []
 
 
 
-[12]) (./main-notes.bbl)
+[12]
 
-[13] (./main-notes.aux)
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+
+[13]) (./main-notes.bbl)
+
+[14] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1360,18 +1344,18 @@ Package rerunfilecheck Info: File `main-notes.out' has not changed.
 (rerunfilecheck)             Checksum: 8B1A005C7B23C567BE9C1A4DA96A573E;543.
  ) 
 Here is how much of TeX's memory you used:
- 40699 strings out of 475171
- 843820 string characters out of 5767095
+ 40701 strings out of 475171
+ 843849 string characters out of 5767095
  1320549 words of memory out of 5000000
- 62838 multiletter control sequences out of 15000+600000
+ 62837 multiletter control sequences out of 15000+600000
  664039 words of font info for 198 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1298s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,19n,135p,426b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (13 pages, 144349 bytes).
+Output written on main-notes.pdf (14 pages, 145323 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 76 named destinations out of 1000 (max. 500000)
  1213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

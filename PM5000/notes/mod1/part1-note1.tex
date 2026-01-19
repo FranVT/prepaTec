@@ -743,7 +743,7 @@ Now, we compute the limit as $h$ tends to zero,
     \lim_{h\to 0} s(t) &= \lim_{h\to 0}\left[29.4+4.9h\right] \\
                        &= 29.4.
 \end{align*}
-Hence, the instantaneous velocity at $t=3$ is \SI{29.4}{\meters\per\second}.
+Hence, the instantaneous velocity at $t=3$ is \SI{29.4}{\meter\per\second}.
 
 
 \newpage
@@ -759,9 +759,10 @@ On the other hand, taking a Limit allows to answer to \emph{What value does the 
 And the function doesn't even have to be defined at the point itself.
 
 For example, let's consider \[f(x) = \frac{x^2 - 1}{x - 1}.\]
-If we evaluate the function at $x=1$ we get $0/0$, which is undefined, because we get a hole in the graph.
-Now lets compute the limit as $x$ tends to $1$ using the numeric approach.
+If we evaluate the function at $x=1$ we get $0/0$, which is undefined.
+Furthermore, since is $0/0$, this means that at $x=1$ the function has a hole.
 
+In order to known the value that the function is approaching when the domain goes to $1$, let's compute the limit using a numerical method.
 First lets build a table with values that are near $1$, for instance,
 
 \begin{table}[h]
@@ -781,11 +782,27 @@ First lets build a table with values that are near $1$, for instance,
 \end{tabular}
 \end{table}
 
+With this we can say that the \emph{limit} tells us the value the function is trying to be at $x = 1$, even though it never actually reaches it there.
 
+\subsection{Class Activity}
+
+Compute the limit with the numerical approach of the following functions,
 \begin{align*}
-    \lim_{h\to 1} f(x) = \frac{x^2 - 1}{x - 1}
+    f(x) &= \frac{1}{x}\quad x\to 0 \\
+    g(x) &= \frac{x^2-4}{x-2}\quad x\to 2 \\
+    h(x) &= \frac{\sin(x)}{x}\quad x\to 0
 \end{align*}
 
+
+\newpage
+
+\subsection{Limits. Part 3}
+
+\marginnote{January 23}
+
+In this session we will see the graphical approach of a limit.
+
+Piecewise functions and stuff
 
 % Things Brainstorm
 \newpage
