@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-notes"] 1768852687.24945 "main-notes.aux" "main-notes.bbl" "main-notes" 1768852688.45372 0
+["bibtex main-notes"] 1769015888.71961 "main-notes.aux" "main-notes.bbl" "main-notes" 1769016438.38735 0
   "./sample.bib" 1768239418.17376 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1767555874 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1768852688.30834 3669 2c1ba3dd12c2f01e8f64fd456f751d37 "pdflatex"
+  "main-notes.aux" 1769016438.24852 3987 e3e4c094ebfeba13a5b2668eeb9adb76 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1768852687.28974 "main-notes.tex" "main-notes.pdf" "main-notes" 1768852688.45387 0
+["pdflatex"] 1769016436.96055 "main-notes.tex" "main-notes.pdf" "main-notes" 1769016438.3875 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1767555874 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1767555874 6952 fcebd9505ff25166f6bdc98f5d26741b ""
@@ -99,6 +99,7 @@
   "/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex" 1767555874 35249 abd4adf948f960299a4b3d27c5dddf46 ""
   "/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex" 1767555874 22012 81b34a0aa8fa1a6158cc6220b00e4f10 ""
   "/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex" 1767555874 8893 e851de2175338fdf7c17f3e091d94618 ""
+  "/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex" 1767555874 15929 463535aa2c4268fead6674a75c0e8266 ""
   "/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex" 1767555874 1179 5483d86c1582c569e665c74efab6281f ""
   "/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex" 1767555874 11518 738408f795261b70ce8dd47459171309 ""
   "/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex" 1767555874 186782 af500404a9edec4d362912fe762ded92 ""
@@ -295,11 +296,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768251110 5306876 69c328245ae101f6bc10b01e1f2bf9d5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768253150 2008248 b250068cce02fd18fe464810a24808ac ""
-  "main-notes.aux" 1768852688.30834 3669 2c1ba3dd12c2f01e8f64fd456f751d37 "pdflatex"
-  "main-notes.bbl" 1768852687.28514 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
-  "main-notes.out" 1768852688.30834 543 8b1a005c7b23c567be9c1a4da96a573e "pdflatex"
-  "main-notes.tex" 1768579119.18025 3198 f12a269a6c0b40b6783ca1b634f9f3c1 ""
-  "mod1/part1-note1.tex" 1768852684.55818 33419 172520190dce15afc8d8e051f6b05343 ""
+  "main-notes.aux" 1769016438.24852 3987 e3e4c094ebfeba13a5b2668eeb9adb76 "pdflatex"
+  "main-notes.bbl" 1769015888.75257 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
+  "main-notes.out" 1769016438.24927 543 8b1a005c7b23c567be9c1a4da96a573e "pdflatex"
+  "main-notes.tex" 1769015872.12875 3238 5aeef454f6305b09027b340ec5f6beb3 ""
+  "mod1/part1-note1.tex" 1769016436.50104 37840 2bcf826639893d296a15003fbf2883ba ""
   "tufte-common.def" 1768239418.17389 70892 d170883770a3fb3b643fabc94d55da1e ""
   "tufte-handout.cls" 1768239418.17405 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)

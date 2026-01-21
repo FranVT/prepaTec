@@ -408,6 +408,8 @@ INPUT /usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
 INPUT /usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+INPUT /usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+INPUT /usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 INPUT /usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/share/texmf-dist/tex/latex/import/import.sty
@@ -684,6 +686,10 @@ INPUT /usr/share/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT ./main-notes.bbl
 INPUT ./main-notes.bbl
 INPUT main-notes.bbl
