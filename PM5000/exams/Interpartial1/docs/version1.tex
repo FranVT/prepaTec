@@ -2,7 +2,190 @@
 %%%%%%%%%%%%%%%%%%%%  INGRESAR LAS PREGUNTAS DE LA  EVALUACIÓN %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\paragraph{I} Read the following questions and identify the option that best answers each, then write ts letter on the line (5 points each)
+\paragraph{I} Algebra Review. Read the following questions and justify your answer with a procedure.
+
+\begin{preguntas}
+
+\pregunta[10] Solve the following equation,
+\begin{gather*}
+    f(x)=e^{2x} - 3e^{x}=-2
+\end{gather*}
+\begin{center}
+    \framebox(\textwidth,150){}   
+\end{center}
+
+\pregunta[12] Find the asymptotes and intersections of the following function, 
+\begin{gather*}
+    g(x) = \frac{4x^2-1}{2x^2-1}
+\end{gather*}
+
+\begin{center}
+    \framebox(\textwidth,150){}   
+\end{center}
+
+\newpage
+
+\pregunta[12] Consider that $h(x)=e^{x}$ and $j(x)=1-x$. Find the following operations,
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \( m(x) = \qty(h\circ j)(x) \) 
+    \item \( n(x) =\qty(j\circ h)(x) \)
+    \item Find the inverse funciton of \( m(x) \)
+\end{enumerate*}
+
+\(m(x)\)
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\(n(x)\)
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\(m^{-1}(x)\)
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\end{preguntas}
+
+\newpage
+
+\paragraph{II} Limits. Read the following questions and justify your answer with a procedure.
+
+
+\begin{preguntas}
+
+\pregunta[5] Identify the discontinuities of the function (vertical asymptotes or holes) and compute the limit using the numeric approach at those values of the function \(f(x)=\frac{x^2-4}{x-2}.\)
+
+%Create a table with at least 3
+
+\pregunta[5] Identify the discontinuities of the function (vertical asymptotes or holes) and compute the limit using the numeric approach at those values of the function \(f(x)=\frac{x^2-4}{x-2}.\)
+
+
+\newpage
+
+\pregunta[5] Applying the graphical technique to compute limits, argument if the limit converges of the following functions,
+
+\begin{center}
+\begin{tikzpicture}[
+    scale=1.2,
+    >=Stealth,
+    declare function={
+        f(\x) = \x/abs(\x); % Función |x|/x
+    }
+]
+    % Definir dimensiones (ratio 5:4)
+    \def\xmin{-5} \def\xmax{5}   % Rango en x
+    \def\ymin{-2.5} \def\ymax{2.5} % Rango en y
+    \def\tick{0.2} % Tamaño de las marcas
+
+    % Grid mayor (cada 1 unidad)
+    \draw[gray!30, very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+    % Grid menor (cada 0.5 unidades)
+    \foreach \x in {-5,-4.5,...,5} {
+        \draw[gray!10, very thin] (\x,\ymin) -- (\x,\ymax);
+    }
+    \foreach \y in {-2.5,-2,...,2.5} {
+        \draw[gray!10, very thin] (\xmin,\y) -- (\xmax,\y);
+    }
+
+    % Ejes
+    \draw[->, thick] (\xmin-0.5,0) -- (\xmax+0.5,0) node[right] {$x$};
+    \draw[->, thick] (0,\ymin-0.5) -- (0,\ymax+0.5) node[above] {$y$};
+
+    % Marcas en los ejes (cada 1 unidad)
+    \foreach \x in {-5,-4,...,5} {
+        \draw[thick] (\x,-\tick) -- (\x,\tick) node[below=2pt] {$\x$};
+    }
+    \foreach \y in {-2,-1,1,2} {
+        \draw[thick] (-\tick,\y) -- (\tick,\y) node[left=2pt] {$\y$};
+    }
+
+    % Gráfica de la función
+    \draw[very thick, blue, domain=\xmin:-0.01, samples=50] plot (\x, {f(\x)});
+    \draw[very thick, blue, domain=0.01:\xmax, samples=50] plot (\x, {f(\x)});
+
+    % Discontinuidad en x=0 (círculos huecos)
+    \filldraw[draw=blue, fill=white, thick] (0,1) circle (1.5pt);
+    \filldraw[draw=blue, fill=white, thick] (0,-1) circle (1.5pt);
+
+    % Etiqueta de la función
+    \node[blue, anchor=south east] at (4.5,1.5) {$f(x)=\frac{|x|}{x}$};
+\end{tikzpicture}
+\end{center}
+
+\pregunta[5] Applying the graphical technique to compute limits, argument if the limit converges of the following functions,
+
+
+\begin{tikzpicture}[
+    scale=1.2,
+    >=Stealth,
+    declare function={
+        f(\x) = 3/((\x-1)^2); % Función 3/(x-1)^2
+    }
+]
+    % Definir dimensiones (ratio 5:4)
+    \def\xmin{-4} \def\xmax{6}      % Rango en x (10 unidades, ratio 5:4)
+    \def\ymin{-1} \def\ymax{7}      % Rango en y (8 unidades, ratio 5:4)
+    \def\tick{0.2} % Tamaño de las marcas
+    \def\asintota{1} % Asíntota vertical en x=1
+
+    % Grid mayor (cada 1 unidad)
+    \draw[gray!30, very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+    % Grid menor (cada 0.5 unidades)
+    \foreach \x in {-4,-3.5,...,6} {
+        \draw[gray!10, very thin] (\x,\ymin) -- (\x,\ymax);
+    }
+    \foreach \y in {-1,-0.5,...,7} {
+        \draw[gray!10, very thin] (\xmin,\y) -- (\xmax,\y);
+    }
+
+    % Ejes
+    \draw[->, thick] (\xmin-0.5,0) -- (\xmax+0.5,0) node[right] {$x$};
+    \draw[->, thick] (0,\ymin-0.5) -- (0,\ymax+0.5) node[above] {$y$};
+
+    % Marcas en los ejes (cada 1 unidad)
+    \foreach \x in {-4,-3,...,6} {
+        \draw[thick] (\x,-\tick) -- (\x,\tick) node[below=2pt] {$\x$};
+    }
+    \foreach \y in {-1,0,1,2,3,4,5,6,7} {
+        \draw[thick] (-\tick,\y) -- (\tick,\y) node[left=2pt] {$\y$};
+    }
+
+    % Asíntota vertical (línea punteada)
+    \draw[dashed, red, thick] (\asintota,\ymin) -- (\asintota,\ymax);
+    \node[red, above] at (\asintota,\ymax) {$x=1$};
+
+    % Gráfica de la función (evitando la asíntota)
+    \draw[very thick, blue, domain=\xmin:{\asintota-0.15}, samples=50, smooth] 
+        plot (\x, {f(\x)});
+    \draw[very thick, blue, domain={\asintota+0.15}:\xmax, samples=50, smooth] 
+        plot (\x, {f(\x)});
+
+    % Flechas indicando crecimiento hacia infinito
+    \draw[blue, thick, ->, >=Stealth] (0.85,6) -- (0.99,10);
+    \draw[blue, thick, ->, >=Stealth] (1.15,6) -- (1.01,10);
+    
+    % Puntos notables
+    \filldraw[blue] (0,3) circle (2pt) node[above left] {$(0,3)$};
+    \filldraw[blue] (2,3) circle (2pt) node[above right] {$(2,3)$};
+    \filldraw[blue] (4,0.333) circle (2pt) node[above right] {$(4,\frac{1}{3})$};
+
+    % Etiqueta de la función
+    \node[blue, anchor=south west] at (-3,6) {$f(x)=\dfrac{3}{(x-1)^2}$};
+    
+    % Comportamiento asintótico
+    \node[anchor=north east] at (6,7) {$\lim\limits_{x\to 1^{\pm}} f(x)=+\infty$};
+    \node[anchor=south east] at (6,0) {$\lim\limits_{x\to\pm\infty} f(x)=0$};
+\end{tikzpicture}
+
+\end{preguntas}
+
+
+
+
 
 \begin{preguntas}
 

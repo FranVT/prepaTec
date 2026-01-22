@@ -6,13 +6,13 @@
 
 \begin{preguntas}
 
-\pregunta[5] \rule{1cm}{0.1mm} Select the option with a quadratic function:
+\pregunta[5] \rule{1cm}{0.1mm} Select the option with a cubic function:
 
 \begin{enumerate*}[label=(\alph*)]
-    \item $(a/b)x + c\qquad$
+    \item $(a/b)x^2 + c\qquad$
     \item $(a_1/b_1)x + (a_2/b_2)x^2\qquad$
     \item $(a/b)x^3 + c\qquad$
-    \item $(a_n/b_n)x^{1/2}\qquad$
+    \item $(a_n/b_n)x^2\qquad$
 \end{enumerate*}
 
 \pregunta[5] \rule{1cm}{0.1mm} Select the correct domain, such that $f(x)\in\mathbb{R}$, where $f(x):=x^{1/n}$
@@ -24,7 +24,7 @@
     \item $x\in\left[-1,1\right]\qquad$
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Select the option with the range of the function $f(x):=\mathrm{abs}(x)$ for $x\in\left(-\infty,\infty\right)$
+\pregunta[5] \rule{1cm}{0.1mm} Select the option with the range of the function $f(x):=x^2$ for $x\in\left(-\infty,\infty\right)$
 
 \begin{enumerate*}[label=(\alph*)]
     \item $f(x)\in\left(-\infty,\infty\right)\qquad$
@@ -33,7 +33,7 @@
     \item $f(x)\in\left[-1,1\right]\qquad$
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Select the correct type of function of $f(x):=x^{1/n}$, where $n\in\mathbb{Z}$ ($x$ belongs to the set of integer numbers)
+\pregunta[5] \rule{1cm}{0.1mm} Select the correct type of function of $f(x):=x^n$, where $n\in\mathbb{Z}$ ($x$ belongs to the set of integer numbers)
 
 \begin{enumerate*}[label=(\alph*)]
     \item Quadratic$\qquad$
@@ -42,7 +42,7 @@
     \item Rational$\qquad$
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Select the alternative mathematical notation to express $g[f(x)]$
+\pregunta[5] \rule{1cm}{0.1mm} Select the alternative mathematical notation to express $f[g(x)]$
 
 \begin{enumerate*}[label=(\alph*)]
     \item $f\circ g\qquad$
@@ -56,8 +56,8 @@
 \begin{enumerate*}[label=(\alph*)]
     \item $f(x):=x^3\qquad$
     \item $f(x):=\mathrm{abs}(x)x\qquad$
-    \item $f(x):=\mathrm{sgn}(x) x\qquad$
-    \item $f(x):=-x^2\qquad$
+    \item $f(x):=-\mathrm{sgn}(x) x\qquad$
+    \item $f(x):=x^2\qquad$
 \end{enumerate*}
 
 
@@ -118,24 +118,52 @@ Finally, write the main difference between them.
 
 \pregunta[12] Write a general algebraic expression for each graph,
 
+\begin{figure}[ht!]
+    \centering
+    \begin{subfigure}[c]{0.45\textwidth}
+        \centering   
+        \includegraphics[width=0.75\textwidth]{NO TOCAR/imagenes/cuadratic.png}
+    \end{subfigure}
+    \begin{subfigure}[c]{0.45\textwidth}
+         \centering
+         \includegraphics[width=0.75\textwidth]{NO TOCAR/imagenes/cubic.png}
+    \end{subfigure}
+
+    \vspace{1.5cm}
+
+    \begin{subfigure}[c]{0.45\textwidth}
+         \centering
+         \includegraphics[width=0.75\textwidth]{NO TOCAR/imagenes/linear.png}
+    \end{subfigure}
+    \begin{subfigure}[c]{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.75\textwidth]{NO TOCAR/imagenes/inverse-cubic.png}
+    \end{subfigure}
+\end{figure}
+
 \newpage
 
 \pregunta[12] Graph a sketch of the following function,
 \begin{gather*}
     f(x):=\left\{
     \begin{array}{cc}
-        x^2 & x\in[0,\infty) \\
-        -x^2 & x\in(-\infty,0] 
+        x^{1/2} & x\in[0,\infty) \\
+        x^2 & x\in(-\infty,0] 
     \end{array}
     \right.
 \end{gather*}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{NO TOCAR/imagenes/cartesian-plane.png}
+\end{figure}
 
 
 \pregunta[10] Express the domain and range of the following functions,
 
 \begin{enumerate*}[label=(\alph*)]
-    \item $f(x):= (x+1)^{1/2}\qquad$
-    \item $g(x):= 1/x^2\qquad$
+    \item $f(x):= (x-1)^{1/2}\qquad$
+    \item $g(x):= 1/x\qquad$
 \end{enumerate*}
 
 \begin{center}
@@ -144,90 +172,3 @@ Finally, write the main difference between them.
 
 
 \end{preguntas}
-
-
-\begin{comment}
-
-\begin{preguntas}
-
-%%%%%%%%%%%%%%%%  Pregunta %%%%%%%%%%%%%%%%
-\pregunta[5] What is function?
-
-%%%%%%%%%%%%%%%%  Pregunta %%%%%%%%%%%%%%%%
-\pregunta[5] What is the difference between Domain and Range.
-
-
-%%%%%%%%%%%%%%%%  Pregunta %%%%%%%%%%%%%%%%
-\pregunta[5] Represent the following function in a verbal format,
-\begin{equation*}
-    f(x):=\frac{a_n}{b_n}x^n+c_n.
-\end{equation*}
-
-%%%%%%%%%%%%%%%%  Pregunta %%%%%%%%%%%%%%%%
-\pregunta[5] What are the 4 ways to represent a function?
-
-
-%%%%%%%%%%%%%%%%  Pregunta %%%%%%%%%%%%%%%%
-\pregunta[5] Use mathematical notation to represent the following: ``$x$ has a value between $0$ and $16$''.
-
-
-%%%%%%%%%%%%%%%%  Pregunta %%%%%%%%%%%%%%%%
-\pregunta[5] What is the difference between exponential and rational functions?
-
-\end{preguntas}
-
-\begin{preguntas}
-    
-\pregunta[4] Calcule el siguiente límite:
-\[
-\lim_{x \to 2} \frac{x^2 - 4}{x - 2}
-\]
-Explique su procedimiento paso a paso.
-
-
-
-%%%%%%%%%%%%%%%%  Pregunta 2 %%%%%%%%%%%%%%%%
-
-\pregunta[4] Determine si la siguiente función es continua en $x = 3$. Justifique su respuesta.
-\[
-f(x) = 
-\begin{cases} 
-x^2 + 1 & \text{si } x < 3 \\
-7 & \text{si } x = 3 \\
-2x + 1 & \text{si } x > 3 
-\end{cases}
-\]
-
-
-
-%%%%%%%%%%%%%%%%  Pregunta 3 %%%%%%%%%%%%%%%%
-
-\pregunta[4] Calcule la derivada de las siguientes funciones:
-             \begin{partes}
-                 \parte[2] Pregunta a
-                 \parte[2] Pregunta b
-             \end{partes}
-
-
-
-%%%%%%%%%%%%%%%%  Pregunta 4 %%%%%%%%%%%%%%%%
-
-\pregunta[4] Utilice la regla del producto para calcular la derivada de la siguiente función:
-\[
-f(x) = (2x^2 + 3)(x^3 - 4x)
-\]
-Explique cada paso del procedimiento. 
-    \fuente{Adaptado de Curo, 2014}
-
-
-%%%%%%%%%%%%%%%%  Pregunta 5 %%%%%%%%%%%%%%%%
-
-\pregunta[4] Halle la segunda derivada de la función:
-\[
-f(x) = \frac{x^4}{4} - 2x^2 + 5
-\]
-Muestre los pasos necesarios.
-
-\end{preguntas} 
-
-\end{comment}

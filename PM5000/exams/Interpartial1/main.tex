@@ -46,17 +46,19 @@
 
 
 \usepackage{amsmath}
-\usepackage[spanish,es-noshorthands]{babel}%%para no tener conflicto con tiks
+\usepackage{babel}%%para no tener conflicto con tiks
 \usepackage{tikz}
+\usetikzlibrary{arrows.meta}
 \usepackage{geometry}
 \usepackage{tzplot} 
 \usepackage[utf8]{inputenc}
 \usepackage{amssymb}
-\usepackage{amsmath,stackengine}
+\usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{enumerate}
 \usepackage{anysize}
 \usepackage{mathabx}
+\usepackage{physics}
 \usepackage{cancel}
 \usepackage{dsfont}
 \usepackage{multicol}
@@ -69,7 +71,7 @@
 \usepackage{algorithmic}
 \usepackage{calligra} 
 \usepackage[T1]{fontenc}
-\usepackage{soul}%%%%%%%%%%%%% para poder subrayar las palabras
+%\usepackage{soul}%%%%%%%%%%%%% para poder subrayar las palabras
 \usepackage{verbatim}
 \usepackage{appendix}
 \usepackage{centernot}
@@ -93,6 +95,8 @@
 
 \usepackage[inline]{enumitem}
 \usepackage{comment}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ESTILO DE NUMERACIÓN Y PUNTUACIÓN %%%%%%%%%%%%%%%%%%%%%%%
@@ -159,28 +163,12 @@
 %%%%PARA DETENER LA MARCA DE AGUA:
 %%%\ClearShipoutPicture
 
-
-
-
-
 \begin{document}
 % Incluye los archivos modulares
-\input{datos}
+\input{datos.tex}
+
 \vspace{-1cm}
-%\input{version1_key.tex}
-%\input{version3.tex}
+\input{docs/version1.tex}
 %\input{version2.tex}
 %\input{version3.tex}
-
-
-\begin{gather*}
-    f(x):=\left\{
-        \begin{array}{cl}
-            \frac{7}{4}    & x\in[-3/2,-1/2] \\
-            1/4(x+1) & x\in[-1,1] \\
-            -2(x-1)^2+2 & x\in[1/2,3/2]
-        \end{array}
-        \right.
-\end{gather*}
-
 \end{document}
