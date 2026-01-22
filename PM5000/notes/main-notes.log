@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  21 JAN 2026 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  22 JAN 2026 14:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1344,65 +1344,34 @@ Overfull \hbox (52.2833pt too wide) in paragraph at lines 823--833
 
 
 [12]
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 879.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (24.90816pt too wide) in paragraph at lines 849--879
-[]  
- []
+<./mod1/figures/fig1.png, id=174, 355.3275pt x 284.5029pt>
+File: ./mod1/figures/fig1.png Graphic file (type png)
+<use ./mod1/figures/fig1.png>
+Package pdftex.def Info: ./mod1/figures/fig1.png  used on input line 846.
+(pdftex.def)             Requested size: 304.45335pt x 243.76909pt.
+<./mod1/figures/figSIN_1.png, id=175, 355.3275pt x 284.5029pt>
+File: ./mod1/figures/figSIN_1.png Graphic file (type png)
+<use ./mod1/figures/figSIN_1.png>
+Package pdftex.def Info: ./mod1/figures/figSIN_1.png  used on input line 851.
+(pdftex.def)             Requested size: 304.45335pt x 243.76909pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--879
-[]\T1/ptm/m/n/10 Figure 1: |[]The cir-cles in-di-cates
- []
+[13 <./mod1/figures/fig1.png> <./mod1/figures/figSIN_1.png>]
+<./mod1/figures/figABS_2.png, id=183, 355.3275pt x 284.5029pt>
+File: ./mod1/figures/figABS_2.png Graphic file (type png)
+<use ./mod1/figures/figABS_2.png>
+Package pdftex.def Info: ./mod1/figures/figABS_2.png  used on input line 859.
+(pdftex.def)             Requested size: 304.45335pt x 243.76909pt.
+<./mod1/figures/figSIN_2.png, id=184, 355.3275pt x 284.5029pt>
+File: ./mod1/figures/figSIN_2.png Graphic file (type png)
+<use ./mod1/figures/figSIN_2.png>
+Package pdftex.def Info: ./mod1/figures/figSIN_2.png  used on input line 864.
+(pdftex.def)             Requested size: 304.45335pt x 243.76909pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--879
-\T1/ptm/m/n/10 that the func-tion is not de-fined at
- []
+[14 <./mod1/figures/figABS_2.png> <./mod1/figures/figSIN_2.png>]) (./main-notes.bbl)
 
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 938.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (49.56053pt too wide) in paragraph at lines 887--938
- []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 938--938
-[]\T1/ptm/m/n/10 Figure 2: |[]La fun-ción tiene una
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 938--938
-\T1/ptm/m/n/10 dis-con-tinuidad evitable en $\OML/ztmcm/m/it/10 x \OT1/zplm/m/n/10 = \OT1/ztmcm/m/n/10 2$\T1/ptm/m/n/10 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 938--938
-\T1/ptm/m/n/10 El límite ex-iste y es 3, pero $\OML/ztmcm/m/it/10 f\OT1/zplm/m/n/10 (\OT1/ztmcm/m/n/10 2\OT1/zplm/m/n/10 )$
- []
-
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-
-
-[13]) (./main-notes.bbl)
-
-[14] (./main-notes.aux)
+[15] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1411,18 +1380,18 @@ Package rerunfilecheck Info: File `main-notes.out' has not changed.
 (rerunfilecheck)             Checksum: 8B1A005C7B23C567BE9C1A4DA96A573E;543.
  ) 
 Here is how much of TeX's memory you used:
- 42428 strings out of 475171
- 880064 string characters out of 5767095
- 1326549 words of memory out of 5000000
- 64556 multiletter control sequences out of 15000+600000
+ 40827 strings out of 475171
+ 846690 string characters out of 5767095
+ 1320549 words of memory out of 5000000
+ 62945 multiletter control sequences out of 15000+600000
  665903 words of font info for 201 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,19n,135p,426b,1298s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (14 pages, 155388 bytes).
+Output written on main-notes.pdf (15 pages, 359481 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 78 named destinations out of 1000 (max. 500000)
- 1213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 1233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

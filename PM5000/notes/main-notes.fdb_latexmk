@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-notes"] 1769015888.71961 "main-notes.aux" "main-notes.bbl" "main-notes" 1769016438.38735 0
+["bibtex main-notes"] 1769114864.46332 "main-notes.aux" "main-notes.bbl" "main-notes" 1769114866.08856 0
   "./sample.bib" 1768239418.17376 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1767555874 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1769016438.24852 3987 e3e4c094ebfeba13a5b2668eeb9adb76 "pdflatex"
+  "main-notes.aux" 1769114865.94246 3577 fb6d655b8a70d9a1588bebc2c7662114 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1769016436.96055 "main-notes.tex" "main-notes.pdf" "main-notes" 1769016438.3875 0
+["pdflatex"] 1769114864.50562 "main-notes.tex" "main-notes.pdf" "main-notes" 1769114866.08871 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1767555874 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1767555874 6952 fcebd9505ff25166f6bdc98f5d26741b ""
@@ -296,11 +296,15 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768251110 5306876 69c328245ae101f6bc10b01e1f2bf9d5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768253150 2008248 b250068cce02fd18fe464810a24808ac ""
-  "main-notes.aux" 1769016438.24852 3987 e3e4c094ebfeba13a5b2668eeb9adb76 "pdflatex"
-  "main-notes.bbl" 1769015888.75257 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
-  "main-notes.out" 1769016438.24927 543 8b1a005c7b23c567be9c1a4da96a573e "pdflatex"
+  "main-notes.aux" 1769114865.94246 3577 fb6d655b8a70d9a1588bebc2c7662114 "pdflatex"
+  "main-notes.bbl" 1769114864.50039 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
+  "main-notes.out" 1769114865.94335 543 8b1a005c7b23c567be9c1a4da96a573e "pdflatex"
   "main-notes.tex" 1769015872.12875 3238 5aeef454f6305b09027b340ec5f6beb3 ""
-  "mod1/part1-note1.tex" 1769016436.50104 37840 2bcf826639893d296a15003fbf2883ba ""
+  "mod1/figures/fig1.png" 1769113847.05355 40167 31797870e3a5862946bab1090532c4b9 ""
+  "mod1/figures/figABS_2.png" 1769114219.02041 53106 3a60687f716b77509cad8f427623f85f ""
+  "mod1/figures/figSIN_1.png" 1769114552.63843 67532 0e4f4b856004d70110e59ac3a4979f6a ""
+  "mod1/figures/figSIN_2.png" 1769114706.2318 67346 220f7690dd6ae7527cdc65ee21c67dff ""
+  "mod1/part1-note1.tex" 1769114862.14528 38314 1612ab7e386eb5fe78bec4d80a8cdaad ""
   "tufte-common.def" 1768239418.17389 70892 d170883770a3fb3b643fabc94d55da1e ""
   "tufte-handout.cls" 1768239418.17405 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)
