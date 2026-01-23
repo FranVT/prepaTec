@@ -98,13 +98,13 @@ Use the notion of limit from the left and right.
     \def\tick{0.2} % Tamaño de las marcas
 
     % Grid mayor (cada 1 unidad)
-    \draw[gray!30, very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+    \draw[gray!200, very thin] (\xmin,\ymin) grid (\xmax,\ymax);
     % Grid menor (cada 0.5 unidades)
     \foreach \x in {-2.5,-2,...,2.5} {
-        \draw[gray!10, very thin] (\x,\ymin) -- (\x,\ymax);
+        \draw[gray!100, very thin] (\x,\ymin) -- (\x,\ymax);
     }
     \foreach \y in {-2.5,-2,...,2.5} {
-        \draw[gray!10, very thin] (\xmin,\y) -- (\xmax,\y);
+        \draw[gray!100, very thin] (\xmin,\y) -- (\xmax,\y);
     }
 
     % Ejes
@@ -152,10 +152,10 @@ Use the notion of limit from the left and right.
 \def\ymax{2.5}
 
 % Dibujar la cuadrícula menor (más clara)
-\draw[step=0.2, gray!15, very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+\draw[step=0.2, gray!100, very thin] (\xmin,\ymin) grid (\xmax,\ymax);
 
 % Dibujar la cuadrícula mayor (más oscura)
-\draw[step=1, gray!40, thin] (\xmin,\ymin) grid (\xmax,\ymax);
+\draw[step=1, gray!200, thin] (\xmin,\ymin) grid (\xmax,\ymax);
 
 % Dibujar los ejes
 \draw[->, thick] (\xmin,0) -- (\xmax,0) node[right] {$x$};
@@ -221,7 +221,7 @@ Use the notion of limit from the left and right.
 \node[red, above] at (0.1, -0.5);
 
 % Origen
-\node[below left] at (0,0) {$O$};
+%\node[below left] at (0,0) {$O$};
 
 \end{tikzpicture}
 \end{minipage}
