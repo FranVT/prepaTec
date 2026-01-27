@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  26 JAN 2026 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  27 JAN 2026 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1380,6 +1380,25 @@ LaTeX Warning: Marginpar on page 15 moved.
 
 [15]
 
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+./mod1/part1-note1.tex:945: Undefined control sequence.
+l.945 ...fined when approaching from $\pm\infinity
+                                                  $, depending on the sign o...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
 [16]) (./main-notes.bbl)
 
 [17] (./main-notes.aux)
@@ -1397,9 +1416,9 @@ Here is how much of TeX's memory you used:
  62961 multiletter control sequences out of 15000+600000
  665903 words of font info for 201 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,19n,135p,426b,1320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (17 pages, 363738 bytes).
+Output written on main-notes.pdf (17 pages, 365843 bytes).
 PDF statistics:
  284 PDF objects out of 1000 (max. 8388607)
  212 compressed objects within 3 object streams
