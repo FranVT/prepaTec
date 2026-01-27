@@ -933,7 +933,7 @@ In this session\footnote{January 27} we are going to tackle the limits for radic
         \lim_{x\to-1}\sqrt{-x}  \\
         \lim_{x\to1/2}\sqrt{2x+\frac{1}{2}} \\
         \lim_{x\to1}\sqrt{x-2} \\
-        \lim_{x\to}
+        \lim_{x\to4}\frac{x-4}{\sqrt{x}-2}
     \end{gather*}
 }
 Recalling that a rational function has the following algebraic expression:
@@ -942,7 +942,7 @@ Recalling that a rational function has the following algebraic expression:
 \end{gather*}
 Let's remember that the domain of this functions are such that \(bx+h\geq0\to x\geq-h/b.\)
 This means that if it is asked to compute a limit that is less than \(-h/b\) the limit is not defined.
-Evemore, the limit to that value only defined when approaching from $\pm\infinity$, depending on the sign of $b$.
+Evemore, the limit to that value only defined when approaching from $\pm\infty$, depending on the sign of $b$.
 For example,
 \begin{align*}
     \lim_{x\to 1} \sqrt{x-1} &= \sqrt{1-1} = \sqrt{0} = 0.
@@ -960,9 +960,34 @@ As a final example, let's see the limits of \(\sqrt{x}\) from $\pm\infty$ as $x\
     \lim_{x\to 0^{+}}\sqrt{x} &= 0
 \end{align*}
 
-Another case in rational functions is when we have a rational function of radical functions.
+Another interesting function to analyse limits is when we have a rational function of radical functions, as follows
+\begin{gather*}
+    \lim_{x\to0}\frac{\sqrt{x+4}-2}{x}.
+\end{gather*}
+In order to apply the direct substitution method, we need to make algebraic modifications.
+In this case we are going to use the powerfull technique of multiplying by \num{1}, made from the conjugate, that is,
+\begin{gather*}
+    1 = \frac{\sqrt{x+4}+2}{\sqrt{x+4}+2}.
+\end{gather*}
+Let's multiply by \num{1} the function\footnote{
+    \begin{align*}
+    \frac{\sqrt{x+4}-2}{x} &= \frac{\sqrt{x+4}-2}{x}\frac{\sqrt{x+4}+2}{\sqrt{x+4}+2} \\
+                           &= \frac{\qty(x+4)-4}{x\sqrt{x+4}+2} \\
+                           &= \frac{x}{x\sqrt{x+4}+2} \\
+                           &=\frac{1}{\sqrt{x+4}+2}
+    \end{align*}
+} and we get,
+\begin{align*}
+    \frac{\sqrt{x+4}-2}{x} =\frac{1}{\sqrt{x+4}+2}
+\end{align*}
+Now, let's try the direct substitution after this algebraic manipulation,
+\begin{align*}
+    \lim_{x\to0}\frac{\sqrt{x+4}-2}{x} &= \lim_{x\to0}\frac{1}{\sqrt{x+4}+2} \\
+                                       &= \frac{1}{\sqrt{(0)+4}+2} \\
+                                       &= \frac{1}{4}
+\end{align*}
 
-
+\newpage
 
 \subsection{Limits at infinity}
 
