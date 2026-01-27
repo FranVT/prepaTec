@@ -864,6 +864,72 @@ With this we can say that the \emph{limit} tells us the value the function is tr
     \includegraphics[width=\textwidth]{figures/figSIN_2.png}
 \end{figure}
 
+\newpage 
+
+\section{Computing Limits Analytically}
+
+In these sessions\footnote{January 27} we are going to explore the methods to compute limits using algebra, instead of arithmetic, as a preamble to enter into derivatives.
+We are going to explore 4 main situations: direct substitution, limits for rational, radicals, and at infinity.
+There is an extra topic, which is trigonometric limits; however, depending on the time, we are only going to mention them or show how to compute the values.
+
+\marginnote{
+    \textbf{Class Activity}
+    Compute the limits of the following functions by using the analytical methods seen in this session.
+
+    \begin{gather*}
+        \lim_{x\to1/2}\qty(4x^2-6x+5) \\
+        \lim_{x\to1}\qty(\frac{x}{x^4+4}) \\
+        \lim_{x\to0}\qty(\frac{x}{x^2+x}) \\
+    \end{gather*}
+}
+
+\subsection{Direct Substitution}
+
+This technique mostly works for any polynomial.
+For example,
+\begin{align*}
+    \lim_{x\to 3}\left(2x+1\right) &= 2(3)+1 \\
+                                   &= 7.
+\end{align*}
+
+If you get a function that arrive into situations like $0/0$, $a/0$, we can use the L'Hopital's Rule, which if we have time we are going to cover, if not, then now you know the existance of this algebraic tool.
+
+\subsection{Rational functions}
+
+A common case in which you get into situations like $0/0$ and $a/0$ are the rational functions \(\frac{P(x)}{Q(x)}\).
+This situation emerges when the polynomials $P(x)$ and $Q(x)$ have roots in common, or at the roots of $Q(x)$.
+
+When applying the direct substitution method gives,
+\begin{align*}
+    \lim_{x\to r}\frac{P(x)}{Q(x)} &= \frac{P(r)}{0},
+\end{align*}
+then the limit is \(\pm\infty\).
+To identify if it is $+\infty$ or $-\infty$, we need to check the sign of the quotient.
+
+On the other hand, when the direct substitution method arrives to,
+\begin{align*}
+    \lim_{x\to r}\frac{P(x)}{Q(x)} &= \frac{0}{0},
+\end{align*}
+then we need to make algebraic manipulation.
+The main strategy is to factor and cancel common terms, and then apply the direct substitution method,
+\begin{align*}
+\lim_{x\to2}\frac{x^2-4}{x-2} &= \lim_{x\to2}\frac{\qty(x-2)\qty(x+2)}{x-2} \\
+                              &= \lim_{x\to2}\qty(x+2) \\
+                              &= 2+2 \\
+                              &= 4
+\end{align*}
+
+Remember that for the example, the function it is not defined at $x=2$, however we can get the exact value of this function by using the idea of limit.
+
+\newpage
+
+\subsection{Radicals}
+
+
+\subsection{Limits at infinity}
+
+\subsection*{Extra: Trigonometric Limits}
+
 
 \begin{comment}
 \begin{gather*}
