@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  28 JAN 2026 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  28 JAN 2026 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1397,31 +1397,54 @@ LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-./mod1/part1-note1.tex:1012: Undefined control sequence.
-<argument>  \limit 
-                   _{\pm \infty }\frac {1}{x} = 0. 
-l.1012 \end{gather*}
-                    
+
+Overfull \hbox (3.3092pt too wide) detected at line 1013
+[]
+ []
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+Overfull \hbox (13.66812pt too wide) detected at line 1062
+[]
+ []
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+./mod1/part1-note1.tex:1067: Undefined control sequence.
+l.1067 \subscetion
+                  {Class Activities}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mod1/part1-note1.tex:1012: Undefined control sequence.
-<argument>  \limit 
-                   _{\pm \infty }\frac {1}{x} = 0. 
-l.1012 \end{gather*}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-) (./main-notes.bbl)
 
-[17] (./main-notes.aux)
+[17]) (./main-notes.bbl)
+
+[18] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1431,17 +1454,17 @@ Package rerunfilecheck Info: File `main-notes.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  40837 strings out of 475171
- 846799 string characters out of 5767095
- 1320549 words of memory out of 5000000
- 62948 multiletter control sequences out of 15000+600000
+ 846801 string characters out of 5767095
+ 1323549 words of memory out of 5000000
+ 62947 multiletter control sequences out of 15000+600000
  665903 words of font info for 201 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,19n,135p,426b,1330s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (17 pages, 368575 bytes).
+Output written on main-notes.pdf (18 pages, 371920 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 88 named destinations out of 1000 (max. 500000)
  1249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

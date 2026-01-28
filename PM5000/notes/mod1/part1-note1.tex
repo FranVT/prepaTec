@@ -995,21 +995,27 @@ In this session\footnote{January 29} we are going to see how to compute the limi
 
 \subsection{Properties of Limits}
 
-Before delving into computing limits of rational functions, we are going to introduce the following properties of limits.
-The demostrations is a little bit outside the scope of this course, but if you are curious in off, you can ask me.
-Let's start with basic limts,
+Before delving into computing limits of rational functions, it is important to mention that we are going to need some properties of limits\footnote{
 \begin{align*}
     \lim_{x\to c} b = b &\quad\text{Limit~of~a~constant} \\
     \lim_{x\to c} x = c  &\quad\text{Direct~substitution~technique} \\
     \lim_{x\to c} x^n = c^n &\quad\text{Direct~substitution}
 \end{align*}
 
+Assumming that $b$ and $c$ are real numbers, $n$ a positive integer and let $f(x)$ and $g(x)$ be functions with the following limits \(\lim_{x\to c}f(x)=L\) and \(\lim_{x\to c}f(x)=K\).
+\begin{align*}
+    \text{Scalar~multiple:} &\quad \lim_{x\to c}\left[b f(x)\right]=bL\\
+    \text{Sum~or~Diff:} &\quad \lim_{x\to c}\left[f(x)\pm g(x)\right]=L\pm K\\
+    \text{Product:} &\quad \lim_{x\to c}\left[f(x)g(x)\right]=LK\\
+    \text{Quotient:} &\quad \lim_{x\to c}\left[\frac{f(x)}{g(x)}\right]=\frac{L}{K} \\
+    \text{Power:} &\quad \lim_{x\to c}\left[f(x)\right]^{n}=L^{n}
+\end{align*}
+}.
+The demostrations is a little bit outside the scope of this course, but if you are curious in off, you can ask me.
+
 \subsection{Rational functions}
 
-Let's review a helpful limit to examine any rational function before we begin learning how to compute these limits:
-\begin{gather*}
-    \limit_{\pm\infty}\frac{1}{x} = 0.
-\end{gather*}
+Let's review a helpful limit to examine any rational function before we begin learning how to compute these limits \(\lim_{\pm\infty}\frac{1}{x} = 0\).
 This limit can be easily proved using a numerical approach.
 
 Now, let's remember that a rational function is expressed as,
@@ -1017,8 +1023,56 @@ Now, let's remember that a rational function is expressed as,
     f(x) = \frac{P(x)}{Q(x)}.
 \end{gather*}
 With \(P(x) = a_{n}x^{n} + a_{n-1}x^{n-1} + \ldots+a_{0}\) and \(Q(x) = b_{m}x^{m} + b_{m-1}x^{m-1} + \ldots+b_{0}\).
+In order to compute the limit to $\pm\infty$, first factorize an $x$.
+Then, simplify the expression algebraically and apply the previously established properties of limits.
+For example to compute \(\lim_{x\to\infty}\frac{x+2}{x^2+1}\) we need to re-write\footnote{
+    \begin{align*}
+        \frac{x+2}{x+1} &= \frac{x\qty(1+2/x)}{x\qty(x+1/x)} \\
+                        &= \frac{1+2/x}{x+1/x}
+    \end{align*}
+} the function as 
+\begin{align*}
+     \lim_{x\to\infty}\frac{x+2}{x^2+1}&= \lim_{x\to\infty}\frac{1+2/x}{x+1/x}.
+\end{align*}
+Applying the properties of limits\footnote{
+    \begin{align*}
+        \lim_{x\to\infty}\frac{1+2/x}{x+1/x} &= \frac{\lim_{x\to\infty}1+\lim_{x\to\infty}2/x}{\lim_{x\to\infty}x+\lim_{x\to\infty}1/x} \\
+                                             &= \frac{1+0}{\infty+0}
+    \end{align*}
+},
+\begin{gather*}
+     \lim_{x\to\infty}\frac{x+2}{x^2+1}= \frac{1}{\infty} = 0.
+\end{gather*}
 
+Another approach can be by dividing by the highest factor\footnote{
+    \begin{align*}
+        \frac{x+2}{x^2+1}&=\frac{x/x^2+2/x^2}{x^2/x^2+1/x^2} \\
+                         &=\frac{1/x+2/x^2}{1+1/x^2}
+    \end{align*}
+}, in this case will be $x^2$, therefore:
+\begin{align*}
+     \lim_{x\to\infty}\frac{x+2}{x^2+1}&= \lim_{x\to\infty}\frac{1/x+2/x^2}{1+1/x^2}.
+\end{align*}
+Again, applying properties of limits\footnote{
+\begin{align*}
+    \lim_{x\to\infty}\frac{1/x+2/x^2}{1+1/x^2}&= \frac{\lim_{x\to\infty}1/x + \lim_{x\to\infty}2/x^2}{\lim_{x\to\infty}1+\lim_{x\to\infty}1/x^2} \\
+                                              &= \frac{0+0}{1+0} \\
+                                              &= \frac{0}{1}
+\end{align*}
+},
+\begin{gather*}
+     \lim_{x\to\infty}\frac{x+2}{x^2+1}= \frac{0}{1}=0.
+\end{gather*}
 
+\subscetion{Class Activities}
+
+\begin{gather*}
+    \lim_{x\to\infty}\frac{3x+4}{2x^2+5}, \quad
+    \lim_{x\to\infty}\frac{3x^2+4}{2x+5}, \quad
+    \lim_{x\to\infty}\frac{3x^2+4}{2x^2+5} 
+\end{gather*}
+
+\newpage
 
 \subsection*{Extra: Trigonometric Limits}
 
