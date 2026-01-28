@@ -989,115 +989,47 @@ Now, let's try the direct substitution after this algebraic manipulation,
 
 \newpage
 
-\subsection{Limits at infinity}
+\section{Limits at infinity}
+
+In this session\footnote{January 29} we are going to see how to compute the limit of a function when the domain goes to $\pm\infty$.
+
+\subsection{Properties of Limits}
+
+Before delving into computing limits of rational functions, we are going to introduce the following properties of limits.
+The demostrations is a little bit outside the scope of this course, but if you are curious in off, you can ask me.
+Let's start with basic limts,
+\begin{align*}
+    \lim_{x\to c} b = b &\quad\text{Limit~of~a~constant} \\
+    \lim_{x\to c} x = c  &\quad\text{Direct~substitution~technique} \\
+    \lim_{x\to c} x^n = c^n &\quad\text{Direct~substitution}
+\end{align*}
+
+\subsection{Rational functions}
+
+Let's review a helpful limit to examine any rational function before we begin learning how to compute these limits:
+\begin{gather*}
+    \limit_{\pm\infty}\frac{1}{x} = 0.
+\end{gather*}
+This limit can be easily proved using a numerical approach.
+
+Now, let's remember that a rational function is expressed as,
+\begin{gather*}
+    f(x) = \frac{P(x)}{Q(x)}.
+\end{gather*}
+With \(P(x) = a_{n}x^{n} + a_{n-1}x^{n-1} + \ldots+a_{0}\) and \(Q(x) = b_{m}x^{m} + b_{m-1}x^{m-1} + \ldots+b_{0}\).
+
+
 
 \subsection*{Extra: Trigonometric Limits}
 
-
 \begin{comment}
-\begin{gather*}
-    f(x) = \frac{\abs{x}}{x}
-\end{gather*}
 
-\begin{marginfigure}
-  \begin{tikzpicture}[scale=0.8, domain=-3:3, samples=100]
-    % Ejes
-    \draw[->, thin] (-3.2,0) -- (3.2,0) node[right] {$x$};
-    \draw[->, thin] (0,-1.5) -- (0,1.5) node[above] {$y$};
-    \node[below left] at (0,0) {O};
-    
-    % Escalas
-    \foreach \x in {-3,-2,-1,1,2,3}
-      \draw (\x,0.05) -- (\x,-0.05) node[below] {\x};
-    \foreach \y in {-1,1}
-      \draw (0.05,\y) -- (-0.05,\y) node[left] {\y};
-    
-    % Función
-    \draw[blue, thick, domain=-3:-0.01] plot(\x,{-1});
-    \draw[blue, thick, domain=0.01:3] plot(\x,{1});
-    
-    % Puntos de indeterminación (huecos)
-    \draw[blue, fill=white, thick] (0,1) circle (2pt);
-    \draw[blue, fill=white, thick] (0,-1) circle (2pt);
-    
-    % Límites laterales
-    \draw[red, dashed, ->] (0.5,0) -- (0.5,1);
-    \draw[red, dashed, ->] (-0.5,0) -- (-0.5,-1);
-    
-    % Notaciones
-    \node[blue, right] at (1.5,0.8) {$f(x)=1,\ x>0$};
-    \node[blue, right] at (-2.5,-1.3) {$f(x)=-1,\ x<0$};
-    \node[red] at (2,-0.8) {$\displaystyle\lim_{x\to0^+}=1$};
-    \node[red] at (-2,0.8) {$\displaystyle\lim_{x\to0^-}=-1$};
-  \end{tikzpicture}
-  \caption{The circles indicates that the function is not defined at $x=0$.}
-\end{marginfigure}
-
-
-\begin{gather*}
-    g(x) = \frac{x^3-x^2-2x}{2x-4}
-\end{gather*}
-
-\begin{marginfigure}[-2cm]
-  \begin{tikzpicture}[scale=0.7, domain=-3:5, samples=200]
-    % Ejes
-    \draw[->, thin] (-3.2,0) -- (5.2,0) node[right] {$x$};
-    \draw[->, thin] (0,-2.5) -- (0,12) node[above] {$y$};
-    \node[below left] at (0,0) {O};
-    
-    % Escalas
-    \foreach \x in {-3,-2,-1,1,2,3,4,5}
-      \draw (\x,0.1) -- (\x,-0.1) node[below] {\x};
-    \foreach \y in {2,4,6,8,10}
-      \draw (0.1,\y) -- (-0.1,\y) node[left] {\y};
-    
-    % Parábola continua (la función simplificada)
-    \draw[blue, thick, domain=-3:1.95] plot(\x,{0.5*(\x*\x + \x)});
-    \draw[blue, thick, domain=2.05:5] plot(\x,{0.5*(\x*\x + \x)});
-    
-    % Punto de indeterminación (hueco)
-    \draw[blue, fill=white, thick] (2,3) circle (3pt);
-    
-    % Límites
-    \draw[red, dashed, ->] (1.95,0) -- (1.95,2.85);
-    \draw[red, dashed, ->] (2.05,0) -- (2.05,3.15);
-    
-    % Línea punteada para mostrar el valor límite
-    \draw[red, dashed] (0,3) -- (2,3) node[midway, above left] {};
-    \draw[red, dashed] (2,0) -- (2,3) node[midway, right] {};
-    
-    % Punto fantasma (valor límite)
-    \node[red] at (2,3) {$\circ$};
-    \fill[red] (2,3) circle (1.5pt);
-    
-    % Notaciones
-    \node[blue, right] at (3,6) {$f(x)=\frac{1}{2}(x^2+x)$};
-    \node[red] at (4,1) {$\displaystyle\lim_{x\to2}f(x)=3$};
-    
-    % Flechas de aproximación
-    \draw[<-, red, thick, shorten <=2pt] (1.8,2.5) -- (1.4,2) 
-      node[left] {$\rightarrow 3$};
-    \draw[<-, red, thick, shorten <=2pt] (2.2,3.5) -- (2.6,4) 
-      node[right] {$\leftarrow 3$};
-      
-    % Valor en x=2
-    \node[below] at (2,-0.3) {$x=2$};
-    \node[above] at (2,3.3) {Hueco: (2,3)};
-    
-    % Indeterminación
-    \draw[orange, fill=white] (2.5,10) circle (0pt) 
-      node[text width=2.5cm, align=center, anchor=south] 
-      {Indeterminación: $f(2)=\frac{0}{0}$};
-  \end{tikzpicture}
-  \caption{La función tiene una discontinuidad evitable en $x=2$. El límite existe y es 3, pero $f(2)$ no está definida.}
-\end{marginfigure}
-\end{comment}
-
-
-% Things Brainstorm
-\newpage
-
-
+\paragraph{Ideas to sketch the class}
+Show them how to read the math.
+To process of demostraions class. 
+One to show the procedure to solve the problem.
+The other to show what is the graphical representation of the procedure.
+The second one is to read the math.
 
 \subsection{Typical exercises}
 
@@ -1113,39 +1045,6 @@ Now, let's try the direct substitution after this algebraic manipulation,
     \item Translation of a function
 \end{itemize}
 
-\subsection{Intercepts of a function}
-
-
-
-\begin{comment}
-
-With this in mind, let's recap the main ideas or things from previous math courses that are going to be usefull in this course.
-
-
-\subsection{Algebra toolkit}
-
-Inverse and composition of functions
-
-
-
-Types and domain and range.
-
-\subsection{Roots and intersections}
-
-Solve for $x$.
-Solve system of equations.
-
-\subsection{Graph of functions}
-
-Use excel.
-
-\paragraph{Ideas to sketch the class}
-Show them how to read the math.
-To process of demostraions class. 
-One to show the procedure to solve the problem.
-The other to show what is the graphical representation of the procedure.
-The second one is to read the math.
 \end{comment}
-
 
 \end{document}
