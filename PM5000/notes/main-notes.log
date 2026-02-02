@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  28 JAN 2026 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  2 FEB 2026 12:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1122,7 +1122,7 @@ Package hyperref Info: Link coloring OFF on input line 51.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\langwohyphens=\language3
+\langwohyphens=\language8
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count391
@@ -1344,12 +1344,12 @@ Overfull \hbox (52.2833pt too wide) in paragraph at lines 823--833
 
 
 [12]
-<./mod1/figures/fig1.png, id=182, 355.3275pt x 284.5029pt>
+<./mod1/figures/fig1.png, id=214, 355.3275pt x 284.5029pt>
 File: ./mod1/figures/fig1.png Graphic file (type png)
 <use ./mod1/figures/fig1.png>
 Package pdftex.def Info: ./mod1/figures/fig1.png  used on input line 846.
 (pdftex.def)             Requested size: 304.45335pt x 243.76909pt.
-<./mod1/figures/figSIN_1.png, id=183, 355.3275pt x 284.5029pt>
+<./mod1/figures/figSIN_1.png, id=215, 355.3275pt x 284.5029pt>
 File: ./mod1/figures/figSIN_1.png Graphic file (type png)
 <use ./mod1/figures/figSIN_1.png>
 Package pdftex.def Info: ./mod1/figures/figSIN_1.png  used on input line 851.
@@ -1357,12 +1357,12 @@ Package pdftex.def Info: ./mod1/figures/figSIN_1.png  used on input line 851.
 
 
 [13 <./mod1/figures/fig1.png> <./mod1/figures/figSIN_1.png>]
-<./mod1/figures/figABS_2.png, id=191, 355.3275pt x 284.5029pt>
+<./mod1/figures/figABS_2.png, id=223, 355.3275pt x 284.5029pt>
 File: ./mod1/figures/figABS_2.png Graphic file (type png)
 <use ./mod1/figures/figABS_2.png>
 Package pdftex.def Info: ./mod1/figures/figABS_2.png  used on input line 859.
 (pdftex.def)             Requested size: 304.45335pt x 243.76909pt.
-<./mod1/figures/figSIN_2.png, id=192, 355.3275pt x 284.5029pt>
+<./mod1/figures/figSIN_2.png, id=224, 355.3275pt x 284.5029pt>
 File: ./mod1/figures/figSIN_2.png Graphic file (type png)
 <use ./mod1/figures/figSIN_2.png>
 Package pdftex.def Info: ./mod1/figures/figSIN_2.png  used on input line 864.
@@ -1431,40 +1431,96 @@ LaTeX Warning: Marginpar on page 17 moved.
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-./mod1/part1-note1.tex:1067: Undefined control sequence.
-l.1067 \subscetion
-                  {Class Activities}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+
+[17]
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+LaTeX Warning: Marginpar on page 18 moved.
 
 
 
-[17]) (./main-notes.bbl)
+[18]
 
-[18] (./main-notes.aux)
+LaTeX Warning: Marginpar on page 19 moved.
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+
+
+[19]
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+
+[20]
+
+[21]
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+
+[22]
+
+LaTeX Warning: Marginpar on page 23 moved.
+
+
+
+[23]
+
+LaTeX Warning: Marginpar on page 24 moved.
+
+
+
+[24]
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+
+
+[25]) (./main-notes.bbl)
+
+[26] (./main-notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: CB06AFB9CB1C0BA1A19BF40339051BD6;880.
+(rerunfilecheck)             Checksum: 68335457686E92DE716DA594FF9489FF;2416.
  ) 
 Here is how much of TeX's memory you used:
- 40837 strings out of 475171
- 846801 string characters out of 5767095
- 1323549 words of memory out of 5000000
- 62947 multiletter control sequences out of 15000+600000
+ 40866 strings out of 475068
+ 847139 string characters out of 5764375
+ 1323839 words of memory out of 5000000
+ 62972 multiletter control sequences out of 15000+600000
  665903 words of font info for 201 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62 hyphenation exceptions out of 8191
+ 131i,19n,135p,426b,1365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (18 pages, 371920 bytes).
+Output written on main-notes.pdf (26 pages, 380215 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 88 named destinations out of 1000 (max. 500000)
- 1249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 1313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

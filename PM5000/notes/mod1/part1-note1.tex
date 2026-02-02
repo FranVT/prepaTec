@@ -1064,7 +1064,7 @@ Again, applying properties of limits\footnote{
      \lim_{x\to\infty}\frac{x+2}{x^2+1}= \frac{0}{1}=0.
 \end{gather*}
 
-\subscetion{Class Activities}
+\subsection{Class Activities}
 
 \begin{gather*}
     \lim_{x\to\infty}\frac{3x+4}{2x^2+5}, \quad
@@ -1074,11 +1074,26 @@ Again, applying properties of limits\footnote{
 
 \newpage
 
-\section{Review of algebra tehniques}
+\section{Review of algebra techniques}
 
 \marginnote{Second Interpartial Februery 9.\\ First Partial Exam 16 Feb.}
 
 \footnote{January 30}
+
+Algebraic manipulations.
+Fcatorize, multiply by one.
+
+\begin{itemize}
+    \item Factoring (Common factor, difference of squares, trinomials)
+    \item Expansion of product and powers
+    \item Rationalization (Multiplying by the conjugate for roots)
+    \item Simplify fractions (Canceling common factors)
+    \item Combining fractions into a single term
+    \item Multiplying by 1 (Strategic form, e.g. conjugate/conjugate)
+    \item Change of variable (Substitution to simplify the expression)
+    \item Using algebraic identities 
+    \item Factoring out common terms in expressions with powers.
+\end{itemize}
 
 
 \newpage
@@ -1097,6 +1112,58 @@ Again, applying properties of limits\footnote{
 \footnote{February 4}
 
 \marginnote{equation of the tangent line}
+
+In this session we are going to tackle the main idea of this course: Derivatives.
+So let's remember a little bit of what we know so far.
+When we quantify things, we use arithmetic.
+For example, the amount of apples in a tree or the amount of people in this classroom.
+Then, we can use algebra to make some useful computations, such as how many trees of apples we need to give 3 apples to each one of the people in the classoroom.
+Also, we can start doing some statistics; for example, what is the average amount of apples that we can get with 4 trees?
+So on and so forth.
+
+One step further, is the quantification of relations.
+And this quantification is done with functions.
+For example, the relation between the money earn by selling apples at a given price per apple.
+Or the relation between the position of an object at a specific time.
+
+We can still apply algebra to functions and get some propreties.
+For example, How many apples de we need to sell to get \$100? At what time does the object will be at a given position?
+And this allow us to predict the relations or help us to make decisions, so on and so forth.
+
+In this theme of using math to quantify stuff, we can quantify the rate of change of this relationships.
+And this make sense, and most intuitive next step to quantify.
+The amount of apples that a tree can create changes over time, the number of students is a classroom changes avery hour, so on and so forth.
+Therefore, in order to improve our quantification of quantities, it is necessary to take into account how does the relations changes.
+
+In algebraic terms a change is quantify by a difference, \(b-a\).
+Since, we want to quantify the change in a relation, then \(f(b) - f(a)\).
+The next step is to contextualize this change.
+Assuming that $f(x)$ is the amount of money you earn by selling apples.
+Then $f(b) - f(a)$ is the difference of the amount of money of selling $a$ apples with respect selling $b$ apples.
+If we want to known the amount of money that it is earn per apple, we need to divide the difference of the amount of money over the difference of the amount of apples, \(\frac{f(b)-f(a)}{b-a}\).
+
+This is almost the definition of the derivative.
+Before going into the definition of the derivative, let's make a little bit more clear the expression with some algebraic manipulaitons.
+Let's say that $b=a+h$\footnote{This is known as a change oof variable in math.}.
+That is that $b$ is just the initial amount $a$ plus an arbitrary difference.
+Replacing this into the previous expression we get, \(\frac{f(a+h) - f(a)}{(a+h)-a} = \frac{f(a+h) - f(a)}{h}\).
+
+The next and final step is to see how does this normalize difference goes when the difference $h$ goes to $0$, 
+\begin{gather}
+    \dv{f(a)}{a} = \lim_{h\to0}\frac{f(a+h)-f(a)}{h}.
+\end{gather}
+In order to just generalize the expression, let $a$ be $x$,
+\begin{gather}
+    \dv{f(x)}{x} = \lim_{h\to0}\frac{f(x+h)-f(x)}{h}.
+\end{gather}
+And we get the definition of the derivative.
+This tell us that, basically, when we are dealing with derivatives, we are dealing with limits.
+Those limits are treated the same as the limits that you where dealing about.
+We just need to take into account the operations with functions, before computing the limit.
+
+$x^2,\quad\sqrt{x},\quad\sin(x),\quad\frac{1}{x}$
+
+$f(x)=\frac{1}{\sqrt{x}}$
 
 \newpage
 
