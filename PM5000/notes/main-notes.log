@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  2 FEB 2026 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  3 FEB 2026 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1122,7 +1122,7 @@ Package hyperref Info: Link coloring OFF on input line 51.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\langwohyphens=\language8
+\langwohyphens=\language3
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count391
@@ -1474,6 +1474,21 @@ LaTeX Warning: Marginpar on page 20 moved.
 
 [20]
 
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+Overfull \hbox (48.76749pt too wide) detected at line 1190
+[]
+ []
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+
 [21]
 
 LaTeX Warning: Marginpar on page 22 moved.
@@ -1506,21 +1521,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main-notes.out' has not changed.
-(rerunfilecheck)             Checksum: 68335457686E92DE716DA594FF9489FF;2416.
+(rerunfilecheck)             Checksum: 52711EFC24F290640FD43904D46A43E1;2416.
  ) 
 Here is how much of TeX's memory you used:
- 40866 strings out of 475068
- 847139 string characters out of 5764375
- 1323839 words of memory out of 5000000
- 62972 multiletter control sequences out of 15000+600000
+ 40867 strings out of 475171
+ 847152 string characters out of 5767095
+ 1323549 words of memory out of 5000000
+ 62957 multiletter control sequences out of 15000+600000
  665903 words of font info for 201 fonts, out of 8000000 for 9000
- 62 hyphenation exceptions out of 8191
- 131i,19n,135p,426b,1365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 14 hyphenation exceptions out of 8191
+ 131i,19n,135p,426b,1369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main-notes.pdf (26 pages, 380215 bytes).
+Output written on main-notes.pdf (26 pages, 383271 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 108 named destinations out of 1000 (max. 500000)
  1313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

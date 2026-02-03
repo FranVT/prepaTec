@@ -1,15 +1,14 @@
 # Fdb version 4
-["bibtex main-notes"] 1770057050.06884 "main-notes.aux" "main-notes.bbl" "main-notes" 1770057054.03703 0
-  "./sample.bib" 1767968511.16077 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
+["bibtex main-notes"] 1770154494.63102 "main-notes.aux" "main-notes.bbl" "main-notes" 1770157806.78795 0
+  "./sample.bib" 1768239418.17376 229 c4a75c82f6f093ffaf96eb8e162bcebf ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1767555874 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main-notes.aux" 1770057053.63482 5117 4769b1fbc60a26e6e83fcd90e7f25e88 "pdflatex"
+  "main-notes.aux" 1770157806.58167 5214 81150268b53f9908b1aa3d016b806885 "pdflatex"
   (generated)
   "main-notes.bbl"
   "main-notes.blg"
   (rewritten before read)
-["pdflatex"] 1770057050.22675 "main-notes.tex" "main-notes.pdf" "main-notes" 1770057054.03734 0
+["pdflatex"] 1770157804.59177 "main-notes.tex" "main-notes.pdf" "main-notes" 1770157806.78814 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
-  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1767555874 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1767555874 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1767555874 6952 fcebd9505ff25166f6bdc98f5d26741b ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1767555874 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -295,19 +294,19 @@
   "/usr/share/texmf-dist/tex/latex/xifthen/xifthen.sty" 1767555874 5689 1bfa68243e89a54479e7d0580773c57e ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1767555874 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767966301 5311557 9da84c45f5b388655502706482323571 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767966272 2081302 4dee6a0d5dded8ef746552ad25e913e2 ""
-  "main-notes.aux" 1770057053.63482 5117 4769b1fbc60a26e6e83fcd90e7f25e88 "pdflatex"
-  "main-notes.bbl" 1770057050.21755 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
-  "main-notes.out" 1770057053.63636 2416 68335457686e92de716da594ff9489ff "pdflatex"
-  "main-notes.tex" 1769700982.34945 3238 5aeef454f6305b09027b340ec5f6beb3 ""
-  "mod1/figures/fig1.png" 1769179379.4951 40167 31797870e3a5862946bab1090532c4b9 ""
-  "mod1/figures/figABS_2.png" 1769179379.4961 53106 3a60687f716b77509cad8f427623f85f ""
-  "mod1/figures/figSIN_1.png" 1769179379.4971 67532 0e4f4b856004d70110e59ac3a4979f6a ""
-  "mod1/figures/figSIN_2.png" 1769179379.4981 67346 220f7690dd6ae7527cdc65ee21c67dff ""
-  "mod1/part1-note1.tex" 1770057045.23756 48068 8b78b4226d8faff82c4acb5768b3ed2f ""
-  "tufte-common.def" 1754763622.59318 70892 d170883770a3fb3b643fabc94d55da1e ""
-  "tufte-handout.cls" 1754763622.59341 3003 8d63f27a56dd562592724bafd9903367 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768251110 5306876 69c328245ae101f6bc10b01e1f2bf9d5 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768253150 2008248 b250068cce02fd18fe464810a24808ac ""
+  "main-notes.aux" 1770157806.58167 5214 81150268b53f9908b1aa3d016b806885 "pdflatex"
+  "main-notes.bbl" 1770154494.67627 522 72d18bdc7c239a4a1508f2e5d3570913 "bibtex main-notes"
+  "main-notes.out" 1770157806.58167 2416 52711efc24f290640fd43904d46a43e1 "pdflatex"
+  "main-notes.tex" 1770157784.76399 3238 5aeef454f6305b09027b340ec5f6beb3 ""
+  "mod1/figures/fig1.png" 1769113847.05355 40167 31797870e3a5862946bab1090532c4b9 ""
+  "mod1/figures/figABS_2.png" 1769114219.02041 53106 3a60687f716b77509cad8f427623f85f ""
+  "mod1/figures/figSIN_1.png" 1769114552.63843 67532 0e4f4b856004d70110e59ac3a4979f6a ""
+  "mod1/figures/figSIN_2.png" 1769114706.2318 67346 220f7690dd6ae7527cdc65ee21c67dff ""
+  "mod1/part1-note1.tex" 1770157802.90483 50475 b7265d7973420bc7ebdbd687ba8bf410 ""
+  "tufte-common.def" 1768239418.17389 70892 d170883770a3fb3b643fabc94d55da1e ""
+  "tufte-handout.cls" 1768239418.17405 3003 8d63f27a56dd562592724bafd9903367 ""
   (generated)
   "main-notes.aux"
   "main-notes.log"

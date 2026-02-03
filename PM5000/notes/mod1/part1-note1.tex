@@ -1109,11 +1109,15 @@ Fcatorize, multiply by one.
 
 \section{Derivative definition}
 
-\footnote{February 4}
+\marginnote{Second Interpartial Februery 9.\\ First Partial Exam 16 Feb.
+    \begin{itemize}
+        \item WebAssign: Limits 
+        \item WebAssign: Limits (Properties and algebraically)
+        \item WebAssign: Derivative by definition
+    \end{itemize}
+equation of the tangent line}
 
-\marginnote{equation of the tangent line}
-
-In this session we are going to tackle the main idea of this course: Derivatives.
+In this session\footnote{February 4} we are going to tackle the main idea of this course: Derivatives.
 So let's remember a little bit of what we know so far.
 When we quantify things, we use arithmetic.
 For example, the amount of apples in a tree or the amount of people in this classroom.
@@ -1161,19 +1165,78 @@ This tell us that, basically, when we are dealing with derivatives, we are deali
 Those limits are treated the same as the limits that you where dealing about.
 We just need to take into account the operations with functions, before computing the limit.
 
-$x^2,\quad\sqrt{x},\quad\sin(x),\quad\frac{1}{x}$
+\newpage
 
-$f(x)=\frac{1}{\sqrt{x}}$
+\paragraph{Examples} Let's compute some derivatives of functions by using the definition\footnote{
+    \begin{gather*}
+        \dv{f(x)}{x} = \lim_{h\to0}\frac{f(x+h)-f(x)}{h}
+    \end{gather*}
+}.
+\begin{align*}
+    \dv{x^2}{x} &= \lim_{h\to0}\frac{\qty(x+h)^2-x^2}{h} \\
+                &= \lim_{h\to0}\frac{x^2 +2hx -x^2}{h} \\
+                &= \lim_{h\to0}\frac{2hx}{h} \\
+                &= \lim_{h\to0}2x \\
+                &= 2x
+\end{align*}
+
+
+\marginnote{
+    \begin{align*}
+        \qty(x+h)^{1/2}-x^{1/2} &= \left[\qty(x+h)^{1/2}-x^{1/2}\right]\frac{\qty(x+h)^{1/2}+x^{1/2}}{\qty(x+h)^{1/2}+x^{1/2}} \\
+                                &= \frac{x+h-x}{\qty(x+h)^{1/2}+x^{1/2}} \\
+                                &= \frac{h}{\qty(x+h)^{1/2}+x^{1/2}}
+    \end{align*}
+}
+\begin{align*}
+    \dv{x^{1/2}}{x} &= \lim_{h\to0}\frac{\qty(x+h)^{1/2}-x^{1/2}}{h} \\
+                    &= \lim_{h\to0}\frac{h}{h\left[\qty(x+h)^{1/2}+x^{1/2}\right]} \\
+                    &= \lim_{h\to0}\frac{1}{\qty(x+h)^{1/2}+x^{1/2}} \\
+                    &= \frac{1}{x^{1/2}+x^{1/2}} \\
+                    &= \frac{1}{2x^{1/2}} \\
+                    &= \frac{1}{2}x^{-1/2}
+\end{align*}
+
+With this two examples we can introduce the power rule of derivatives:
+\begin{gather*}
+    f(x) = x^{n},\quad \dv{f(x)}{x} = n x^{n-1}.
+\end{gather*}
+
+\marginnote{
+    \textbf{Class Activity} \\
+    Compute the derivative using the definition of the following functions
+    \begin{align*}
+        1)\quad & \dv{x}\left[5x^{12}-4x^{6}\right] \\
+        2)\quad & \dv{x}\left[\frac{3}{\sqrt{x}}\right] \\
+        3)\quad & \dv{x}\left[\frac{1}{2}x^{3/2}\right]
+    \end{align*}
+}
+
+The final example will be \(\frac{1}{x}\)
+
+\begin{align*}
+    \dv{\dfrac{1}{x}}{x} &= \lim_{h\to0}\dfrac{\dfrac{1}{x+h}-\dfrac{1}{x}}{h} \\
+                    &= \lim_{h\to0}\frac{\dfrac{x-(x+h)}{(x+h)(x)}}{h} \\
+                    &= \lim_{h\to0}\frac{h}{h(x+h)(x)} \\
+                    &= \lim_{h\to0}\frac{1}{(x+h)(x)} \\
+                    &= \dfrac{1}{x^{2}}
+\end{align*}
+
+
+
+
+%$\quad\sin(x)$
+
+%$f(x)=\frac{1}{\sqrt{x}}$
 
 \newpage
 
 \section{Basic Formulas for Derivatives}
 
-\footnote{February 5}
+In last session we tackle the definition of derivative and learn the power rule.
+In this session\footnote{February 5} we are going to delve into the product and quotient rule.
 
-Exponent
-Product
-Trigonometric
+\(f(x) = (3x)(2x+1)\)
 
 \newpage
 
