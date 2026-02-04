@@ -1222,27 +1222,182 @@ The final example will be \(\frac{1}{x}\)
                     &= \dfrac{1}{x^{2}}
 \end{align*}
 
-
-
-
 %$\quad\sin(x)$
 
 %$f(x)=\frac{1}{\sqrt{x}}$
 
 \newpage
 
-\section{Basic Formulas for Derivatives}
+\section{Derivatives of trascendental functions}
 
-In last session we tackle the definition of derivative and learn the power rule.
-In this session\footnote{February 5} we are going to delve into the product and quotient rule.
+In this session\footnote{February 5} we are going to delve into the derivatives of trascendental functions.
 
-\(f(x) = (3x)(2x+1)\)
+Let's start with the derivative of the function \(f(x)=e^{x}\).
+
+\marginnote{
+Using the numerical approach to compute \(\lim_{h\to0}\frac{\left(e^{h} - 1\right)}{h}\): 
+
+\vspace{1em}
+
+\scriptsize
+\centering
+\begin{tabular}{@{}cc@{}}
+\toprule
+$h$ & $\dfrac{\left(e^{h} - 1\right)}{h}$ \\
+\midrule
+0.01 & 1.005016708416795  \\
+0.001 & 1.0005001667083846 \\
+0.000001 & 1.0000004999621837 \\
+\bottomrule
+\end{tabular}
+
+\vspace{2em}
+
+\centering
+\begin{tabular}{@{}cc@{}}
+\toprule
+$h$ & $\dfrac{\left(e^{h} - 1\right)}{h}$ \\
+\midrule
+-0.01 & 0.9950166250831893 \\
+-0.001 & 0.9995001666249781 \\
+-0.000001 & 0.9999994999843054 \\
+\bottomrule
+\end{tabular}
+
+\begin{gather*}
+    \lim_{h\to0}\frac{\left(e^{h} - 1\right)}{h}
+\end{gather*}
+}
+\begin{align*}
+    \dv{e^{x}}{x} &= \lim_{h\to0}\frac{e^{x+h} - e^{x}}{h} \\
+                  &= \lim_{h\to0}\frac{e^{x}e^{h} - e^{x}}{h} \\
+                  &= \lim_{h\to0}\frac{e^{x}\left(e^{h} - 1\right)}{h} \\
+                  &= e^{x}\cancelto{1}{\lim_{h\to0}\frac{\left(e^{h} - 1\right)}{h}} \\
+                  &= e^{x}
+\end{align*}
+
+Now let's compute the derivative of $\ln\qty[x]$:
+\begin{align*}
+    \dv{\ln\qty[x]}{x} &= \lim_{h\to0}\frac{\ln\qty[x+h] - \ln\qty[x]}{h} \\
+                       &= \lim_{h\to0}\frac{1}{h}\ln\qty[\frac{x+h}{x}] \\
+                       &= \lim_{h\to0}\frac{1}{h}\ln\qty[1+\frac{h}{x}] \\
+                       &= \lim_{h\to0}\ln\qty[\left(1+\frac{h}{x}\right)^{1/h}]
+\end{align*}
+Let's make the following change of variable \(t = \frac{h}{x}\), therefore, \(h = tx\).
+Computing the limit of $t$ as $h\to0$ to make the correct change of variable, \(\lim_{h\to0}\frac{h}{x}=0\). 
+\marginnote{
+Using the numerical approach to compute \(\lim_{t\to0}\ln\qty[\left(1+t\right)^{1/t}]\): 
+
+\vspace{1em}
+
+\scriptsize
+\centering
+\begin{tabular}{@{}cc@{}}
+\toprule
+$h$ & \(\ln\qty[\left(1+t\right)^{1/t}]\) \\
+\midrule
+0.01 & 0.9950330853168091 \\
+0.001 & 0.9995003330834231 \\
+0.000001 & 0.9999994999180668 \\
+\bottomrule
+\end{tabular}
+
+\vspace{2em}
+
+\centering
+\begin{tabular}{@{}cc@{}}
+\toprule
+$h$ & \(\ln\qty[\left(1+t\right)^{1/t}]\) \\
+\midrule
+-0.01 & 1.005033585350145 \\
+-0.001 & 1.0005003335835343 \\
+-0.000001 & 1.000000500029089 \\
+\bottomrule
+\end{tabular}
+
+\begin{gather*}
+    \lim_{t\to0}\ln\qty[\left(1+t\right)^{1/t}] = 1
+\end{gather*}
+}
+\begin{align*}
+    \dv{\ln\qty[x]}{x} &= \lim_{t\to0}\ln\qty[\left(1+t\right)^{1/tx}] \\
+                       &= \frac{1}{x}\cancelto{1}{\lim_{t\to0}\ln\qty[\left(1+t\right)^{1/t}]} \\
+                       &= \frac{1}{x}
+\end{align*}
+
+Now it is time to compute the derivative of \(\sin\qty(x)\),
+\begin{align*}
+    \dv{\sin\qty(x)}{x} &= \lim_{h\to 0}\frac{\sin\qty(x+h) - \sin\qty(x)}{h} 
+\end{align*}
+To avoid the $1/h$, let's manipulate the expression with the following trigonometric identity \( \sin\qty(x+h) - \sin\qty(x) = 2\cos\left(x+\frac{h}{2}\right)\sin\qty(\frac{h}{2}) \)
+\begin{align*}
+    \dv{\sin\qty(x)}{x} &= \lim_{h\to 0}\frac{2\cos\left(x+\frac{h}{2}\right)\sin\qty(\frac{h}{2})}{h} \\
+                        &=\left[ \lim_{h\to 0}\cos\left(x+\frac{h}{2}\right)\right]\left[ \lim_{h\to 0}\frac{2\sin\qty(\frac{h}{2})}{h}\right] 
+\end{align*}
+
+Computing the limits separately,
+\begin{align*}
+    \lim_{h\to 0}\cos\left(x+\frac{h}{2}\right) &= \cos\left(x+\frac{0}{2}\right) \\
+                                                &= \cos\left(x\right)
+\end{align*}
+
+For the next limit, we are going to make the following change of variable \( u = \frac{h}{2},\quad h = 2u \).
+Computing the limit to ensure the change of varaible we get that as $h\to0$, $u\to0$.
+Hence,
+\marginnote{
+From previous excercises we already know that \(\lim_{u\to 0}\frac{\sin\qty(u)}{u} = 1\).
+}
+\begin{align*}
+    \lim_{h\to 0}\frac{2\sin\qty(\frac{h}{2})}{h} &= \lim_{u\to 0}\frac{2\sin\qty(u)}{2u} \\
+                                                  &= \cancelto{1}{\lim_{u\to 0}\frac{\sin\qty(u)}{u}} \\
+                                                  &= 1
+\end{align*}
+
+Replacing this results at the original limit,
+\begin{align*}
+    \dv{\sin\qty(x)}{x} &=\left[ \lim_{h\to 0}\cos\left(x+\frac{h}{2}\right)\right]\left[ \lim_{h\to 0}\frac{2\sin\qty(\frac{h}{2})}{h}\right] \\
+                        &= \left[ \cos\left(x\right)\right]\left[1 \right] \\
+                        &= \cos\left(x\right)
+\end{align*}
+
+To finish the session we are going to show the derivative of \(\cos\qty(x)\).
+\begin{align*}
+    \dv{\cos\qty(x)}{x} &= \lim_{h\to 0}\frac{\cos\qty(x+h) - \cos\qty(x)}{h} 
+\end{align*}
+As before, we are going to apply trigonometric identities to avoid the $1/h$ and then work limits separately.
+This time, the property is as follows \(\cos\qty(x+h) - \cos\qty(x) = -2\sin\left(x+\frac{h}{2}\right)\sin\qty(\frac{h}{2})\).
+\begin{align*}
+    \dv{\cos\qty(x)}{x} &= \lim_{h\to 0}\frac{-2\sin\left(x+\frac{h}{2}\right)\sin\qty(\frac{h}{2})}{h} \\
+                        &= \left[\lim_{h\to 0}-\sin\left(x+\frac{h}{2}\right)\right]\left[\lim_{h\to 0}\frac{2\sin\qty(\frac{h}{2})}{h}\right]
+\end{align*}
+Computing the limits separately
+\begin{align*}
+    \lim_{h\to 0}-\sin\left(x+\frac{h}{2}\right) &=-\sin\left(x+\frac{0}{2}\right) \\
+                                                 &=-\sin\left(x\right) 
+\end{align*}
+
+As before, let \(u=\frac{h}{2},\quad h=2u\) and as $h\to0$, $u\to0$
+\begin{align*}
+    \lim_{h\to 0}\frac{2\sin\qty(\frac{h}{2})}{h} &= \lim_{u\to 0}\frac{2\sin\qty(u)}{2u} \\
+                                                  &= \cancelto{1}{\lim_{u\to 0}\frac{\sin\qty(u)}{u}} \\
+                                                  &= 1
+\end{align*}
+Replacing the results
+\begin{align*}
+    \dv{\cos\qty(x)}{x} &= \left[\lim_{h\to 0}-\sin\left(x+\frac{h}{2}\right)\right]\left[\lim_{h\to 0}\frac{2\sin\qty(\frac{h}{2})}{h}\right] \\
+                        &= \left[-\sin\left(x\right)\right]\left[1\right] \\
+                        &= -\sin\left(x\right)
+\end{align*}
+
 
 \newpage
 
 \section{Basic Formulas for Derivatives}
 
 \footnote{February 6}
+
+
+\(f(x) = (3x)(2x+1)\)
 
 \newpage
 
