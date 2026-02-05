@@ -1389,15 +1389,72 @@ Replacing the results
                         &= -\sin\left(x\right)
 \end{align*}
 
-
 \newpage
 
-\section{Basic Formulas for Derivatives}
+\section{Recap for the second interpartial exam}
 
 \footnote{February 6}
 
+\paragraph{Limits of rational functions}
+To compute \(\lim_{x\to\infty}\frac{x^2+2}{x^2+1}\) we need to re-write\footnote{
+    \begin{align*}
+        \frac{x^2+2}{x^2+1} &= \frac{x^2\qty(1+2/x^2)}{x^2\qty(1+1/x^2)} \\
+                        &= \frac{1+2/x^2}{1+1/x^2}
+    \end{align*}
+} the function as 
+\begin{align*}
+     \lim_{x\to\infty}\frac{x+2}{x^2+1}&= \lim_{x\to\infty}\frac{1+2/x^2}{1+1/x^2}.
+\end{align*}
+Applying the properties of limits\footnote{
+    \begin{align*}
+        \lim_{x\to\infty}\frac{1+2/x^2}{1+1/x^2} &= \frac{\lim_{x\to\infty}1+\lim_{x\to\infty}2/x^2}{\lim_{x\to\infty}1+\lim_{x\to\infty}1/x^2} \\
+                                             &= \frac{1+0}{1+0}
+    \end{align*}
+},
+\begin{gather*}
+     \lim_{x\to\infty}\frac{x+2}{x^2+1}= \frac{1}{1} = 1.
+\end{gather*}
 
-\(f(x) = (3x)(2x+1)\)
+\paragraph{Limits with radicals}
+\begin{gather*}
+    \lim_{x\to0}\frac{\sqrt{x+4}-2}{x}.
+\end{gather*}
+In order to apply the direct substitution method, we need to make algebraic modifications.
+In this case we are going to use the powerfull technique of multiplying by \num{1}, made from the conjugate, that is,
+\begin{gather*}
+    1 = \frac{\sqrt{x+4}+2}{\sqrt{x+4}+2}.
+\end{gather*}
+Let's multiply by \num{1} the function\footnote{
+    \begin{align*}
+    \frac{\sqrt{x+4}-2}{x} &= \frac{\sqrt{x+4}-2}{x}\frac{\sqrt{x+4}+2}{\sqrt{x+4}+2} \\
+                           &= \frac{\qty(x+4)-4}{x\sqrt{x+4}+2} \\
+                           &= \frac{x}{x\sqrt{x+4}+2} \\
+                           &=\frac{1}{\sqrt{x+4}+2}
+    \end{align*}
+} and we get,
+\begin{align*}
+    \frac{\sqrt{x+4}-2}{x} =\frac{1}{\sqrt{x+4}+2}
+\end{align*}
+Now, let's try the direct substitution after this algebraic manipulation,
+\begin{align*}
+    \lim_{x\to0}\frac{\sqrt{x+4}-2}{x} &= \lim_{x\to0}\frac{1}{\sqrt{x+4}+2} \\
+                                       &= \frac{1}{\sqrt{(0)+4}+2} \\
+                                       &= \frac{1}{4}
+\end{align*}
+
+\paragraph{Rules of derivatives}
+\begin{align*}
+    \dv{e^{x}}{x} = e^{x}; &\qquad \dv{\ln(x)}{x} = \frac{1}{x}\\
+    \dv{\sin(x)}{x} = \cos(x);  &\qquad \dv{\cos(x)}{x} = -\sin(x)\\
+    \dv{x^n}{x} &= n x^{n-1}
+\end{align*}
+
+\paragraph{Derivative by definition}\footnote{Practice with $f(x) = |x-2|$ and $f(2)$.}
+\begin{gather*}
+    \dv{f(x)}{x} = \frac{f(x+h) - f(x)}{h}.\qquad 
+    \dv{f(a)}{a} = \frac{f(a+h) - f(a)}{h} 
+\end{gather*}
+
 
 \newpage
 
