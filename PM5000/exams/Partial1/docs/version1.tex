@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%  INGRESAR LAS PREGUNTAS DE LA  EVALUACIÓN %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\paragraph{I} Limits. Properties, Numerical, Graphic and Algebraic method.
+
+\begin{preguntas}
+
+\begin{minipage}{0.6\textwidth}
+\pregunta[10] Applying the graphical technique to compute the limit when $x\to 0$.
+Argument if the limit converges.
+Use the notion of limit from the left and right.
+\vspace{125}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{tikzpicture}[
+    scale=1.0,
+    >=Stealth,
+    declare function={
+        f(\x) = \x/abs(\x); % Función |x|/x
+    }
+]
+    % Definir dimensiones (ratio 5:4)
+    \def\xmin{-2.5} \def\xmax{2.5}   % Rango en x
+    \def\ymin{-2.5} \def\ymax{2.5} % Rango en y
+    \def\tick{0.2} % Tamaño de las marcas
+
+    % Grid mayor (cada 1 unidad)
+    \draw[gray!200, very thick] (\xmin,\ymin) grid (\xmax,\ymax);
+    % Grid menor (cada 0.5 unidades)
+    \foreach \x in {-2.5,-2,...,2.5} {
+        \draw[gray!100, very thick] (\x,\ymin) -- (\x,\ymax);
+    }
+    \foreach \y in {-2.5,-2,...,2.5} {
+        \draw[gray!100, very thick] (\xmin,\y) -- (\xmax,\y);
+    }
+
+    % Ejes
+    \draw[->, thick] (\xmin-0.5,0) -- (\xmax+0.5,0) node[right] {$x$};
+    \draw[->, thick] (0,\ymin-0.5) -- (0,\ymax+0.5) node[above] {$y$};
+
+    % Marcas en los ejes (cada 1 unidad)
+    \foreach \x in {-2,-1,1,2} {
+        \draw[thick] (\x,-\tick) -- (\x,\tick) node[below=2.5pt] {$\x$};
+    }
+    \foreach \y in {-2,-1,1,2} {
+        \draw[thick] (-\tick,\y) -- (\tick,\y) node[left=2.5pt] {$\y$};
+    }
+
+    % Gráfica de la función
+    \draw[very thick, blue, domain=\xmin:-0.01, samples=50] plot (\x, {f(\x)});
+    \draw[very thick, blue, domain=0.01:\xmax, samples=50] plot (\x, {f(\x)});
+
+    % Discontinuidad en x=0 (círculos huecos)
+    \filldraw[draw=blue, fill=white, thick] (0,1) circle (2.5pt);
+    \filldraw[draw=blue, fill=white, thick] (0,-1) circle (2.5pt);
+
+    % Etiqueta de la función
+    %\node[blue, anchor=south east] at (4.5,1.5) {$f(x)=\frac{|x|}{x}$};
+\end{tikzpicture}
+
+\vspace{75}
+
+\end{minipage}
+
+\pregunta[7] Compute the limit of the function \(f(x) = \frac{6x^2 + 4}{5x^2 - 2}\) as $x\to\infty$ using the algebraic method.
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\newpage
+
+\pregunta[7] Compute the limit of the function \(f(x) = \frac{\sqrt{x+9} - 3}{x}\) as $x\to0$ using the numerical method.
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\end{preguntas}
+
+
+\paragraph{II} Derivatives by definition. 
+
+\begin{preguntas}
+
+\pregunta[20] Compute the derivative of the function \(f(x) = \frac{x^2 - 5x + 6}{x-2}\) using the definition of derivatives at $x=3$. 
+
+\begin{center}
+    \framebox(\textwidth,200){} 
+\end{center}
+
+\end{preguntas}
+
+%\newpage
+
+\paragraph{III} Derivatives by rules.
+
+\begin{preguntas}
+
+\pregunta[10]{Using the power rule, compute the derivative of the function \(f(x) = \dfrac{2}{3x^{3/2}}\).}
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\pregunta[10]{Using the product rule, compute the derivative of the function \(g(x) = x2^{x} \).}
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\pregunta[10]{Using the quotient rule, compute the derivative of the function \(g(x) = \dfrac{2^{x}}{x} \).}
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\end{preguntas}
+
+
+\newpage
+
+\paragraph{IV} Derivative of trascendental functions.
+
+\begin{preguntas}
+
+\pregunta[6] Applying the rules of derivatives for trascendental functions, compute the derivative of the function $f(x) = \ln\qty(4x) - \cos(x)$. 
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\end{preguntas}
+
+\paragraph{V} Multiple option section. 
+Read the following questions and identify the option that best answers each, then write ts letter on the line.
+
+\begin{preguntas}
+
+\pregunta[5] \rule{1cm}{0.1mm} Select the option that is the definition of the derivative:
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\lim_{h\to0}\dfrac{f(x-h)-f(x)}{h}\quad\)
+    \item \(\lim_{h\to0}\dfrac{f(x-h)+f(x)}{h}\quad\)
+    \item \(\lim_{h\to0}\dfrac{f(x+h)-f(x)}{h}\)
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Can the quotient rule be considered a particular case of the product rule? 
+
+\begin{enumerate*}[label=(\alph*)]
+    \item No. \hspace{2em} 
+    \item It can be. Depends on the expression. \hspace{2em}
+    \item Not always.\hspace{2em}
+    \item Yes. 
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Select the option with the range of the function $f(x):=x^2$
+
+\begin{enumerate*}[label=(\alph*)]
+    \item $f(x)\in\left(-\infty,\infty\right)\qquad$
+    \item $f(x)\in\left[0,\infty\right)\qquad$
+    \item $f(x)\in\left(-\infty,0\right]\qquad$
+    \item $f(x)\in\left[-1,1\right]\qquad$
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Select the option with the numeric value of the operation of functions, $f(x) + g(x)$, with $f(x):= x^2 + x$ and $g(x):=x+1$ at $x=2$,
+%Select the correct type of function of $f(x):=x^n$, where $n\in\mathbb{Z}$ ($x$ belongs to the set of integer numbers
+
+\begin{enumerate*}[label=(\alph*)]
+    \item 18 $\qquad$
+    \item 15 $\qquad$
+    \item 12 $\qquad$
+    \item 9 $\qquad$
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Select the alternative mathematical notation to express $f[g(x)]$
+
+\begin{enumerate*}[label=(\alph*)]
+    \item $f\circ g\qquad$
+    \item $g\circ f\qquad$
+    \item $f\to g\qquad$
+    \item $f(g)\qquad$
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Select the option with the algebraic expression that shifts the linear function $f(x):=2x$, 5 units downward,
+%Select the option of the function that map all the domain into the positive real numbers.
+
+\begin{enumerate*}[label=(\alph*)]
+    \item $f(x):=2(x+5)\qquad$
+    \item $f(x):=2(x-5)\qquad$
+    \item $f(x):=2x+5\qquad$
+    \item $f(x):=2x-5\qquad$
+\end{enumerate*}
+
+
+\end{preguntas}
+
+
