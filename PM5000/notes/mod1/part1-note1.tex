@@ -1458,22 +1458,102 @@ Now, let's try the direct substitution after this algebraic manipulation,
 
 \newpage
 
-\section{Second interpartial exam}
+\section{Second interpartial exam: February 9}
 
-\footnote{February 9}
-
-\newpage
-
-\section{Equation of the tangent line}
-
-\footnote{February 5}
-
-
+\section{Feedback of the interpartial: February 10}
 
 \newpage
 
+\section{Product and Quotient rule}
+
+In this session\footnote{February 11} we are going to learn about the product and quotient rule for derivatives.
+This rule allow us to compute the derivative of a product of functions.
+Assuming that we have a function \(f(x) = u(x)v(x)\), the derivative of the function can be computed as follows,
+\begin{gather}
+    \dv{f(x)}{x} = \dv{x}\left[u(x)v(x)\right] = \dv{u(x)}{x}v(x) + u(x)\dv{v(x)}{x}.
+\end{gather}
+
+For example, if we need to compute the derivative of \(f(x) = x^{2}\sin\qty(x)\), we can compute it as follows,
+\begin{align*}
+    \dv{x}\left[x^{2}\sin\qty(x)\right] &= \left[\dv{x}x^{2}\right]\sin\qty(x) + x^{2}\left[\dv{x}\sin\qty(x)\right] \\
+                                        &= \left[2x\right]\sin\qty(x) + x^{2}\left[\cos\qty(x)\right] \\
+                                        &= 2x\sin\qty(x) + x^{2}\cos\qty(x).
+\end{align*}
+
+On the other hand, the quotient rule allow us to easily compute the derivative of a quotient of functions.
+In this instance the function is of the form \(f(x) = \dfrac{u(x)}{v(x)}\).
+In order to compute it's derivative we use the following rule,
+\begin{gather}
+    \dv{f(x)}{x} = \dv{x}\left[\frac{u(x)}{v(x)}\right] = \frac{1}{v^{2}(x)}\left[\dv{u(x)}{x}v(x) - u(x)\dv{v(x)}{x}\right]. 
+\end{gather}
+
+For example, if we are asked to calculate the derivative of \(f(x) = \dfrac{x^{2}}{\sin\qty(x)}\) we can do it as follows,
+\begin{align*}
+    \dv{f(x)}{x} &= \frac{1}{\sin^{2}\qty(x)}\left[\left(\dv{x}x^{2}\right)\sin\qty(x) - x^{2}\left(\dv{x}\sin\qty(x)\right)\right] \\
+                 &= \frac{1}{\sin^{2}\qty(x)}\left[\left(2x\right)\sin\qty(x) - x^{2}\left(\cos\qty(x)\right)\right] \\
+                 &= \frac{2x}{\sin(x)} - \frac{x^2}{\sin(x)}\cot(x) = x\csc(x)\left[2-x\cot(x)\right]
+\end{align*}
+
+\subsection{Class activity}
+
+Compute the derivatives uing the product, quotient and power rules of the following functions.
+You can also use the rules for trascendental functions if necessary.
+
+\begin{align*}
+    f(x) &= x^{3}e^{x} \\
+    g(x) &= \frac{\sin(x)}{x} \\
+    h(x) &= x^{2}\ln\qty(3x)
+\end{align*}
+
+%\paragraph{Derivation}
+
+\newpage
+
+\section{Derivation of the Product rule}
+
+In today's session\footnote{February 12} we are going to learn where the product and quotient rules for derivatives come from.
+
+Starting with the product rule, we recall that \(f(x) = u(x)v(x)\).
+Then, by using the definition of the derivative, we get 
+\begin{gather*}
+    \dv{f(x)}{x} = \lim_{h\to0}\frac{u(x+h)v(x+h) - u(x)v(x)}{h}.
+\end{gather*}
+In order to get somewhere, let's add a clever \num{0}, $u(x+h)v(x)-u(x+h)v(x)$,
+\begin{gather*}
+    \dv{f(x)}{x} = \lim_{h\to0}\frac{u(x+h)v(x+h) - u(x+h)v(x) - u(x)v(x) + u(x+h)v(x)}{h}.
+\end{gather*}
+This clever \num{0} allow us to factor terms,
+\begin{gather*}
+    \dv{f(x)}{x} = \lim_{h\to0}\left[u(x+h)\frac{v(x+h) - v(x)}{h} + v(x)\frac{u(x+h) - u(x)}{h} \right].
+\end{gather*}
+By applying the limit and using properties,
+\begin{align*}
+    \lim_{h\to0}\left[u(x+h)\frac{v(x+h) - v(x)}{h}\right] &=\left[\lim_{h\to0}u(x+h)\right]\left[\lim_{h\to0}\frac{v(x+h) - v(x)}{h}\right] \\
+                                                           &= u(x)\dv{v(x)}{x} 
+\end{align*}
+
+\begin{align*}
+    \lim_{h\to0}\left[v(x)\frac{u(x+h) - u(x)}{h}\right] &=\left[\lim_{h\to0}v(x+h)\right]\left[\lim_{h\to0}\frac{u(x+h) - u(x)}{h}\right] \\
+                                                           &= v(x)\dv{u(x)}{x} 
+\end{align*}
+
+We show that,
+\begin{gather*}
+    \dv{f(x)}{x} = \lim_{h\to0}\frac{u(x+h)v(x+h) - u(x)v(x)}{h} = u(x)\dv{v(x)}{x} + v(x)\dv{u(x)}{x}.
+\end{gather*}
+
+\section{Class activites}
+
+Compute the derivatives using the product, quotient and power rules of the following functions.
+You might need the rules of transendental functions.
+\begin{align*}
+    f(x) &= \frac{\ln\qty(x)}{e^{x}} \\
+    g(x) &= e^{x}\ln\qty[x]\sin\qty(x) \\
+    h(x) &= \ln\qty(x)\sin(x)
+\end{align*}
 
 
+\newpage
 
 
 \section{Basic Formulas for Derivatives}
