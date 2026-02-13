@@ -99,24 +99,10 @@
 
 
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ESTILO DE NUMERACIÓN Y PUNTUACIÓN %%%%%%%%%%%%%%%%%%%%%%%
 %\theoremstyle{plain}
 \pointpoints{\textbf{point}}{\textbf{points}}
-
-% ---- CORRECCIÓN PARA VALORES DECIMALES EN PUNTOS ----
-% Redefine el macro que decide singular/plural para que funcione con decimales
-\makeatletter
-\renewcommand{\point@singplur}[1]{%
-  \set@pointlist{#1}%
-  % Usa \ifdim para comparar el valor como dimensión (soporta decimales)
-  \ifdim \points@tforthisquestion\p@ = 1\p@
-    \pointname
-  \else
-    \pointsname
-  \fi
-}
-\makeatother
-% ----------------------------------------------------
 
 % Redefinir el entorno de preguntas
 \newenvironment{preguntas}
@@ -137,6 +123,10 @@
 % Negrita para la numeración y puntuación
 \renewcommand{\questionlabel}{\textbf{\thequestion.}\ }
 %\renewcommand{\partlabel}{\textbf{\thepart)}\ }
+
+
+
+
 
 % Configurar \thepart para usar letras en minúscula
 \renewcommand{\thepart}{\alph{part}}
