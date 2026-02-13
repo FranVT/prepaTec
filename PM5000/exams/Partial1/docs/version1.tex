@@ -2,17 +2,90 @@
 %%%%%%%%%%%%%%%%%%%%  INGRESAR LAS PREGUNTAS DE LA  EVALUACIÓN %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\paragraph{I} Limits. Properties, Numerical, Graphic and Algebraic method.
+\paragraph{I} Multiple option section. 
+Read the following questions and identify the option that best answers each, then write ts letter on the line.
 
 \begin{preguntas}
 
-\begin{minipage}{0.6\textwidth}
-\pregunta[10] Applying the graphical technique to compute the limit when $x\to 0$.
+\pregunta[5] \rule{1cm}{0.1mm} Select the option that is the definition of the derivative:
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\lim_{h\to0}\dfrac{f(x-h)-f(x)}{h}\quad\)
+    \item \(\lim_{h\to0}\dfrac{f(x-h)+f(x)}{h}\quad\)
+    \item \(\lim_{h\to0}\dfrac{f(x+h)-f(x)}{h}\)
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Identify the quotient rule for derivatives. 
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\left(\dfrac{u}{v}\right)' = \dfrac{uv' - u'v}{v^2}\) \hspace{2em} 
+    \item \(\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}\) \hspace{2em}
+    \item \(\left(\dfrac{m}{n}\right)' = \dfrac{mn' - n'm}{n^2}\)\hspace{2em}
+    \item \(\left(\dfrac{m}{n}\right)' = \dfrac{n'm - m'n}{n^2}\). 
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Identify the product rule for derivatives 
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \( (uv)' = u'v + uv' \) 
+    \item \( (uv)' = u'v + u'v \)
+    \item \( (uv)' = uv' + uv' \)
+    \item \( (uv)' = u' + v' \)
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+%Select the correct type of function of $f(x):=x^n$, where $n\in\mathbb{Z}$ ($x$ belongs to the set of integer numbers
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}e^{x} = xe^{x}\) 
+    \item \(\dv{x}e^{x} = e^{x}\)
+    \item \(\dv{x}e^{x} = xe^{x-1}\)
+    \item \(\dv{x}e^{x} = \frac{1}{x}e^{x}\)
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}\cos(x) = \cos(x)\) 
+    \item \(\dv{x}\cos(x) = -\sin(x)\)
+    \item \(\dv{x}\cos(x) = \sin(x)\)
+    \item \(\dv{x}\cos(x) = -\cos(x)\)
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+%Select the option of the function that map all the domain into the positive real numbers.
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}\sin(x) = \cos(x)\) 
+    \item \(\dv{x}\sin(x) = -\sin(x)\)
+    \item \(\dv{x}\sin(x) = \sin(x)\)
+    \item \(\dv{x}\sin(x) = -\cos(x)\)
+\end{enumerate*}
+
+\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+%Select the option of the function that map all the domain into the positive real numbers.
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}\ln(x) = \dfrac{1}{\ln(x)}\) 
+    \item \(\dv{x}\ln(x) = \dfrac{1}{x}\)
+    \item \(\dv{x}\ln(x) = \dfrac{\ln(x)}{x}\)
+    \item \(\dv{x}\ln(x) = \dfrac{1}{x\ln(x)}\)
+\end{enumerate*}
+
+\end{preguntas}
+
+\newpage
+
+\paragraph{II} Limits. Properties, Numerical, Graphic and Algebraic method.
+
+\begin{preguntas}
+
+
+\pregunta[5] Applying the graphical technique to compute the limit when $x\to 0$.
 Argument if the limit converges.
 Use the notion of limit from the left and right.
-\vspace{125}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
+
+\begin{minipage}{0.35\textwidth}
 \begin{tikzpicture}[
     scale=1.0,
     >=Stealth,
@@ -58,12 +131,18 @@ Use the notion of limit from the left and right.
     % Etiqueta de la función
     %\node[blue, anchor=south east] at (4.5,1.5) {$f(x)=\frac{|x|}{x}$};
 \end{tikzpicture}
-
-\vspace{75}
-
+\end{minipage}
+\begin{minipage}{0.65\textwidth}
+    \framebox(\textwidth,150){}
 \end{minipage}
 
-\pregunta[7] Compute the limit of the function \(f(x) = \frac{6x^2 + 4}{5x^2 - 2}\) as $x\to\infty$ using the algebraic method.
+\pregunta[5] Compute the limit of the function \(f(x) = \frac{6x^2 + 4}{5x^2 - 2}\) as $x\to\infty$ using the algebraic method.
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+
+\pregunta[5] Compute the limit of the function \(f(x) = \frac{\sqrt{x+9} - 3}{x}\) as $x\to0$ using the numerical method.
 
 \begin{center}
     \framebox(\textwidth,150){} 
@@ -71,128 +150,45 @@ Use the notion of limit from the left and right.
 
 \newpage
 
-\pregunta[7] Compute the limit of the function \(f(x) = \frac{\sqrt{x+9} - 3}{x}\) as $x\to0$ using the numerical method.
-
-\begin{center}
-    \framebox(\textwidth,150){} 
-\end{center}
-
 \end{preguntas}
 
-
-\paragraph{II} Derivatives by definition. 
+\paragraph{III} Derivatives by definition. 
 
 \begin{preguntas}
 
-\pregunta[20] Compute the derivative of the function \(f(x) = \frac{x^2 - 5x + 6}{x-2}\) using the definition of derivatives at $x=3$. 
-
+\pregunta[13] Compute the derivative of the function \(f(x) = \frac{x^2 - 5x + 6}{x-2}\) using the definition of derivatives at $x=3$. 
 \begin{center}
-    \framebox(\textwidth,200){} 
+    \framebox(\textwidth,300){} 
 \end{center}
 
 \end{preguntas}
 
 %\newpage
 
-\paragraph{III} Derivatives by rules.
+\paragraph{IV} Derivatives by rules.
+Use the power, product and quotient rules to compute the derivatives for the given functions.
 
 \begin{preguntas}
 
-\pregunta[10]{Using the power rule, compute the derivative of the function \(f(x) = \dfrac{2}{3x^{3/2}}\).}
+\pregunta[12]{Compute the derivative of the function \(f(x) = 4\left[\left(\dfrac{0.5}{x}\right)^4 - 1\right]\).}
 
 \begin{center}
-    \framebox(\textwidth,150){} 
+    \framebox(\textwidth,200){} 
 \end{center}
-
-\pregunta[10]{Using the product rule, compute the derivative of the function \(g(x) = x2^{x} \).}
-
-\begin{center}
-    \framebox(\textwidth,150){} 
-\end{center}
-
-\pregunta[10]{Using the quotient rule, compute the derivative of the function \(g(x) = \dfrac{2^{x}}{x} \).}
-
-\begin{center}
-    \framebox(\textwidth,150){} 
-\end{center}
-
-\end{preguntas}
-
 
 \newpage
 
-\paragraph{IV} Derivative of trascendental functions.
-
-\begin{preguntas}
-
-\pregunta[6] Applying the rules of derivatives for trascendental functions, compute the derivative of the function $f(x) = \ln\qty(4x) - \cos(x)$. 
+\pregunta[12]{Compute the derivative of the function \(g(x) = \dfrac{e^{x} + \sin(x)}{x^2} \).}
 
 \begin{center}
-    \framebox(\textwidth,150){} 
+    \framebox(\textwidth,250){} 
 \end{center}
 
-\end{preguntas}
+\pregunta[13] Compute the derivative of the function $f(x) = x\cdot\ln\qty(x)\cdot e^{x}$. 
 
-\paragraph{V} Multiple option section. 
-Read the following questions and identify the option that best answers each, then write ts letter on the line.
-
-\begin{preguntas}
-
-\pregunta[5] \rule{1cm}{0.1mm} Select the option that is the definition of the derivative:
-
-\begin{enumerate*}[label=(\alph*)]
-    \item \(\lim_{h\to0}\dfrac{f(x-h)-f(x)}{h}\quad\)
-    \item \(\lim_{h\to0}\dfrac{f(x-h)+f(x)}{h}\quad\)
-    \item \(\lim_{h\to0}\dfrac{f(x+h)-f(x)}{h}\)
-\end{enumerate*}
-
-\pregunta[5] \rule{1cm}{0.1mm} Can the quotient rule be considered a particular case of the product rule? 
-
-\begin{enumerate*}[label=(\alph*)]
-    \item No. \hspace{2em} 
-    \item It can be. Depends on the expression. \hspace{2em}
-    \item Not always.\hspace{2em}
-    \item Yes. 
-\end{enumerate*}
-
-\pregunta[5] \rule{1cm}{0.1mm} Select the option with the range of the function $f(x):=x^2$
-
-\begin{enumerate*}[label=(\alph*)]
-    \item $f(x)\in\left(-\infty,\infty\right)\qquad$
-    \item $f(x)\in\left[0,\infty\right)\qquad$
-    \item $f(x)\in\left(-\infty,0\right]\qquad$
-    \item $f(x)\in\left[-1,1\right]\qquad$
-\end{enumerate*}
-
-\pregunta[5] \rule{1cm}{0.1mm} Select the option with the numeric value of the operation of functions, $f(x) + g(x)$, with $f(x):= x^2 + x$ and $g(x):=x+1$ at $x=2$,
-%Select the correct type of function of $f(x):=x^n$, where $n\in\mathbb{Z}$ ($x$ belongs to the set of integer numbers
-
-\begin{enumerate*}[label=(\alph*)]
-    \item 18 $\qquad$
-    \item 15 $\qquad$
-    \item 12 $\qquad$
-    \item 9 $\qquad$
-\end{enumerate*}
-
-\pregunta[5] \rule{1cm}{0.1mm} Select the alternative mathematical notation to express $f[g(x)]$
-
-\begin{enumerate*}[label=(\alph*)]
-    \item $f\circ g\qquad$
-    \item $g\circ f\qquad$
-    \item $f\to g\qquad$
-    \item $f(g)\qquad$
-\end{enumerate*}
-
-\pregunta[5] \rule{1cm}{0.1mm} Select the option with the algebraic expression that shifts the linear function $f(x):=2x$, 5 units downward,
-%Select the option of the function that map all the domain into the positive real numbers.
-
-\begin{enumerate*}[label=(\alph*)]
-    \item $f(x):=2(x+5)\qquad$
-    \item $f(x):=2(x-5)\qquad$
-    \item $f(x):=2x+5\qquad$
-    \item $f(x):=2x-5\qquad$
-\end{enumerate*}
-
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
 
 \end{preguntas}
 
