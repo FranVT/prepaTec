@@ -1,0 +1,88 @@
+\documentclass[../tufte-style.tex]{standalone}
+
+\begin{document}
+
+\date{February 23, 2026}
+
+\begin{frame}{Chain rule}
+
+\begin{block}{Definition of the chain rule}
+
+The chain rule allow us to compute the derivative of a composition of functions \(f(x) = \left( h\circ g \right)(x)=h(g(x))\).
+The rule goes as follows,
+
+\vspace{2em}
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+     Leibniz notation
+    \begin{gather*}
+        \dv{f(x)}{x} = \left[\dv{h(x)}{x}\circ g(x)\right]\dv{g(x)}{x}
+    \end{gather*}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \centering
+    Lagrange notation
+    \begin{gather*}
+        f'(x) = h'(g(x))\cdot g'(x) 
+    \end{gather*}
+\end{minipage}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Chain rule}
+\begin{examples}
+Let's compute the derivative of \(f(x) = \ln\qty(\cos\qty(x))\).
+
+\begin{align*}
+    f'(x) &= \ln'\qty(\cos\qty(x))\cdot\cos'\qty(x) \\
+          &= \frac{1}{\cos\qty(x)}\cdot-\sin\qty(x) \\
+          &= -\tan(x)
+\end{align*}
+
+\end{examples}
+\end{frame}
+
+\begin{frame}{Chain rule}
+\begin{examples}
+Let's compute the derivative of \(f(x) = \cos\qty(2\pi x-\pi)\).
+
+\begin{align*}
+    f'(x) &= \cos'\qty(2\pi x-\pi)\cdot\qty(2\pi x-\pi)' \\
+          &= -\sin\qty(2\pi x-\pi)\cdot\qty(2\pi) \\
+          &= -2\pi\sin\qty(2\pi x-\pi)
+\end{align*}
+
+\end{examples}
+\end{frame}
+
+\begin{frame}{Chain rule}
+\begin{examples}
+Let's compute the derivative of \(f(x) = e^{-\frac{x^2}{4}}\).
+
+\begin{align*}
+    f'(x) &= \left[\dv{e^{x}}{x}\circ-\frac{x^2}{4}\right]\cdot\qty(-\frac{x^2}{4})' \\
+          &= e^{-\frac{x^2}{4}}\cdot\qty(-\frac{x}{2}) \\
+          &= -\frac{x}{2}e^{-\frac{x^2}{4}}
+\end{align*}
+
+\end{examples}
+\end{frame}
+
+\begin{frame}{Chain rule}
+
+\begin{block}{Class Activity}
+    Compute the derivative of the following functions using the chain rule:
+    \begin{gather*}
+        f(x) = \ln(e^x),\qquad g(x) = e^{\cos(x)}
+    \end{gather*}
+\end{block}
+
+\end{frame}
+
+
+
+\end{document}
