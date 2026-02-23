@@ -1,0 +1,190 @@
+\documentclass[../tufte-style.tex]{standalone}
+
+\begin{document}
+
+\date{February 24, 2026}
+
+\begin{frame}{Rule of derivatives}
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Power rule}
+        \begin{gather*}
+            \dv{x}x^{n} = nx^{n-1}
+        \end{gather*}
+    \end{block}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Chain rule}
+        \begin{gather*}
+            \dv{x}u(v(x)) = u'(v(x))\cdot v'(x)
+        \end{gather*}
+    \end{block}
+\end{minipage}
+
+%\rule{\textwidth}{0.1em}
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Product rule}
+        \begin{gather*}
+            \dv{x}\frac{u(x)}{v(x)} = \frac{u'v - uv'}{v^{2}} 
+        \end{gather*}
+    \end{block}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Chain rule}
+        \begin{gather*}
+            \dv{x}u(x)v(x) = u'v + uv'
+        \end{gather*}
+    \end{block}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+
+\begin{block}{Product rule}
+First we identify that is a product of a composition of functions.
+It is a product, because we can write \(f(x) = u(x)v(x)\).
+Where \(u(x)=e^{-x^2}\), and \(v(x)=\sin\qty(\pi x)\).
+\end{block}
+
+\vspace{2em}
+
+\begin{block}{Chain rule}
+Then, looking at \(u(x)\) and \(v(x)\) we can see that is a composition of functions,
+\(u(x)=(e^{x}\circ -x^{2})(x) = e^{-x^2}\) and \(v(x)=\qty(\sin\qty(x)\circ2\pi)(x)=\sin\qty(2\pi x)\).
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+
+\begin{block}{Product rule}
+Let's start with the product rule,
+\begin{align*}
+    f'(x) &= u'v + uv' \\
+          &= \left(\dv{x}e^{-x^2}\right)\sin\qty(2\pi x) + e^{-x^2}\left(\dv{x}\sin\qty(2\pi x)\right)
+\end{align*}
+
+\vspace{2em}
+
+Now, it is time to use the chain rule to compute the derivatives of \(u\) and \(v\).
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+
+\begin{block}{Chain rule: \(e^{-x^2}\)}
+As we identify before, \(e^{-x^2} = e^{x}\circ -x^{2}\), therefore,
+\begin{align*}
+    \dv{x}e^{-x^2} &= \left. \dv{x}e^{x} \right|_{x=-x^{2}}\left(\dv{x}-x^{2}\right)  \\
+                   &= \left. e^{x} \right|_{x=-x^{2}}\left(-2x\right)  \\ 
+                   &= e^{-x^{2}}\left(-2x\right)  \\
+                   &= -2xe^{-x^{2}}
+\end{align*}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+
+\begin{block}{Replace}
+Let's replace the previous result into the solution,
+
+\begin{align*}
+    f'(x) &= \left(\dv{x}e^{-x^2}\right)\sin\qty(2\pi x) + e^{-x^2}\left(\dv{x}\sin\qty(2\pi x)\right) \\
+          &= \left(-2xe^{-x^{2}}\right)\sin\qty(2\pi x) + e^{-x^2}\left(\dv{x}\sin\qty(2\pi x)\right)
+\end{align*}
+
+\end{block}
+
+\vspace{1em}
+
+Let's continue with \(\dv{x}\sin\qty(2\pi x)\).
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+
+\begin{block}{Chain rule: \(\sin\qty(2\pi x)\)}
+As we identify before, \(\sin\qty(2\pi x) = \sin\qty(x)\circ 2\pi x\), therefore,
+\begin{align*}
+    \dv{x}\sin\qty(2\pi x) &= \left. \dv{x}\sin\qty(x) \right|_{x=2\pi x}\left(\dv{x}2\pi x\right)  \\
+                   &= \left. \cos\qty(x) \right|_{x=2\pi x}\cdot2\pi  \\ 
+                   &= \cos\qty(2\pi x)\cdot2\pi  \\
+                   &= 2\pi\cos\qty(2\pi x)
+\end{align*}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+
+\begin{block}{Replace}
+Let's replace the previous result into the solution,
+
+\begin{align*}
+    f'(x) &= \left(-2xe^{-x^{2}}\right)\sin\qty(2\pi x) + e^{-x^2}\left(\dv{x}\sin\qty(2\pi x)\right) \\
+          &= \left(-2xe^{-x^{2}}\right)\sin\qty(2\pi x) + e^{-x^2}\left(2\pi\cos\qty(2\pi x)\right) 
+\end{align*}
+
+\end{block}
+
+\vspace{1em}
+
+Now we can move on to simplify the expresion.
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+
+\begin{block}{Simplify}
+\begin{align*}
+    f'(x) &= \left(-2xe^{-x^{2}}\right)\sin\qty(2\pi x) + e^{-x^2}\left(2\pi\cos\qty(2\pi x)\right) \\
+          &=2e^{-x^{2}}\left[-x\sin\qty(2\pi x) + \pi\cos\qty(2\pi x)\right] \\
+          &=2e^{-x^{2}}\left[\pi\cos\qty(2\pi x) -x\sin\qty(2\pi x)\right]
+\end{align*}
+
+
+\end{block}
+
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    f'(x) =2e^{-x^{2}}\left[\pi\cos\qty(2\pi x) -x\sin\qty(2\pi x)\right]
+\end{empheq}
+
+
+
+\end{frame}
+
+
+\begin{frame}{Class Activity}
+
+Compute the derivative of the following functions using the rules.
+
+\begin{gather*}
+    f(x) = e^{-\frac{x^{2}}{4}}\sin\left(\dfrac{\pi}{2}x+\pi\right),\qquad g(x) = \sin^{2}\qty(x)
+\end{gather*}
+
+\begin{block}{Answers}
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    f'(x) =\frac{1}{2}e^{-x^{2}/4}\left[\pi\cos\qty(\frac{\pi}{2} x + \pi) -\frac{x}{2}\sin\qty(\frac{\pi}{2} x + \pi)\right]
+\end{empheq}
+
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    g'(x) = 2\sin(x)\cos(x)
+\end{empheq}
+\end{block}
+
+\end{frame}
+
+\end{document}
