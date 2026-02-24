@@ -1,0 +1,197 @@
+\documentclass[../tufte-style.tex]{standalone}
+
+\begin{document}
+
+\date{February 25, 2026}
+
+\begin{frame}{Rule of derivatives}
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Power rule}
+        \begin{gather*}
+            \dv{x}x^{n} = nx^{n-1}
+        \end{gather*}
+    \end{block}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Chain rule}
+        \begin{gather*}
+            \dv{x}u(v(x)) = u'(v(x))\cdot v'(x)
+        \end{gather*}
+    \end{block}
+\end{minipage}
+
+%\rule{\textwidth}{0.1em}
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Quotient rule}
+        \begin{gather*}
+            \dv{x}\frac{u(x)}{v(x)} = \frac{u'v - uv'}{v^{2}} 
+        \end{gather*}
+    \end{block}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{block}{Product rule}
+        \begin{gather*}
+            \dv{x}u(x)v(x) = u'v + uv'
+        \end{gather*}
+    \end{block}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}{Example: \( f(x) = \frac{x}{\qty(x^{2}+1)^{3/2}} \)}
+
+\begin{block}{Quotient rule}
+The function \(f(x)\) is a quotient of functions, where \(u=x\) and \(v=\qty(x^{2}+1)^{3/2}\).
+By applying the quotiente rule, \(\dv{x}u/v = \frac{1}{v^{2}}\qty(u'v - uv')\), we get,
+\begin{align*}
+    f'(x) &= \frac{1}{\left[\qty(x^{2}+1)^{3/2}\right]^2}
+        \left[ 
+            \left(\dv{x}x\right)\qty(x^{2}+1)^{3/2}
+            -
+            x\left(\dv{x}\qty(x^{2}+1)^{3/2}\right)
+        \right] \\
+          &= \frac{1}{\qty(x^{2}+1)^{3}}
+        \left[ 
+            \left(\dv{x}x\right)\qty(x^{2}+1)^{3/2}
+            -
+            x\left(\dv{x}\qty(x^{2}+1)^{3/2}\right)
+        \right]
+\end{align*}
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \( f(x) = \frac{x}{\qty(x^{2}+1)^{3/2}} \)}
+
+    \begin{gather*}
+        f'(x) = \frac{1}{\qty(x^{2}+1)^{3}}
+        \left[ 
+            \left(\dv{x}x\right)\qty(x^{2}+1)^{3/2}
+            -
+            x\left(\dv{x}\qty(x^{2}+1)^{3/2}\right)
+        \right]
+    \end{gather*}
+
+    \begin{block}{Power rule: \(\dv{x}x\)}
+        \begin{align*}
+            \dv{x}x = 1x^{1-1} = 1x^{0} = 1\cdot 1 =1
+        \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \( f(x) = \frac{x}{\qty(x^{2}+1)^{3/2}} \)}
+
+    \begin{block}{Replace}
+
+    \begin{align*}
+        f'(x) &= \frac{1}{\qty(x^{2}+1)^{3}}
+        \left[ 
+            \cancelto{1}{\left(\dv{x}x\right)}\qty(x^{2}+1)^{3/2}
+            -
+            x\left(\dv{x}\qty(x^{2}+1)^{3/2}\right)
+        \right] \\
+                &=\frac{1}{\qty(x^{2}+1)^{3}}
+        \left[ 
+            1\cdot\qty(x^{2}+1)^{3/2}
+            -
+            x\left(\dv{x}\qty(x^{2}+1)^{3/2}\right)
+        \right] 
+    \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \( f(x) = \frac{x}{\qty(x^{2}+1)^{3/2}} \)}
+
+    \begin{block}{Chain rule: \(\dv{x}\qty(x^{2}+1)^{3/2}\)}
+        Here, \(u=x^{3/2}\) and \(v = x^2+1\), so that \((u\circ v)(x) = \qty(x^{2}+1)^{3/2}\).
+        With this, we can apply the chain rule, \(\dv{x}u(v(x)) = u'(v(x))\cdot v'(x)\),
+        \begin{align*}
+            \dv{x}\qty(x^{2}+1)^{3/2} &= \left.\dv{x}x^{3/2}\right|_{x=x^2+1} \cdot \left[\dv{x}\qty(x^2+1)\right] \\
+                                      &= \left. \frac{3}{2}x^{1/2}\right|_{x=x^2+1} \cdot \left[2x+0\right]
+        \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \( f(x) = \frac{x}{\qty(x^{2}+1)^{3/2}} \)}
+
+    \begin{block}{Chain rule: \(\dv{x}\qty(x^{2}+1)^{3/2}\)}
+        \begin{align*}
+            \dv{x}\qty(x^{2}+1)^{3/2} &= \left. \frac{3}{2}x^{1/2}\right|_{x=x^2+1} \cdot \left[2x+0\right] \\
+                                      &= \frac{3}{2}\sqrt{x^2+1}\cdot 2x \\
+                                      &= 3x\sqrt{x^2+1}
+        \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \( f(x) = \frac{x}{\qty(x^{2}+1)^{3/2}} \)}
+
+    \begin{block}{Replace}
+
+    \begin{align*}
+        f'(x) &=\frac{1}{\qty(x^{2}+1)^{3}}
+        \left[ 
+            1\cdot\qty(x^{2}+1)^{3/2}
+            -
+            x\cancelto{3x\sqrt{x^2+1}}{\left(\dv{x}\qty(x^{2}+1)^{3/2}\right)}
+        \right] \\
+              &=\frac{1}{\qty(x^{2}+1)^{3}}
+        \left[ 
+            1\cdot\qty(x^{2}+1)^{3/2}
+            -
+            x\left(3x\sqrt{x^2+1}\right)
+        \right]
+    \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \( f(x) = \frac{x}{\qty(x^{2}+1)^{3/2}} \)}
+    \begin{block}{Simplify}
+    \begin{align*}
+        f'(x) &=\frac{1}{\qty(x^{2}+1)^{3}}
+        \left[ 
+            1\cdot\qty(x^{2}+1)^{3/2}
+            -
+            x\left(3x\sqrt{x^2+1}\right)
+        \right] \\
+              &= \frac{1}{\qty(x^{2}+1)^{3}}
+        \left[\qty(x^{2}+1)^{3/2} - 3x^2\sqrt{x^2+1}
+        \right]
+    \end{align*}  
+
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    f'(x) =\frac{1-2x^2}{\sqrt{\qty(x^2+1)^5}}
+\end{empheq}
+
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Class Activity}
+    Compute the derivative of the following functions:
+
+            \begin{align*}
+                f(x) = \frac{2}{1+e^{-2(x-4)}}\qquad & g(x) = \frac{2x}{\qty(x^{2}+4)^{3/2}} \\
+                f'(x) = \frac{4 e^{-2(x-4)}}{\left[1+e^{-2(x-4)}\right]^{2}}\qquad & g'(x) = \frac{8-4x^2}{\sqrt{\qty(x^2+4)^5}} 
+            \end{align*}
+
+        \begin{align*}
+            \text{Power rule:~} \dv{x}x^{n} = nx^{n-1}\qquad & \text{Chain rule:~} \dv{x}u(v(x)) = u'(v(x))\cdot v'(x)\\
+            \text{Quotient rule:~} \dv{x}\frac{u(x)}{v(x)} = \frac{u'v - uv'}{v^{2}}\qquad & \text{Product rule:~} \dv{x}u(x)v(x) = u'v + uv'
+        \end{align*}    
+
+\end{frame}
+
+\end{document}

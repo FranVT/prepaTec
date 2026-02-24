@@ -28,7 +28,7 @@
 
 \begin{minipage}{0.45\textwidth}
     \centering
-    \begin{block}{Product rule}
+    \begin{block}{Quotient rule}
         \begin{gather*}
             \dv{x}\frac{u(x)}{v(x)} = \frac{u'v - uv'}{v^{2}} 
         \end{gather*}
@@ -37,7 +37,7 @@
 \hfill
 \begin{minipage}{0.45\textwidth}
     \centering
-    \begin{block}{Chain rule}
+    \begin{block}{Product rule}
         \begin{gather*}
             \dv{x}u(x)v(x) = u'v + uv'
         \end{gather*}
@@ -46,12 +46,12 @@
 
 \end{frame}
 
-\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(2\pi x)\) }
 
 \begin{block}{Product rule}
 First we identify that is a product of a composition of functions.
 It is a product, because we can write \(f(x) = u(x)v(x)\).
-Where \(u(x)=e^{-x^2}\), and \(v(x)=\sin\qty(\pi x)\).
+Where \(u(x)=e^{-x^2}\), and \(v(x)=\sin\qty(2\pi x)\).
 \end{block}
 
 \vspace{2em}
@@ -63,7 +63,7 @@ Then, looking at \(u(x)\) and \(v(x)\) we can see that is a composition of funct
 
 \end{frame}
 
-\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(2\pi x)\) }
 
 \begin{block}{Product rule}
 Let's start with the product rule,
@@ -80,7 +80,7 @@ Now, it is time to use the chain rule to compute the derivatives of \(u\) and \(
 
 \end{frame}
 
-\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(2\pi x)\) }
 
 \begin{block}{Chain rule: \(e^{-x^2}\)}
 As we identify before, \(e^{-x^2} = e^{x}\circ -x^{2}\), therefore,
@@ -95,7 +95,7 @@ As we identify before, \(e^{-x^2} = e^{x}\circ -x^{2}\), therefore,
 
 \end{frame}
 
-\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(2\pi x)\) }
 
 \begin{block}{Replace}
 Let's replace the previous result into the solution,
@@ -113,7 +113,7 @@ Let's continue with \(\dv{x}\sin\qty(2\pi x)\).
 
 \end{frame}
 
-\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(2\pi x)\) }
 
 \begin{block}{Chain rule: \(\sin\qty(2\pi x)\)}
 As we identify before, \(\sin\qty(2\pi x) = \sin\qty(x)\circ 2\pi x\), therefore,
@@ -128,7 +128,7 @@ As we identify before, \(\sin\qty(2\pi x) = \sin\qty(x)\circ 2\pi x\), therefore
 
 \end{frame}
 
-\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(2\pi x)\) }
 
 \begin{block}{Replace}
 Let's replace the previous result into the solution,
@@ -146,7 +146,7 @@ Now we can move on to simplify the expresion.
 
 \end{frame}
 
-\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(\pi x)\) }
+\begin{frame}{Example: \(f(x) = e^{-x^2}\sin\qty(2\pi x)\) }
 
 \begin{block}{Simplify}
 \begin{align*}
@@ -177,7 +177,7 @@ Compute the derivative of the following functions using the rules.
 
 \begin{block}{Answers}
 \begin{empheq}[box=\tcbhighmath]{equation*}
-    f'(x) =\frac{1}{2}e^{-x^{2}/4}\left[\pi\cos\qty(\frac{\pi}{2} x + \pi) -\frac{x}{2}\sin\qty(\frac{\pi}{2} x + \pi)\right]
+    f'(x) =\frac{1}{2}e^{-x^{2}/4}\left[\pi\cos\qty(\frac{\pi}{2} x + \pi) -x\sin\qty(\frac{\pi}{2} x + \pi)\right]
 \end{empheq}
 
 \begin{empheq}[box=\tcbhighmath]{equation*}
