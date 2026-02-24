@@ -1,0 +1,106 @@
+\documentclass[../tufte-style.tex]{standalone}
+
+\begin{document}
+
+\date{February 26, 2026}
+
+\begin{frame}{Derivative of Exponential functions \(f(x) = n^x\)}
+
+    We know how to compute the derivative of \(x^n\) using the power rule: \(\dv{x}x^{n} = nx^{n-1}\).
+    What if we change the symbols? \(x^n\to n^{x}\).
+    How we can compute the derivative of an exponential function?
+
+    \vspace{2em}
+
+    \begin{block}{Hint: Express the exponential function in terms of \(e^x\)}
+        We know that \(\dv{x}e^x = e^x\).
+        Therefore, the big idea is to express the function $n^x$ in terms of $e^x$.
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x)=2^x\)}
+
+    \begin{block}{Express \(2^x\) in terms of \(e^x\)}
+        We can use the propoerty of inverse functions: \(e^{\ln(x)} = x\).
+        But instead of using $x$, let's use \(2^x\),
+        \begin{gather*}
+            e^{\ln(2^x)} = 2^x.
+        \end{gather*}
+        
+        Now, by using properties of logarithms, \(\ln(x^n) = n\ln(x)\),
+        \begin{gather*}
+            e^{x\ln(2)} = \left[e^{\ln(2)}\right]^{x} = 2^x.
+        \end{gather*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x)=2^x\)}
+
+    \begin{block}{Use the chain rule to compute the derivative}
+        Now, we can compute the derivative of \(f(x)\) 
+        \begin{align*}
+            \dv{x}2^{x} &= \dv{x}e^{x\ln(2)} \\
+                        &= \left.\dv{x}e^{x} \right|_{x=x\ln(2)}\cdot\left[\dv{x}\qty(x\ln(2))\right] \\
+                        &= e^{x\ln(2)}\cdot\left[\dv{x}\qty(x\ln(2))\right]
+        \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x)=2^x\)}
+
+    \begin{block}{Use the product rule to compute \(\dv{x}\qty(x\ln(2))\)}
+        \begin{align*}
+            \dv{x}\qty(x\ln(2)) &= \cancelto{1}{\qty(\dv{x}x)}\cdot\ln(2) + x\cancelto{0}{\qty(\ln{2})} \\
+                                &= \ln(2)
+        \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x)=2^x\)}
+
+     \begin{block}{Replace and simplify the result}
+        \begin{align*}
+            \dv{x}2^{x} &= e^{x\ln(2)}\ln(2) \\
+                        &= 2^{x}\ln(2)
+        \end{align*}
+    \end{block}
+
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    f'(x) =2^{x}\ln(2)
+\end{empheq}
+
+\end{frame}
+
+\begin{frame}{Derivative of Exponential functions \(f(x) = n^x\)}
+
+    Now, if we repeat the same process with \(f(x) = n^{x}\) we get the following rule,
+
+    \begin{empheq}[box=\tcbhighmath]{equation*}
+        \dv{x}n^x =n^{x}\ln(n)
+    \end{empheq}
+
+\end{frame}
+
+\begin{frame}{Class Activity}
+
+Compute the derivatives of the following functions,
+\begin{align*}
+    f(x) = \left(\frac{1}{2}\right)^{x},\qquad & g(x) = 3\left(\frac{1}{2}\right)^{x/2} \\
+    f'(x) = -\frac{1}{2^x}\ln(2),\qquad & g'(x) = -2^{-x/2-1}\ln(8)
+\end{align*}
+
+        \begin{align*}
+            \text{Power rule:~} \dv{x}x^{n} = nx^{n-1}\qquad & \text{Chain rule:~} \dv{x}u(v(x)) = u'(v(x))\cdot v'(x)\\
+            \text{Quotient rule:~} \dv{x}\frac{u(x)}{v(x)} = \frac{u'v - uv'}{v^{2}}\qquad & \text{Product rule:~} \dv{x}u(x)v(x) = u'v + uv'
+        \end{align*}    
+
+
+\end{frame}
+
+
+
+\end{document}

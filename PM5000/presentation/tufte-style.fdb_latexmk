@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771953569.82727 "tufte-style.tex" "tufte-style.pdf" "tufte-style" 1771953571.41447 0
+["pdflatex"] 1771974383.28264 "tufte-style.tex" "tufte-style.pdf" "tufte-style" 1771974384.82602 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm" 1767555874 4712 9ef4d7d106579d4b136e1529e1a4533c ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1767555874 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
@@ -309,11 +309,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768251110 5306876 69c328245ae101f6bc10b01e1f2bf9d5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768253150 2008248 b250068cce02fd18fe464810a24808ac ""
-  "docs/doc3.tex" 1771953568.77948 5620 6fe31683eb9fb0d0ced0560a9ac7f8ab ""
-  "tufte-style.aux" 1771953571.2996 1759 117867b16d065595966cfbda8565b084 "pdflatex"
-  "tufte-style.nav" 1771953571.2996 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
-  "tufte-style.out" 1771953570.78291 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tufte-style.tex" 1771948276.12898 2314 a57053a95e2af74047f735855e502bf7 ""
+  "docs/doc3.tex" 1771953597.24084 5620 6fe31683eb9fb0d0ced0560a9ac7f8ab ""
+  "tufte-style.aux" 1771974384.70852 1759 117867b16d065595966cfbda8565b084 "pdflatex"
+  "tufte-style.nav" 1771974384.71186 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
+  "tufte-style.out" 1771974384.2185 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tufte-style.tex" 1771974379.75163 2337 6e8795a656a9a04f806248c4fe852364 ""
   (generated)
   "tufte-style.aux"
   "tufte-style.log"
