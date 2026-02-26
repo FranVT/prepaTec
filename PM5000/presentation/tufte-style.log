@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  24 FEB 2026 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  25 FEB 2026 09:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1348,7 +1348,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc3.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc4.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+
 
 [2
 
@@ -1357,13 +1364,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 [3
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-
 
 [4
 
@@ -1382,18 +1382,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 ]
 
 [8
-
-]
-Overfull \vbox (8.76135pt too high) detected at line 180
- []
-
-
-
-[9
-
-]
-
-[10
 
 ])
 \tf@nav=\write6
@@ -1414,18 +1402,18 @@ Package rerunfilecheck Info: File `tufte-style.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41255 strings out of 475171
- 877431 string characters out of 5767095
- 1269882 words of memory out of 5000000
- 63256 multiletter control sequences out of 15000+600000
- 648613 words of font info for 265 fonts, out of 8000000 for 9000
+ 41243 strings out of 475171
+ 877333 string characters out of 5767095
+ 1268880 words of memory out of 5000000
+ 63252 multiletter control sequences out of 15000+600000
+ 646055 words of font info for 260 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,22n,123p,1008b,1255s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,21n,123p,1008b,1178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tufte-style.pdf (10 pages, 92458 bytes).
+Output written on tufte-style.pdf (8 pages, 84895 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 21 named destinations out of 1000 (max. 500000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 17 named destinations out of 1000 (max. 500000)
  80059 words of extra memory for PDF output out of 89155 (max. 10000000)
 
