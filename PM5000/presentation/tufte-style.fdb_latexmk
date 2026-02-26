@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772033665.21476 "tufte-style.tex" "tufte-style.pdf" "tufte-style" 1772033666.71459 0
+["pdflatex"] 1772144348.1374 "tufte-style.tex" "tufte-style.pdf" "tufte-style" 1772144349.78149 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm" 1767555874 4712 9ef4d7d106579d4b136e1529e1a4533c ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1767555874 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
@@ -27,7 +27,6 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1767555874 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1767555874 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm" 1767555874 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
-  "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1767555874 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm" 1767555874 520 1cc7cc05f4d7bae5c23bf7516f88fa52 ""
   "/usr/share/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm" 1767555874 1032 7fa31d93ecd4cbdfac02c7a1ebc6facc ""
   "/usr/share/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm" 1767555874 1828 bb8add3bd19426549f9267c88b0cb8bd ""
@@ -35,7 +34,6 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1767555874 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1767555874 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1767555874 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb" 1767555874 11493 4f5ed183a47d3197cf8cd322325db6de ""
   "/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb" 1767555874 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
   "/usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb" 1767555874 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1767555874 46026 6dab18b61c907687b520c72847215a68 ""
@@ -200,6 +198,7 @@
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1767555874 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def" 1767555874 19440 9da9dcbb27470349a580fca7372d454b ""
   "/usr/share/texmf-dist/tex/latex/graphics/color.sty" 1767555874 7245 57f7defed4fb41562dc4b6ca13958ca9 ""
+  "/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def" 1767555874 5009 1ca6c92de20f17acac654d4e0598c200 ""
   "/usr/share/texmf-dist/tex/latex/graphics/graphics.sty" 1767555874 18363 dee506cb8d56825d8a4d020f5d5f8704 ""
   "/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty" 1767555874 8010 6f2ad8c2b2ffbd607af6475441c7b5e4 ""
   "/usr/share/texmf-dist/tex/latex/graphics/keyval.sty" 1767555874 2671 70891d50dac933918b827d326687c6e8 ""
@@ -309,11 +308,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768251110 5306876 69c328245ae101f6bc10b01e1f2bf9d5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768253150 2008248 b250068cce02fd18fe464810a24808ac ""
-  "docs/doc4.tex" 1771974366.58434 3160 81d02e2e85947c5ebee070a16837048d ""
-  "tufte-style.aux" 1772033666.60153 1500 3a46ddc74d0bb4d5653c8c8169fe4a21 "pdflatex"
-  "tufte-style.nav" 1772033666.60153 923 02772eacdfe77d67b79e45a640fd18ab "pdflatex"
-  "tufte-style.out" 1772033666.16484 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tufte-style.tex" 1772033658.44107 2337 e48541f12a488956305f534aeca8edeb ""
+  "docs/doc5.tex" 1772144346.50105 7966 c27007f42cd0d5c52024128a8cc457b6 ""
+  "tufte-style.aux" 1772144349.66453 2533 f3aa6cb8a23438021204e629343e904e "pdflatex"
+  "tufte-style.nav" 1772144349.66453 1667 223530e0d280496bcaab89de82b2e7ab "pdflatex"
+  "tufte-style.out" 1772144349.08117 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tufte-style.tex" 1772142441.00868 2391 fd738d414dc46b3ebc6d35906192667f ""
   (generated)
   "tufte-style.aux"
   "tufte-style.log"

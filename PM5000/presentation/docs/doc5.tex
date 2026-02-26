@@ -1,0 +1,227 @@
+\documentclass[../tufte-style.tex]{standalone}
+
+\begin{document}
+
+\date{February 27, 2026}
+
+\begin{frame}{Simplifications using algebra}
+
+    \begin{align*}
+        f(x) &= \frac{x}{\qty(x^{2}+1)^{3/2}} \\ 
+        f'(x) &= \frac{1}{\qty(x^{2}+1)^{3}}
+        \left[\qty(x^{2}+1)^{3/2} - 3x^2\sqrt{x^2+1}
+        \right] \\
+        f'(x) &=\frac{1-2x^2}{\sqrt{\qty(x^2+1)^5}} 
+    \end{align*}
+
+    \vspace{1.5em}
+    \centering
+
+    \textit{Hint:} Use a change of variable to simplify the expression to the eye.
+
+\end{frame}
+
+\begin{frame}{Change of variable}
+
+    Since \(x^{2}+1\) repeats, let's introduce the following change of variable \(\textcolor{blue}{a} = \textcolor{blue}{x^{2} +1} \).
+
+    \begin{gather*}
+        f'(x) = \frac{1}{\qty(\textcolor{blue}{x^{2}+1})^{3}}
+        \left[\qty(\textcolor{blue}{x^{2}+1})^{3/2} - 3x^2\sqrt{\textcolor{blue}{x^2+1}}
+        \right]
+        \rightarrow
+        f'(x) = \frac{1}{\textcolor{blue}{a}^{3}}
+        \left[\textcolor{blue}{a}^{3/2} - 3x^2\sqrt{\textcolor{blue}{a}}
+        \right]
+    \end{gather*}
+\end{frame}
+
+\begin{frame}{Use properties of exponents}
+
+    Recalling the following properties of exponents (and notation):
+    \(
+        \sqrt{x} = x^{1/2},~
+        x^{n\cdot m} = \qty(x^{n})^{m}
+    \)
+    we can do the following,
+
+    \begin{align*}
+        f'(x) &= \frac{1}{\textcolor{blue}{a}^{3}}
+        \left[\textcolor{blue}{a}^{3/2} - 3x^2\sqrt{\textcolor{blue}{a}}
+        \right] \\
+              &= \frac{1}{\textcolor{blue}{a}^{3}}
+              \left[\left(\textcolor{blue}{a}^{1/2}\right)^{3} - 3x^2\textcolor{blue}{a}^{1/2}
+        \right]
+    \end{align*}
+\end{frame}
+
+\begin{frame}{Factor and use properties of exponents}
+
+    Factor \(\textcolor{blue}{a}^{1/2}\).
+    \begin{align*}
+        f'(x) &= \frac{1}{\textcolor{blue}{a}^{3}}
+              \left[\left(\textcolor{blue}{a}^{1/2}\right)^{3} - 3x^2\textcolor{blue}{a}^{1/2}
+        \right] \\
+              &= \frac{\textcolor{blue}{a}^{1/2}}{\textcolor{blue}{a}^{3}}
+              \left[\left(\textcolor{blue}{a}^{1/2}\right)^{2} - 3x^2
+        \right]
+    \end{align*}
+
+    Use properties of exponents: \(x^n = 1/x^{n-1}\), \(x^{n}x^{m}=x^{n+m}\) and \((x^{n})^{m}=x^{n\cdot m}\).
+    \begin{align*}
+        f'(x) &= \frac{1}{\textcolor{blue}{a}^{3}\textcolor{blue}{a}^{-1/2}}
+        \left[\left(\textcolor{blue}{a}^{1/2}\right)^{2} - 3x^2\right] \\
+              &= \frac{1}{\textcolor{blue}{a}^{3-1/2}}
+        \left[\textcolor{blue}{a}^{2/2} - 3x^2\right]
+    \end{align*}
+\end{frame}
+
+\begin{frame}{Finish the arithmetic and change notation}
+
+    \begin{align*}
+        f'(x) &= \frac{1}{\textcolor{blue}{a}^{3-1/2}}
+        \left[\textcolor{blue}{a}^{2/2} - 3x^2\right]
+    \end{align*}
+    Since \( 3-\dfrac{1}{2} = \dfrac{5}{2} \) and \(\dfrac{2}{2}=1\),
+    \begin{align*}
+        f'(x) &= \frac{1}{\textcolor{blue}{a}^{5/2}}
+        \left[\textcolor{blue}{a} - 3x^2\right] \\
+              &= \frac{1}{\sqrt{\textcolor{blue}{a}^{5}}}
+        \left[\textcolor{blue}{a} - 3x^2\right]
+    \end{align*}
+\end{frame}
+
+\begin{frame}{Undo the change of variable}
+
+    Now we can undo the change of variable, since we can't do anything else, \(\textcolor{blue}{a} = \textcolor{blue}{x^{2}+1}\).
+
+    \begin{align*}
+        f'(x) = \frac{1}{\sqrt{\textcolor{blue}{a}^{5}}}\left[\textcolor{blue}{a} - 3x^2\right] \to f'(x) = \frac{1}{\sqrt{\qty(\textcolor{blue}{x^{2}+1})^{5}}}\left[\textcolor{blue}{x^{2}+1} - 3x^2\right]
+    \end{align*}
+\end{frame}
+
+\begin{frame}{Final step: Simplify}
+
+    \begin{align*}
+        f'(x) &= \frac{1}{\sqrt{\qty(x^{2}+1)^{5}}}\left[1 - 2x^2\right] \\
+              &= \frac{1 - 2x^2}{\sqrt{\qty(x^{2}+1)^{5}}}
+    \end{align*}
+
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    f'(x) =\frac{1-2x^2}{\sqrt{\qty(x^2+1)^5}}
+\end{empheq}
+
+
+\end{frame}
+
+
+
+\begin{frame}{Simplifications using algebra}
+
+    Now, let's see how to reduce the following expression,
+
+    \begin{align*}
+        g(x) &= 3\left(\frac{1}{2}\right)^{x/2} \\
+        g'(x) &= -3\left(\frac{1}{2}\right)^{x/2}\ln\qty[2^{1/2}] \\
+        g'(x) &= -2^{-1-x/2}\ln\qty[8]
+    \end{align*}
+
+\end{frame}
+
+\begin{frame}{Using properties of exponents}
+
+    We start with the base of the exponential function, \(\textcolor{Bittersweet}{\left(\frac{1}{2}\right)^{x/2}}\)
+
+    \begin{align*}
+        g'(x) &= -3\textcolor{Bittersweet}{\left(\frac{1}{2}\right)^{x/2}}\ln\qty[2^{1/2}] \\
+              &= -3\textcolor{Bittersweet}{\frac{1^{x/2}}{2^{x/2}}}\ln\qty[2^{1/2}] \\
+              &= -3\textcolor{Bittersweet}{\frac{1}{2^{x/2}}}\ln\qty[2^{1/2}] \\
+              &= -3\textcolor{Bittersweet}{2^{-x/2}}\ln\qty[2^{1/2}]
+    \end{align*}
+
+\end{frame}
+
+\begin{frame}{Using properties of logarithms}
+
+    Let's move on with the logarithm, \textcolor{Fuchsia}{\(a\ln\qty[x] = \ln\qty[x^{a}]\)},
+
+    \begin{align*}
+        g'(x) &= -\textcolor{Fuchsia}{3}\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\ln\qty[2^{1/2}]} \\
+              &= -\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\ln\qty[\left(2^{1/2}\right)^{3}]} 
+    \end{align*}
+
+\end{frame}
+
+\begin{frame}{Using properties of exponents}
+
+    We are going to do an exponent exchange using the properties of exponents (\((a^{n})^{m} = a^{n\cdot m} = (a^{m})^{n}\)).
+    Recalling the expression, \(g'(x) = -\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\ln\qty[\left(2^{1/2}\right)^{3}]}\)
+    We are going to focus on \textcolor{NavyBlue}{\(\left(2^{1/2}\right)^{3}\)}.
+
+    \begin{align*}
+        \textcolor{NavyBlue}{\left(2^{1/2}\right)^{3}} = \textcolor{NavyBlue}{2^{3/2}} = \textcolor{NavyBlue}{\left(2^{3}\right)^{1/2}} = \textcolor{NavyBlue}{8^{1/2}}
+    \end{align*}
+
+\end{frame}
+
+\begin{frame}{Replace}
+
+    Now that we know \(\textcolor{NavyBlue}{\left(2^{1/2}\right)^{3}} = \textcolor{NavyBlue}{8^{1/2}}\)
+    \begin{align*}
+        g'(x) &= -\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\ln\qty[\left(2^{1/2}\right)^{3}]} \\
+              &= -\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\ln\qty[8^{1/2}]} 
+    \end{align*}
+
+    The last step is to use properties of logarithms and exponents to get the expression \(g'(x)=-2^{-1-x/2}\ln\qty[8]\).
+
+\end{frame}
+
+\begin{frame}{Properties of logarithms}
+
+    Using the same property as before, \textcolor{Fuchsia}{\(a\ln\qty[x] = \ln\qty[x^{a}]\)}, we can exchange the exponent of argument of the logarithm as a factor
+    \begin{align*}
+        g'(x) &= -\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\ln\qty[8^{1/2}]} \\
+              &= -\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\frac{1}{2}}\textcolor{Fuchsia}{\ln\qty[8]} 
+    \end{align*}
+
+\end{frame}
+
+\begin{frame}{Properties of exponents}
+
+    Using the following properties, \textcolor{Bittersweet}{\(x^{-n} = 1/x^{n}\)}, \textcolor{Bittersweet}{\(x = x^{1}\)} and \textcolor{Bittersweet}{\(x^{n}\cdot x^{m} = x^{n+m}\)}
+    \begin{align*}
+        g'(x) &= -\textcolor{Bittersweet}{2^{-x/2}}\textcolor{Fuchsia}{\frac{1}{2}}\textcolor{Fuchsia}{\ln\qty[8]} \\
+              &= -\textcolor{Bittersweet}{\frac{1}{2^{x/2}}}\textcolor{Fuchsia}{\frac{1}{2}}\textcolor{Fuchsia}{\ln\qty[8]} \\
+              &= -\textcolor{Bittersweet}{\frac{1}{2^{x/2+1}}}\textcolor{Fuchsia}{\ln\qty[8]} \\
+              &= -\textcolor{Bittersweet}{2^{-x/2-1}}\textcolor{Fuchsia}{\ln\qty[8]}
+    \end{align*}
+
+\end{frame}
+
+\begin{frame}{End}
+
+\centering
+
+    \begin{minipage}[c]{0.45\textwidth}
+    \begin{align*}
+        f'(x) = \frac{\qty(x^{2}+1)^{3/2} - 3x^2\sqrt{x^2+1}}{\qty(x^{2}+1)^{3}}
+    \end{align*}
+
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    f'(x) =\frac{1-2x^2}{\sqrt{\qty(x^2+1)^5}}
+\end{empheq}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.45\textwidth}
+    \begin{align*}
+        g'(x) &=-3\left(\frac{1}{2}\right)^{x/2}\ln\qty[2^{1/2}] 
+    \end{align*}
+
+\begin{empheq}[box=\tcbhighmath]{equation*}
+    g'(x) =-2^{-x/2-1}\ln\qty[8]
+\end{empheq}
+    \end{minipage}
+\end{frame}
+
+
+\end{document}
