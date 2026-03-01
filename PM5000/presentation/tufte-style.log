@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  1 MAR 2026 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  1 MAR 2026 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1350,61 +1350,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc6.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc7.tex
 
 [2
 
-]
-
-[3
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 63.
- (/usr/share/texmf-dist/tex/latex/psnfss/ufplmbb.fd
-File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-)
-
-[4
-
-]
-
-[5
-
-]
-<Figures/../Figures/fig_e(cos(x)).png, id=185, 426.8748pt x 341.8371pt>
-File: Figures/../Figures/fig_e(cos(x)).png Graphic file (type png)
-<use Figures/../Figures/fig_e(cos(x)).png>
-Package pdftex.def Info: Figures/../Figures/fig_e(cos(x)).png  used on input line 82.
-(pdftex.def)             Requested size: 239.00917pt x 191.39616pt.
-
-Overfull \vbox (2.90411pt too high) detected at line 82
- []
-
-
-
-[6
-
- <./Figures/../Figures/fig_e(cos(x)).png>]
-<Figures/../Figures/fig_exampleCrPnt2.png, id=210, 426.8748pt x 341.8371pt>
-File: Figures/../Figures/fig_exampleCrPnt2.png Graphic file (type png)
-<use Figures/../Figures/fig_exampleCrPnt2.png>
-Package pdftex.def Info: Figures/../Figures/fig_exampleCrPnt2.png  used on input line 100.
-(pdftex.def)             Requested size: 179.25362pt x 143.54451pt.
-
-Overfull \vbox (9.89574pt too high) detected at line 100
- []
-
-
-
-[7
-
- <./Figures/../Figures/fig_exampleCrPnt2.png>])
+])
 \tf@nav=\write6
 \openout6 = `tufte-style.nav'.
 
@@ -1423,18 +1373,18 @@ Package rerunfilecheck Info: File `tufte-style.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41340 strings out of 475068
- 879646 string characters out of 5764375
- 1271859 words of memory out of 5000000
- 63376 multiletter control sequences out of 15000+600000
- 640183 words of font info for 254 fonts, out of 8000000 for 9000
+ 41084 strings out of 475068
+ 874620 string characters out of 5764375
+ 1268859 words of memory out of 5000000
+ 63190 multiletter control sequences out of 15000+600000
+ 613924 words of font info for 175 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 128i,14n,123p,1008b,1168s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tufte-style.pdf (7 pages, 336582 bytes).
+ 128i,14n,123p,1008b,1144s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tufte-style.pdf (2 pages, 55968 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 15 named destinations out of 1000 (max. 500000)
- 75973 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 56507 words of extra memory for PDF output out of 61914 (max. 10000000)
 
