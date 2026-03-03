@@ -7,7 +7,71 @@
 
 \begin{frame}{Derivative of logarithms.}
 
+    Today's session we are going to learn how to compute the derivative of logartihms functions.
+
+    The overall mthodology is as follows:
+    \begin{enumerate}
+        \item Use the change base formula
+        \item Compute the derivative of the change base formula
+        \item If possible, return to original base
+    \end{enumerate}
 
 \end{frame}
+
+\begin{frame}{Example: \(f(x) = \log(x)\)}
+
+    \begin{block}{Use the change base formula}
+        \begin{gather*}
+            \log(x) = \frac{\ln(x)}{\ln(10)}
+        \end{gather*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = \log(x)\)}
+
+    \begin{block}{Compute the derivative}
+        \begin{align*}
+            \dv{x}\frac{\ln(x)}{\ln(10)} &= \frac{1}{\ln(10)}\dv{x}\ln(x) \\ 
+                                         &= \frac{1}{\ln(10)}\frac{1}{x} \\
+                                         &= \frac{1}{\ln(10)x}
+        \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = \log(x)\)}
+
+    \begin{block}{Return to original base}
+        \begin{align*}
+            \dv{x}\frac{\ln(x)}{\ln(10)} &= \frac{1}{\ln(10)x} \\
+                                         &= \frac{1}{\frac{1}{\log(e)}x} \\
+                                         &= \frac{\log(e)}{x}
+        \end{align*}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Example: \(f(x) = \log(x)\)}
+
+    \begin{block}{Answers}
+        \begin{empheq}[box=\tcbhighmath]{equation*}
+            f'(x) = \frac{1}{\ln(10)x} = \frac{\log(e)}{x}
+        \end{empheq}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Class Activity}
+
+    Find the derivatives of the following logaritmic functions,
+    \begin{align*}
+        f(x) &= \log_{\pi}(x) \\
+        g(x) &= \log_2(2^x + 1)
+    \end{align*}
+
+\end{frame}
+
+
 
 \end{document}
