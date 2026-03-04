@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  3 MAR 2026 07:31
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  3 MAR 2026 16:51
+>>>>>>> 6b7c910a4e3c2b56e373830c3f36fef13002b6c3
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1350,10 +1354,290 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 [1
 
+<<<<<<< HEAD
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc7.tex
 
 [2
 
+=======
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc1.tex
+
+[2
+
+]
+
+[3
+
+]
+
+[4
+
+]
+
+[5
+
+]
+
+[6
+
+]) (./docs/doc2.tex
+
+[7
+
+]
+
+[8
+
+]
+
+[9
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+
+
+[10
+
+]
+
+[11
+
+]
+
+[12
+
+]
+
+[13
+
+]
+
+[14
+
+]
+
+[15
+
+]) (./docs/doc3.tex
+
+[16
+
+]
+
+[17
+
+]
+
+[18
+
+]
+
+[19
+
+]
+
+[20
+
+]
+
+[21
+
+]
+
+[22
+
+]
+Overfull \vbox (8.76135pt too high) detected at line 180
+ []
+
+
+
+[23
+
+]
+
+[24
+
+]) (./docs/doc4.tex
+
+[25
+
+]
+
+[26
+
+]
+
+[27
+
+]
+
+[28
+
+]
+
+[29
+
+]
+
+[30
+
+]
+
+[31
+
+]) (./docs/doc5.tex
+
+[32
+
+]
+
+[33
+
+]
+
+[34
+
+]
+
+[35
+
+]
+
+[36
+
+]
+
+[37
+
+]
+
+[38
+
+]
+
+[39
+
+]
+
+[40
+
+]
+
+[41
+
+]
+Overfull \hbox (4.1908pt too wide) in paragraph at lines 165--165
+[]\T1/ptm/m/n/12 (-20) We are go-ing to do an ex-po-nent ex-change us-ing the prop-er-ties of ex-po-nents ($\OT1/zplm/m/n/12 (\OML/ztmcm/m/it/12 a[]\OT1/zplm/m/n/12 )[] = 
+ []
+
+
+
+[42
+
+]
+
+[43
+
+]
+
+[44
+
+]
+
+[45
+
+]
+
+[46
+
+]) (./docs/doc6.tex
+
+[47
+
+]
+
+[48
+
+]
+LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 63.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+
+[49
+
+]
+
+[50
+
+]
+<Figures/../Figures/fig_e(cos(x)).png, id=1332, 426.8748pt x 341.8371pt>
+File: Figures/../Figures/fig_e(cos(x)).png Graphic file (type png)
+<use Figures/../Figures/fig_e(cos(x)).png>
+Package pdftex.def Info: Figures/../Figures/fig_e(cos(x)).png  used on input line 82.
+(pdftex.def)             Requested size: 239.00917pt x 191.39616pt.
+
+Overfull \vbox (2.90411pt too high) detected at line 82
+ []
+
+
+
+[51
+
+ <./Figures/../Figures/fig_e(cos(x)).png>]
+<Figures/../Figures/fig_exampleCrPnt2.png, id=1358, 426.8748pt x 341.8371pt>
+File: Figures/../Figures/fig_exampleCrPnt2.png Graphic file (type png)
+<use Figures/../Figures/fig_exampleCrPnt2.png>
+Package pdftex.def Info: Figures/../Figures/fig_exampleCrPnt2.png  used on input line 100.
+(pdftex.def)             Requested size: 179.25362pt x 143.54451pt.
+
+Overfull \vbox (9.89574pt too high) detected at line 100
+ []
+
+
+
+[52
+
+ <./Figures/../Figures/fig_exampleCrPnt2.png>]) (./docs/doc7.tex
+
+[53
+
+]) (./docs/doc8.tex
+Overfull \hbox (0.13725pt too wide) in paragraph at lines 19--19
+[]\T1/ptm/m/n/12 (+12) Today's session we are going to learn how to compute the derivative of logartihms 
+ []
+
+
+
+[54
+
+]
+
+[55
+
+]
+
+[56
+
+]
+
+[57
+
+]
+
+[58
+
+]
+
+[59
+
+>>>>>>> 6b7c910a4e3c2b56e373830c3f36fef13002b6c3
 ])
 \tf@nav=\write6
 \openout6 = `tufte-style.nav'.
@@ -1373,6 +1657,7 @@ Package rerunfilecheck Info: File `tufte-style.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  41081 strings out of 475068
  874649 string characters out of 5764375
  1268858 words of memory out of 5000000
@@ -1387,4 +1672,20 @@ PDF statistics:
  85 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  56507 words of extra memory for PDF output out of 61914 (max. 10000000)
+=======
+ 41733 strings out of 475171
+ 884975 string characters out of 5767095
+ 1274571 words of memory out of 5000000
+ 63572 multiletter control sequences out of 15000+600000
+ 658195 words of font info for 301 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 128i,22n,123p,1008b,1258s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tufte-style.pdf (59 pages, 465330 bytes).
+PDF statistics:
+ 1633 PDF objects out of 1728 (max. 8388607)
+ 1504 compressed objects within 16 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 84165 words of extra memory for PDF output out of 89155 (max. 10000000)
+>>>>>>> 6b7c910a4e3c2b56e373830c3f36fef13002b6c3
 
