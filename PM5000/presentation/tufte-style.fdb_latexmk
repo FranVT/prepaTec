@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772499871.56923 "tufte-style.tex" "tufte-style.pdf" "tufte-style" 1772499873.25861 0
+["pdflatex"] 1772544708.37089 "tufte-style.tex" "tufte-style.pdf" "tufte-style" 1772544710.79027 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1767555874 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1767555874 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm" 1767555874 4712 9ef4d7d106579d4b136e1529e1a4533c ""
@@ -34,7 +34,6 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1767555874 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1767555874 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb" 1767555874 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
-  "/usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb" 1767555874 33709 b09d2e140b7e807d3a97058263ab6693 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1767555874 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1767555874 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "/usr/share/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf" 1767555874 2344 44ff28c9ef2fc97180cd884f900fee71 ""
@@ -306,11 +305,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767966301 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767966272 2081302 4dee6a0d5dded8ef746552ad25e913e2 ""
-  "docs/doc8.tex" 1772499869.20861 1898 6c44525261d40d9d19f12718b246c9d6 ""
-  "tufte-style.aux" 1772499873.14227 1376 a519fb126059adf31c5bcbfa92037c10 "pdflatex"
-  "tufte-style.nav" 1772499873.14355 835 b5c49ba28d3d2049d1773682fb2767a8 "pdflatex"
-  "tufte-style.out" 1772499872.76167 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tufte-style.tex" 1772499274.2097 2461 94edb13efb984dc18f20490e7312dde6 ""
+  "docs/doc7.tex" 1772498321.90395 482 444e5ff4d0c2b7ba8e49eef3f1eaf5f9 ""
+  "tufte-style.aux" 1772544710.63068 756 6b33e150bffdf033da094b64401ae845 "pdflatex"
+  "tufte-style.nav" 1772544710.63168 395 640a03f4d3f0f705896c1d8375ddfa75 "pdflatex"
+  "tufte-style.out" 1772544710.24068 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tufte-style.tex" 1772544701.8437 2461 9d92a7c5d63053a1e3bab95963391222 ""
   (generated)
   "tufte-style.aux"
   "tufte-style.log"
