@@ -1,0 +1,49 @@
+\documentclass[../tufte-style.tex]{standalone}
+
+\begin{document}
+
+\date{March 5, 2026}
+
+
+\begin{frame}{Class Activity}
+
+    Solve the following derivatives as preparation for the interpartial exam.
+    Reduce the answer as much as possible.
+
+        \vspace{-1em}
+
+
+        \begin{align*}
+            f_1(x) = e^{\cos(x)} \qquad
+            f_2(x) = \dfrac{3}{2+e^{x}} \qquad
+            f_3(x) = e^{-x^4}\sin(x) \\
+            f_4(x) = \log_{10}\left[10^x+1\right] \qquad
+            f_5(x) = \left(\frac{3}{2}\right)^{x} \qquad
+            f_6(x) = 2x\cdot e^{2/3x}
+        \end{align*}
+
+        \vspace{-1em}
+
+    \begin{minipage}[c]{0.45\textwidth}
+        \begin{gather*}
+            \dv{x}u(x)v(x) = u'(x)v(x) + u(x)v'(x) \\
+            \dv{x}\frac{u(x)}{v(x)} = \frac{1}{v^{2}(x)}\left[ u'(x)v(x) - u(x)v'(x) \right] \\
+            \dv{x}u(v(x)) = u'(v(x))v'(x)
+        \end{gather*}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.45\textwidth}
+        \begin{gather*}
+            a^{n}\cdot a^{m} = a^{n+m},\qquad  \log_{n}\qty[a] + \log_{n}\qty[b] = \log_{n}\qty[a\cdot b] \\
+            \qty(a^{n})^{m} = a^{n\cdot m},\qquad  a\log_{n}\qty[b] = \log_{n}\qty[b^a] \\
+            \frac{1}{a} = a^{-1},\qquad  \log_{n}\qty[a] - \log_{n}\qty[b] = \log_{n}\qty[\frac{a}{b}] \\
+            a^{\log_{a}\qty[x]} = x = \log_a\qty[a^{x}],\qquad  \log_{n}\qty[x] = \frac{\log_{m}\qty[x]}{\log_{m}\qty[n]}
+        \end{gather*}
+
+    \end{minipage}
+
+\end{frame}
+
+
+
+\end{document}
