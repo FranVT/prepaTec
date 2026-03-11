@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.3.4)  5 MAR 2026 07:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.3.8)  11 MAR 2026 07:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1356,8 +1356,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc9.tex
-Overfull \hbox (26.04855pt too wide) detected at line 45
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./docs/doc10.tex
+Overfull \hbox (26.04855pt too wide) detected at line 33
 []
  []
 
@@ -1382,18 +1382,18 @@ Package rerunfilecheck Info: File `tufte-style.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41204 strings out of 469412
- 878211 string characters out of 5468087
- 1309045 words of memory out of 5000000
- 68956 multiletter control sequences out of 15000+600000
- 689751 words of font info for 198 fonts, out of 8000000 for 9000
+ 41203 strings out of 469412
+ 878282 string characters out of 5468087
+ 1307045 words of memory out of 5000000
+ 68959 multiletter control sequences out of 15000+600000
+ 687977 words of font info for 194 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  128i,14n,123p,1008b,1154s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tufte-style.pdf (2 pages, 65358 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tufte-style.pdf (2 pages, 60768 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  61627 words of extra memory for PDF output out of 61914 (max. 10000000)
 
