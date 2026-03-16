@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773690221.51408 "main.tex" "main.pdf" "main" 1773690223.13597 0
+["pdflatex"] 1773695710.17507 "main.tex" "main.pdf" "main" 1773695711.78091 0
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5brands-regular-400.luc" 1773408415.58259 180102 c852163246599a8f504a3ea1fc4ff49f ""
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5free-solid-900.luc" 1773408415.44759 380927 e72dfa308ce75a51964c97c1c57d15a6 ""
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1772988184.25567 127314 202d777ecbd04f99755b23dfb376733b ""
@@ -207,6 +207,7 @@
   "/usr/share/texmf-dist/tex/latex/cmbright/omlcmbrm.fd" 1772820570 971 fc3ca0f473ef3ba42b92ded9deeea11e ""
   "/usr/share/texmf-dist/tex/latex/cmbright/omscmbrs.fd" 1772820570 913 6f5c8d9c0442a5f4c6fb1114c7c0abd9 ""
   "/usr/share/texmf-dist/tex/latex/cmbright/ot1cmbr.fd" 1772820570 1208 84b694fa6094d71e1e1e5ed3bfc3ae34 ""
+  "/usr/share/texmf-dist/tex/latex/comment/comment.sty" 1772820570 10197 204f75d5d8d88aa345a8c402e879e63b ""
   "/usr/share/texmf-dist/tex/latex/datetime/datetime-defaults.sty" 1772820570 4105 4c80eaed8cd4f9a80cc6244c0adeb81f ""
   "/usr/share/texmf-dist/tex/latex/datetime/datetime.sty" 1772820570 27587 b023ffe1328fa89e7f133201d87029de ""
   "/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty" 1772820570 52272 63d293bc0d496619edb57585740861a2 ""
@@ -379,9 +380,9 @@
   "/usr/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1772820570 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772984766 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1772986079 5659607 0a37e3f4baea3ee6e44ddd2b4bc87025 ""
-  "main.aux" 1773690223.00281 347 1632b44e88ee68a0492a8b226ca26cc4 "pdflatex"
-  "main.out" 1773690222.83635 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1773690146.88926 5744 c6f813111b09fb9060131128bf2ba771 ""
+  "main.aux" 1773695711.64294 347 188c25f4bd7a6c11749db2f28371b418 "pdflatex"
+  "main.out" 1773695711.43651 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1773695708.63794 12420 8434215f6a9bb0a7d0f4a1cbe8840a62 ""
   "worksheet.sty" 1773685224.7666 12314 36a8c1f8bb20202844aac63ca779bdea ""
   (generated)
   "main.aux"

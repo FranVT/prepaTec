@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.3.8)  16 MAR 2026 13:43
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.3.8)  16 MAR 2026 15:15
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1143,31 +1143,33 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_tmp_int=\count443
 \l__siunitx_unit_position_int=\count444
 \l__siunitx_unit_total_int=\count445
-)
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 13.
+) (/usr/share/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment')
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 14.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count446
@@ -1200,12 +1202,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package backref Info: ** backref set up for natbib ** on input line 13.
-Package hyperref Info: Link coloring OFF on input line 13.
+Package backref Info: ** backref set up for natbib ** on input line 14.
+Package hyperref Info: Link coloring OFF on input line 14.
  (./main.out) (./main.out)
-\@outlinefile=\write4
+\@outlinefile=\write5
 
-\openout4 = main.out
+\openout5 = main.out
 \c@lstlisting=\count452
 
 *geometry* driver: auto-detecting
@@ -1261,25 +1263,20 @@ Package siunitx Warning: Detected the "physics" package:
 (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 13.
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 14.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 14.
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 15.
  (/usr/share/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 14.
+LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 15.
  (/usr/share/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 14.
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 15.
+ [1
 
-Missing character: There is no – (U+2013) in font cmbr10!
-Missing character: There is no – (U+2013) in font cmbr10!
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-Missing character: There is no – (U+2013) in font cmbr10!
-] [2] [3] [4] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] Excluding 'comment' comment. [5] [6] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -1293,19 +1290,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 52853 strings out of 476076
+ 52917 strings out of 476076
  100000,1977958 words of node,token memory allocated
- 561 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 66 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:1,2:724,3:334,4:40,5:273,6:66,7:4866,8:44,9:607,10:9,11:301
- 73841 multiletter control sequences out of 65536+600000
+ 582 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 66 glue_spec, 10 attribute_list, 2 write nodes
+   avail lists: 1:1,2:1580,3:334,4:39,5:757,6:66,7:5022,8:44,9:1848,10:10,11:316
+ 73896 multiletter control sequences out of 65536+600000
  39 fonts using 2325919 bytes
- 104i,10n,104p,1213b,1102s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,13n,104p,1213b,1102s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb>
-Output written on main.pdf (4 pages, 87813 bytes).
+Output written on main.pdf (6 pages, 97441 bytes).
 
-PDF statistics: 79 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 1048576)
+PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 1048576)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

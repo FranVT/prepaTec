@@ -3,6 +3,7 @@
 \usepackage{subfiles}
 \usepackage{physics}
 \usepackage{siunitx}
+\usepackage{comment}
 
 \author{Fco. Vazquez}
 \date{17-20.03.2026}
@@ -19,9 +20,9 @@
     To determine these points analytically, you will need to use multiple types of differentiation rules, such as the Product, Quotient, and Chain rules. 
     Determine whether the critical parameters for each scenario result in a maximum or minimum.
     Each day, you should finish at least one problem by the end of class.
-    The ideal number of completed exercises per session is two, therefore on March 20 you should complete exercises 1–8.
+    The ideal number of completed exercises per session is two, therefore on March 20 you should complete exercises 1-8.
     At the end of the session, please return this page and your process sheets.
-    You can utilize your notes to solve the issues.
+    You can utilize your notes to solve the problems.
     Fill in the boxes with your final answers to each task.
 
 	\section*{Exercises}
@@ -29,7 +30,7 @@
     \singletask[]{Minimizing Average Cost}
     
     The average of total cost for producing coffee beans is given by 
-    \(C(x) = \frac{1}{x}\left[ 200 x +10x + \frac{1}{2}x^2 \right]\).
+    \(C(x) = \frac{1}{x}\left[ 200 +10x + \frac{1}{2}x^2 \right]\).
     Compute the minimum average cost of producing coffee beans.
 
     \boxarea[2cm]
@@ -42,7 +43,8 @@
     
     The height of a proyectile of an object is given by 
     \(h(t) = v_o t -\frac{9.81}{2}t^2\).
-    Determine what the object's starting speed was so that its highest point reached $h=6$ at $t=3$.
+    Determine what the object's starting speed was so that its highest point reached at $t=3$.
+    Finally, find the maximum height of the proyectile.
 
     \boxarea[2cm]
 
@@ -68,9 +70,11 @@
     
     The displacement of the planets over time can be modeled with the following function,
     \(s(t) = A\sin(\omega t) + B\cos(\omega t) \).
-    Find the maximum and minimum displacements on terms of $A,B$ and $\omega$.
+    Find the time at which the planets are in a  maximum or minimum displacements in terms of $A,B$ and $\omega$.
 
     \boxarea[2cm]
+
+\newpage
 
     \singletask[]{Maximizing light intensity}
 
@@ -78,13 +82,15 @@
     \( I(\theta) = \sin(\theta)\cos^2(\theta) \).
     Find the critical angle $\theta$ at which the intensity is maximized.
 
-    \grouptask[]{Maximizing Cross-Sectional Area of a Gutter}
-
     \boxarea[2cm]
+
+    \grouptask[]{Maximizing Cross-Sectional Area of a Gutter}
 
     A gutter is bent from a long strip of width $L$ by folding up edges at angle $\theta$.
     The cross-section area is given by \(A(\theta) = (L-2x)x\sin(\theta) + x^2\sin(\theta)\cos(\theta) \).
     Assuming that $L=2$ and $x=1/2$, find the maximum angle $\theta$.
+
+    \boxarea[2cm]
 
     \singletask[]{Optimal does in medicine}
 
@@ -92,6 +98,8 @@
     Find the time that gives the maximum concentration in terms of $k$.
 
     \boxarea[2cm]
+
+\newpage
 
     \grouptask[]{Catenary}
 
@@ -111,11 +119,13 @@
 
     \singletask[]{Minimizing Fencing Cost}
 
-    a rectangular plot with one side along a river needs fencing on three sides.
+    A rectangular plot with one side along a river needs fencing on three sides.
     If the area is fixed \(A\) and the cost is given by \(C(x) = px + 2p\frac{A}{x}\), where $x$ is the side along the river.
-    Compute side length of the side of the river that minimize the fencing cost given that $A=20$.
+    Compute side length of the side of the river that minimize the fencing cost given that $A=22500$.
 
     \boxarea[2cm]
+
+\newpage
 
     \bonustask[]{Snell's law: Refraction of light}
 
@@ -133,6 +143,198 @@
     where \(\theta_1\) and \(\theta_2\) are the angles of incidence and refraction.
     This is Snell's law.
     Finally show that for $a=b$ and $v_1=2v_3$ the exact critical point is $x=d/3$.
+
+    \section*{Algrabe tools and more}
+
+    \begin{minipage}{0.45\textwidth}
+        \textbf{Derivatives rules}
+    \begin{gather*}
+        \dv{x}x^n = nx^{n-1} \\ 
+        \dv{x}n^x = n^x\ln(n) \\
+        \dv{x}\log_{n}(x) = \frac{1}{x\ln(n)} 
+    \end{gather*}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \textbf{Derivatives rules for functions operations}
+        \begin{gather*}
+            \dv{x}u(x)v(x) = u'(x)v(x) + u(x)v'(x) \\
+            \dv{x}\frac{u(x)}{v(x)} = \frac{1}{v^{2}(x)}\left[ u'(x)v(x) - u(x)v'(x) \right] \\
+            \dv{x}u(v(x)) = u'(v(x))v'(x) 
+        \end{gather*}
+    \end{minipage}
+
+    \begin{minipage}{0.45\textwidth}
+        \textbf{Properties of exponents}
+        \begin{gather*}
+            a^{n}\cdot a^{m} = a^{n+m}\\
+            \qty(a^{n})^{m} = a^{n\cdot m}\\
+            \frac{1}{a} = a^{-1}\\
+            a^{\log_{a}\qty[x]} = x = \log_a\qty[a^{x}]
+        \end{gather*}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \textbf{Properties of logarithms}
+        \begin{gather*}
+            \log_{n}\qty[a] + \log_{n}\qty[b] = \log_{n}\qty[a\cdot b] \\
+            a\log_{n}\qty[b] = \log_{n}\qty[b^a] \\
+            \log_{n}\qty[a] - \log_{n}\qty[b] = \log_{n}\qty[\frac{a}{b}] \\
+            \log_{n}\qty[x] = \frac{\log_{m}\qty[x]}{\log_{m}\qty[n]}
+        \end{gather*}
+    \end{minipage}
+
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Pythagorean Identities}
+\begin{align*}
+\sin^2\theta + \cos^2\theta &= 1 \\
+\tan^2\theta + 1 &= \sec^2\theta \\
+1 + \cot^2\theta &= \csc^2\theta
+\end{align*}
+\vspace{2ex}
+
+\textbf{Sum/Difference Formulas}
+\begin{align*}
+\sin(\alpha \pm \beta) &= \sin\alpha \cos\beta \pm \cos\alpha \sin\beta \\
+\cos(\alpha \pm \beta) &= \cos\alpha \cos\beta \mp \sin\alpha \sin\beta \\
+\tan(\alpha \pm \beta) &= \frac{\tan\alpha \pm \tan\beta}{1 \mp \tan\alpha \tan\beta}
+\end{align*}
+\vspace{2ex}
+
+\textbf{Double-Angle Formulas}
+\begin{align*}
+\sin(2\theta) &= 2\sin\theta \cos\theta \\
+\cos(2\theta) &= \cos^2\theta - \sin^2\theta \\
+              &= 2\cos^2\theta - 1 \\
+              &= 1 - 2\sin^2\theta \\
+\tan(2\theta) &= \frac{2\tan\theta}{1 - \tan^2\theta}
+\end{align*}
+\vspace{2ex}
+
+\textbf{Periodicity}
+\[
+\sin(\theta \pm 2\pi) = \sin\theta,\quad 
+\cos(\theta \pm 2\pi) = \cos\theta %,\quad 
+%\tan(\theta \pm \pi) = \tan\theta
+\]
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Half-Angle Formulas}
+\begin{align*}
+\sin\frac{\theta}{2} &= \pm\sqrt{\frac{1 - \cos\theta}{2}} \\
+\cos\frac{\theta}{2} &= \pm\sqrt{\frac{1 + \cos\theta}{2}} \\
+\tan\frac{\theta}{2} &= \frac{\sin\theta}{1 + \cos\theta} = \frac{1 - \cos\theta}{\sin\theta}
+\end{align*}
+\vspace{2ex}
+
+\textbf{Product-to-Sum Formulas}
+\begin{align*}
+\sin\alpha \sin\beta &= \tfrac{1}{2}[\cos(\alpha - \beta) - \cos(\alpha + \beta)] \\
+\cos\alpha \cos\beta &= \tfrac{1}{2}[\cos(\alpha - \beta) + \cos(\alpha + \beta)] \\
+\sin\alpha \cos\beta &= \tfrac{1}{2}[\sin(\alpha + \beta) + \sin(\alpha - \beta)]
+\end{align*}
+\vspace{2ex}
+
+\textbf{Sum-to-Product Formulas}
+\begin{align*}
+\sin\alpha + \sin\beta &= 2\sin\frac{\alpha + \beta}{2}\cos\frac{\alpha - \beta}{2} \\
+\sin\alpha - \sin\beta &= 2\cos\frac{\alpha + \beta}{2}\sin\frac{\alpha - \beta}{2} \\
+\cos\alpha + \cos\beta &= 2\cos\frac{\alpha + \beta}{2}\cos\frac{\alpha - \beta}{2} \\
+\cos\alpha - \cos\beta &= -2\sin\frac{\alpha + \beta}{2}\sin\frac{\alpha - \beta}{2}
+\end{align*}
+\vspace{2ex}
+
+
+\textbf{Cofunction Identities}
+\[
+\sin\left(\frac{\pi}{2} - \theta\right) = \cos\theta,\quad
+\cos\left(\frac{\pi}{2} - \theta\right) = \sin\theta
+\]
+\end{minipage}
+
+
+\begin{comment}
+\textbf{Reciprocal Identities}
+\[
+\csc\theta = \frac{1}{\sin\theta},\quad 
+\sec\theta = \frac{1}{\cos\theta},\quad 
+\cot\theta = \frac{1}{\tan\theta}
+\]
+
+\vspace{2ex}
+
+
+
+    \subsection*{Trigonometric Identities}
+\begin{enumerate}
+    \item \textbf{Pythagorean Identities:}
+    \begin{align*}
+        \sin^2\theta + \cos^2\theta &= 1 \\
+        \tan^2\theta + 1 &= \sec^2\theta \\
+        1 + \cot^2\theta &= \csc^2\theta
+    \end{align*}
+
+    \item \textbf{Sum/Difference Formulas:}
+    \begin{align*}
+        \sin(\alpha \pm \beta) &= \sin\alpha \cos\beta \pm \cos\alpha \sin\beta \\
+        \cos(\alpha \pm \beta) &= \cos\alpha \cos\beta \mp \sin\alpha \sin\beta \\
+        \tan(\alpha \pm \beta) &= \frac{\tan\alpha \pm \tan\beta}{1 \mp \tan\alpha \tan\beta}
+    \end{align*}
+
+    \item \textbf{Double-Angle Formulas:}
+    \begin{align*}
+        \sin(2\theta) &= 2\sin\theta \cos\theta \\
+        \cos(2\theta) &= \cos^2\theta - \sin^2\theta \\
+                      &= 2\cos^2\theta - 1 \\
+                      &= 1 - 2\sin^2\theta \\
+        \tan(2\theta) &= \frac{2\tan\theta}{1 - \tan^2\theta}
+    \end{align*}
+
+    \item \textbf{Half-Angle Formulas:}
+    \begin{align*}
+        \sin\frac{\theta}{2} &= \pm\sqrt{\frac{1 - \cos\theta}{2}} \\
+        \cos\frac{\theta}{2} &= \pm\sqrt{\frac{1 + \cos\theta}{2}} \\
+        \tan\frac{\theta}{2} &= \frac{\sin\theta}{1 + \cos\theta} = \frac{1 - \cos\theta}{\sin\theta}
+    \end{align*}
+
+    \item \textbf{Product-to-Sum Formulas:}
+    \begin{align*}
+        \sin\alpha \sin\beta &= \frac{1}{2}[\cos(\alpha - \beta) - \cos(\alpha + \beta)] \\
+        \cos\alpha \cos\beta &= \frac{1}{2}[\cos(\alpha - \beta) + \cos(\alpha + \beta)] \\
+        \sin\alpha \cos\beta &= \frac{1}{2}[\sin(\alpha + \beta) + \sin(\alpha - \beta)]
+    \end{align*}
+
+    \item \textbf{Sum-to-Product Formulas:}
+    \begin{align*}
+        \sin\alpha + \sin\beta &= 2\sin\frac{\alpha + \beta}{2}\cos\frac{\alpha - \beta}{2} \\
+        \sin\alpha - \sin\beta &= 2\cos\frac{\alpha + \beta}{2}\sin\frac{\alpha - \beta}{2} \\
+        \cos\alpha + \cos\beta &= 2\cos\frac{\alpha + \beta}{2}\cos\frac{\alpha - \beta}{2} \\
+        \cos\alpha - \cos\beta &= -2\sin\frac{\alpha + \beta}{2}\sin\frac{\alpha - \beta}{2}
+    \end{align*}
+
+    \item \textbf{Reciprocal Identities:}
+    \[
+        \csc\theta = \frac{1}{\sin\theta},\quad 
+        \sec\theta = \frac{1}{\cos\theta},\quad 
+        \cot\theta = \frac{1}{\tan\theta}
+    \]
+
+    \item \textbf{Periodicity:}
+    \begin{align*}
+        \sin(\theta \pm 2\pi) &= \sin\theta, &
+        \cos(\theta \pm 2\pi) &= \cos\theta, \\
+        \tan(\theta \pm \pi) &= \tan\theta
+    \end{align*}
+
+    \item \textbf{Cofunction Identities:}
+    \[
+        \sin\left(\frac{\pi}{2} - \theta\right) = \cos\theta,\quad
+        \cos\left(\frac{\pi}{2} - \theta\right) = \sin\theta
+    \]
+\end{enumerate}
+\end{comment}    
 
 %        \partnertask[10]{This is a title}
 

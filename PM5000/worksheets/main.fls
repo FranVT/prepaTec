@@ -404,6 +404,7 @@ INPUT /usr/share/texmf-dist/tex/latex/import/import.sty
 INPUT /usr/share/texmf-dist/tex/latex/physics/physics.sty
 INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
 INPUT ./main.aux
 OUTPUT main.aux
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
