@@ -1,0 +1,151 @@
+\documentclass[11pt, a4paper, oneside]{article}
+\usepackage{worksheet}
+\usepackage{subfiles}
+\usepackage{physics}
+\usepackage{siunitx}
+
+\author{Fco. Vazquez}
+\date{17-20.03.2026}
+\title{Critical Points worksheet}
+\subject{Name: }
+\class{Calculus I}
+
+\begin{document}
+    \maketitle
+    %\testheader[100]{remarks}
+
+    \section*{Instructions}
+    The main objective of each of the problems that follow is to determine where \(f'(x) = 0\) or \(f'(x)\) is undefined to identify potential maxima and minima. 
+    To determine these points analytically, you will need to use multiple types of differentiation rules, such as the Product, Quotient, and Chain rules. 
+    Determine whether the critical parameters for each scenario result in a maximum or minimum.
+    Each day, you should finish at least one problem by the end of class.
+    The ideal number of completed exercises per session is two, therefore on March 20 you should complete exercises 1–8.
+    At the end of the session, please return this page and your process sheets.
+    You can utilize your notes to solve the issues.
+    Fill in the boxes with your final answers to each task.
+
+	\section*{Exercises}
+
+    \singletask[]{Minimizing Average Cost}
+    
+    The average of total cost for producing coffee beans is given by 
+    \(C(x) = \frac{1}{x}\left[ 200 x +10x + \frac{1}{2}x^2 \right]\).
+    Compute the minimum average cost of producing coffee beans.
+
+    \boxarea[2cm]
+
+%	\begin{warning}{Warning}
+%	Don't be like that	
+%	\end{warning}
+	
+    \singletask[]{Maximum Height of a Projectile}
+    
+    The height of a proyectile of an object is given by 
+    \(h(t) = v_o t -\frac{9.81}{2}t^2\).
+    Determine what the object's starting speed was so that its highest point reached $h=6$ at $t=3$.
+
+    \boxarea[2cm]
+
+    \singletask[]{Volume maximization}
+    
+    An open box is made from a $3\times 3$ cm sheet by cutting squares of side $x$ from the corner.
+    The volume of the box is given by 
+    \(V(x) = x(3-2x)^2\).
+    Find the length of the squares that achieves the greater volume.
+
+    \boxarea[2cm]
+
+    \singletask[]{Minimizing Surface Area of a Can}
+    
+    A cylindrical can holds a volume of  \(355~\mathrm{cm}^3\).
+    The surface area of this can is given by 
+    \(S(r) = 2\pi r^2 + 2V\frac{1}{r}\).
+    Find the value of $r$ such that it minimizes the surface area of the can.
+
+    \boxarea[2cm]
+
+    \singletask[]{Finding extremes of Trigonomeric functions}
+    
+    The displacement of the planets over time can be modeled with the following function,
+    \(s(t) = A\sin(\omega t) + B\cos(\omega t) \).
+    Find the maximum and minimum displacements on terms of $A,B$ and $\omega$.
+
+    \boxarea[2cm]
+
+    \singletask[]{Maximizing light intensity}
+
+    The intensity of a lamp over a table is given by,
+    \( I(\theta) = \sin(\theta)\cos^2(\theta) \).
+    Find the critical angle $\theta$ at which the intensity is maximized.
+
+    \grouptask[]{Maximizing Cross-Sectional Area of a Gutter}
+
+    \boxarea[2cm]
+
+    A gutter is bent from a long strip of width $L$ by folding up edges at angle $\theta$.
+    The cross-section area is given by \(A(\theta) = (L-2x)x\sin(\theta) + x^2\sin(\theta)\cos(\theta) \).
+    Assuming that $L=2$ and $x=1/2$, find the maximum angle $\theta$.
+
+    \singletask[]{Optimal does in medicine}
+
+    The concentration of a drug in blodd after $t$ hours is given by \(C(t) = te^{-kt}\).
+    Find the time that gives the maximum concentration in terms of $k$.
+
+    \boxarea[2cm]
+
+    \grouptask[]{Catenary}
+
+    A flexible rope of length $L$ suspended between two points at the same height forms a catenary.
+    The potential energy of a ball following the rope is given by \(U=a \frac{e^{2x/a}+1}{2e^{x/a}}\).
+    Find the minimum of the potential energy.
+
+    \boxarea[2cm]
+
+    \singletask[]{Economic order quantity}
+
+    The total inventory cost per  year is given by \(T(q) = \frac{D}{q}K + \frac{q}{2}h\).
+    Where $q$ is the order quantity.
+    Find the critical point of the total inventory.
+
+    \boxarea[2cm]
+
+    \singletask[]{Minimizing Fencing Cost}
+
+    a rectangular plot with one side along a river needs fencing on three sides.
+    If the area is fixed \(A\) and the cost is given by \(C(x) = px + 2p\frac{A}{x}\), where $x$ is the side along the river.
+    Compute side length of the side of the river that minimize the fencing cost given that $A=20$.
+
+    \boxarea[2cm]
+
+    \bonustask[]{Snell's law: Refraction of light}
+
+    A ray of light travels from point $A$ in air (where its speed is $v_1\approx\SI{299 792 458}{\meter\per\second}$) to point $B$ in water (where its speed is $v_1<\SI{299 792 458}{\meter\per\second}$). 
+    The interface between the two media is a straight line. 
+    The light strikes the interface at a point $x$ units from the point on the shore directly below $A$. 
+    If the vertical distance from $A$ to the interface is $a$, and the vertical distance from the interface to $B$ is $b$, the time taken is:
+    \begin{gather*}
+        T(x) = \frac{\sqrt{x^2+a^2}}{v_1} + \frac{\sqrt{(d-x)^2+b^2}}{v_2}.
+    \end{gather*}
+    Find \(T'(x)\) and set it to zero to show that the critical point satisfies the condition:
+    \begin{gather*}
+        \frac{1}{v_1}\sin(\theta_1) = \frac{1}{v_2}\sin(\theta_2),
+    \end{gather*}
+    where \(\theta_1\) and \(\theta_2\) are the angles of incidence and refraction.
+    This is Snell's law.
+    Finally show that for $a=b$ and $v_1=2v_3$ the exact critical point is $x=d/3$.
+
+%        \partnertask[10]{This is a title}
+
+%    \grouptask[10]{This is a title}
+
+%    \checkered[0.85\textwidth]
+
+%    \bonustask[10]{This is a title}
+    
+%    \lines[0.85\textwidth]
+
+%    \testtask[10]{Miau}
+    
+%    \boxarea[0.85\textwidth]
+
+\end{document}
