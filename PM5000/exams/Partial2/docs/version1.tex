@@ -7,15 +7,7 @@ Read the following questions and identify the option that best answers each, the
 
 \begin{preguntas}
 
-\pregunta[5] \rule{1cm}{0.1mm} Select the option that is the definition of the derivative:
-
-\begin{enumerate*}[label=(\alph*)]
-    \item \(\lim_{h\to0}\dfrac{f(x-h)-f(x)}{h}\quad\)
-    \item \(\lim_{h\to0}\dfrac{f(x-h)+f(x)}{h}\quad\)
-    \item \(\lim_{h\to0}\dfrac{f(x+h)-f(x)}{h}\)
-\end{enumerate*}
-
-\pregunta[5] \rule{1cm}{0.1mm} Identify the quotient rule for derivatives. 
+\pregunta[4] \rule{1cm}{0.1mm} Identify the quotient rule for derivatives. 
 
 \begin{enumerate*}[label=(\alph*)]
     \item \(\left(\dfrac{u}{v}\right)' = \dfrac{uv' - u'v}{v^2}\) \hspace{2em} 
@@ -24,7 +16,7 @@ Read the following questions and identify the option that best answers each, the
     \item \(\left(\dfrac{m}{n}\right)' = \dfrac{n'm - m'n}{n^2}\). 
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Identify the product rule for derivatives 
+\pregunta[4] \rule{1cm}{0.1mm} Identify the product rule for derivatives 
 
 \begin{enumerate*}[label=(\alph*)]
     \item \( (uv)' = u'v + uv' \) 
@@ -33,17 +25,26 @@ Read the following questions and identify the option that best answers each, the
     \item \( (uv)' = u' + v' \)
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+\pregunta[4] \rule{1cm}{0.1mm} Identify the chain rule for derivatives 
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \( \left[u(v(x))\right]' = v'(u(x)) \) 
+    \item \( \left[u(v(x))\right]' = u'(v(x)) \)
+    \item \( \left[u(v(x))\right]' = u'(v(x))v'(x) \)
+    \item \( \left[u(v(x))\right]' = v'(u(x))u'(x) \)
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
 %Select the correct type of function of $f(x):=x^n$, where $n\in\mathbb{Z}$ ($x$ belongs to the set of integer numbers
 
 \begin{enumerate*}[label=(\alph*)]
-    \item \(\dv{x}e^{x} = xe^{x}\) 
-    \item \(\dv{x}e^{x} = e^{x}\)
-    \item \(\dv{x}e^{x} = xe^{x-1}\)
-    \item \(\dv{x}e^{x} = \frac{1}{x}e^{x}\)
+    \item \(\dv{x}n^{x} = xn^{x}\) 
+    \item \(\dv{x}n^{x} = n^{x}\ln(n)\)
+    \item \(\dv{x}n^{x} = ne^{x-1}\)
+    \item \(\dv{x}n^{x} = \frac{1}{x}n^{x}\)
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
 
 \begin{enumerate*}[label=(\alph*)]
     \item \(\dv{x}\cos(x) = \cos(x)\) 
@@ -52,7 +53,7 @@ Read the following questions and identify the option that best answers each, the
     \item \(\dv{x}\cos(x) = -\cos(x)\)
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
 %Select the option of the function that map all the domain into the positive real numbers.
 
 \begin{enumerate*}[label=(\alph*)]
@@ -62,134 +63,79 @@ Read the following questions and identify the option that best answers each, the
     \item \(\dv{x}\sin(x) = -\cos(x)\)
 \end{enumerate*}
 
-\pregunta[5] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
 %Select the option of the function that map all the domain into the positive real numbers.
 
 \begin{enumerate*}[label=(\alph*)]
-    \item \(\dv{x}\ln(x) = \dfrac{1}{\ln(x)}\) 
-    \item \(\dv{x}\ln(x) = \dfrac{1}{x}\)
-    \item \(\dv{x}\ln(x) = \dfrac{\ln(x)}{x}\)
-    \item \(\dv{x}\ln(x) = \dfrac{1}{x\ln(x)}\)
+    \item \(\dv{x}\log_n(x) = \dfrac{1}{\ln(x)}\) 
+    \item \(\dv{x}\log_n(x) = \dfrac{1}{x\ln(n)}\)
+    \item \(\dv{x}\log_n(x) = \dfrac{\ln(x)}{x}\)
+    \item \(\dv{x}\log_n(x) = \dfrac{1}{x\ln(x)}\)
 \end{enumerate*}
 
 \end{preguntas}
 
 \newpage
 
-\paragraph{II} Limits. Properties, Numerical, Graphic and Algebraic method.
+\paragraph{II} Derivatives by rules.
+Use the rules of derivatives that can be usefull to compute the derivatives of the following functions. 
 
 \begin{preguntas}
 
-
-\pregunta[5] Applying the graphical technique to compute the limit when $x\to 0$.
-Argument if the limit converges.
-Use the notion of limit from the left and right.
-
-\begin{minipage}{0.35\textwidth}
-\begin{tikzpicture}[
-    scale=1.0,
-    >=Stealth,
-    declare function={
-        f(\x) = \x/abs(\x); % Función |x|/x
-    }
-]
-    % Definir dimensiones (ratio 5:4)
-    \def\xmin{-2.5} \def\xmax{2.5}   % Rango en x
-    \def\ymin{-2.5} \def\ymax{2.5} % Rango en y
-    \def\tick{0.2} % Tamaño de las marcas
-
-    % Grid mayor (cada 1 unidad)
-    \draw[gray!200, very thick] (\xmin,\ymin) grid (\xmax,\ymax);
-    % Grid menor (cada 0.5 unidades)
-    \foreach \x in {-2.5,-2,...,2.5} {
-        \draw[gray!100, very thick] (\x,\ymin) -- (\x,\ymax);
-    }
-    \foreach \y in {-2.5,-2,...,2.5} {
-        \draw[gray!100, very thick] (\xmin,\y) -- (\xmax,\y);
-    }
-
-    % Ejes
-    \draw[->, thick] (\xmin-0.5,0) -- (\xmax+0.5,0) node[right] {$x$};
-    \draw[->, thick] (0,\ymin-0.5) -- (0,\ymax+0.5) node[above] {$y$};
-
-    % Marcas en los ejes (cada 1 unidad)
-    \foreach \x in {-2,-1,1,2} {
-        \draw[thick] (\x,-\tick) -- (\x,\tick) node[below=2.5pt] {$\x$};
-    }
-    \foreach \y in {-2,-1,1,2} {
-        \draw[thick] (-\tick,\y) -- (\tick,\y) node[left=2.5pt] {$\y$};
-    }
-
-    % Gráfica de la función
-    \draw[very thick, blue, domain=\xmin:-0.01, samples=50] plot (\x, {f(\x)});
-    \draw[very thick, blue, domain=0.01:\xmax, samples=50] plot (\x, {f(\x)});
-
-    % Discontinuidad en x=0 (círculos huecos)
-    \filldraw[draw=blue, fill=white, thick] (0,1) circle (2.5pt);
-    \filldraw[draw=blue, fill=white, thick] (0,-1) circle (2.5pt);
-
-    % Etiqueta de la función
-    %\node[blue, anchor=south east] at (4.5,1.5) {$f(x)=\frac{|x|}{x}$};
-\end{tikzpicture}
-\end{minipage}
-\begin{minipage}{0.65\textwidth}
-    \framebox(\textwidth,150){}
-\end{minipage}
-
-\pregunta[5] Compute the limit of the function \(f(x) = \frac{6x^2 + 4}{5x^2 - 2}\) as $x\to\infty$ using the algebraic method.
-
-\begin{center}
-    \framebox(\textwidth,150){} 
-\end{center}
-
-\pregunta[5] Compute the limit of the function \(f(x) = \frac{\sqrt{x+9} - 3}{x}\) as $x\to0$ using the numerical method.
-
-\begin{center}
-    \framebox(\textwidth,150){} 
-\end{center}
-
-\newpage
-
-\end{preguntas}
-
-\paragraph{III} Derivatives by definition. 
-
-\begin{preguntas}
-
-\pregunta[13] Compute the derivative of the function \(f(x) = \frac{x^2 - 5x + 6}{x-2}\) using the definition of derivatives at $x=3$. 
-\begin{center}
-    \framebox(\textwidth,300){} 
-\end{center}
-
-\end{preguntas}
-
-%\newpage
-
-\paragraph{IV} Derivatives by rules.
-Use the power, product and quotient rules to compute the derivatives for the given functions.
-
-\begin{preguntas}
-
-\pregunta[12]{Compute the derivative of the function \(f(x) = 4\left[\left(\dfrac{0.5}{x}\right)^4 - 1\right]\).}
+\pregunta[10]{Compute the derivative of the function \(f(x) = e^{-x^2}\sin^2(x) \).}
 
 \begin{center}
     \framebox(\textwidth,200){} 
 \end{center}
 
-\newpage
-
-\pregunta[12]{Compute the derivative of the function \(g(x) = \dfrac{e^{x} + \sin(x)}{x^2} \).}
+\pregunta[10]{Compute the derivative of the function \(g(x) = \log\left[ xe^{-x} \right] \).}
 
 \begin{center}
-    \framebox(\textwidth,250){} 
-\end{center}
-
-\pregunta[13] Compute the derivative of the function $f(x) = x\cdot\ln\qty(x)\cdot e^{x}$. 
-
-\begin{center}
-    \framebox(\textwidth,250){} 
+    \framebox(\textwidth,200){} 
 \end{center}
 
 \end{preguntas}
 
+\newpage
+
+\paragraph{III} Critical points.
+In this section you task is to find \underline{all} critical points of the functions in the given context.
+
+\begin{preguntas}
+
+\pregunta[13]{An open box is made from a $5\times 5$ cm sheet by cutting squares of side $x$ from the corner.
+The volume of the box is given by \(V(x) = x(5-2x)^2\).
+Find the length of the squares that achieves the greater volume.}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+\pregunta[13]{The displacement of the planets over time can be modeled with the following function, \(s(t) = 10\sin(\frac{\pi}{5} t) + 5\cos(\frac{\pi}{5} t) \).
+Find the time at which the planets are in a  maximum and minimum displacements.}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+\newpage 
+
+\pregunta[13]{The concentration of a drug in blood after $t$ hours is given by \(C(t) = te^{-kt}\).
+Find the time that gives the maximum concentration in terms of $k$.}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+\pregunta[13]{A rectangular plot with one side along a river needs fencing on three sides.
+If the area is fixed \(A\) and the cost is given by \(C(x) = px + 2p\frac{A}{x}\), where $x$ is the side along the river.
+Compute side length of the side of the river that minimize the fencing cost given that \(A=22500\) and \(p=100\).}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+
+
+\end{preguntas}
 
