@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.3.8)  16 MAR 2026 15:15
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.3.8)  17 MAR 2026 06:47
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1294,12 +1294,12 @@ Here is how much of LuaTeX's memory you used:
  100000,1977958 words of node,token memory allocated
  582 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 66 glue_spec, 10 attribute_list, 2 write nodes
-   avail lists: 1:1,2:1580,3:334,4:39,5:757,6:66,7:5022,8:44,9:1848,10:10,11:316
+   avail lists: 1:1,2:1580,3:334,4:39,5:757,6:66,7:4995,8:44,9:1848,10:10,11:316
  73896 multiletter control sequences out of 65536+600000
  39 fonts using 2325919 bytes
  104i,13n,104p,1213b,1102s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/share/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb>
-Output written on main.pdf (6 pages, 97441 bytes).
+Output written on main.pdf (6 pages, 97275 bytes).
 
 PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream

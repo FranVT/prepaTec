@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773695710.17507 "main.tex" "main.pdf" "main" 1773695711.78091 0
+["pdflatex"] 1773751643.62836 "main.tex" "main.pdf" "main" 1773751646.4152 0
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5brands-regular-400.luc" 1773408415.58259 180102 c852163246599a8f504a3ea1fc4ff49f ""
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5free-solid-900.luc" 1773408415.44759 380927 e72dfa308ce75a51964c97c1c57d15a6 ""
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1772988184.25567 127314 202d777ecbd04f99755b23dfb376733b ""
@@ -380,9 +380,9 @@
   "/usr/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1772820570 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772984766 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1772986079 5659607 0a37e3f4baea3ee6e44ddd2b4bc87025 ""
-  "main.aux" 1773695711.64294 347 188c25f4bd7a6c11749db2f28371b418 "pdflatex"
-  "main.out" 1773695711.43651 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1773695708.63794 12420 8434215f6a9bb0a7d0f4a1cbe8840a62 ""
+  "main.aux" 1773751646.18371 347 188c25f4bd7a6c11749db2f28371b418 "pdflatex"
+  "main.out" 1773751645.8207 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1773751598.3976 12411 c69d428538937f0558248788270bdb64 ""
   "worksheet.sty" 1773685224.7666 12314 36a8c1f8bb20202844aac63ca779bdea ""
   (generated)
   "main.aux"
