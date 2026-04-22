@@ -1,4 +1,4 @@
-PWD /home/frenour/GitRepos/prepaTec/PM5000/exams/Interpartial2
+PWD /home/frenour/GitRepos/prepaTec/PM5000/exams/Final
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT main.log

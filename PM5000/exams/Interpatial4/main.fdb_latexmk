@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1776173551.14473 "main.tex" "main.pdf" "main" 1776173556.99333 0
+["pdflatex"] 1776863641.22005 "main.tex" "main.pdf" "main" 1776863647.31626 0
   "/etc/texmf/tex/generic/config/language.dat" 1776035769.73221 3041 2b35743727de7ca5d1a8ad7ff0d6896b ""
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1776039956.48196 127314 7c5efae986e60281c7ad546cf8ed9a14 ""
   "/home/frenour/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1772988184.07366 594635 498f4fe7ea90a9ac010d537480eac735 ""
@@ -362,12 +362,12 @@
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1772986079 5659607 0a37e3f4baea3ee6e44ddd2b4bc87025 ""
   "datos.tex" 1773867900.34783 746 b274a6b77f56ab049a2820636e09494c ""
   "docs/imagenes/Tec-de-monterrey-logo.png" 1772661198.0144 11478 51a8cf3534f6f8eebd4201104dc8743c ""
-  "docs/version1.tex" 1776173550.39443 4961 ef39a7aabf5be5bd339c791790603044 ""
+  "docs/version1.tex" 1776863639.69808 4947 3698357aab74583268bcc859176ac65e ""
   "encabezado.tex" 1772661198.01763 1566 7228fd5df7cf00afa8b39d706c363a6d ""
   "indicaciones.tex" 1772661198.01763 336 eb7f8523d2c3b3bf1170c17d3a150fbf ""
-  "main.aux" 1776173556.48743 3538 b94c5e75b26fcbb29b941834457f7c2d "pdflatex"
-  "main.out" 1776173555.30843 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1773925013.56737 5337 a3e4dd9ff3d1e365f2315940f7722e0d ""
+  "main.aux" 1776863646.77511 3538 b94c5e75b26fcbb29b941834457f7c2d "pdflatex"
+  "main.out" 1776863645.61826 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1776176935.84827 5337 a3e4dd9ff3d1e365f2315940f7722e0d ""
   (generated)
   "main.aux"
   "main.log"

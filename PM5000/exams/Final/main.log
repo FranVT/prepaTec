@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.3.8)  21 APR 2026 07:31
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.3.8)  22 APR 2026 07:34
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1491,6 +1491,27 @@ LaTeX Warning: Label `question@1' multiply defined.
 LaTeX Warning: Label `question@2' multiply defined.
 
 
+LaTeX Warning: Label `question@3' multiply defined.
+
+
+LaTeX Warning: Label `question@4' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
 LaTeX Warning: Label `question@1' multiply defined.
 
 )
@@ -1614,58 +1635,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--170
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 179.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+(./docs/version1.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 179.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (12.71602pt too wide) detected at line 192
-[]
+Overfull \hbox (17.32782pt too wide) in paragraph at lines 31--36
+[][][]\T1/lmss/m/n/10.95 (a)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 v[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 u\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq$[] []\T1/lmss/m/n/10.95 (b)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 v[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 u\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq\OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q$[] []\T1/lmss/m/n/10.95 (c)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 v\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq\OML/cmm/m/it/10.95 v[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q$[] []\T1/lmss/m/n/10.95 (d)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 v\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq$ 
  []
 
-(./docs/version1.tex
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 13--14
- [] 
+
+Overfull \hbox (7.31746pt too wide) in paragraph at lines 51--56
+[][][]\T1/lmss/m/n/10.95 (a)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$  [] []\T1/lmss/m/n/10.95 (b)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ [] []\T1/lmss/m/n/10.95 (c)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$ [] []\T1/lmss/m/n/10.95 (d)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ 
+ []
+
+
+Overfull \hbox (12.1841pt too wide) in paragraph at lines 60--65
+[][][]\T1/lmss/m/n/10.95 (a)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$  [] []\T1/lmss/m/n/10.95 (b)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ [] []\T1/lmss/m/n/10.95 (c)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$ [] []\T1/lmss/m/n/10.95 (d)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ 
+ []
+
+
+Overfull \hbox (16.00392pt too wide) in paragraph at lines 70--75
+[][][]\T1/lmss/m/n/10.95 (a)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ [] []\T1/lmss/m/n/10.95 (b)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ [] []\T1/lmss/m/n/10.95 (c)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ [] []\T1/lmss/m/n/10.95 (d)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./docs/imagenes/Tec-de-monterrey-logo.png>]
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 21--22
+Overfull \hbox (13.22191pt too wide) in paragraph at lines 149--150
+[][] 
+ []
+
+
+Overfull \hbox (21.89993pt too wide) in paragraph at lines 95--152
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 157--158
  [] 
  []
 
 
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 27--28
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 163--164
  [] 
  []
 
 [2]
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 43--44
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 170--171
  [] 
  []
 
 
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 50--51
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 185--186
+ [] 
+ []
+
+
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 191--192
  [] 
  []
 
 [3]
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 65--66
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 206--207
  [] 
  []
 
-) [4]
-This exam contains 6 questions with 0 parts, 0 subparts, and 0 subsubparts.
+
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 212--213
+ [] 
+ []
+
+[4]
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 224--225
+ [] 
+ []
+
+
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 239--240
+ [] 
+ []
+
+[5]) [6]
+This exam contains 18 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 100 points.
 This exam has a total of 0 bonus points.
 
 Class exam Warning: Point totals have changed. Rerun to get point totals right.
 
-runsystem(latexminted cleantemp  --timestamp 20260421073135 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleantemp  --timestamp 20260422073452 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1680,19 +1742,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45764 strings out of 476076
+ 46255 strings out of 476076
  100000,1648299 words of node,token memory allocated
- 774 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 103 glue_spec, 9 attribute_list, 4 write nodes
-   avail lists: 1:2,2:1285,3:265,4:69,5:515,6:81,7:3913,8:55,9:1384,10:4,11:9
- 66829 multiletter control sequences out of 65536+600000
+ 794 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 18 attribute, 104 glue_spec, 10 attribute_list, 4 write nodes
+   avail lists: 1:2,2:2717,3:1040,4:297,5:796,6:108,7:6709,8:32,9:2359,10:5,11:9
+ 67272 multiletter control sequences out of 65536+600000
  47 fonts using 2968543 bytes
- 102i,13n,101p,1184b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on main.pdf (4 pages, 149148 bytes).
+ 102i,10n,101p,1184b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
+Output written on main.pdf (6 pages, 151962 bytes).
 
-PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 1048576)
+PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 63 named destinations out of 1000 (max. 1048576)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

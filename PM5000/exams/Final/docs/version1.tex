@@ -1,0 +1,244 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%  INGRESAR LAS PREGUNTAS DE LA  EVALUACIÓN %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\paragraph{I} Multiple option section. 
+Read the following questions and identify the option that best answers each, then write ts letter on the line.
+
+\begin{preguntas}
+
+\pregunta[4] \rule{1cm}{0.1mm} Identify the quotient rule for derivatives. 
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\left(\dfrac{u}{v}\right)' = \dfrac{v'u - u'v}{u^2}\)\hspace{2em}
+    \item \(\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}\) \hspace{2em}
+    \item \(\left(\dfrac{u}{v}\right)' = \dfrac{uv' - u'v}{v^2}\) \hspace{2em} 
+    \item \(\left(\dfrac{u}{v}\right)' = \dfrac{u'v - v'u}{u^2}\). 
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Identify the product rule for derivatives 
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \( (uv)' = u' + v' \)\hspace{2em}
+    \item \( (uv)' = u'v + uv' \) \hspace{2em}
+    \item \( (uv)' = uv' + uv' \)\hspace{2em}
+    \item \( (uv)' = u'v + u'v \)
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Identify the chain rule for derivatives 
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \( \left[u(v(x))\right]' = v'(u(x)) \) 
+    \item \( \left[u(v(x))\right]' = v'(u(x))u'(x) \)
+    \item \( \left[u(v(x))\right]' = u'(v(x))v'(x) \)
+    \item \( \left[u(v(x))\right]' = u'(v(x)) \)
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+%Select the correct type of function of $f(x):=x^n$, where $n\in\mathbb{Z}$ ($x$ belongs to the set of integer numbers
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}n^{x} = n^{x}\ln(n)\)\hspace{2em}
+    \item \(\dv{x}n^{x} = \frac{1}{x}n^{x}\)\hspace{2em}
+    \item \(\dv{x}n^{x} = xn^{x}\) \hspace{2em}
+    \item \(\dv{x}n^{x} = ne^{x-1}\)
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+%Select the option of the function that map all the domain into the positive real numbers.
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}\sin(x) = \cos(x)\) \hspace{2em}
+    \item \(\dv{x}\sin(x) = -\sin(x)\)\hspace{2em}
+    \item \(\dv{x}\sin(x) = \sin(x)\)\hspace{2em}
+    \item \(\dv{x}\sin(x) = -\cos(x)\)
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}\cos(x) = \cos(x)\) \hspace{2em}
+    \item \(\dv{x}\cos(x) = -\sin(x)\)\hspace{2em}
+    \item \(\dv{x}\cos(x) = \sin(x)\)\hspace{2em}
+    \item \(\dv{x}\cos(x) = -\cos(x)\)
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following derivatives is correct
+%Select the option of the function that map all the domain into the positive real numbers.
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}\log_n(x) = \dfrac{1}{\ln(x)}\)\hspace{2em} 
+    \item \(\dv{x}\log_n(x) = \dfrac{1}{x\ln(n)}\)\hspace{2em}
+    \item \(\dv{x}\log_n(x) = \dfrac{\ln(x)}{x}\)\hspace{2em}
+    \item \(\dv{x}\log_n(x) = \dfrac{1}{x\ln(x)}\)
+\end{enumerate*}
+
+\pregunta[4] \rule{1cm}{0.1mm} Which of the following options is the implicit derivative of \(y^2 = x\) 
+%Select the option of the function that map all the domain into the positive real numbers.
+
+\begin{enumerate*}[label=(\alph*)]
+    \item \(\dv{x}{y}=0\)\hspace{2em} 
+    \item \(\dv{x}{y}=2y-1\)\hspace{2em}
+    \item \(\dv{x}{y}=1\)\hspace{2em}
+    \item \(\dv{x}{y}=1-2y\)
+\end{enumerate*}
+
+\end{preguntas}
+
+\newpage
+
+\paragraph{II} Limits.
+Compute the following limits using the numeric, graphical or algebraic method.
+
+\begin{preguntas}
+
+\begin{minipage}{0.6\textwidth}
+\pregunta[5] Applying the graphical technique to compute the limit when $x\to 0$.
+Argument if the limit converges.
+Use the notion of limit from the left and right.
+
+\begin{center}
+    \framebox(\textwidth,150){}   
+\end{center}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{tikzpicture}[
+    scale=1.2,
+    >=Stealth,
+    declare function={
+        f(\x) = \x/abs(\x); % Función |x|/x
+    }
+]
+    % Definir dimensiones (ratio 5:4)
+    \def\xmin{-2.5} \def\xmax{2.5}   % Rango en x
+    \def\ymin{-2.5} \def\ymax{2.5} % Rango en y
+    \def\tick{0.2} % Tamaño de las marcas
+
+    % Grid mayor (cada 1 unidad)
+    \draw[gray!200, very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+    % Grid menor (cada 0.5 unidades)
+    \foreach \x in {-2.5,-2,...,2.5} {
+        \draw[gray!100, very thin] (\x,\ymin) -- (\x,\ymax);
+    }
+    \foreach \y in {-2.5,-2,...,2.5} {
+        \draw[gray!100, very thin] (\xmin,\y) -- (\xmax,\y);
+    }
+
+    % Ejes
+    \draw[->, thick] (\xmin-0.5,0) -- (\xmax+0.5,0) node[right] {$x$};
+    \draw[->, thick] (0,\ymin-0.5) -- (0,\ymax+0.5) node[above] {$y$};
+
+    % Marcas en los ejes (cada 1 unidad)
+    \foreach \x in {-2,-1,1,2} {
+        \draw[thick] (\x,-\tick) -- (\x,\tick) node[below=2pt] {$\x$};
+    }
+    \foreach \y in {-2,-1,1,2} {
+        \draw[thick] (-\tick,\y) -- (\tick,\y) node[left=2pt] {$\y$};
+    }
+
+    % Gráfica de la función
+    \draw[very thick, blue, domain=\xmin:-0.01, samples=50] plot (\x, {f(\x)});
+    \draw[very thick, blue, domain=0.01:\xmax, samples=50] plot (\x, {f(\x)});
+
+    % Discontinuidad en x=0 (círculos huecos)
+    \filldraw[draw=blue, fill=white, thick] (0,1) circle (2.5pt);
+    \filldraw[draw=blue, fill=white, thick] (0,-1) circle (2.5pt);
+
+    % Etiqueta de la función
+    %\node[blue, anchor=south east] at (4.5,1.5) {$f(x)=\frac{|x|}{x}$};
+\end{tikzpicture}
+
+\end{minipage}
+
+
+\pregunta[5] Compute the limit of the function \(f(x) = \frac{\sin(x)}{x}\) as $x\to0$ using the numeric method. 
+
+\begin{center}
+    \framebox(\textwidth,150){}   
+\end{center}
+
+\pregunta[5] Compute the limit of the function \(f(x) = \frac{6x^2 + 4}{5x^2 - 2}\) as $x\to\infty$ using the algebraic method.
+
+\begin{center}
+    \framebox(\textwidth,150){} 
+\end{center}
+\newpage
+
+\pregunta[5] Compute the derivative of the function \( f(x) = |x| \) at $x=0$ using the definition of derivatives, \(\dv{f(x)}{x} = \lim_{h\to0}\frac{f(x+h) - f(x)}{h}\).
+
+\begin{center}
+    \framebox(\textwidth,200){} 
+\end{center}
+
+
+\end{preguntas}
+
+
+\paragraph{III} Derivatives by rules.
+Use the rules of derivatives that can be usefull to compute the derivatives of the following functions. 
+
+\begin{preguntas}
+
+\pregunta[8]{Compute the derivative of the function \(f(x) = e^{-x^2}\sin^2(x) \).}
+
+\begin{center}
+    \framebox(\textwidth,200){} 
+\end{center}
+
+\pregunta[8]{Compute the derivative of the function \(g(x) = \log\left[ xe^{-x} \right] \).}
+
+\begin{center}
+    \framebox(\textwidth,200){} 
+\end{center}
+
+\end{preguntas}
+
+\paragraph{IV} Critical points.
+In this section you task is to find \underline{all} critical points of the functions in the given context.
+
+\begin{preguntas}
+
+\pregunta[8]{An open box is made from a $5\times 5$ cm sheet by cutting squares of side $x$ from the corner.
+The volume of the box is given by \(V(x) = x(5-2x)^2\).
+Find the length of the squares that achieves the greater volume.}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+\pregunta[8]{Find the critical point of the following function \(f(x)=6x\cdot e^{(3/2)x}\).}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+
+\end{preguntas}
+
+\paragraph{V} Implicit derivatives.
+
+\begin{preguntas}
+\pregunta[8]{Compute the implicit derivative of the function \(x^3+y^3=6xy \).}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+\end{preguntas}
+
+
+
+\paragraph{IV} High order derivatives.
+Compute the second order derivative of the following functions and reduce them as muach as possible.
+
+\begin{preguntas}
+
+\pregunta[8]{\( f(x) = e^{x+3}\)}
+
+\begin{center}
+    \framebox(\textwidth,250){} 
+\end{center}
+
+\end{preguntas}
+
+
