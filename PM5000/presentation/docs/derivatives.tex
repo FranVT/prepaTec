@@ -1,0 +1,28 @@
+\documentclass[../tufte-style.tex]{standalone}
+
+\begin{document}
+
+\begin{frame}{Derivative rules}
+
+    \large
+
+    \begin{gather*}
+        \dv{x}\qty(f(x)g(x)) =  \dv{f(x)}{x}g(x) + f(x)\dv{g(x)}{x} \\
+        \dv{x}\qty(\frac{f(x)}{g(x)}) = \frac{1}{g^2(x)}\left[ \dv{f(x)}{x}g(x) - f(x)\dv{g(x)}{x} \right] \\
+        \dv{x}\qty(f(g(x))) = \dv{f(x)}{x}|_{x=g(x)}\dv{g(x)}{x}
+    \end{gather*}
+
+
+    \par\noindent\rule{\textwidth}{0.4pt}
+   
+
+    \begin{gather*}
+        \dv{x}\qty(n^x) = \ln(n)n^x,\quad 
+        \dv{x}\sin(x) = \cos(x) \\
+        \dv{x}\cos(x) = -\sin(x),\quad
+        \dv{x}\log_n(x) = \frac{1}{\ln(n)x}
+    \end{gather*}
+
+\end{frame}
+
+\end{document}
