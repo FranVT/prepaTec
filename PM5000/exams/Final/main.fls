@@ -1,4 +1,4 @@
-PWD /home/frenour/GitRepos/prepaTec/PM5000/exams/Final
+PWD /home/franvt/GitRepos/prepaTec/PM5000/exams/Final
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT main.log
@@ -15,7 +15,7 @@ INPUT /usr/share/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua
 INPUT /usr/share/texmf-dist/tex/luatex/lualibs/lualibs-extended-merged.lua
 INPUT /usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua
 INPUT /usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-basics-gen.lua
-OUTPUT /home/frenour/.texlive/texmf-var/m_t_x_t_e_s_t.tmp
+OUTPUT /home/franvt/.texlive/texmf-var/m_t_x_t_e_s_t.tmp
 INPUT /usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload-parsers.lua
 INPUT /usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload-configuration.lua
 INPUT /usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua
@@ -65,8 +65,8 @@ INPUT /usr/share/texmf-dist/tex/latex/exam/exam.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/size11.clo
-INPUT /home/frenour/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
-INPUT /home/frenour/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc
+INPUT /home/franvt/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+INPUT /home/franvt/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty

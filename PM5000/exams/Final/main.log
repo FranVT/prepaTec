@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.3.8)  22 APR 2026 07:34
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.4.6)  13 MAY 2026 15:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -8,7 +8,7 @@ L3 programming layer <2026-01-19>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
-luaotfload | conf : Root cache directory is "/home/frenour/.texlive/texmf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/home/franvt/.texlive/texmf-var/luatex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
 Lua-only attribute luaotfload@noligature = 1
 luaotfload | init : Context OpenType loader version 3.134
@@ -17,7 +17,7 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/frenour/.texlive/texmf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/home/franvt/.texlive/texmf-var/luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
@@ -43,7 +43,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/frenour/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+luaotfload | db : Font names database loaded from /home/franvt/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count273
 \c@section=\count274
 \c@subsection=\count275
@@ -203,11 +203,6 @@ Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaTe
 \l@dumylang=\language2
 Package babel Info: Non-standard hyphenation setup on input line 118.
 \l@nohyphenation=\language3
-\l@ukenglish=\language4
-\l@usenglishmax=\language5
-\l@catalan=\language6
-\l@galician=\language7
-\l@spanish=\language8
 \babelcatcodetablenum=\catcodetable14
 \bbl@pattcodes=\catcodetable15
 )
@@ -220,7 +215,7 @@ LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) o
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
 \U@D=\dimen160
-\l@unhyphenated=\language9
+\l@unhyphenated=\language4
  (/usr/share/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute4
 )
@@ -230,7 +225,7 @@ Package babel Info: Importing font and identification data for nil
 (babel)             from babel-und-x-nil.ini. Reported on input line 4330.
  (/usr/share/texmf-dist/tex/generic/babel/nil.ldf
 Language: nil 2026/02/14 v26.3 Nil language
-\l@nil=\language10
+\l@nil=\language5
 )) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks27
 \pgfutil@tempdima=\dimen161
@@ -1644,90 +1639,85 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (17.32782pt too wide) in paragraph at lines 31--36
-[][][]\T1/lmss/m/n/10.95 (a)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 v[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 u\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq$[] []\T1/lmss/m/n/10.95 (b)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 v[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 u\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq\OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q$[] []\T1/lmss/m/n/10.95 (c)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 v\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq\OML/cmm/m/it/10.95 v[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q$[] []\T1/lmss/m/n/10.95 (d)[]  $[][] \U/matha/m/n/10.95  \OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 v\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 qq$ 
- []
-
-
-Overfull \hbox (7.31746pt too wide) in paragraph at lines 51--56
+Overfull \hbox (7.31746pt too wide) in paragraph at lines 52--57
 [][][]\T1/lmss/m/n/10.95 (a)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$  [] []\T1/lmss/m/n/10.95 (b)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ [] []\T1/lmss/m/n/10.95 (c)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$ [] []\T1/lmss/m/n/10.95 (d)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ 
  []
 
 
-Overfull \hbox (12.1841pt too wide) in paragraph at lines 60--65
+Overfull \hbox (12.1841pt too wide) in paragraph at lines 61--66
 [][][]\T1/lmss/m/n/10.95 (a)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$  [] []\T1/lmss/m/n/10.95 (b)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ [] []\T1/lmss/m/n/10.95 (c)[]  $[] [][][] \U/matha/m/n/10.95  [][][]$ [] []\T1/lmss/m/n/10.95 (d)[]  $[] [][][] \U/matha/m/n/10.95   [][][]$ 
  []
 
 
-Overfull \hbox (16.00392pt too wide) in paragraph at lines 70--75
+Overfull \hbox (16.00392pt too wide) in paragraph at lines 71--76
 [][][]\T1/lmss/m/n/10.95 (a)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ [] []\T1/lmss/m/n/10.95 (b)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ [] []\T1/lmss/m/n/10.95 (c)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ [] []\T1/lmss/m/n/10.95 (d)[]  $[] [][]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x\U/matha/m/n/10.95 q  []$ 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./docs/imagenes/Tec-de-monterrey-logo.png>]
-Overfull \hbox (13.22191pt too wide) in paragraph at lines 149--150
+Overfull \hbox (13.22191pt too wide) in paragraph at lines 150--151
 [][] 
  []
 
 
-Overfull \hbox (21.89993pt too wide) in paragraph at lines 95--152
+Overfull \hbox (21.89993pt too wide) in paragraph at lines 96--153
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 157--158
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 158--159
  [] 
  []
 
 
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 163--164
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 164--165
  [] 
  []
 
 [2]
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 170--171
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 171--172
  [] 
  []
 
 
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 185--186
- [] 
- []
-
-
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 191--192
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 186--187
  [] 
  []
 
 [3]
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 206--207
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 194--195
  [] 
  []
 
 
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 212--213
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 209--210
  [] 
  []
 
 [4]
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 224--225
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 217--218
  [] 
  []
 
 
-Overfull \hbox (19.46661pt too wide) in paragraph at lines 239--240
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 229--230
  [] 
  []
 
-[5]) [6]
+[5]
+Overfull \hbox (19.46661pt too wide) in paragraph at lines 244--245
+ [] 
+ []
+
+) [6]
 This exam contains 18 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 100 points.
 This exam has a total of 0 bonus points.
 
 Class exam Warning: Point totals have changed. Rerun to get point totals right.
 
-runsystem(latexminted cleantemp  --timestamp 20260422073452 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleantemp  --timestamp 20260513150743 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1742,16 +1732,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 46255 strings out of 476076
+ 46248 strings out of 476076
  100000,1648299 words of node,token memory allocated
  794 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 18 attribute, 104 glue_spec, 10 attribute_list, 4 write nodes
-   avail lists: 1:2,2:2717,3:1040,4:297,5:796,6:108,7:6709,8:32,9:2359,10:5,11:9
- 67272 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:2717,3:1040,4:297,5:796,6:108,7:6715,8:32,9:2362,10:5,11:9
+ 67265 multiletter control sequences out of 65536+600000
  47 fonts using 2968543 bytes
  102i,10n,101p,1184b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/share/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on main.pdf (6 pages, 151962 bytes).
+Output written on main.pdf (6 pages, 152245 bytes).
 
 PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams
